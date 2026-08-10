@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[Data privacy]]"
+inferred:skos:narrower:
+  - "[[Data privacy]]"
 ---

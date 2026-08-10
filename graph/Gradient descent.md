@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[Batch gradient descent]]"
+inferred:skos:narrower:
+  - "[[Batch gradient descent]]"
 ---

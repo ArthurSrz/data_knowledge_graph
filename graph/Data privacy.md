@@ -15,7 +15,8 @@ techniquesInclude:
   - "[[Secure multi-party computation]]"
 governedBy: "[[Data governance]]"
 broader: "[[Fairness]]"
-inferred:skos:ancestor: "[[Fairness]]"
+inferred:skos:ancestor:
+  - "[[Fairness]]"
 inferred:skos:narrower:
   - "[[Data privacy laws]]"
   - "[[Financial Privacy]]"

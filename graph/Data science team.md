@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[Data scientist]]"
+inferred:skos:narrower:
+  - "[[Data scientist]]"
 ---

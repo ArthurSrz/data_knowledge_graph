@@ -1,3 +1,4 @@
 ---
-inferred:skos:related: "[[combinatorics]]"
+inferred:skos:related:
+  - "[[combinatorics]]"
 ---

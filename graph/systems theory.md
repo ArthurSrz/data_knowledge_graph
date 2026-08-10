@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[Flywheel effect]]"
+inferred:skos:narrower:
+  - "[[Flywheel effect]]"
 ---

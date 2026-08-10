@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[Determine feature set]]"
+inferred:skos:narrower:
+  - "[[Determine feature set]]"
 ---

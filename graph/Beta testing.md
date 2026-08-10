@@ -1,4 +1,5 @@
 ---
 broader: "[[Test]]"
-inferred:skos:ancestor: "[[Test]]"
+inferred:skos:ancestor:
+  - "[[Test]]"
 ---

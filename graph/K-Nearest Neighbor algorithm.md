@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[K-Nearest neighbor regressor]]"
+inferred:skos:narrower:
+  - "[[K-Nearest neighbor regressor]]"
 ---

@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[Bootstrap aggregating (bagging)]]"
+inferred:skos:narrower:
+  - "[[Bootstrap aggregating (bagging)]]"
 ---

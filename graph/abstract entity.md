@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[property]]"
+inferred:skos:narrower:
+  - "[[property]]"
 ---

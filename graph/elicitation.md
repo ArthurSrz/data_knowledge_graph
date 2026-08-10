@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[Dialogue]]"
+inferred:skos:narrower:
+  - "[[Dialogue]]"
 ---

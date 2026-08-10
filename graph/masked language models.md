@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[BERT]]"
+inferred:skos:narrower:
+  - "[[BERT]]"
 ---

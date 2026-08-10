@@ -7,5 +7,6 @@ instance of: "[[economics terminology]]"
 Wikidata property: total liabilities
 wikidata entity id: Q96776939
 broader: "[[contract]]"
-inferred:skos:ancestor: "[[contract]]"
+inferred:skos:ancestor:
+  - "[[contract]]"
 ---
