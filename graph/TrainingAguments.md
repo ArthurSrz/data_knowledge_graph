@@ -4,7 +4,6 @@ inferred:skos:ancestor:
   - "[[Hugging Face]]"
   - "[[Programming language]]"
   - "[[Python]]"
-  - "[[application development]]"
 ---
 # TrainingArguments
 

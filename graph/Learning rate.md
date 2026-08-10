@@ -5,11 +5,7 @@ usedIn: ["[[Gradient descent]]", "[[Stochastic gradient descent]]", "[[Adam opti
 affects: ["[[Convergence rate]]", "[[Training stability]]", "[[Model performance]]"]
 schedulingMethods: ["[[Learning rate decay]]", "[[Cyclical learning rates]]", "[[Warm-up]]", "[[Cosine annealing]]"]
 broader: "[[Hyperparameters]]"
-inferred:skos:ancestor:
-  - "[[AI]]"
-  - "[[Artificial Intelligence (AI)]]"
-  - "[[Hyperparameters]]"
-  - "[[machine learning]]"
+inferred:skos:ancestor: "[[Hyperparameters]]"
 ---
 
 # Learning Rate

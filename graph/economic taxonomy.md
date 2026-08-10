@@ -6,8 +6,5 @@ has part(s): "[[graph/economics terminology]]"
 instance of: "[[graph/type of classification]]"
 items classified: "[[graph/economics]]"
 broader: "[[taxonomy]]"
-inferred:skos:ancestor:
-  - "[[knowledge organization system]]"
-  - "[[organizing principles]]"
-  - "[[taxonomy]]"
+inferred:skos:ancestor: "[[taxonomy]]"
 ---

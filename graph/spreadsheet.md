@@ -20,8 +20,5 @@ Commons category: Spreadsheet software
 wikidata entity id: Q183197
 inferred:skos:narrower:
   - "[[active cell]]"
-  - "[[excel]]"
-  - "[[handled-vs-gaps]]"
   - "[[sparkline]]"
-  - "[[table cell]]"
 ---

@@ -1,5 +1,3 @@
 ---
-inferred:skos:narrower:
-  - "[[LLM Observability]]"
-  - "[[agentOps]]"
+inferred:skos:narrower: "[[LLM Observability]]"
 ---

@@ -10,6 +10,5 @@ inferred:skos:narrower:
   - "[[Transfer learning]]"
   - "[[Transformers]]"
   - "[[artificial neural network]]"
-  - "[[foundation model]]"
 ---
 Set of techniques using multi-layered [[Neural network models]] 

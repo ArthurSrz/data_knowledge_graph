@@ -120,7 +120,5 @@ pronunciation audio:
   - http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q1860%20%28eng%29-Vealhurl-Java.wav
 wikidata entity id: Q251
 broader: "[[Programming language]]"
-inferred:skos:ancestor:
-  - "[[Programming language]]"
-  - "[[application development]]"
+inferred:skos:ancestor: "[[Programming language]]"
 ---

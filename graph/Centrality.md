@@ -8,8 +8,6 @@ broader: "[[Graph algorithm]]"
 inferred:skos:ancestor:
   - "[[Graph algorithm]]"
   - "[[Metric]]"
-inferred:skos:narrower:
-  - "[[Degree centrality]]"
-  - "[[closeness centrality]]"
+inferred:skos:narrower: "[[Degree centrality]]"
 ---
 Counts the number of [[Outgoing relationships]]

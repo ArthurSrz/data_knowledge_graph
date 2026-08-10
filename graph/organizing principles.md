@@ -1,5 +1,3 @@
 ---
-inferred:skos:narrower:
-  - "[[Ontology]]"
-  - "[[taxonomy]]"
+inferred:skos:narrower: "[[Ontology]]"
 ---

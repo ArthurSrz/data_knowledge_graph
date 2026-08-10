@@ -20,7 +20,6 @@ inferred:skos:narrower:
   - "[[Data privacy laws]]"
   - "[[Financial Privacy]]"
   - "[[Management of PII]]"
-  - "[[Medical Data Privacy]]"
   - "[[Privacy by design]]"
   - "[[Rights of Individuals]]"
   - "[[Sensitive Information]]"

@@ -1,6 +1,3 @@
 ---
-broader: "[[evaluation]]"
-inferred:skos:ancestor: "[[evaluation]]"
 inferred:skos:narrower: "[[N-Fold Cross Validation]]"
 ---
-Technique that provides a better evaluation of how well the model can generalize to new data. It implies, rather that using a fixed [[Validation Sets]], we train and run the model multiple times, each time using a different subset as the [[Validation Sets]]. 

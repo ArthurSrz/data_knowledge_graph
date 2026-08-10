@@ -5,9 +5,7 @@ broader: "[[knowledge organization system]]"
 inferred:skos:ancestor:
   - "[[knowledge organization system]]"
   - "[[organizing principles]]"
-inferred:skos:narrower:
-  - "[[abstract entity]]"
-  - "[[ontology engineering]]"
+inferred:skos:narrower: "[[ontology engineering]]"
 ---
 Like taxonomies, ontologies are classification schemes that describe the categories in a domain and the relationships between them. But ontologies are not restricted to hierarchical structures, so they can offer richer associativity. 
 

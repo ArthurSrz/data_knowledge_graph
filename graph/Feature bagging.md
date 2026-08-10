@@ -1,7 +1,3 @@
 ---
-broader: "[[ML models]]"
-inferred:skos:ancestor:
-  - "[[ML models]]"
-  - "[[model]]"
+inferred:skos:ancestor: "[[ML models]]"
 ---
-Method used to create [[Random forest]]s 

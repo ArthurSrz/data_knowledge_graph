@@ -24,8 +24,5 @@ Krugosvet article (archived): gumanitarnye_nauki/lingvistika/SEMANTIKA.html
 MeSH tree code: L01.559.598.745
 Commons category: Semantics
 wikidata entity id: Q39645
-inferred:skos:narrower:
-  - "[[implicature]]"
-  - "[[implicitness]]"
-  - "[[latent]]"
+inferred:skos:narrower: "[[implicature]]"
 ---

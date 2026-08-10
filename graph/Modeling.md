@@ -6,7 +6,6 @@ inferred:skos:ancestor:
   - "[[CRISP-DM Process]]"
   - "[[machine learning projects]]"
 inferred:skos:narrower:
-  - "[[Model selection]]"
   - "[[conceptual model]]"
   - "[[model fit]]"
   - "[[training data set]]"

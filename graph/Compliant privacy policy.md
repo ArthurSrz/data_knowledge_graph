@@ -1,7 +1,5 @@
 ---
 broader: "[[contract]]"
-inferred:skos:ancestor:
-  - "[[contract]]"
-  - "[[intellectual work]]"
+inferred:skos:ancestor: "[[contract]]"
 ---
 Way to tackle [[Privacy challenge]]

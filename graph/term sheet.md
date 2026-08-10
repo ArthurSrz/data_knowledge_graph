@@ -8,9 +8,7 @@ has part:
   - "[[model contract]]"
 related to:
   - "[[Provenance]]"
-inferred:skos:ancestor:
-  - "[[contract]]"
-  - "[[intellectual work]]"
+inferred:skos:ancestor: "[[contract]]"
 ---
 A pre-contractual document summarising the key economic and legal terms of an envisaged transaction. In M&A, the term sheet is typically non-binding on commercial terms but binding on specific clauses such as exclusivity and confidentiality.
 

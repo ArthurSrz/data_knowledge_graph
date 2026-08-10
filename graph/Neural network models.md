@@ -5,9 +5,7 @@ uses: "[[Weights]]"
 includes: "[[bias]]"
 enables: "[[Deep learning]]"
 broader: "[[ML models]]"
-inferred:skos:ancestor:
-  - "[[ML models]]"
-  - "[[model]]"
+inferred:skos:ancestor: "[[ML models]]"
 ---
 
 # Neural Network Models

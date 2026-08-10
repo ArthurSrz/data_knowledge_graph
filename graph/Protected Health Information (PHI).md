@@ -1,8 +1,5 @@
 ---
 broader: "[[Medical Data Privacy]]"
-inferred:skos:ancestor:
-  - "[[Data privacy]]"
-  - "[[Fairness]]"
-  - "[[Medical Data Privacy]]"
+inferred:skos:ancestor: "[[Medical Data Privacy]]"
 ---
 See [[Medical Data Privacy]]. 

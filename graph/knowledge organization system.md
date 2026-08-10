@@ -18,6 +18,5 @@ inferred:skos:narrower:
   - "[[Ontology]]"
   - "[[conceptual model]]"
   - "[[controlled vocabulary]]"
-  - "[[taxonomy]]"
   - "[[thesaurus]]"
 ---

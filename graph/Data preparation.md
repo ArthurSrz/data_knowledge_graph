@@ -7,7 +7,6 @@ inferred:skos:narrower:
   - "[[Label encoding]]"
   - "[[Min-max normalization]]"
   - "[[One-hot encoding]]"
-  - "[[Split data]]"
   - "[[Tidy Data]]"
   - "[[Z-Score normalization]]"
   - "[[truncation]]"

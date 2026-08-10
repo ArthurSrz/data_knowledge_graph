@@ -17,6 +17,5 @@ broader: "[[Linear models]]"
 inferred:skos:ancestor:
   - "[[Linear models]]"
   - "[[ML models]]"
-  - "[[model]]"
 ---
 Model which assumes linear relationships between [[feature]] and [[Target]] we are trying to predicted, defined by a set of parameters. 

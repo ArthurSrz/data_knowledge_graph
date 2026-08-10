@@ -43,14 +43,11 @@ exact match: http://purl.obolibrary.org/obo/BFO_0000015
 wikidata entity id: Q3249551
 inferred:skos:narrower:
   - "[[Feasability]]"
-  - "[[Feedback]]"
   - "[[Instructions]]"
   - "[[Management]]"
   - "[[Session]]"
   - "[[Situation]]"
   - "[[automation]]"
-  - "[[cadence]]"
   - "[[context]]"
   - "[[data]]"
-  - "[[stability]]"
 ---

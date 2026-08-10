@@ -6,12 +6,7 @@ usedIn: "[[Natural Language Processing]]"
 implementedIn: "[[Hugging Face]]"
 basedOn: "[[Transformers]]"
 broader: "[[masked language models]]"
-inferred:skos:ancestor:
-  - "[[AI]]"
-  - "[[Artificial Intelligence (AI)]]"
-  - "[[Language modeling]]"
-  - "[[Natural Language Processing]]"
-  - "[[masked language models]]"
+inferred:skos:ancestor: "[[masked language models]]"
 inferred:skos:narrower: "[[camemBERT]]"
 ---
 

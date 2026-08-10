@@ -1,5 +1,3 @@
 ---
-inferred:skos:narrower:
-  - "[[artifact]]"
-  - "[[data object]]"
+inferred:skos:narrower: "[[data object]]"
 ---

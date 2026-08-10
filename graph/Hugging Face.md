@@ -3,7 +3,6 @@ broader: "[[Python]]"
 inferred:skos:ancestor:
   - "[[Programming language]]"
   - "[[Python]]"
-  - "[[application development]]"
 inferred:skos:narrower:
   - "[[Autotokenizer]]"
   - "[[DatasetDict]]"

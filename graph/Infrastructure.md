@@ -26,8 +26,5 @@ inferred:skos:narrower:
   - "[[Layered architecture]]"
   - "[[NoSQL database]]"
   - "[[SSH Agent]]"
-  - "[[Service-oriented architecture (SOA)]]"
   - "[[Shards]]"
-  - "[[authentication protocol]]"
-  - "[[modularity]]"
 ---

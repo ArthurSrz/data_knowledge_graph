@@ -1,7 +1,5 @@
 ---
 broader: "[[ML models]]"
-inferred:skos:ancestor:
-  - "[[ML models]]"
-  - "[[model]]"
+inferred:skos:ancestor: "[[ML models]]"
 ---
 Differs from 

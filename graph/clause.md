@@ -11,7 +11,5 @@ described by source: "[[graph/Pauly–Wissowa]]"
 studied by: "[[graph/statutory law]]"
 main Wikidata property: section
 wikidata entity id: Q1527956
-inferred:skos:narrower:
-  - "[[clause classification heuristic]]"
-  - "[[non-compete clause]]"
+inferred:skos:narrower: "[[clause classification heuristic]]"
 ---

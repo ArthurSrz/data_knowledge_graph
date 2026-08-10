@@ -7,7 +7,6 @@ inferred:skos:narrower:
   - "[[Deep learning]]"
   - "[[Edge ML]]"
   - "[[Federated learning]]"
-  - "[[Hyperparameters]]"
   - "[[ML system]]"
   - "[[Regularization]]"
   - "[[Reinforcement Learning]]"

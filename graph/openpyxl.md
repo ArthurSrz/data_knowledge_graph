@@ -14,7 +14,6 @@ broader: "[[Python]]"
 inferred:skos:ancestor:
   - "[[Programming language]]"
   - "[[Python]]"
-  - "[[application development]]"
 ---
 
 ## Features Lost on Round-Trip Through openpyxl

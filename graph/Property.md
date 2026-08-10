@@ -10,9 +10,6 @@ partially coincident with: "[[graph/quality]]"
 subclass of: "[[abstract entity]]"
 broader: "[[knowledge graph]]"
 inferred:skos:ancestor:
-  - "[[Ontology]]"
   - "[[abstract entity]]"
   - "[[knowledge graph]]"
-  - "[[knowledge organization system]]"
-  - "[[organizing principles]]"
 ---
