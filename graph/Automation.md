@@ -1,5 +1,3 @@
 ---
-inferred:skos:narrower:
-  - "[[office automation]]"
-  - "[[parsing]]"
+inferred:skos:narrower: "[[parsing]]"
 ---
