@@ -1,5 +1,3 @@
 ---
-inferred:skos:narrower:
-  - "[[class imbalance]]"
-  - "[[completeness]]"
+inferred:skos:narrower: "[[completeness]]"
 ---
