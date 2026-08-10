@@ -10,17 +10,17 @@ inferred:skos:ancestor:
   - "[[AI]]"
   - "[[Artificial Intelligence (AI)]]"
 inferred:skos:narrower:
-  - "[[Bag of words]]"
   - "[[Embeddings]]"
   - "[[Sentiment analysis]]"
   - "[[Tokenizer]]"
+  - "[[bag of words]]"
   - "[[token]]"
 ---
 
 Techniques to format natural language to fit modeling needs. 
 
 > [!info] Example of such techniques : 
-> * [[Bag of words]] 
+> * [[bag of words]] 
 > * [[Word embeddings]]
 
 

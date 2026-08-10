@@ -183,7 +183,7 @@ The graph encodes [SKOS](https://www.w3.org/2004/02/skos/)-style hierarchical re
     - [computer vision](graph/computer%20vision.md) → [Facial recognition](graph/Facial%20recognition.md)
     - [connexionism](graph/connexionism.md) · [Expert systems](graph/Expert%20systems.md) · [Narrow AI](graph/Narrow%20AI.md) · [Symbolism](graph/Symbolism.md)
     - [Natural Language Processing](graph/Natural%20Language%20Processing.md)
-      - [Bag of words](graph/Bag%20of%20words.md) · [Sentiment analysis](graph/Sentiment%20analysis.md) · [token](graph/token.md) · [Tokenizer](graph/Tokenizer.md)
+      - [bag of words](bag%20of%20words.md) · [Sentiment analysis](graph/Sentiment%20analysis.md) · [token](graph/token.md) · [Tokenizer](graph/Tokenizer.md)
       - [Embeddings](graph/Embeddings.md) → [embedding](graph/embedding.md) · [Embeddings models](graph/Embeddings%20models.md) · [latent space](graph/latent%20space.md) · [vectorization](graph/vectorization.md) · [Word embeddings](graph/Word%20embeddings.md)
       - [Language modeling](graph/Language%20modeling.md)
         - [autoregressive language models](graph/autoregressive%20language%20models.md) → [GPT2](graph/GPT2.md)
@@ -216,7 +216,7 @@ The graph encodes [SKOS](https://www.w3.org/2004/02/skos/)-style hierarchical re
 - [control theory](graph/control%20theory.md)
   - [Damping](graph/Damping.md) · [Inertia](graph/Inertia.md) · [James Clerk Maxwell](graph/James%20Clerk%20Maxwell.md) · [state observer](graph/state%20observer.md)
 - [Deep learning](graph/Deep%20learning.md)
-  - [artificial neural network](graph/artificial%20neural%20network.md) → [artificial neuron](graph/artificial%20neuron.md) · [autoencoder](graph/autoencoder.md) · [Backpropagation](graph/Backpropagation.md) · [CNN](graph/Convolutional%20neural%20networks.md) · [multilayer perceptron](graph/multilayer%20perceptron.md) · [ReLU](graph/ReLU%20activation%20function.md) · [Sigmoid](graph/Sigmoid%20function.md) · [Weights](graph/Weights.md) · …
+  - [artificial neural network](graph/artificial%20neural%20network.md) → [artificial neuron](graph/artificial%20neuron.md) · [autoencoder](graph/autoencoder.md) · [backpropagation](backpropagation.md) · [CNN](graph/Convolutional%20neural%20networks.md) · [multilayer perceptron](graph/multilayer%20perceptron.md) · [ReLU](graph/ReLU%20activation%20function.md) · [Sigmoid](graph/Sigmoid%20function.md) · [Weights](graph/Weights.md) · …
   - [foundation model](graph/foundation%20model.md) → [multimodal model](graph/multimodal%20model.md) · [tabular foundation model](graph/tabular%20foundation%20model.md) → [TabPFN](graph/TabPFN.md)
   - [Keras](graph/Keras.md) · [Transfer learning](graph/Transfer%20learning.md)
   - [Transformers](graph/Transformers.md) → [attention weights](graph/attention%20weights.md) · [Decoder-only](graph/Decoder-only.md) · [Encoder-only](graph/Encoder-only.md)
@@ -250,9 +250,9 @@ The graph encodes [SKOS](https://www.w3.org/2004/02/skos/)-style hierarchical re
 - [Model fit](graph/Model%20fit.md) → [Overfitting](graph/Overfitting.md) · [Underfitting](graph/Underfitting.md)
 - [Model maintenance](graph/Model%20maintenance.md) → [concept drift](graph/concept%20drift.md) · [Data drift](graph/Data%20drift.md) · [Model registry](graph/Model%20registry.md) · [Retraining](graph/Retraining.md) · …
 - [Model tuning](graph/Model%20tuning.md) → [Fine-tuning](graph/Fine-tuning.md) · [LoRA](graph/Low-Rank%20Adaptation.md) · [Pruning](graph/Pruning.md) · [Quantization](graph/Quantization.md)
-- [Probability](graph/Probability.md) → [Bayes' theorem](graph/Bayes%27%20theorem.md) · [confidence interval](graph/confidence%20interval.md) · [variance](graph/variance.md) · …
+- [Probability](graph/Probability.md) → [bayes' theorem](bayes'%20theorem.md) · [confidence interval](graph/confidence%20interval.md) · [variance](graph/variance.md) · …
 - [Process](graph/Process.md)
-  - [application development](application%20development.md) → [Backend](graph/Backend.md) · [Frontend](graph/Frontend.md) · [Programming language](graph/Programming%20language.md) · [DevOps](graph/DevOps.md) · …
+  - [application development](application%20development.md) → [backend](backend.md) · [Frontend](graph/Frontend.md) · [Programming language](graph/Programming%20language.md) · [DevOps](graph/DevOps.md) · …
   - [data](graph/data.md) → [Data quality](graph/Data%20quality.md) · [data type](graph/data%20type.md) · [metadata](graph/metadata.md) · …
   - [Design thinking](graph/Design%20thinking.md) · [knowledge](graph/knowledge.md) · [Management](graph/Management.md) · …
 - [Shareholders agreement](graph/Shareholders%20agreement.md) · [contract](graph/contract.md) · [negotiation](graph/negotiation.md)

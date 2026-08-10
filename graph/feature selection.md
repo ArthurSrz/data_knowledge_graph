@@ -1,5 +1,3 @@
 ---
-inferred:skos:narrower:
-  - "[[Embedded methods]]"
-  - "[[Filter methods]]"
+inferred:skos:narrower: "[[Embedded methods]]"
 ---

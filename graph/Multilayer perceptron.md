@@ -1,10 +1,18 @@
 ---
-foundationalPaper: "Learning Internal Representations by Error Propagation (Rumelhart, Hinton & Williams, 1986)"
-keyPapers: ["Perceptrons: An Introduction to Computational Geometry (Minsky & Papert, 1969)", "Beyond Regression: New Tools for Prediction and Analysis in the Behavioral Sciences (Werbos, 1974)"]
+foundationalPaper: Learning Internal Representations by Error Propagation (Rumelhart, Hinton & Williams, 1986)
+keyPapers:
+  - "Perceptrons: An Introduction to Computational Geometry (Minsky & Papert, 1969)"
+  - "Beyond Regression: New Tools for Prediction and Analysis in the Behavioral Sciences (Werbos, 1974)"
 typeOf: "[[Neural network models]]"
-composedOf: ["[[Layer]]", "[[Artificial neuron]]", "[[Activation function]]"]
-enables: ["[[Universal approximation]]", "[[Non-linear classification]]", "[[Feature learning]]"]
-trainedBy: "[[Backpropagation]]"
+composedOf:
+  - "[[Layer]]"
+  - "[[Artificial neuron]]"
+  - "[[Activation function]]"
+enables:
+  - "[[Universal approximation]]"
+  - "[[Non-linear classification]]"
+  - "[[Feature learning]]"
+trainedBy: "[[backpropagation]]"
 broader: "[[artificial neural network]]"
 inferred:skos:ancestor:
   - "[[AI]]"
@@ -25,7 +33,7 @@ From Rumelhart, Hinton & Williams (1986):
 The MLP emerged from a crisis in neural network research:
 1. **Perceptron Limitations (1969)**: Minsky & Papert showed single layers couldn't solve XOR
 2. **Solution [[concept]] (1970s)**: Multiple layers could overcome limitations
-3. **Training Breakthrough (1986)**: [[Backpropagation]] made training feasible
+3. **Training Breakthrough (1986)**: [[backpropagation]] made training feasible
 
 ## Architecture
 

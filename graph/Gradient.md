@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Backpropagation]]"
+inferred:skos:ancestor: "[[backpropagation]]"
 ---

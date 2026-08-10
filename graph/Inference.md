@@ -19,14 +19,13 @@ Library of Congress Classification: BC199.I47
 PhilPapers topic: inference
 Stack Exchange tag: https://stackoverflow.com/tags/inference
 broader: "[[Deployment]]"
-inferred:skos:ancestor:
-  - "[[Deployment]]"
+inferred:skos:ancestor: "[[Deployment]]"
 inferred:skos:narrower:
-  - "[[Batch prediction]]"
   - "[[Inference engine]]"
   - "[[Inference pipeline]]"
   - "[[Online prediction]]"
   - "[[backward chaining]]"
+  - "[[batch prediction]]"
   - "[[causal inference]]"
 ---
 Act or [[process]] of deriving logical conclusions from premises known or assumed to be true

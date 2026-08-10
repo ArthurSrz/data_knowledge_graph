@@ -1,4 +1,3 @@
 ---
-inferred:skos:narrower:
-  - "[[Bayes' theorem]]"
+inferred:skos:narrower: "[[bayes' theorem]]"
 ---

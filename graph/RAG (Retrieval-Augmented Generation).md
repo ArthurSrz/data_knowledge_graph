@@ -5,8 +5,7 @@ components: [Query, Retrieval Context, Knowledge Base, Text Vectors, Keyword, So
 category: Input Data Enhancement
 tags: [RAG, Récupération_Information, Knowledge_Base, Vectorisation]
 broader: "[[Large Language Model]]"
-inferred:skos:ancestor:
-  - "[[Large Language Model]]"
+inferred:skos:ancestor: "[[Large Language Model]]"
 inferred:skos:narrower:
   - "[[Hypothetical Document Embeddings (HyDE)]]"
   - "[[Retrieval Depth]]"

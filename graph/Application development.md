@@ -1,11 +1,11 @@
 ---
 inferred:skos:narrower:
-  - "[[Backend]]"
   - "[[Dependency injection]]"
   - "[[Open source software]]"
   - "[[Readme file]]"
   - "[[Session]]"
   - "[[application programming interface]]"
+  - "[[backend]]"
   - "[[boilerplate]]"
   - "[[bundle]]"
   - "[[default]]"

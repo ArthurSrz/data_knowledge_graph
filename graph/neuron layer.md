@@ -214,7 +214,7 @@ Rumelhart et al.'s work:
 
 ## Related Concepts
 - [[Artificial neuron]]
-- [[Backpropagation]]
+- [[backpropagation]]
 - [[Neural network models]]
 - [[Deep learning]]
 - [[Activation functions]]

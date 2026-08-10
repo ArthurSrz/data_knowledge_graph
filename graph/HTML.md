@@ -2,7 +2,5 @@
 instance of:
   - "[[Mark-up language]]"
 broader: "[[Mark-up language]]"
-inferred:skos:ancestor:
-  - "[[Mark-up language]]"
-  - "[[Programming language]]"
+inferred:skos:ancestor: "[[Mark-up language]]"
 ---

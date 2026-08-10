@@ -1,10 +1,25 @@
 ---
-foundationalPaper: "Method of Least Squares (Legendre, 1805)"
-keyPapers: ["Theory of Errors of Observations (Gauss, 1809)", "A General Theory of Discriminant Analysis (Fisher, 1936)", "Theory of Games and Economic Behavior (von Neumann & Morgenstern, 1944)"]
-minimizedBy: ["[[Gradient descent]]", "[[Backpropagation]]"]
-examples: ["[[Mean squared error]]", "[[Cross-entropy]]", "[[Hinge loss]]", "[[Kullback-Leibler divergence]]"]
-properties: ["[[Convexity]]", "[[Differentiability]]", "[[Continuity]]"]
-usedIn: ["[[Supervised learning]]", "[[Optimization]]", "[[Neural network training]]"]
+foundationalPaper: Method of Least Squares (Legendre, 1805)
+keyPapers:
+  - Theory of Errors of Observations (Gauss, 1809)
+  - A General Theory of Discriminant Analysis (Fisher, 1936)
+  - Theory of Games and Economic Behavior (von Neumann & Morgenstern, 1944)
+minimizedBy:
+  - "[[Gradient descent]]"
+  - "[[backpropagation]]"
+examples:
+  - "[[Mean squared error]]"
+  - "[[Cross-entropy]]"
+  - "[[Hinge loss]]"
+  - "[[Kullback-Leibler divergence]]"
+properties:
+  - "[[Convexity]]"
+  - "[[Differentiability]]"
+  - "[[Continuity]]"
+usedIn:
+  - "[[Supervised learning]]"
+  - "[[Optimization]]"
+  - "[[Neural network training]]"
 broader: "[[machine learning]]"
 inferred:skos:ancestor:
   - "[[AI]]"

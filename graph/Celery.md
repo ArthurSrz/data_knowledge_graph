@@ -2,8 +2,8 @@
 instanceOf:
   - "[[Message-oriented middleware]]"
 partOf: "[[clarifeye]]"
-broader: "[[Backend]]"
+broader: "[[backend]]"
 inferred:skos:ancestor:
-  - "[[Backend]]"
   - "[[application development]]"
+  - "[[backend]]"
 ---

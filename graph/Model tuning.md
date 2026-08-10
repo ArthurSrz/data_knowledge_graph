@@ -1,4 +1,3 @@
 ---
-inferred:skos:narrower:
-  - "[[Fine-tuning]]"
+inferred:skos:narrower: "[[Fine-tuning]]"
 ---

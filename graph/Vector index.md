@@ -8,7 +8,6 @@ instance of: "[[Geometric concept]]"
 part of: "[[graph/Euclidean space]]"
 skos:broader: "[[index]]"
 inferred:skos:ancestor:
-  - "[[data]]"
   - "[[index]]"
   - "[[vector]]"
 ---

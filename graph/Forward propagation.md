@@ -5,7 +5,7 @@ keyPapers:
   - Neural Networks and Deep Learning (Nielsen, 2015)
 trainingTechnique: "[[Deep learning]]"
 partOf: "[[Neural network models]]"
-complementedBy: "[[Backpropagation]]"
+complementedBy: "[[backpropagation]]"
 consists_of:
   - "[[Matrix multiplication]]"
   - "[[Activation function]]"

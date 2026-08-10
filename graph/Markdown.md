@@ -1,9 +1,7 @@
 ---
 TypeOf: "[[Mark-up language]]"
 broader: "[[Mark-up language]]"
-inferred:skos:ancestor:
-  - "[[Mark-up language]]"
-  - "[[Programming language]]"
+inferred:skos:ancestor: "[[Mark-up language]]"
 ---
 A mark-up language, described as follows by its creator : 
 

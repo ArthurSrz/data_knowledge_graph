@@ -6,8 +6,7 @@ skos:narrower:
   - "[[classification]]"
   - "[[prediction]]"
 broader: "[[AI]]"
-inferred:skos:ancestor:
-  - "[[AI]]"
+inferred:skos:ancestor: "[[AI]]"
 inferred:skos:narrower:
   - "[[Expert systems]]"
   - "[[Narrow AI]]"

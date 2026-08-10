@@ -5,8 +5,7 @@ components: [Task Description, Context Example, Prompt]
 category: Input Data Enhancement
 tags: [Apprentissage_Contextuel, Adaptation_Dynamique, No_Training]
 broader: "[[Large Language Model]]"
-inferred:skos:ancestor:
-  - "[[Large Language Model]]"
+inferred:skos:ancestor: "[[Large Language Model]]"
 ---
 
 # In-Context Learning

@@ -1,6 +1,5 @@
 ---
 dangerOf:
 broader: "[[bias]]"
-inferred:skos:ancestor:
-  - "[[bias]]"
+inferred:skos:ancestor: "[[bias]]"
 ---

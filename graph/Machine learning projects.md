@@ -1,4 +1,3 @@
 ---
-inferred:skos:narrower:
-  - "[[CRISP-DM Process]]"
+inferred:skos:narrower: "[[CRISP-DM Process]]"
 ---

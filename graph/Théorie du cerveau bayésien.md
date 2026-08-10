@@ -1,9 +1,9 @@
 ---
-builtOnTopOf: "[[Bayesian epistemology]]"
+builtOnTopOf: "[[bayesian epistemology]]"
 broader: "[[Bayesian inference]]"
 inferred:skos:ancestor:
-  - "[[Bayes' theorem]]"
   - "[[Bayesian inference]]"
+  - "[[bayes' theorem]]"
   - "[[probability]]"
 ---
 
