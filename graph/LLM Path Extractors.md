@@ -2,7 +2,6 @@
 incorporatedInto: "[[Llama index]]"
 broader: "[[Large Language Model]]"
 inferred:skos:ancestor:
-  - "[[Language modeling]]"
   - "[[Large Language Model]]"
 ---
 There are three different LLM Path Extractors incorporated inside llama_index:

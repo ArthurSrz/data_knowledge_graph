@@ -1,6 +1,7 @@
 ---
 broader: "[[AI]]"
-inferred:skos:ancestor: "[[AI]]"
+inferred:skos:ancestor:
+  - "[[AI]]"
 ---
 1. [[collecting data]]
 2. Move/Store ([[best]] to avoid [[Data silos]])

@@ -6,7 +6,6 @@ category: Agent Creation Registry
 tags: [Modèles_LLM, Configuration, API]
 broader: "[[Large Language Model]]"
 inferred:skos:ancestor:
-  - "[[Language modeling]]"
   - "[[Large Language Model]]"
 ---
 

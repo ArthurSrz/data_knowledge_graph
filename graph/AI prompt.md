@@ -17,7 +17,6 @@ main Wikidata property: AI-generation prompt
 wikidata entity id: Q117217619
 broader: "[[Large Language Model]]"
 inferred:skos:ancestor:
-  - "[[Language modeling]]"
   - "[[Large Language Model]]"
 inferred:skos:narrower:
   - "[[Prompt Identity]]"

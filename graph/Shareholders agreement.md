@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[Blocking minority]]"
+inferred:skos:narrower:
+  - "[[Blocking minority]]"
 ---

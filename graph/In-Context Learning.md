@@ -6,7 +6,6 @@ category: Input Data Enhancement
 tags: [Apprentissage_Contextuel, Adaptation_Dynamique, No_Training]
 broader: "[[Large Language Model]]"
 inferred:skos:ancestor:
-  - "[[Language modeling]]"
   - "[[Large Language Model]]"
 ---
 

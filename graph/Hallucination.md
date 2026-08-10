@@ -7,7 +7,6 @@ mitigated_by: ["[[Retrieval Augmented Generation]]", "[[Factual grounding]]", "[
 types: ["[[Intrinsic hallucination]]", "[[Extrinsic hallucination]]"]
 broader: "[[Large Language Model]]"
 inferred:skos:ancestor:
-  - "[[Language modeling]]"
   - "[[Large Language Model]]"
 ---
 

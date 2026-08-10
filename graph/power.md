@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[Bargaining power]]"
+inferred:skos:narrower:
+  - "[[Bargaining power]]"
 ---

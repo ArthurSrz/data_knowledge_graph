@@ -7,7 +7,6 @@ tags: [Optimisation_Prompts, Techniques_Prompting, Raisonnement, CoT]
 broader: "[[AI prompt]]"
 inferred:skos:ancestor:
   - "[[AI prompt]]"
-  - "[[Language modeling]]"
   - "[[Large Language Model]]"
 ---
 

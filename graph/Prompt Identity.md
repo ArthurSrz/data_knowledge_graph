@@ -7,7 +7,6 @@ tags: [Identité_Prompt, Versioning_Prompt, Gestion_Prompts]
 broader: "[[AI prompt]]"
 inferred:skos:ancestor:
   - "[[AI prompt]]"
-  - "[[Language modeling]]"
   - "[[Large Language Model]]"
 ---
 

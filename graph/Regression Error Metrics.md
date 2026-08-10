@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[Mean Absolute Percent Error]]"
+inferred:skos:narrower:
+  - "[[Mean Absolute Percent Error]]"
 ---

@@ -2,7 +2,6 @@
 HasProvedStandard: "[[Vanilla RAG design]]"
 broader: "[[Large Language Model]]"
 inferred:skos:ancestor:
-  - "[[Language modeling]]"
   - "[[Large Language Model]]"
 ---
 

@@ -25,6 +25,5 @@ source code repository URL: https://github.com/meta-llama/llama
 wikidata entity id: Q116894231
 broader: "[[Large Language Model]]"
 inferred:skos:ancestor:
-  - "[[Language modeling]]"
   - "[[Large Language Model]]"
 ---

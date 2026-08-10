@@ -7,7 +7,6 @@ tags: [Templates_Prompt, Contexte, Exemples, Format_Sortie]
 broader: "[[AI prompt]]"
 inferred:skos:ancestor:
   - "[[AI prompt]]"
-  - "[[Language modeling]]"
   - "[[Large Language Model]]"
 ---
 

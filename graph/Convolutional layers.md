@@ -6,7 +6,8 @@ inspiredBy: ["[[Visual cortex]]", "[[Receptive fields]]"]
 properties: ["[[Local connectivity]]", "[[Weight sharing]]", "[[Translation invariance]]"]
 operations: ["[[Convolution operation]]", "[[Feature extraction]]", "[[Spatial hierarchy]]"]
 broader: "[[Convolutional neural networks]]"
-inferred:skos:ancestor: "[[Convolutional neural networks]]"
+inferred:skos:ancestor:
+  - "[[Convolutional neural networks]]"
 ---
 
 # Convolutional Layers

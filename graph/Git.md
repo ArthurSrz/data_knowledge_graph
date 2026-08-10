@@ -3,7 +3,6 @@ inferred:skos:narrower:
   - "[[Git worktree]]"
   - "[[Pull request]]"
   - "[[Staging Area]]"
-  - "[[Stash]]"
   - "[[add]]"
   - "[[branch -vv]]"
   - "[[checkout]]"

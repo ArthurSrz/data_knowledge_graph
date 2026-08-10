@@ -10,5 +10,6 @@ Commons category: Dependency injection
 GitHub topic: dependency-injection
 wikidata entity id: Q635336
 broader: "[[application development]]"
-inferred:skos:ancestor: "[[application development]]"
+inferred:skos:ancestor:
+  - "[[application development]]"
 ---

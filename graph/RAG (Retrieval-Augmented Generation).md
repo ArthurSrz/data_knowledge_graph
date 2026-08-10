@@ -6,7 +6,6 @@ category: Input Data Enhancement
 tags: [RAG, Récupération_Information, Knowledge_Base, Vectorisation]
 broader: "[[Large Language Model]]"
 inferred:skos:ancestor:
-  - "[[Language modeling]]"
   - "[[Large Language Model]]"
 inferred:skos:narrower:
   - "[[Hypothetical Document Embeddings (HyDE)]]"

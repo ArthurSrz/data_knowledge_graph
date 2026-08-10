@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[Threshold value]]"
+inferred:skos:narrower:
+  - "[[Threshold value]]"
 ---
