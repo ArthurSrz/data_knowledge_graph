@@ -13,10 +13,7 @@ studied in:
 CanBeConstructedWith: "[[LLM Path Extractors]]"
 skos:broader: "[[graph]]"
 inferred:skos:ancestor:
-  - "[[Infrastructure]]"
   - "[[Knowledge base]]"
-  - "[[Memory]]"
-  - "[[Process]]"
   - "[[graph]]"
   - "[[knowledge]]"
 inferred:skos:narrower:

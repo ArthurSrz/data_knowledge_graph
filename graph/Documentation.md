@@ -15,10 +15,10 @@ GitHub topic: documentation
 UMLS CUI: C0920316
 MeSH tree code: L01.462.750.245
 wikidata entity id: Q788790
-broader: "[[Application development]]"
+broader: "[[application development]]"
 inferred:skos:ancestor:
-  - "[[Application development]]"
   - "[[Process]]"
+  - "[[application development]]"
 inferred:skos:narrower:
   - "[[How-to-use]]"
   - "[[Provenance]]"

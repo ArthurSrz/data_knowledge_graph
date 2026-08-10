@@ -9,8 +9,8 @@ Stack Exchange tag: https://stackoverflow.com/tags/dependency-injection
 Commons category: Dependency injection
 GitHub topic: dependency-injection
 wikidata entity id: Q635336
-broader: "[[Application development]]"
+broader: "[[application development]]"
 inferred:skos:ancestor:
-  - "[[Application development]]"
   - "[[Process]]"
+  - "[[application development]]"
 ---

@@ -2,10 +2,10 @@
 partOf: "[[Hugging Face]]"
 broader: "[[Hugging Face]]"
 inferred:skos:ancestor:
-  - "[[Application development]]"
   - "[[Hugging Face]]"
   - "[[Process]]"
   - "[[Programming language]]"
   - "[[Python]]"
+  - "[[application development]]"
 ---
 If you don't use specific [[ML models]] inside [[Model hub]]

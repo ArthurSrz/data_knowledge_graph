@@ -4,10 +4,10 @@ studied by:
 subclass of:
   - "[[automation]]"
 partOf: "[[automation framework]]"
-broader: "[[Application development]]"
+broader: "[[application development]]"
 inferred:skos:ancestor:
-  - "[[Application development]]"
   - "[[Process]]"
+  - "[[application development]]"
   - "[[automation]]"
 ---
 **Parsing**, **syntax analysis**, or **syntactic analysis** is a process of analyzing a [string](https://en.wikipedia.org/wiki/String_\(computer_science\) "String (computer science)") of [symbols](https://en.wikipedia.org/wiki/Symbol_\(formal\) "Symbol (formal)"), either in [natural language](https://en.wikipedia.org/wiki/Natural_language "Natural language"), [computer languages](https://en.wikipedia.org/wiki/Computer_languages "Computer languages") or [data structures](https://en.wikipedia.org/wiki/Data_structure "Data structure"), conforming to the rules of a [formal grammar](https://en.wikipedia.org/wiki/Formal_grammar "Formal grammar") by breaking it into parts. The term _parsing_ comes from Latin _pars_ (_orationis_), meaning [part (of speech)](https://en.wikipedia.org/wiki/Part_of_speech "Part of speech").[1](app://obsidian.md/1)(#cite_note-dictionary.com-1)

@@ -2,10 +2,10 @@
 usedBy: "[[evaluation]]"
 broader: "[[Python]]"
 inferred:skos:ancestor:
-  - "[[Application development]]"
   - "[[Process]]"
   - "[[Programming language]]"
   - "[[Python]]"
+  - "[[application development]]"
 ---
 
 Library used to clean and format data out of classes. 

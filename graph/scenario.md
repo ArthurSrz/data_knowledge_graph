@@ -3,10 +3,10 @@ partOf: "[[automation framework]]"
 facet of: "[[requirements analysis]]"
 subclass of: "[[possibility]]"
 wikidata entity id: Q7430721
-broader: "[[Application development]]"
+broader: "[[application development]]"
 inferred:skos:ancestor:
-  - "[[Application development]]"
   - "[[Process]]"
+  - "[[application development]]"
 ---
 In [computing](https://en.wikipedia.org/wiki/Computing "Computing"), a **scenario** (, ; [loaned](https://en.wikipedia.org/wiki/Loanword "Loanword") from [Italian](https://en.wikipedia.org/wiki/Italian_language "Italian language") _scenario_ (pronounced [[ʃeˈnaːrjo]](https://en.wikipedia.org/wiki/Help:IPA/Italian "Help:IPA/Italian")), from [Latin](https://en.wikipedia.org/wiki/Latin_language "Latin language") _scena_ 'scene'[[1]](#cite_note-1)) is a narrative of foreseeable [interactions](https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction "Human–computer interaction") of user roles (known in the [Unified Modeling Language](https://en.wikipedia.org/wiki/Unified_Modeling_Language "Unified Modeling Language") as '[actors](https://en.wikipedia.org/wiki/Actor_\(UML\) "Actor (UML)")') and the technical system, which usually includes [computer hardware](https://en.wikipedia.org/wiki/Computer_hardware "Computer hardware") and [software](https://en.wikipedia.org/wiki/Software "Software").
 

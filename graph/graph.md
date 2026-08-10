@@ -12,7 +12,6 @@ inferred:skos:narrower:
   - "[[bipartite graph]]"
   - "[[knowledge graph]]"
   - "[[monopartite graph]]"
-  - "[[vertices]]"
 ---
 ### Definition 1 
 

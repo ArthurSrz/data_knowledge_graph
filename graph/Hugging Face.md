@@ -1,23 +1,23 @@
 ---
 broader: "[[Python]]"
 inferred:skos:ancestor:
-  - "[[Application development]]"
   - "[[Process]]"
   - "[[Programming language]]"
   - "[[Python]]"
+  - "[[application development]]"
 inferred:skos:narrower:
-  - "[[AutoModel]]"
   - "[[Autotokenizer]]"
   - "[[DatasetDict]]"
   - "[[Datasets]]"
   - "[[Trainer]]"
   - "[[TrainingAguments]]"
+  - "[[autoModel]]"
 ---
 
 
 ## Related concepts
 
-- [[AutoModel]] - Auto model selection in Hugging Face
+- [[autoModel]] - Auto model selection in Hugging Face
 - [[Autotokenizer]] - Automatic tokenizer selection
 - [[Transformers]] - Main library for transformer models
 - [[BERT]] - Available through Hugging Face

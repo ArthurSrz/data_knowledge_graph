@@ -4,7 +4,6 @@ broader: "[[Bayesian inference]]"
 inferred:skos:ancestor:
   - "[[Bayes' theorem]]"
   - "[[Bayesian inference]]"
-  - "[[combinatorics]]"
   - "[[probability]]"
 ---
 

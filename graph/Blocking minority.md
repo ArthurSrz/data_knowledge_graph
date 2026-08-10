@@ -2,10 +2,7 @@
 uses: []
 subclass of: []
 broader: "[[Shareholders agreement]]"
-inferred:skos:ancestor:
-  - "[[Shareholders agreement]]"
-  - "[[contract]]"
-  - "[[intellectual work]]"
+inferred:skos:ancestor: "[[Shareholders agreement]]"
 ---
 
 [Blocking minority (art. L.225-96 Code de commerce)](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042339458)

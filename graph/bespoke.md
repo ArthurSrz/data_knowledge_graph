@@ -11,10 +11,10 @@ uses:
 has characteristic:
   - "[[uniqueness]]"
 inferred:skos:ancestor:
-  - "[[Application development]]"
   - "[[Documentation]]"
   - "[[Process]]"
   - "[[Provenance]]"
+  - "[[application development]]"
 ---
 
 Made entirely to order for a specific transaction, without reference to a pre-existing template. Characterised by uniqueness and the exercise of genuine bargaining power between the parties.

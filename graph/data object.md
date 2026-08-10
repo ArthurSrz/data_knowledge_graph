@@ -4,9 +4,7 @@ facet of: "[[digital record]]"
 wikidata entity id: Q117360079
 skos:broader:
 inferred:skos:ancestor:
-  - "[[Infrastructure]]"
   - "[[Knowledge base]]"
-  - "[[Memory]]"
   - "[[Object]]"
   - "[[Process]]"
   - "[[data]]"

@@ -11,6 +11,5 @@ has part(s):
   - "[[graph/recall]]"
 broader: "[[Infrastructure]]"
 inferred:skos:ancestor: "[[Infrastructure]]"
-inferred:skos:narrower: "[[knowledge]]"
 ---
 Physical device used to store information for immediate use in a digital electronic device

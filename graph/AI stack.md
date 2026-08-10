@@ -1,6 +1,6 @@
 ---
 madeOf:
-  - "[[Application development]]"
+  - "[[application development]]"
   - "[[Model development]]"
   - "[[Infrastructure]]"
 broader: "[[AI]]"

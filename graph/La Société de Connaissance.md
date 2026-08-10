@@ -6,11 +6,7 @@ aliases:
 partOf:
   - "[[Le Bateau Ivre des données]]"
 broader: "[[knowledge]]"
-inferred:skos:ancestor:
-  - "[[Infrastructure]]"
-  - "[[Memory]]"
-  - "[[Process]]"
-  - "[[knowledge]]"
+inferred:skos:ancestor: "[[knowledge]]"
 ---
 Série d'articles cherchant à comprendre à une seule et unique problématique : 
 

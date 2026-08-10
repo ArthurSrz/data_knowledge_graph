@@ -3,9 +3,7 @@ skos:broader: "[[CRISP-DM Process]]"
 inferred:skos:ancestor:
   - "[[CRISP-DM Process]]"
   - "[[machine learning projects]]"
-inferred:skos:narrower:
-  - "[[Problem framing]]"
-  - "[[define success]]"
+inferred:skos:narrower: "[[define success]]"
 ---
 Step of the [[CRISP-DM Process]]. 
 

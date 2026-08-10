@@ -2,7 +2,6 @@
 broader: "[[Bayes' theorem]]"
 inferred:skos:ancestor:
   - "[[Bayes' theorem]]"
-  - "[[combinatorics]]"
   - "[[probability]]"
 inferred:skos:narrower:
   - "[[Bayesian epistemology]]"

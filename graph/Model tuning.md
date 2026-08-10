@@ -24,7 +24,6 @@ inferred:skos:ancestor:
   - "[[modeling]]"
 inferred:skos:narrower:
   - "[[Fine-tuning]]"
-  - "[[Pruning]]"
   - "[[Quantization]]"
 ---
 [[model]] tuning is the [[process]] of optimizing [[model]] performance by adjusting [[hyperparameters]] and architecture choices to find the [[best]] configuration for a given task.

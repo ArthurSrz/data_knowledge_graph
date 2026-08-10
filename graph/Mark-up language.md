@@ -1,9 +1,9 @@
 ---
 broader: "[[Programming language]]"
 inferred:skos:ancestor:
-  - "[[Application development]]"
   - "[[Process]]"
   - "[[Programming language]]"
+  - "[[application development]]"
 inferred:skos:narrower:
   - "[[HTML]]"
   - "[[Markdown]]"

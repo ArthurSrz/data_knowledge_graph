@@ -2,8 +2,8 @@
 instanceof: "[[automation framework]]"
 broader: "[[exception handling]]"
 inferred:skos:ancestor:
-  - "[[Application development]]"
   - "[[Process]]"
+  - "[[application development]]"
   - "[[control flow]]"
   - "[[exception handling]]"
 ---

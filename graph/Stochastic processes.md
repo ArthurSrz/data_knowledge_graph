@@ -29,9 +29,7 @@ wikidata entity id: Q176737
 aliases:
   - random process
 skos:broader: "[[probability]]"
-inferred:skos:ancestor:
-  - "[[combinatorics]]"
-  - "[[probability]]"
+inferred:skos:ancestor: "[[probability]]"
 inferred:skos:narrower:
   - "[[Impermanence]]"
   - "[[Independent Cascade Model]]"

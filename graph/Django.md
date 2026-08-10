@@ -6,8 +6,8 @@ wikidata entity id: Q842014
 partOf: "[[clarifeye]]"
 broader: "[[Backend]]"
 inferred:skos:ancestor:
-  - "[[Application development]]"
   - "[[Backend]]"
   - "[[Process]]"
+  - "[[application development]]"
 ---
 Python web framework.

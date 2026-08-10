@@ -8,8 +8,6 @@ literal translation:
 wikidata entity id: Q1141183
 broader: "[[Inference]]"
 inferred:skos:ancestor:
-  - "[[CRISP-DM Process]]"
   - "[[Deployment]]"
   - "[[Inference]]"
-  - "[[machine learning projects]]"
 ---

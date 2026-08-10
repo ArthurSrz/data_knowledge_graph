@@ -5,9 +5,9 @@ partOf:
 madeOf:
   - "[[graph/Knowledge base]]"
   - "[[Workflow automation]]"
-broader: "[[Application development]]"
+broader: "[[application development]]"
 inferred:skos:ancestor:
-  - "[[Application development]]"
   - "[[Process]]"
+  - "[[application development]]"
 ---
 Claude plugins are what gives Anthropic [[compound AI system]] domain expertise. It is 

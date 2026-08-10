@@ -14,9 +14,9 @@ has characteristic:
   - "[[implicitness]]"
 contributing factor of: "[[db/software non-portability]]"
 wikidata entity id: Q123015585
-broader: "[[Application development]]"
+broader: "[[application development]]"
 inferred:skos:ancestor:
-  - "[[Application development]]"
   - "[[Process]]"
+  - "[[application development]]"
 ---
 Observable quality or behavior of a system that results from how it is implemented, and not guaranteed by its interface or specification

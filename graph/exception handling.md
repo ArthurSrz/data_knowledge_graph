@@ -8,10 +8,10 @@ GitHub topic:
   - error-monitoring
 OmegaWiki Defined Meaning: "986447"
 wikidata entity id: Q471748
-broader: "[[Application development]]"
+broader: "[[application development]]"
 inferred:skos:ancestor:
-  - "[[Application development]]"
   - "[[Process]]"
+  - "[[application development]]"
   - "[[control flow]]"
 inferred:skos:broader: "[[control flow]]"
 inferred:skos:narrower: "[[break error]]"

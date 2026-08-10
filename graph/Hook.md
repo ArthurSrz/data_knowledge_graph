@@ -1,8 +1,8 @@
 ---
 partOf: "[[claude code]]"
-broader: "[[Application development]]"
+broader: "[[application development]]"
 inferred:skos:ancestor:
-  - "[[Application development]]"
   - "[[Process]]"
+  - "[[application development]]"
 ---
 User-defined shell commands or LLM prompts that execute automatically at specific pointns in Claude Code's lifecycle. 

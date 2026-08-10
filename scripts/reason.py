@@ -280,12 +280,9 @@ def write_inferred_to_notes(inferred, graph_dir):
 
             for rel_name, targets in sorted(rels.items()):
                 key = f"{INFERRED_PREFIX}{rel_name}"
-                if len(targets) == 1:
-                    clean_lines.append(f'{key}: "[[{targets[0]}]]"')
-                else:
-                    clean_lines.append(f"{key}:")
-                    for t in targets:
-                        clean_lines.append(f'  - "[[{t}]]"')
+                clean_lines.append(f"{key}:")
+                for t in targets:
+                    clean_lines.append(f'  - "[[{t}]]"')
 
             new_text = "---\n" + "\n".join(clean_lines) + "\n---" + body
         else:
@@ -293,12 +290,9 @@ def write_inferred_to_notes(inferred, graph_dir):
             fm_lines = []
             for rel_name, targets in sorted(rels.items()):
                 key = f"{INFERRED_PREFIX}{rel_name}"
-                if len(targets) == 1:
-                    fm_lines.append(f'{key}: "[[{targets[0]}]]"')
-                else:
-                    fm_lines.append(f"{key}:")
-                    for t in targets:
-                        fm_lines.append(f'  - "[[{t}]]"')
+                fm_lines.append(f"{key}:")
+                for t in targets:
+                    fm_lines.append(f'  - "[[{t}]]"')
             new_text = "---\n" + "\n".join(fm_lines) + "\n---\n" + text
 
         if new_text != text:

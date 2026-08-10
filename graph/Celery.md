@@ -4,7 +4,7 @@ instanceOf:
 partOf: "[[clarifeye]]"
 broader: "[[Backend]]"
 inferred:skos:ancestor:
-  - "[[Application development]]"
   - "[[Backend]]"
   - "[[Process]]"
+  - "[[application development]]"
 ---

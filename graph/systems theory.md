@@ -1,9 +1,7 @@
 ---
 inferred:skos:narrower:
-  - "[[Equifinality]]"
   - "[[Feedback loops]]"
   - "[[Flywheel effect]]"
-  - "[[study of complex systems]]"
 ---
 ## Definition
 

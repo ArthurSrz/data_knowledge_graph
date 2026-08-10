@@ -1,10 +1,6 @@
 ---
 broader: "[[knowledge]]"
-inferred:skos:ancestor:
-  - "[[Infrastructure]]"
-  - "[[Memory]]"
-  - "[[Process]]"
-  - "[[knowledge]]"
+inferred:skos:ancestor: "[[knowledge]]"
 ---
 
 [Knowledge worker](https://en.wikipedia.org/wiki/Knowledge_worker)

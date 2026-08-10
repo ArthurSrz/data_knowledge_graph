@@ -1,7 +1,7 @@
 ---
 partOf: "[[Readme file]]"
-broader: "[[Application development]]"
+broader: "[[application development]]"
 inferred:skos:ancestor:
-  - "[[Application development]]"
   - "[[Process]]"
+  - "[[application development]]"
 ---

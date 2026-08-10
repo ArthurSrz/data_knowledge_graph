@@ -31,6 +31,4 @@ inferred:skos:narrower:
   - "[[latent]]"
   - "[[latent travel]]"
   - "[[meaning]]"
-  - "[[null morpheme]]"
-  - "[[subtext]]"
 ---

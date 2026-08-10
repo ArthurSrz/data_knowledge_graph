@@ -5,7 +5,7 @@ hasUse:
   - "[[Relational database]]"
 broader: "[[Backend]]"
 inferred:skos:ancestor:
-  - "[[Application development]]"
   - "[[Backend]]"
   - "[[Process]]"
+  - "[[application development]]"
 ---

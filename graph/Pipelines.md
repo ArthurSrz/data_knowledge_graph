@@ -27,7 +27,6 @@ types:
 inferred:skos:narrower:
   - "[[Delta live tables]]"
   - "[[Feature pipeline]]"
-  - "[[Ingestion]]"
   - "[[Training pipeline]]"
 ---
 

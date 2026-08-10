@@ -4,10 +4,7 @@ instance of:
   - "[[graph/Graph Query Language]]"
 broader: "[[knowledge graph]]"
 inferred:skos:ancestor:
-  - "[[Infrastructure]]"
   - "[[Knowledge base]]"
-  - "[[Memory]]"
-  - "[[Process]]"
   - "[[graph]]"
   - "[[knowledge]]"
   - "[[knowledge graph]]"

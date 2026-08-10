@@ -1,9 +1,9 @@
 ---
 listsAll: "[[commit]]"
-broader: "[[Application development]]"
+broader: "[[application development]]"
 inferred:skos:ancestor:
-  - "[[Application development]]"
   - "[[Process]]"
+  - "[[application development]]"
 ---
 [[Git]] command that lets you see the [[commit]] history of the [[branch]] you are currently on. 
 

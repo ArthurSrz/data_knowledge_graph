@@ -8,7 +8,6 @@ skos:narrower: "[[data object]]"
 broader: "[[Process]]"
 inferred:skos:ancestor: "[[Process]]"
 inferred:skos:narrower:
-  - "[[Data augmentation]]"
   - "[[Data catalog]]"
   - "[[Data lineage]]"
   - "[[Data mapping]]"

@@ -9,11 +9,11 @@ has cause: "[[strapping]]"
 different from: "[[Bundle]]"
 image: http://commons.wikimedia.org/wiki/Special:FilePath/KalksandsteinPalettenstapel.jpg
 wikidata entity id: Q83808937
-broader: "[[Application development]]"
+broader: "[[application development]]"
 inferred:skos:ancestor:
-  - "[[Application development]]"
   - "[[Process]]"
   - "[[Product]]"
+  - "[[application development]]"
   - "[[product packaging]]"
 ---
 B

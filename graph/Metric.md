@@ -8,6 +8,5 @@ inferred:skos:narrower:
   - "[[business impact]]"
   - "[[centrality]]"
   - "[[measure]]"
-  - "[[r2]]"
   - "[[reach]]"
 ---

@@ -11,9 +11,9 @@ facet of:
 has characteristic:
   - "[[truth value]]"
 inferred:skos:ancestor:
-  - "[[Application development]]"
   - "[[Documentation]]"
   - "[[Process]]"
+  - "[[application development]]"
 inferred:skos:broader: "[[Documentation]]"
 inferred:skos:narrower:
   - "[[bespoke]]"

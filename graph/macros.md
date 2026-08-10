@@ -11,10 +11,10 @@ tags:
   - google-sheets
 timestamp: 2026-06-28T00:00:00Z
 instanceOf: "[[excel vs. gsheet problem]]"
-broader: "[[Application development]]"
+broader: "[[application development]]"
 inferred:skos:ancestor:
-  - "[[Application development]]"
   - "[[Process]]"
+  - "[[application development]]"
 ---
 
 ## The Core Problem

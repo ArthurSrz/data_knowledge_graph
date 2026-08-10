@@ -12,10 +12,10 @@ timestamp: 2026-06-28T00:00:00Z
 instanceOf: "[[excel vs. gsheet problem]]"
 broader: "[[Python]]"
 inferred:skos:ancestor:
-  - "[[Application development]]"
   - "[[Process]]"
   - "[[Programming language]]"
   - "[[Python]]"
+  - "[[application development]]"
 ---
 
 ## Features Lost on Round-Trip Through openpyxl

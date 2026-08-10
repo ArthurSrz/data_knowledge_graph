@@ -5,7 +5,6 @@ inferred:skos:ancestor:
   - "[[evaluation]]"
 inferred:skos:narrower:
   - "[[False Negative (FN)]]"
-  - "[[False Positive (FP)]]"
   - "[[True Negative (TN)]]"
   - "[[True Positive (TP)]]"
   - "[[multiclass confusion matrix]]"

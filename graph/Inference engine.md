@@ -2,10 +2,8 @@
 inspiredBy: "[[Bayesian inference]]"
 broader: "[[Inference]]"
 inferred:skos:ancestor:
-  - "[[CRISP-DM Process]]"
   - "[[Deployment]]"
   - "[[Inference]]"
-  - "[[machine learning projects]]"
 ---
 
 In the field of artificial intelligence, an inference engine is a software component of an intelligent system that applies logical rules to the knowledge base to deduce new information.

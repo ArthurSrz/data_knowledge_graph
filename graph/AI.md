@@ -9,7 +9,6 @@ inferred:skos:narrower:
   - "[[Fiabilite de compilatio]]"
   - "[[HGR-AI-1]]"
   - "[[Man-Computer Symbiosis]]"
-  - "[[The Shift from Models to Compound AI Systems]]"
   - "[[claude cowork]]"
   - "[[compilatio IA]]"
 ---

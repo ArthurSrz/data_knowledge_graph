@@ -4,8 +4,8 @@ based on:
   - "[[graph/HTML]]"
 broader: "[[Mark-up language]]"
 inferred:skos:ancestor:
-  - "[[Application development]]"
   - "[[Mark-up language]]"
   - "[[Process]]"
   - "[[Programming language]]"
+  - "[[application development]]"
 ---

@@ -12,12 +12,11 @@ part of: "[[graph/subject and object]]"
 said to be the same as: "[[graph/entity]]"
 broader: "[[knowledge graph]]"
 inferred:skos:ancestor:
-  - "[[Infrastructure]]"
   - "[[Knowledge base]]"
-  - "[[Memory]]"
-  - "[[Process]]"
   - "[[graph]]"
   - "[[knowledge]]"
   - "[[knowledge graph]]"
-inferred:skos:narrower: "[[data object]]"
+inferred:skos:narrower:
+  - "[[artifact]]"
+  - "[[data object]]"
 ---

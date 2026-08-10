@@ -4,10 +4,7 @@ uses:
   - "[[Capital participation]]"
 subclass of: []
 broader: "[[Shareholders agreement]]"
-inferred:skos:ancestor:
-  - "[[Shareholders agreement]]"
-  - "[[contract]]"
-  - "[[intellectual work]]"
+inferred:skos:ancestor: "[[Shareholders agreement]]"
 ---
 
 [Minority interest vs full ownership](https://www.wikidata.org/wiki/Q1415886)

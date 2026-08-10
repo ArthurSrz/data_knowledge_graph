@@ -9,10 +9,10 @@ has characteristic:
 different from: "[[graph/session]]"
 appliesTo:
   - "[[Model Context Protocol (MCP)]]"
-broader: "[[Application development]]"
+broader: "[[application development]]"
 inferred:skos:ancestor:
-  - "[[Application development]]"
   - "[[Process]]"
   - "[[Situation]]"
+  - "[[application development]]"
   - "[[context]]"
 ---

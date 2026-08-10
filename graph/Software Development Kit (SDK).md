@@ -1,8 +1,8 @@
 ---
-broader: "[[Application development]]"
+broader: "[[application development]]"
 inferred:skos:ancestor:
-  - "[[Application development]]"
   - "[[Process]]"
+  - "[[application development]]"
 ---
 A collection of tools that facilitate the development of application. 
 $

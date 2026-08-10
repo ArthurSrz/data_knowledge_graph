@@ -14,10 +14,10 @@ example:
   - "[[LMA standard]]"
 broader: "[[contract]]"
 inferred:skos:ancestor:
-  - "[[Application development]]"
   - "[[Documentation]]"
   - "[[Process]]"
   - "[[Provenance]]"
+  - "[[application development]]"
   - "[[contract]]"
   - "[[intellectual work]]"
 ---

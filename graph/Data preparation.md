@@ -9,7 +9,6 @@ inferred:skos:narrower:
   - "[[One-hot encoding]]"
   - "[[Split data]]"
   - "[[Tidy Data]]"
-  - "[[Validate data]]"
   - "[[Z-Score normalization]]"
   - "[[feature engineering]]"
   - "[[truncation]]"

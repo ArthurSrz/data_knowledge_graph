@@ -10,10 +10,6 @@ subclassOf:
   - "[[documentation]]"
 hasPart(s): "[[graph/knowledge]]"
 skos:broader: "[[knowledge]]"
-inferred:skos:ancestor:
-  - "[[Infrastructure]]"
-  - "[[Memory]]"
-  - "[[Process]]"
-  - "[[knowledge]]"
+inferred:skos:ancestor: "[[knowledge]]"
 inferred:skos:narrower: "[[knowledge graph]]"
 ---

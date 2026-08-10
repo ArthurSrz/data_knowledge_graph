@@ -9,11 +9,9 @@ publication date: 2019-01-01T00:00:00Z
 wikidata entity id: Q98199430
 broader: "[[causal inference]]"
 inferred:skos:ancestor:
-  - "[[CRISP-DM Process]]"
   - "[[Deployment]]"
   - "[[Inference]]"
   - "[[causal inference]]"
-  - "[[machine learning projects]]"
 ---
  The book explores the subject of causality and [[causal inference]] from statistical and philosophical points of view for a general audience.
  

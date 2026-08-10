@@ -19,10 +19,7 @@ Library of Congress Classification: BC199.I47
 PhilPapers topic: inference
 Stack Exchange tag: https://stackoverflow.com/tags/inference
 broader: "[[Deployment]]"
-inferred:skos:ancestor:
-  - "[[CRISP-DM Process]]"
-  - "[[Deployment]]"
-  - "[[machine learning projects]]"
+inferred:skos:ancestor: "[[Deployment]]"
 inferred:skos:narrower:
   - "[[Batch prediction]]"
   - "[[Inference engine]]"

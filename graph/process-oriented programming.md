@@ -5,9 +5,9 @@ subclass of: "[[graph/programming language]]"
 wikidata entity id: Q28923015
 broader: "[[functional programming]]"
 inferred:skos:ancestor:
-  - "[[Application development]]"
   - "[[Process]]"
   - "[[Programming language]]"
+  - "[[application development]]"
   - "[[functional programming]]"
 inferred:skos:broader: "[[Programming language]]"
 ---

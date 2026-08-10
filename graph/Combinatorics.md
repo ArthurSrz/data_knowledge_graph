@@ -5,5 +5,4 @@ inferred:skos:narrower:
   - "[[Unary operation]]"
   - "[[combination]]"
   - "[[graph theory]]"
-  - "[[probability]]"
 ---

@@ -1,7 +1,7 @@
 ---
-broader: "[[Application development]]"
+broader: "[[application development]]"
 inferred:skos:ancestor:
-  - "[[Application development]]"
   - "[[Process]]"
+  - "[[application development]]"
 ---
 [[claude code]] file in charge of your [[Terminal]] settings 

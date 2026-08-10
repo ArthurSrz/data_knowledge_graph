@@ -5,7 +5,6 @@ inferred:skos:narrower:
   - "[[Traceable Artifacts]]"
   - "[[artifact management]]"
   - "[[rollback]]"
-  - "[[rollback capability]]"
 ---
 Need to version : 
 * Data pipeline

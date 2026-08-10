@@ -50,7 +50,6 @@ wikidata entity id: Q93288
 inferred:skos:ancestor: "[[intellectual work]]"
 inferred:skos:narrower:
   - "[[Rider]]"
-  - "[[Shareholders agreement]]"
   - "[[compliant privacy policy]]"
   - "[[liability]]"
   - "[[model contract]]"

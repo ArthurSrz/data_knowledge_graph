@@ -8,8 +8,8 @@ instance of:
   - "[[db/Wikibase reason for preferred rank]]"
   - "[[db/condition type]]"
 wikidata entity id: Q67151552
-broader: "[[Application development]]"
+broader: "[[application development]]"
 inferred:skos:ancestor:
-  - "[[Application development]]"
   - "[[Process]]"
+  - "[[application development]]"
 ---

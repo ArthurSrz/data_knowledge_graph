@@ -4,9 +4,7 @@ broader: "[[Virtualization]]"
 inferred:skos:ancestor:
   - "[[Infrastructure]]"
   - "[[Virtualization]]"
-inferred:skos:narrower:
-  - "[[Docker]]"
-  - "[[container]]"
+inferred:skos:narrower: "[[container]]"
 ---
 
 

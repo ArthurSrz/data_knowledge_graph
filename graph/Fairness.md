@@ -2,8 +2,6 @@
 inferred:skos:narrower:
   - "[[Data privacy]]"
   - "[[Ethical checklist]]"
-  - "[[Ethical risks]]"
-  - "[[Fair AI]]"
   - "[[Individual fairness]]"
   - "[[Transparency]]"
   - "[[accountable AI]]"
