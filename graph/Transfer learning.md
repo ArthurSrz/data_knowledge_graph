@@ -16,7 +16,6 @@ reducesNeedFor: "[[Large datasets]]"
 accelerates: "[[Model training]]"
 broader: "[[Deep learning]]"
 inferred:skos:ancestor:
-  - "[[Artificial Intelligence (AI)]]"
   - "[[Deep learning]]"
   - "[[machine learning]]"
 ---

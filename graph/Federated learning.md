@@ -6,9 +6,7 @@ enables: ["[[Decentralized learning]]", "[[Privacy-preserving ML]]", "[[Edge com
 challenges: ["[[Communication efficiency]]", "[[System heterogeneity]]", "[[Statistical heterogeneity]]"]
 algorithms: ["[[FedAvg]]", "[[FedProx]]", "[[FedSGD]]"]
 broader: "[[machine learning]]"
-inferred:skos:ancestor:
-  - "[[Artificial Intelligence (AI)]]"
-  - "[[machine learning]]"
+inferred:skos:ancestor: "[[machine learning]]"
 ---
 
 # Federated Learning

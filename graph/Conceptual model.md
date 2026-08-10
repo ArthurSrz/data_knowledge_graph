@@ -9,7 +9,6 @@ broader: "[[Modeling]]"
 inferred:skos:ancestor:
   - "[[CRISP-DM Process]]"
   - "[[knowledge organization system]]"
-  - "[[machine learning projects]]"
   - "[[modeling]]"
 inferred:skos:broader:
   - "[[knowledge organization system]]"

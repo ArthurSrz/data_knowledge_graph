@@ -1,5 +1,3 @@
 ---
-inferred:skos:narrower:
-  - "[[Git worktree]]"
-  - "[[branch -vv]]"
+inferred:skos:narrower: "[[Git worktree]]"
 ---

@@ -15,7 +15,6 @@ relatedTo:
 inspiredBy: "[[Statistical learning theory]]"
 broader: "[[supervised learning]]"
 inferred:skos:ancestor:
-  - "[[Artificial Intelligence (AI)]]"
   - "[[machine learning]]"
   - "[[supervised learning]]"
 ---

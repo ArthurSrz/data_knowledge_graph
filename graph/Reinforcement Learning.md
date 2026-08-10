@@ -22,9 +22,7 @@ algorithms:
   - "[[Policy gradient]]"
   - "[[Actor-critic methods]]"
 broader: "[[machine learning]]"
-inferred:skos:ancestor:
-  - "[[Artificial Intelligence (AI)]]"
-  - "[[machine learning]]"
+inferred:skos:ancestor: "[[machine learning]]"
 ---
 
 # Reinforcement Learning

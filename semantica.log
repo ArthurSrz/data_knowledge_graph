@@ -3510,3 +3510,7 @@
 2026-08-10 11:51:12,748 - semantica.semantica.worker - INFO - Semantica worker started
 2026-08-10 11:57:58,633 - semantica.semantica - INFO - Semantica framework initialized
 2026-08-10 11:59:22,958 - semantica.semantica - INFO - Semantica framework initialized
+2026-08-10 14:52:01,715 - semantica.semantica.worker - INFO - Worker shutting down...
+2026-08-10 14:52:01,715 - semantica.semantica.worker - INFO - Worker shutting down...
+2026-08-10 14:52:02,257 - semantica.semantica.worker - INFO - Worker stopped
+2026-08-10 14:52:02,389 - semantica.semantica.worker - INFO - Worker stopped

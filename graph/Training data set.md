@@ -3,7 +3,6 @@ ComplementaryWith: "[[Test data set]]"
 skos:broader: "[[modeling]]"
 inferred:skos:ancestor:
   - "[[CRISP-DM Process]]"
-  - "[[machine learning projects]]"
   - "[[modeling]]"
 ---
 

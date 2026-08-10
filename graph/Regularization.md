@@ -7,9 +7,7 @@ reduces: "[[Model complexity]]"
 types: ["[[L1 regularization]]", "[[L2 regularization]]", "[[Elastic net]]", "[[Dropout]]"]
 usedIn: ["[[Linear regression]]", "[[Neural networks]]", "[[Support Vector Machines]]"]
 broader: "[[machine learning]]"
-inferred:skos:ancestor:
-  - "[[Artificial Intelligence (AI)]]"
-  - "[[machine learning]]"
+inferred:skos:ancestor: "[[machine learning]]"
 ---
 
 # Regularization

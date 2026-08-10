@@ -2,7 +2,6 @@
 partOf: "[[Neural network models]]"
 broader: "[[artificial neural network]]"
 inferred:skos:ancestor:
-  - "[[Artificial Intelligence (AI)]]"
   - "[[Deep learning]]"
   - "[[artificial neural network]]"
   - "[[machine learning]]"

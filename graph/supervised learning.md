@@ -1,8 +1,6 @@
 ---
 broader: "[[machine learning]]"
-inferred:skos:ancestor:
-  - "[[Artificial Intelligence (AI)]]"
-  - "[[machine learning]]"
+inferred:skos:ancestor: "[[machine learning]]"
 inferred:skos:narrower:
   - "[[Decision tree]]"
   - "[[Naive Bayes Classifier]]"

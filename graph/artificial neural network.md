@@ -10,7 +10,6 @@ instance of:
 different from: "[[biological neural network]]"
 broader: "[[Deep learning]]"
 inferred:skos:ancestor:
-  - "[[Artificial Intelligence (AI)]]"
   - "[[Deep learning]]"
   - "[[machine learning]]"
 inferred:skos:narrower:

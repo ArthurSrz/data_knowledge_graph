@@ -1,8 +1,6 @@
 ---
 broader: "[[machine learning]]"
-inferred:skos:ancestor:
-  - "[[Artificial Intelligence (AI)]]"
-  - "[[machine learning]]"
+inferred:skos:ancestor: "[[machine learning]]"
 inferred:skos:narrower:
   - "[[Excessive latency]]"
   - "[[ML System failures]]"
