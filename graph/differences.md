@@ -1,5 +1,5 @@
 ---
-type: Research Note
+rdf:type: Research Note
 title: Calculation Engine Differences
 description: Iterative calculation settings, partial column ranges, and evaluation order differences between Excel and Google Sheets.
 tags:

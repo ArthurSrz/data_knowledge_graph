@@ -5,7 +5,7 @@ tags:
   - AI_Agents
   - Autonomie
   - LLM
-type: skos:Concept
+rdf:type: skos:Concept
 skos:narrower:
   - "[[agent harness]]"
   - "[[AI agent]]"

@@ -1,5 +1,5 @@
 ---
-type: Research Note
+rdf:type: Research Note
 title: Formatting & Styles
 description: Conditional formatting, theme colors, fonts, charts, and sparklines — what converts and what is lost.
 tags:

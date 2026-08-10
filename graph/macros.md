@@ -1,5 +1,5 @@
 ---
-type: Research Note
+rdf:type: Research Note
 title: Macros & Scripting
 description: VBA and Apps Script are completely incompatible ecosystems with no reliable automated conversion path.
 tags:

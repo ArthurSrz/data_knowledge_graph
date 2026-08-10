@@ -1,8 +1,13 @@
 ---
-type: Research Note
+rdf:type: Research Note
 title: Limits & Performance
 description: Cell counts, column limits, file sizes, and performance cliffs for Excel vs Google Sheets.
-tags: [limits, performance, scalability, excel, google-sheets]
+tags:
+  - limits
+  - performance
+  - scalability
+  - excel
+  - google-sheets
 timestamp: 2026-06-28T00:00:00Z
 broader: "[[spreadsheet]]"
 inferred:skos:ancestor: "[[spreadsheet]]"

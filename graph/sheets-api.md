@@ -1,5 +1,5 @@
 ---
-type: Research Note
+rdf:type: Research Note
 title: Google Sheets API Quirks
 description: Rate limits, atomic batchUpdate rollback, field mask traps, coercion pitfalls, and named range eventual-consistency issues.
 tags:

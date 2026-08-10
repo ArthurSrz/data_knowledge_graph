@@ -1,5 +1,5 @@
 ---
-type: Research Note
+rdf:type: Research Note
 title: Pivot Tables
 description: Calculated fields produce different numerical results on each platform due to order-of-operations differences. Power Pivot has no Sheets equivalent.
 tags:

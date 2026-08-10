@@ -1,5 +1,5 @@
 ---
-type: Research Note
+rdf:type: Research Note
 title: Formula Compatibility — Google Sheets vs Excel
 description: Functions unique to each platform, array formula incompatibilities, and implicit type coercion differences.
 tags:

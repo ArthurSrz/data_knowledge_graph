@@ -1,5 +1,5 @@
 ---
-type: Research Note
+rdf:type: Research Note
 title: Formatting Losses
 description: Checkboxes, threaded comments, print areas, controls, and merged cells — features lost or degraded in conversion.
 tags:

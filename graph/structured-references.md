@@ -1,5 +1,5 @@
 ---
-type: Research Note
+rdf:type: Research Note
 title: Structured Table References
 description: Excel structured references (`Table1[@Column]`) vs Google Sheets table support — the critical `#This Row` gap.
 tags:

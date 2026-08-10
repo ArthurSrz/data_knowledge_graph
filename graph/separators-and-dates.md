@@ -1,5 +1,5 @@
 ---
-type: Research Note
+rdf:type: Research Note
 title: Locale & Language Issues
 description: Formula argument separators, translated function names, and date handling differences between Excel and Google Sheets.
 tags:

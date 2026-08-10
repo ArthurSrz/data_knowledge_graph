@@ -1,5 +1,5 @@
 ---
-type: Research Note
+rdf:type: Research Note
 title: Data Validation Differences
 description: Error handling modes, validation type granularity, checkbox behavior, and dropdown list differences between Excel and Google Sheets.
 tags:

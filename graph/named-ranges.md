@@ -1,5 +1,5 @@
 ---
-type: Research Note
+rdf:type: Research Note
 title: Named Ranges
 description: Scoping differences, ghost/orphaned ranges after tab deletion, and formula-only named ranges between Excel and Google Sheets.
 tags:

@@ -1,5 +1,5 @@
 ---
-type: Research Note
+rdf:type: Research Note
 title: Codebase Status — Handled vs Gaps
 description: Maps each research category to what the bijectivity codebase already handles vs. known gaps that remain unaddressed.
 tags:
