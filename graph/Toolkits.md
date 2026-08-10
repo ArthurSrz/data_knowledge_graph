@@ -17,8 +17,7 @@ tags:
   - Capacités_Agent
   - Intégrations
 broader: "[[agentic System]]"
-inferred:skos:ancestor:
-  - "[[agentic System]]"
+inferred:skos:ancestor: "[[agentic System]]"
 ---
 
 # Toolkits

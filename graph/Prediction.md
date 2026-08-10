@@ -1,4 +1,3 @@
 ---
-inferred:skos:narrower:
-  - "[[Target's pregnancy prediction]]"
+inferred:skos:narrower: "[[Target's pregnancy prediction]]"
 ---
