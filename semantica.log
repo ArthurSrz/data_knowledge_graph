@@ -3502,3 +3502,10 @@
 2026-08-10 11:48:44,769 - semantica.progress - INFO - [COMPLETED] | Module: ingest | Submodule: FileIngestor | File: Fault tolerance.md | Message: Ingested Fault tolerance.md (md)
 2026-08-10 11:48:44,769 - semantica.progress - INFO - [RUNNING] | Module: ingest | Submodule: FileIngestor | File: graph | Message: Processing file 874/874: Fault tolerance.md
 2026-08-10 11:48:44,769 - semantica.progress - INFO - [COMPLETED] | Module: ingest | Submodule: FileIngestor | File: graph | Message: Ingested 874 files
+2026-08-10 11:48:56,475 - semantica.centrality_calculator - INFO - Centrality calculator initialized
+2026-08-10 11:48:56,475 - semantica.graph_analyzer - INFO - Graph analyzer initialized (temporal: False)
+2026-08-10 11:48:57,567 - semantica.semantica - INFO - Semantica framework initialized
+2026-08-10 11:48:57,567 - semantica.semantica.worker - INFO - Semantica worker started
+2026-08-10 11:51:12,748 - semantica.semantica - INFO - Semantica framework initialized
+2026-08-10 11:51:12,748 - semantica.semantica.worker - INFO - Semantica worker started
+2026-08-10 11:57:58,633 - semantica.semantica - INFO - Semantica framework initialized
