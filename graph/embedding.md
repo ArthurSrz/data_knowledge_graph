@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[latent space]]"
+inferred:skos:narrower:
+  - "[[latent space]]"
 ---

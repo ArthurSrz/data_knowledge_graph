@@ -1,7 +1,8 @@
 ---
 partOf: "[[business understanding]]"
 broader: "[[CRISP-DM Process]]"
-inferred:skos:ancestor: "[[CRISP-DM Process]]"
+inferred:skos:ancestor:
+  - "[[CRISP-DM Process]]"
 ---
 
 Example of target : Electric utility Director of Operations 
