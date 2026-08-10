@@ -1,4 +1,6 @@
 ---
-inferred:skos:ancestor: "[[trust]]"
-inferred:skos:broader: "[[trust]]"
+inferred:skos:ancestor:
+  - "[[trust]]"
+inferred:skos:broader:
+  - "[[trust]]"
 ---

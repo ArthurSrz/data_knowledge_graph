@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[vector index]]"
+inferred:skos:narrower:
+  - "[[vector index]]"
 ---
