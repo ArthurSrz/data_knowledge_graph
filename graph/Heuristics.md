@@ -1,6 +1,7 @@
 ---
 broader: "[[heuristic]]"
-inferred:skos:ancestor: "[[heuristic]]"
+inferred:skos:ancestor:
+  - "[[heuristic]]"
 ---
 A simple and quickly implemented solution to a problem. Methods of solving problems using a simplified set of rules based on past experience. 
 

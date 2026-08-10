@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[artifact management]]"
+inferred:skos:narrower:
+  - "[[artifact management]]"
 ---
