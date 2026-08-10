@@ -2,8 +2,8 @@
 Changes: "[[chainrings]]"
 broader: "[[combination]]"
 inferred:skos:ancestor:
-  - "[[Algorithm]]"
   - "[[Unary operation]]"
+  - "[[algorithm]]"
   - "[[combination]]"
   - "[[combinatorics]]"
   - "[[selection]]"

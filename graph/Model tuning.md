@@ -78,7 +78,7 @@ From Snoek et al. (2012):
    - Holdout validation
    - Time series validation
 
-1. **Optimization [[Algorithm]]**:
+1. **Optimization [[algorithm]]**:
    - Searching strategy
    - Stopping criteria
    - Exploration vs exploitation

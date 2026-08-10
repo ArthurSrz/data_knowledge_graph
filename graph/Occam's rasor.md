@@ -19,8 +19,8 @@ Commons category: Occam's razor
 wikidata entity id: Q131012
 broader: "[[heuristic]]"
 inferred:skos:ancestor:
-  - "[[Algorithm]]"
   - "[[Dialogue]]"
+  - "[[algorithm]]"
   - "[[elicitation]]"
   - "[[heuristic]]"
 ---

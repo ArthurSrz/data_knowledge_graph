@@ -1,9 +1,19 @@
 ---
-foundationalPaper: "Random Search for Hyper-Parameter Optimization (Bergstra & Bengio, 2012)"
-keyPapers: ["Practical Bayesian Optimization of Machine Learning Algorithms (Snoek, Larochelle & Adams, 2012)", "Algorithms for Hyper-Parameter Optimization (Bergstra et al., 2011)", "Sequential Model-Based Optimization for General Algorithm Configuration (Hutter et al., 2011)"]
-tunes: "[[Algorithm]]"
-optimizedBy: ["[[Grid search]]", "[[Random search]]", "[[Bayesian optimization]]", "[[Hyperband]]"]
-affects: ["[[Model performance]]", "[[Training time]]", "[[Generalization]]"]
+foundationalPaper: Random Search for Hyper-Parameter Optimization (Bergstra & Bengio, 2012)
+keyPapers:
+  - Practical Bayesian Optimization of Machine Learning Algorithms (Snoek, Larochelle & Adams, 2012)
+  - Algorithms for Hyper-Parameter Optimization (Bergstra et al., 2011)
+  - Sequential Model-Based Optimization for General Algorithm Configuration (Hutter et al., 2011)
+tunes: "[[algorithm]]"
+optimizedBy:
+  - "[[Grid search]]"
+  - "[[Random search]]"
+  - "[[Bayesian optimization]]"
+  - "[[Hyperband]]"
+affects:
+  - "[[Model performance]]"
+  - "[[Training time]]"
+  - "[[Generalization]]"
 broader: "[[machine learning]]"
 inferred:skos:ancestor:
   - "[[AI]]"

@@ -1,7 +1,7 @@
 ---
 partOf: "[[Graph network analysis]]"
-skos:broader: "[[Algorithm]]"
-inferred:skos:ancestor: "[[Algorithm]]"
+skos:broader: "[[algorithm]]"
+inferred:skos:ancestor: "[[algorithm]]"
 inferred:skos:narrower:
   - "[[Dijkstra's shortest path]]"
   - "[[Louvain algorithm]]"

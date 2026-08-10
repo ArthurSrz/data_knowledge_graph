@@ -2,7 +2,7 @@
 subclass of:
   - "[[graph/dialogue]]"
   - "[[graph/method]]"
-  - "[[graph/algorithm]]"
+  - "[[algorithm]]"
 used by: "[[graph/knowledge base]]"
 has use: "[[graph/problem solving]]"
 different from: "[[graph/Heuristic]]"
@@ -22,12 +22,10 @@ MeSH tree code:
 Library of Congress Classification: BD260
 wikidata entity id: Q201413
 inferred:skos:ancestor:
-  - "[[Algorithm]]"
   - "[[Dialogue]]"
+  - "[[algorithm]]"
   - "[[elicitation]]"
-inferred:skos:broader:
-  - "[[Algorithm]]"
-  - "[[Dialogue]]"
+inferred:skos:broader: "[[Dialogue]]"
 inferred:skos:narrower:
   - "[[Heuristics]]"
   - "[[Lean Logic]]"

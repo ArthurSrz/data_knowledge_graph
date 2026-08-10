@@ -1,8 +1,8 @@
 ---
 broader: "[[heuristic]]"
 inferred:skos:ancestor:
-  - "[[Algorithm]]"
   - "[[Dialogue]]"
+  - "[[algorithm]]"
   - "[[elicitation]]"
   - "[[heuristic]]"
 ---

@@ -6,9 +6,9 @@ subclass of:
   - "[[Metric]]"
 broader: "[[Graph algorithm]]"
 inferred:skos:ancestor:
-  - "[[Algorithm]]"
   - "[[Graph algorithm]]"
   - "[[Metric]]"
+  - "[[algorithm]]"
 inferred:skos:narrower:
   - "[[Degree centrality]]"
   - "[[Eigenvector centrality]]"

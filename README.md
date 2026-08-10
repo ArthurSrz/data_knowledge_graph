@@ -193,8 +193,8 @@ The graph encodes [SKOS](https://www.w3.org/2004/02/skos/)-style hierarchical re
           - [chat engines](graph/chat%20engines.md) · [Hallucination](graph/Hallucination.md) · [In-Context Learning](graph/In-Context%20Learning.md) · [LLaMA](graph/LLaMA.md) · [Ollama](graph/Ollama.md) · …
         - [masked language models](graph/masked%20language%20models.md) → [BERT](graph/BERT.md) → [camemBERT](graph/camemBERT.md)
   - [claude cowork](graph/claude%20cowork.md) · [Man-Computer Symbiosis](graph/Man-Computer%20Symbiosis.md) · [The Shift from Models to Compound AI Systems](graph/The%20Shift%20from%20Models%20to%20Compound%20AI%20Systems.md) · …
-- [Algorithm](graph/Algorithm.md)
-  - [Algorithm selection](graph/Algorithm%20selection.md) · [Greediness](graph/Greediness.md) · [Non-parametric algorithms](graph/Non-parametric%20algorithms.md) · [selection](graph/selection.md)
+- [algorithm](algorithm.md)
+  - [algorithm selection](algorithm%20selection.md) · [Greediness](graph/Greediness.md) · [Non-parametric algorithms](graph/Non-parametric%20algorithms.md) · [selection](graph/selection.md)
 - [automation](automation.md)
   - [automation framework](automation%20framework.md) · [office automation](graph/office%20automation.md)
 - [Business understanding](graph/Business%20understanding.md)

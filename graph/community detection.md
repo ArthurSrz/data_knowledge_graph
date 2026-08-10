@@ -2,8 +2,8 @@
 instanceOf: "[[Graph algorithm]]"
 broader: "[[Graph algorithm]]"
 inferred:skos:ancestor:
-  - "[[Algorithm]]"
   - "[[Graph algorithm]]"
+  - "[[algorithm]]"
 ---
 Algorithm that naturally answers questions like : 
 

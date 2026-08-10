@@ -1,10 +1,10 @@
 ---
 subclass of:
   - "[[graph/Unary operation]]"
-broader: "[[Algorithm]]"
+broader: "[[algorithm]]"
 inferred:skos:ancestor:
-  - "[[Algorithm]]"
   - "[[Unary operation]]"
+  - "[[algorithm]]"
   - "[[combinatorics]]"
 inferred:skos:narrower: "[[combination]]"
 ---

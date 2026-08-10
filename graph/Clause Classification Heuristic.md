@@ -17,12 +17,12 @@ related to:
   - "[[negotiation]]"
 broader: "[[clause]]"
 inferred:skos:ancestor:
-  - "[[Algorithm]]"
   - "[[Application development]]"
   - "[[Dialogue]]"
   - "[[Documentation]]"
   - "[[Process]]"
   - "[[Provenance]]"
+  - "[[algorithm]]"
   - "[[clause]]"
   - "[[elicitation]]"
   - "[[heuristic]]"
