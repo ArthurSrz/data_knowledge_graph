@@ -1,7 +1,6 @@
 ---
 broader: "[[machine learning projects]]"
-inferred:skos:ancestor:
-  - "[[machine learning projects]]"
+inferred:skos:ancestor: "[[machine learning projects]]"
 inferred:skos:narrower:
   - "[[Data preparation]]"
   - "[[Evaluate results]]"

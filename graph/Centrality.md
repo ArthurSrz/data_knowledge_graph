@@ -1,4 +1,3 @@
 ---
-inferred:skos:narrower:
-  - "[[Degree centrality]]"
+inferred:skos:narrower: "[[Degree centrality]]"
 ---

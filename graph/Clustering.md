@@ -1,4 +1,3 @@
 ---
-inferred:skos:narrower:
-  - "[[K-Means Clustering]]"
+inferred:skos:narrower: "[[K-Means Clustering]]"
 ---

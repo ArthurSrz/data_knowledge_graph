@@ -4,8 +4,7 @@ partOf:
 oppositeOf:
   - "[[Unstructured data]]"
 broader: "[[data type]]"
-inferred:skos:ancestor:
-  - "[[data type]]"
+inferred:skos:ancestor: "[[data type]]"
 ---
 
 [[data]] whose structure is based on pre-defined fields for each record

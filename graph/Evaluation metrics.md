@@ -1,4 +1,3 @@
 ---
-inferred:skos:narrower:
-  - "[[F1 Score]]"
+inferred:skos:narrower: "[[F1 Score]]"
 ---

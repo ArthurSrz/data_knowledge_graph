@@ -1,4 +1,3 @@
 ---
-inferred:skos:narrower:
-  - "[[Beta testing]]"
+inferred:skos:narrower: "[[Beta testing]]"
 ---

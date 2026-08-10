@@ -4,8 +4,7 @@ usedIn: "[[Natural Language Processing]]"
 implements: "[[Deep learning]]"
 trainedOn: "[[training data set]]"
 broader: "[[Language modeling]]"
-inferred:skos:ancestor:
-  - "[[Language modeling]]"
+inferred:skos:ancestor: "[[Language modeling]]"
 inferred:skos:narrower:
   - "[[AI prompt]]"
   - "[[Hallucination]]"
