@@ -1,4 +1,6 @@
 ---
-broader: "[[version control]]"
+broader:
+  - "[[version control]]"
+  - "[[artifact]]"
 inferred:skos:ancestor: "[[version control]]"
 ---

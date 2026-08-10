@@ -1,9 +1,9 @@
 ---
 inferred:skos:narrower:
-  - "[[Artifact Management]]"
   - "[[Git]]"
   - "[[Repository]]"
   - "[[Traceable Artifacts]]"
+  - "[[artifact management]]"
   - "[[rollback]]"
   - "[[rollback capability]]"
 ---
