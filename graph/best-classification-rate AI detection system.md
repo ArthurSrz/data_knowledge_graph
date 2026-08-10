@@ -2,7 +2,6 @@
 instanceof: "[[Accuracy 1]]"
 broader: "[[ML system]]"
 inferred:skos:ancestor:
-  - "[[AI]]"
   - "[[Artificial Intelligence (AI)]]"
   - "[[ML system]]"
   - "[[machine learning]]"

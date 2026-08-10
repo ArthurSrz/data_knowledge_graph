@@ -6,9 +6,7 @@ relatedTo: "[[Computer vision]]"
 applications: ["[[Large Language Model]]", "[[BERT]]", "[[GPT2]]"]
 techniques: ["[[Transformers]]", "[[Tokenizer]]", "[[Embeddings]]"]
 broader: "[[Artificial Intelligence (AI)]]"
-inferred:skos:ancestor:
-  - "[[AI]]"
-  - "[[Artificial Intelligence (AI)]]"
+inferred:skos:ancestor: "[[Artificial Intelligence (AI)]]"
 inferred:skos:narrower:
   - "[[Embeddings]]"
   - "[[Sentiment analysis]]"

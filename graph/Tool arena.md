@@ -1,7 +1,4 @@
 ---
 broader: "[[agentic System]]"
-inferred:skos:ancestor:
-  - "[[AI]]"
-  - "[[Artificial Intelligence (AI)]]"
-  - "[[agentic System]]"
+inferred:skos:ancestor: "[[agentic System]]"
 ---

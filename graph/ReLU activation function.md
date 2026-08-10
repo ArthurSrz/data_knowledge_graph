@@ -7,7 +7,6 @@ variants: ["[[Leaky ReLU]]", "[[Parametric ReLU]]", "[[ELU]]", "[[GELU]]"]
 usedIn: ["[[Deep neural networks]]", "[[Convolutional neural networks]]"]
 broader: "[[artificial neural network]]"
 inferred:skos:ancestor:
-  - "[[AI]]"
   - "[[Artificial Intelligence (AI)]]"
   - "[[Deep learning]]"
   - "[[artificial neural network]]"

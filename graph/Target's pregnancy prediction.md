@@ -1,8 +1,5 @@
 ---
 broader: "[[prediction]]"
-inferred:skos:ancestor:
-  - "[[AI]]"
-  - "[[Artificial Intelligence (AI)]]"
-  - "[[prediction]]"
+inferred:skos:ancestor: "[[prediction]]"
 ---
 One of [[Privacy challenge]]

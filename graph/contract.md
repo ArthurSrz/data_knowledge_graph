@@ -1,5 +1,3 @@
 ---
-inferred:skos:narrower:
-  - "[[liability]]"
-  - "[[model contract]]"
+inferred:skos:narrower: "[[model contract]]"
 ---

@@ -4,7 +4,5 @@ creator: "[[Michael Stonebraker]]"
 hasUse:
   - "[[Relational database]]"
 broader: "[[backend]]"
-inferred:skos:ancestor:
-  - "[[application development]]"
-  - "[[backend]]"
+inferred:skos:ancestor: "[[backend]]"
 ---

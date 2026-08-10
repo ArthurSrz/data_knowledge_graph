@@ -7,7 +7,6 @@ computedBy: "[[Softmax function]]"
 relatedTo: ["[[Query-Key-Value]]", "[[Scaled dot-product attention]]"]
 broader: "[[Transformers]]"
 inferred:skos:ancestor:
-  - "[[AI]]"
   - "[[Artificial Intelligence (AI)]]"
   - "[[Deep learning]]"
   - "[[Transformers]]"

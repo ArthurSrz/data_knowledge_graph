@@ -1,7 +1,5 @@
 ---
-inferred:skos:narrower:
-  - "[[Daily stand-ups]]"
-  - "[[Sprint planning]]"
+inferred:skos:narrower: "[[Daily stand-ups]]"
 ---
 
 

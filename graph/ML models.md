@@ -1,6 +1,3 @@
 ---
-inferred:skos:narrower:
-  - "[[Decoders model]]"
-  - "[[Online models]]"
-  - "[[Support vector]]"
+inferred:skos:narrower: "[[Support vector]]"
 ---

@@ -1,7 +1,3 @@
 ---
-inferred:skos:narrower:
-  - "[[HTML]]"
-  - "[[Markdown]]"
-  - "[[XHTML]]"
-  - "[[XML]]"
+inferred:skos:narrower: "[[HTML]]"
 ---

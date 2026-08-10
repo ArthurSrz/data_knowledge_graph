@@ -1,5 +1,3 @@
 ---
-inferred:skos:narrower:
-  - "[[Linear regression models]]"
-  - "[[Logistic regression]]"
+inferred:skos:narrower: "[[Logistic regression]]"
 ---

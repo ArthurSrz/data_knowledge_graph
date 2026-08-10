@@ -7,7 +7,6 @@ techniques: ["[[Word2Vec]]", "[[GloVe]]", "[[FastText]]"]
 properties: ["[[Semantic similarity]]", "[[Analogy completion]]", "[[Vector arithmetic]]"]
 broader: "[[Embeddings]]"
 inferred:skos:ancestor:
-  - "[[AI]]"
   - "[[Artificial Intelligence (AI)]]"
   - "[[Embeddings]]"
   - "[[Natural Language Processing]]"

@@ -2,12 +2,9 @@
 inferred:skos:narrower:
   - "[[AI prompt]]"
   - "[[Hallucination]]"
-  - "[[In-Context Learning]]"
   - "[[LLM Models]]"
   - "[[LLaMA]]"
   - "[[Ollama]]"
-  - "[[RAG (Retrieval-Augmented Generation)]]"
   - "[[Retrieval Augmented Generation]]"
   - "[[chat modes]]"
-  - "[[moderation]]"
 ---

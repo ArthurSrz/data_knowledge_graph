@@ -7,7 +7,6 @@ challenges: ["[[Communication efficiency]]", "[[System heterogeneity]]", "[[Stat
 algorithms: ["[[FedAvg]]", "[[FedProx]]", "[[FedSGD]]"]
 broader: "[[machine learning]]"
 inferred:skos:ancestor:
-  - "[[AI]]"
   - "[[Artificial Intelligence (AI)]]"
   - "[[machine learning]]"
 ---

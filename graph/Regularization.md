@@ -8,7 +8,6 @@ types: ["[[L1 regularization]]", "[[L2 regularization]]", "[[Elastic net]]", "[[
 usedIn: ["[[Linear regression]]", "[[Neural networks]]", "[[Support Vector Machines]]"]
 broader: "[[machine learning]]"
 inferred:skos:ancestor:
-  - "[[AI]]"
   - "[[Artificial Intelligence (AI)]]"
   - "[[machine learning]]"
 ---

@@ -11,7 +11,6 @@ wikidata entity id: Q107154297
 EmbodiementOf: "[[latent]]"
 broader: "[[Embeddings]]"
 inferred:skos:ancestor:
-  - "[[AI]]"
   - "[[Artificial Intelligence (AI)]]"
   - "[[Embeddings]]"
   - "[[Natural Language Processing]]"

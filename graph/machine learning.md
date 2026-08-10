@@ -1,8 +1,6 @@
 ---
 skos:broader: "[[Artificial Intelligence (AI)]]"
-inferred:skos:ancestor:
-  - "[[AI]]"
-  - "[[Artificial Intelligence (AI)]]"
+inferred:skos:ancestor: "[[Artificial Intelligence (AI)]]"
 inferred:skos:narrower:
   - "[[Deep learning]]"
   - "[[Edge ML]]"
