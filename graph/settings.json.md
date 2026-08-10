@@ -1,7 +1,3 @@
 ---
-broader: "[[application development]]"
-inferred:skos:ancestor:
-  - "[[Process]]"
-  - "[[application development]]"
+inferred:skos:ancestor: "[[application development]]"
 ---
-[[claude code]] file in charge of your [[Terminal]] settings 

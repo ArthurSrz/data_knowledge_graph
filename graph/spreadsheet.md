@@ -20,17 +20,8 @@ Commons category: Spreadsheet software
 wikidata entity id: Q183197
 inferred:skos:narrower:
   - "[[active cell]]"
-  - "[[calculated-fields]]"
-  - "[[conditional-formatting]]"
-  - "[[cross-sheet source references]]"
   - "[[excel]]"
-  - "[[google sheet]]"
   - "[[handled-vs-gaps]]"
-  - "[[named-ranges]]"
-  - "[[partial column range]]"
-  - "[[separators-and-dates]]"
   - "[[sparkline]]"
-  - "[[structured-references]]"
   - "[[table cell]]"
-  - "[[theme color]]"
 ---

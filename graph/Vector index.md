@@ -9,7 +9,6 @@ part of: "[[graph/Euclidean space]]"
 skos:broader: "[[index]]"
 inferred:skos:ancestor:
   - "[[Process]]"
-  - "[[Vector space]]"
   - "[[data]]"
   - "[[index]]"
   - "[[vector]]"

@@ -121,7 +121,6 @@ pronunciation audio:
 wikidata entity id: Q251
 broader: "[[Programming language]]"
 inferred:skos:ancestor:
-  - "[[Process]]"
   - "[[Programming language]]"
   - "[[application development]]"
 ---

@@ -5,9 +5,7 @@ same:
   - "[[variance]]"
 meanTo: "[[communicate uncertainty]]"
 broader: "[[Evaluation metrics]]"
-inferred:skos:ancestor:
-  - "[[Evaluation metrics]]"
-  - "[[evaluation]]"
+inferred:skos:ancestor: "[[Evaluation metrics]]"
 ---
 Of **all** the predicted positives, how many were actually positives. Ratio of [[True Positive (TP)]] divided by the sum of [[True Positive (TP)]] and [[False positives]]. 
 

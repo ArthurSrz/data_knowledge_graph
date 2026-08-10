@@ -42,26 +42,15 @@ equivalent class: http://biomodels.net/SBO/SBO_0000375
 exact match: http://purl.obolibrary.org/obo/BFO_0000015
 wikidata entity id: Q3249551
 inferred:skos:narrower:
-  - "[[Design thinking]]"
-  - "[[Experimentation]]"
   - "[[Feasability]]"
   - "[[Feedback]]"
-  - "[[Goals]]"
   - "[[Instructions]]"
   - "[[Management]]"
-  - "[[Mapping]]"
   - "[[Session]]"
   - "[[Situation]]"
-  - "[[Stretch pants approach]]"
-  - "[[Updating]]"
-  - "[[application development]]"
   - "[[automation]]"
   - "[[cadence]]"
-  - "[[collaborators]]"
   - "[[context]]"
-  - "[[continuous learning]]"
-  - "[[crawl-walk-run]]"
   - "[[data]]"
-  - "[[monitor]]"
   - "[[stability]]"
 ---

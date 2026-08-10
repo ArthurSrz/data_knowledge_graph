@@ -2,7 +2,6 @@
 broader: "[[User research]]"
 inferred:skos:ancestor:
   - "[[Design thinking]]"
-  - "[[Process]]"
   - "[[User research]]"
 ---
 Key aspect to [[change management]]. Can use the "Train the Trainer" approach.

@@ -1,12 +1,6 @@
 ---
 inferred:skos:narrower:
-  - "[[Information Gain (IG)]]"
-  - "[[Learning curve]]"
-  - "[[Margin]]"
-  - "[[Similarity scores]]"
   - "[[Threshold value]]"
-  - "[[business impact]]"
   - "[[centrality]]"
   - "[[measure]]"
-  - "[[reach]]"
 ---

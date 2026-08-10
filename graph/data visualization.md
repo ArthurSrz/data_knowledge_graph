@@ -17,7 +17,5 @@ said to be the same as: "[[statistical graphics]]"
 uses: "[[data visualization software]]"
 partially coincident with: "[[information visualization]]"
 wikidata entity id: Q6504956
-inferred:skos:narrower:
-  - "[[Dashboard]]"
-  - "[[statistical graphics]]"
+inferred:skos:narrower: "[[Dashboard]]"
 ---

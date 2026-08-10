@@ -1,8 +1,3 @@
 ---
-broader: "[[Design thinking]]"
-inferred:skos:ancestor:
-  - "[[Design thinking]]"
-  - "[[Process]]"
+inferred:skos:ancestor: "[[Design thinking]]"
 ---
-Ways to drive [[ML system]] design. 
-

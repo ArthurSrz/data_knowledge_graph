@@ -2,7 +2,6 @@
 broader: "[[User research]]"
 inferred:skos:ancestor:
   - "[[Design thinking]]"
-  - "[[Process]]"
   - "[[User research]]"
 ---
 [[ML system]] only helps accomplishing some task. 

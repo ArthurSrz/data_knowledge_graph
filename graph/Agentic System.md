@@ -20,7 +20,6 @@ inferred:skos:narrower:
   - "[[Toolkits]]"
   - "[[action module]]"
   - "[[agency]]"
-  - "[[agent harness]]"
   - "[[agent identity]]"
   - "[[agent role type]]"
   - "[[claude code]]"

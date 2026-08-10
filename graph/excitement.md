@@ -3,7 +3,6 @@ broader: "[[Empathy]]"
 inferred:skos:ancestor:
   - "[[Design thinking]]"
   - "[[Empathy]]"
-  - "[[Process]]"
 ---
 
 ## Definition

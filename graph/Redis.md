@@ -4,7 +4,6 @@ TypeOf: "[[Open source software]]"
 broader: "[[Backend]]"
 inferred:skos:ancestor:
   - "[[Backend]]"
-  - "[[Process]]"
   - "[[application development]]"
 ---
 NoSQL database management software. 

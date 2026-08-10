@@ -13,7 +13,6 @@ inferred:skos:narrower:
   - "[[Natural Language Processing]]"
   - "[[Symbolism]]"
   - "[[agentic System]]"
-  - "[[compound AI system]]"
   - "[[connexionism]]"
   - "[[machine learning]]"
 ---

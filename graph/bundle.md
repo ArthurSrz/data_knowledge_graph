@@ -11,8 +11,6 @@ image: http://commons.wikimedia.org/wiki/Special:FilePath/KalksandsteinPalettens
 wikidata entity id: Q83808937
 broader: "[[application development]]"
 inferred:skos:ancestor:
-  - "[[Process]]"
-  - "[[Product]]"
   - "[[application development]]"
   - "[[product packaging]]"
 ---

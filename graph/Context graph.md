@@ -3,9 +3,5 @@ madeOf:
   - "[[context]]"
   - "[[graph]]"
 broader: "[[knowledge graph]]"
-inferred:skos:ancestor:
-  - "[[Knowledge base]]"
-  - "[[graph]]"
-  - "[[knowledge]]"
-  - "[[knowledge graph]]"
+inferred:skos:ancestor: "[[knowledge graph]]"
 ---

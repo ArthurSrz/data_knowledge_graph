@@ -6,7 +6,6 @@ inferred:skos:ancestor:
   - "[[machine learning]]"
 inferred:skos:narrower:
   - "[[Decision tree]]"
-  - "[[K-Nearest Neighbor algorithm]]"
   - "[[Naive Bayes Classifier]]"
   - "[[Support Vector Machine]]"
 ---

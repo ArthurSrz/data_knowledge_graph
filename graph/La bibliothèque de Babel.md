@@ -1,8 +1,3 @@
 ---
 inferred:skos:related: "[[combinatorics]]"
 ---
-> [!quote]
-> Comme tous les hommes de la Bibliothèque, j’ai voyagé dans ma jeunesse ; j’ai effectué des pèlerinages à la recherche d’un livre et peut-être du catalogue des catalogues ; maintenant que mes yeux sont à peine capables de déchiffrer ce que j’écris, je me prépare à mourir à quelques courtes lieues de l’hexagone où je naquis. Mort, il ne manquera pas de mains pieuses pour me jeter par-dessus la balustrade : mon tombeau sera l’air insondable ; mon corps s’enfoncera longuement, se corrompra, se dissoudra dans le vent engendré par la chute, qui est infinie. Car j’affirme que la Bibliothèque est interminable. Pour les idéalistes, les salles hexagonales sont une forme nécessaire de l’espace absolu, ou du moins de notre intuition de l’espace ; ils estiment qu’une salle triangulaire ou pentagonale serait inconcevable. Quant aux mystiques, ils prétendent que l’extase leur révèle une chambre circulaire avec un grand livre également circulaire à dos continu, qui fait le tour complet des murs ; mais leur témoignage est suspect, leurs paroles obscures : ce livre cyclique, c’est Dieu… Qu’il me suffise, pour le moment, de redire la sentence classique : la Bibliothèque est une sphère dont le centre véritable est un hexagone quelconque, et dont la circonférence est inaccessible.
-
-
-

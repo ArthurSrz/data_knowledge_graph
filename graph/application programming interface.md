@@ -33,8 +33,6 @@ name: Application Programming Interface
 wikidata entity id: Q165194
 broader: "[[application development]]"
 inferred:skos:ancestor:
-  - "[[Infrastructure]]"
-  - "[[Process]]"
   - "[[application development]]"
   - "[[communication protocol]]"
   - "[[computer interface]]"

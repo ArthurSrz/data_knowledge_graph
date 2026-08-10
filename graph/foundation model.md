@@ -5,7 +5,5 @@ inferred:skos:ancestor:
   - "[[Artificial Intelligence (AI)]]"
   - "[[Deep learning]]"
   - "[[machine learning]]"
-inferred:skos:narrower:
-  - "[[multimodal model]]"
-  - "[[tabular foundation model]]"
+inferred:skos:narrower: "[[multimodal model]]"
 ---

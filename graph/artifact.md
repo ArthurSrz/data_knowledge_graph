@@ -20,12 +20,7 @@ equivalent class: http://www.cidoc-crm.org/entity/e25-man-made-feature/version-6
 OpenStreetMap key: man_made
 image: http://commons.wikimedia.org/wiki/Special:FilePath/37%20Physical%20Objects.jpg
 wikidata entity id: Q16686448
-inferred:skos:ancestor:
-  - "[[Knowledge base]]"
-  - "[[Object]]"
-  - "[[graph]]"
-  - "[[knowledge]]"
-  - "[[knowledge graph]]"
+inferred:skos:ancestor: "[[Object]]"
 inferred:skos:broader: "[[Object]]"
 inferred:skos:narrower: "[[artifact management]]"
 ---

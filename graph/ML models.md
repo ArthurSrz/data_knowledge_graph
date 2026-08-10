@@ -23,7 +23,6 @@ inferred:skos:narrower:
   - "[[optimizer]]"
   - "[[other-losses]]"
   - "[[parameter]]"
-  - "[[prediction]]"
 ---
 
 # ML Models

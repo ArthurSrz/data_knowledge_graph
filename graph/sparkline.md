@@ -7,7 +7,6 @@ Commons category: Sparkline
 wikidata entity id: Q2307841
 broader: "[[spreadsheet]]"
 inferred:skos:ancestor:
-  - "[[data visualization]]"
   - "[[spreadsheet]]"
   - "[[statistical graphics]]"
 ---

@@ -1,9 +1,7 @@
 ---
 tendsToward: "[[Man-Computer Symbiosis]]"
 broader: "[[Design thinking]]"
-inferred:skos:ancestor:
-  - "[[Design thinking]]"
-  - "[[Process]]"
+inferred:skos:ancestor: "[[Design thinking]]"
 inferred:skos:narrower:
   - "[[Task analysis]]"
   - "[[Task flow diagram]]"

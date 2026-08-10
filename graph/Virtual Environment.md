@@ -2,7 +2,6 @@
 firstStepOf: "[[ML system design process]]"
 broader: "[[Python]]"
 inferred:skos:ancestor:
-  - "[[Process]]"
   - "[[Programming language]]"
   - "[[Python]]"
   - "[[application development]]"

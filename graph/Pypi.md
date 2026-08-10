@@ -10,7 +10,6 @@ logo image: http://commons.wikimedia.org/wiki/Special:FilePath/PyPI%20logo.svg
 wikidata entity id: Q2984686
 broader: "[[Python]]"
 inferred:skos:ancestor:
-  - "[[Process]]"
   - "[[Programming language]]"
   - "[[Python]]"
   - "[[application development]]"

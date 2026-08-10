@@ -1,16 +1,3 @@
 ---
-broader: "[[Fairness]]"
 inferred:skos:ancestor: "[[Fairness]]"
 ---
-Clear responsibility for outcomes. Users have recourse.
-
-
-
-## Related concepts
-
-- [[accountability]] - The foundation of accountable AI systems
-- [[Fair AI]] - Ensuring AI systems are equitable and unbiased
-- [[Ethical checklist]] - Guidelines for ethical AI development
-- [[Transparency]] - Making AI decisions understandable
-- [[Ethical risks]] - Potential pitfalls in AI deployment
-- [[Privacy by design]] - Incorporating privacy from the start

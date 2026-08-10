@@ -12,11 +12,7 @@ variantsInclude:
   - "[[Stochastic gradient descent]]"
   - "[[Mini-batch gradient descent]]"
 broader: "[[Optimizer algorithm]]"
-inferred:skos:ancestor:
-  - "[[AI]]"
-  - "[[Artificial Intelligence (AI)]]"
-  - "[[Optimizer algorithm]]"
-  - "[[machine learning]]"
+inferred:skos:ancestor: "[[Optimizer algorithm]]"
 inferred:skos:narrower:
   - "[[Batch gradient descent]]"
   - "[[Mini-batch gradient descent]]"

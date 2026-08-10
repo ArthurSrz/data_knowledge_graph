@@ -36,5 +36,4 @@ Library of Congress Classification: PN1551
 Gujarati Vishwakosh entry: વાક્-3-નાટ્યશાસ્ત્ર
 broader: "[[elicitation]]"
 inferred:skos:ancestor: "[[elicitation]]"
-inferred:skos:narrower: "[[heuristic]]"
 ---

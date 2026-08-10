@@ -3,7 +3,6 @@ calculationUnder: "[[Retrieval Augmented Generation]]"
 broader: "[[similarity measure]]"
 inferred:skos:ancestor:
   - "[[Distance]]"
-  - "[[Vector space]]"
   - "[[similarity measure]]"
 ---
 

@@ -1,7 +1,5 @@
 ---
-inferred:skos:narrower:
-  - "[[Statefulness]]"
-  - "[[Stateless]]"
+inferred:skos:narrower: "[[Statefulness]]"
 ---
 Adjective to qualify an evolving program that represent task progress in a persistent, modifiable form across steps.
 

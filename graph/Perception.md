@@ -14,6 +14,5 @@ broader: "[[Design thinking]]"
 inferred:skos:ancestor:
   - "[[Design thinking]]"
   - "[[Interpretation]]"
-  - "[[Process]]"
 inferred:skos:broader: "[[Interpretation]]"
 ---

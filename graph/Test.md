@@ -1,7 +1,4 @@
 ---
-inferred:skos:narrower:
-  - "[[Beta testing]]"
-  - "[[Unit tests]]"
-  - "[[turing test]]"
+inferred:skos:narrower: "[[Beta testing]]"
 ---
 Analyze feedback of users

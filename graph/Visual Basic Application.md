@@ -30,7 +30,6 @@ Stack Exchange tag: https://stackoverflow.com/tags/vba
 wikidata entity id: Q667566
 broader: "[[Programming language]]"
 inferred:skos:ancestor:
-  - "[[Process]]"
   - "[[Programming language]]"
   - "[[application development]]"
 ---

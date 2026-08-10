@@ -6,7 +6,6 @@ inferred:skos:ancestor:
   - "[[Natural Language Processing]]"
 inferred:skos:narrower:
   - "[[Large Language Model]]"
-  - "[[autoregressive language models]]"
   - "[[masked language models]]"
 ---
 [[probability]] distribution over sequences of [[token]]. 

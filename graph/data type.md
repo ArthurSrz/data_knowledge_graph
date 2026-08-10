@@ -25,5 +25,4 @@ inferred:skos:narrower:
   - "[[Structured data]]"
   - "[[Unstructured data]]"
   - "[[continuum data]]"
-  - "[[tabular data]]"
 ---

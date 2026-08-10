@@ -1,6 +1,3 @@
 ---
-broader: "[[Infrastructure]]"
 inferred:skos:ancestor: "[[Infrastructure]]"
 ---
-![Video random-access memory Thumbnail](https://upload.wikimedia.org/wikipedia/commons/1/1b/GDDR5X_1080ti.jpg)
-[Video random-access memory](https://en.wikipedia.org/wiki/Video_random-access_memory): Video random-access memory (VRAM) is dedicated computer memory used to store the pixels and other graphics data as a framebuffer to be rendered on a computer monitor. It often uses a different technology than other computer memory, in order to be read quickly for display on a screen.

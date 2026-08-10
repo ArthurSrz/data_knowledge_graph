@@ -8,9 +8,7 @@ inferred:skos:ancestor:
 inferred:skos:narrower:
   - "[[Model selection]]"
   - "[[conceptual model]]"
-  - "[[model evaluation]]"
   - "[[model fit]]"
-  - "[[model tuning]]"
   - "[[training data set]]"
 ---
 We collect past [[Observations]], and associate [[feature]], and define a [[Target]]. The model relate the 3. When we train, we identify the optimal parameters in the equation or set of equations. 

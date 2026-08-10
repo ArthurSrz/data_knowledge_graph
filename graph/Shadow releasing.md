@@ -1,6 +1,4 @@
 ---
 broader: "[[Deploy]]"
-inferred:skos:ancestor:
-  - "[[Deploy]]"
-  - "[[Infrastructure]]"
+inferred:skos:ancestor: "[[Deploy]]"
 ---

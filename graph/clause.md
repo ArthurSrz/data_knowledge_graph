@@ -13,7 +13,5 @@ main Wikidata property: section
 wikidata entity id: Q1527956
 inferred:skos:narrower:
   - "[[clause classification heuristic]]"
-  - "[[exclusion clause]]"
-  - "[[force majeure]]"
   - "[[non-compete clause]]"
 ---

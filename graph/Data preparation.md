@@ -10,7 +10,6 @@ inferred:skos:narrower:
   - "[[Split data]]"
   - "[[Tidy Data]]"
   - "[[Z-Score normalization]]"
-  - "[[feature engineering]]"
   - "[[truncation]]"
 ---
 Step of the [[CRISP-DM Process]]. 

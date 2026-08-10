@@ -1,7 +1,3 @@
 ---
-broader: "[[application development]]"
-inferred:skos:ancestor:
-  - "[[Process]]"
-  - "[[application development]]"
+inferred:skos:ancestor: "[[application development]]"
 ---
-A [[Script]] that runs in the background without being affected by ongoing activities. 

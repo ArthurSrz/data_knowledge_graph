@@ -5,6 +5,5 @@ partOf: "[[clarifeye]]"
 broader: "[[Backend]]"
 inferred:skos:ancestor:
   - "[[Backend]]"
-  - "[[Process]]"
   - "[[application development]]"
 ---

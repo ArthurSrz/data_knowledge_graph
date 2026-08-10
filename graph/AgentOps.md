@@ -17,10 +17,7 @@ tags:
   - MLOps
   - Production
 broader: "[[agent observability]]"
-inferred:skos:ancestor:
-  - "[[agent]]"
-  - "[[agent observability]]"
-inferred:skos:related: "[[agent observability]]"
+inferred:skos:ancestor: "[[agent observability]]"
 ---
 Plateforme [[DevOps]]/MLOps de bout en bout englobant le développement, l'évaluation, les tests, le déploiement et la surveillance d'[[agentic System]] pour la gestion opérationnelle des projets d'agents en environnement de production.
 

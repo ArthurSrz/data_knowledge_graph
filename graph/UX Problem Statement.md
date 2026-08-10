@@ -2,7 +2,6 @@
 broader: "[[User research]]"
 inferred:skos:ancestor:
   - "[[Design thinking]]"
-  - "[[Process]]"
   - "[[User research]]"
 ---
 Synonym : point of view. 

@@ -9,7 +9,6 @@ inferred:skos:narrower:
   - "[[Federated learning]]"
   - "[[Hyperparameters]]"
   - "[[ML system]]"
-  - "[[Optimizer algorithm]]"
   - "[[Regularization]]"
   - "[[Reinforcement Learning]]"
   - "[[Unsupervised Learning]]"

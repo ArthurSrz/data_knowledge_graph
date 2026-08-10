@@ -1,7 +1,5 @@
 ---
-inferred:skos:narrower:
-  - "[[Polynomial regression]]"
-  - "[[Residual analysis]]"
+inferred:skos:narrower: "[[Residual analysis]]"
 ---
 ## Definition
 

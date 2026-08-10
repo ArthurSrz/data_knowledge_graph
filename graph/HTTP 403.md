@@ -1,7 +1,3 @@
 ---
-broader: "[[HTTP]]"
-inferred:skos:ancestor:
-  - "[[HTTP]]"
-  - "[[Infrastructure]]"
+inferred:skos:ancestor: "[[HTTP]]"
 ---
-Error meaning that access to the resource was denied

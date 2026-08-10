@@ -1,14 +1,4 @@
 ---
-broader: "[[Graph theory]]"
-skos:related: "[[knowledge graph]]"
-inferred:skos:ancestor:
-  - "[[combinatorics]]"
-  - "[[graph theory]]"
+inferred:skos:ancestor: "[[graph theory]]"
 inferred:skos:broader: "[[graph theory]]"
 ---
-The most popular [[model]] for modern graph databases. This [[model]] is deliberately flexible to help develop high-fidelity [[model]] with reality.
-
-You can apply constraints so to make sure that certain [[Label]] have certain [[Properties]] and evolve over time. 
-
-
-

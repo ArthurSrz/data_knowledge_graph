@@ -1,9 +1,6 @@
 ---
 broader: "[[Interpretability]]"
-inferred:skos:ancestor:
-  - "[[Fairness]]"
-  - "[[Interpretability]]"
-  - "[[Transparency]]"
+inferred:skos:ancestor: "[[Interpretability]]"
 ---
 Le mode de fonctionnement de SHAP est de **décomposer le résultat d’un modèle par les sommes de l’impact de chaque caractéristique**. SHAP calcule une valeur qui représente la contribution de chaque caractéristique au résultat du modèle. Ces valeurs peuvent être utilisées pour comprendre l’importance de chaque caractéristique et expliquer le résultat du modèle à un humain. Ceci apporte notamment une valeur ajoutée aux agences et aux équipes qui rendent des comptes à leurs clients ou leurs managers.
 

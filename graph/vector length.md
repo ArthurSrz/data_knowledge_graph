@@ -1,6 +1,3 @@
 ---
-broader: "[[vector]]"
-inferred:skos:ancestor:
-  - "[[Vector space]]"
-  - "[[vector]]"
+inferred:skos:ancestor: "[[vector]]"
 ---

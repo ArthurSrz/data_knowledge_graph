@@ -6,11 +6,7 @@ appliesTo: ["[[Pre-trained models]]", "[[Large Language Model]]", "[[Neural netw
 techniques: ["[[Full fine-tuning]]", "[[Layer freezing]]", "[[Adapter modules]]", "[[LoRA]]"]
 benefits: ["[[Reduced training time]]", "[[Less data required]]", "[[Better performance]]"]
 broader: "[[Model tuning]]"
-inferred:skos:ancestor:
-  - "[[CRISP-DM Process]]"
-  - "[[machine learning projects]]"
-  - "[[model tuning]]"
-  - "[[modeling]]"
+inferred:skos:ancestor: "[[model tuning]]"
 inferred:skos:broader: "[[model tuning]]"
 inferred:skos:narrower:
   - "[[Instruction dataset]]"

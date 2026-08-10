@@ -2,8 +2,6 @@
 inferred:skos:narrower:
   - "[[Data engineer]]"
   - "[[Data scientist]]"
-  - "[[Machine learning engineer]]"
-  - "[[Software engineer]]"
 ---
 Made of [[Data scientist]]
 

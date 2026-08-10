@@ -1,6 +1,4 @@
 ---
-part:
-broader: "[[Training algorithm]]"
 inferred:skos:ancestor:
   - "[[AI]]"
   - "[[Artificial Intelligence (AI)]]"

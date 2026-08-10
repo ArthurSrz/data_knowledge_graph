@@ -28,7 +28,6 @@ inferred:skos:ancestor:
 inferred:skos:narrower:
   - "[[Embeddings models]]"
   - "[[Word embeddings]]"
-  - "[[embedding]]"
   - "[[latent space]]"
   - "[[vectorization]]"
 ---

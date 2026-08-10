@@ -5,8 +5,6 @@ has characteristic: "[[graph/statelessness]]"
 wikidata entity id: Q230924
 broader: "[[Stateless]]"
 inferred:skos:ancestor:
-  - "[[Infrastructure]]"
-  - "[[Stateful]]"
   - "[[Stateless]]"
   - "[[communication protocol]]"
 ---

@@ -9,9 +9,5 @@ instance of: "[[graph/scholarly article]]"
 language of work or name: "[[graph/English]]"
 wikidata entity id: Q130977716
 broader: "[[knowledge graph]]"
-inferred:skos:ancestor:
-  - "[[Knowledge base]]"
-  - "[[graph]]"
-  - "[[knowledge]]"
-  - "[[knowledge graph]]"
+inferred:skos:ancestor: "[[knowledge graph]]"
 ---

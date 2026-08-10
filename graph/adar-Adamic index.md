@@ -2,11 +2,7 @@
 exampleOf: "[[index]]"
 usedIn: "[[Graph network analysis]]"
 broader: "[[knowledge graph]]"
-inferred:skos:ancestor:
-  - "[[Knowledge base]]"
-  - "[[graph]]"
-  - "[[knowledge]]"
-  - "[[knowledge graph]]"
+inferred:skos:ancestor: "[[knowledge graph]]"
 ---
 Index computed between two nodes in a [[Network graph]] that predicts their probabilty to be linked. This measure is based on the instinct that if two nodes have common neighbors and that neighbors have themselves very large neighborhoods, then the connection between those two nodes is less likely than if the neighbor neighbordoods is limited. 
 

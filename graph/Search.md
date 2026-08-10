@@ -1,6 +1,3 @@
 ---
-inferred:skos:narrower:
-  - "[[Filtered vector search]]"
-  - "[[Hybrid search]]"
+inferred:skos:narrower: "[[Hybrid search]]"
 ---
-Application of [[Natural Language Processing]]

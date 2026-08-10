@@ -3,9 +3,7 @@ combinationOf:
   - "[[Recall]]"
   - "[[Precision]]"
 broader: "[[Evaluation metrics]]"
-inferred:skos:ancestor:
-  - "[[Evaluation metrics]]"
-  - "[[evaluation]]"
+inferred:skos:ancestor: "[[Evaluation metrics]]"
 ---
 
 Measure in the same category than [[Precision]], [[Recall]] and [[F1 Score]].

@@ -1,7 +1,5 @@
 ---
-inferred:skos:narrower:
-  - "[[Feedback loops]]"
-  - "[[Flywheel effect]]"
+inferred:skos:narrower: "[[Flywheel effect]]"
 ---
 ## Definition
 

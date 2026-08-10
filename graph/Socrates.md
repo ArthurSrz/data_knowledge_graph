@@ -107,7 +107,5 @@ Swedish Open Cultural Heritage URI: LSH/agents/64698
 Colon Classification: R851w529
 wikidata entity id: Q913
 broader: "[[Socratic]]"
-inferred:skos:ancestor:
-  - "[[Socratic]]"
-  - "[[elicitation]]"
+inferred:skos:ancestor: "[[Socratic]]"
 ---

@@ -1,10 +1,4 @@
 ---
-broader: "[[Data privacy]]"
-inferred:skos:ancestor:
-  - "[[Data privacy]]"
-  - "[[Fairness]]"
-  - "[[trust]]"
+inferred:skos:ancestor: "[[trust]]"
 inferred:skos:broader: "[[trust]]"
 ---
-Guidance for organizations around [[Data privacy]]. 
-

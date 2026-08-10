@@ -18,7 +18,6 @@ broader: "[[Fairness]]"
 inferred:skos:ancestor: "[[Fairness]]"
 inferred:skos:narrower:
   - "[[Data privacy laws]]"
-  - "[[Fair Information Practices]]"
   - "[[Financial Privacy]]"
   - "[[Management of PII]]"
   - "[[Medical Data Privacy]]"

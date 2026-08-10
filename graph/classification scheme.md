@@ -1,7 +1,7 @@
 ---
-has part(s):
-  - "[[graph/hierarchy]]"
-  - "[[graph/category of being]]"
+inferred:skos:ancestor: "[[knowledge organization system]]"
+---
+being]]"
 studied by:
   - "[[graph/library science]]"
   - "[[graph/informatics]]"

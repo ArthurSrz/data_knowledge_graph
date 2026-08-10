@@ -4,13 +4,11 @@ inferred:skos:ancestor: "[[machine learning projects]]"
 inferred:skos:narrower:
   - "[[Data preparation]]"
   - "[[Evaluate results]]"
-  - "[[Explore the data]]"
   - "[[Gather data]]"
   - "[[Identify factors]]"
   - "[[Prepare for modeling]]"
   - "[[Problem definition]]"
   - "[[Test solution]]"
-  - "[[business understanding]]"
   - "[[data understanding]]"
   - "[[modeling]]"
 ---

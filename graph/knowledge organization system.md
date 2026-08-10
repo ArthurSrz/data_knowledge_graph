@@ -16,14 +16,8 @@ exact match:
 wikidata entity id: Q6423319
 inferred:skos:narrower:
   - "[[Ontology]]"
-  - "[[clarifeye]]"
-  - "[[classification scheme]]"
-  - "[[concept]]"
   - "[[conceptual model]]"
   - "[[controlled vocabulary]]"
-  - "[[model vocabulary]]"
-  - "[[organizing principles]]"
-  - "[[subject heading]]"
   - "[[taxonomy]]"
   - "[[thesaurus]]"
 ---

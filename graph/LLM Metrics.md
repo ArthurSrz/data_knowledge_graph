@@ -1,6 +1,3 @@
 ---
-broader: "[[Evaluation metrics]]"
-inferred:skos:ancestor:
-  - "[[Evaluation metrics]]"
-  - "[[evaluation]]"
+inferred:skos:ancestor: "[[Evaluation metrics]]"
 ---
