@@ -1,7 +1,5 @@
 ---
 dangerOf:
 broader: "[[bias]]"
-inferred:skos:ancestor:
-  - "[[Fairness]]"
-  - "[[bias]]"
+inferred:skos:ancestor: "[[bias]]"
 ---

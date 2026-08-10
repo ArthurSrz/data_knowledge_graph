@@ -1,5 +1,3 @@
 ---
-inferred:skos:narrower:
-  - "[[OAuth]]"
-  - "[[SSH Key]]"
+inferred:skos:narrower: "[[SSH Key]]"
 ---

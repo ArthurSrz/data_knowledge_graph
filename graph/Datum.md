@@ -1,7 +1,3 @@
 ---
-broader: "[[data]]"
-inferred:skos:ancestor:
-  - "[[Process]]"
-  - "[[data]]"
+inferred:skos:ancestor: "[[data]]"
 ---
-The smallest information entity possible. 

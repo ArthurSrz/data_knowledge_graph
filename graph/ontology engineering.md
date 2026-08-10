@@ -1,7 +1,3 @@
 ---
-broader: "[[Ontology]]"
-inferred:skos:ancestor:
-  - "[[Ontology]]"
-  - "[[knowledge organization system]]"
-  - "[[organizing principles]]"
+inferred:skos:ancestor: "[[Ontology]]"
 ---

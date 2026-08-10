@@ -6,12 +6,9 @@ category: Prompt Management
 tags: [Identité_Prompt, Versioning_Prompt, Gestion_Prompts]
 broader: "[[AI prompt]]"
 inferred:skos:ancestor:
-  - "[[AI]]"
   - "[[AI prompt]]"
-  - "[[Artificial Intelligence (AI)]]"
   - "[[Language modeling]]"
   - "[[Large Language Model]]"
-  - "[[Natural Language Processing]]"
 ---
 
 # Prompt Identity

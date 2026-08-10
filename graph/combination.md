@@ -9,8 +9,6 @@ instance of:
 subclass of: "[[selection]]"
 broader: "[[combinatorics]]"
 inferred:skos:ancestor:
-  - "[[Unary operation]]"
-  - "[[algorithm]]"
   - "[[combinatorics]]"
   - "[[selection]]"
 inferred:skos:narrower:

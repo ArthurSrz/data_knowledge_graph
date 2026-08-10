@@ -1,8 +1,6 @@
 ---
 broader: "[[Empathy]]"
-inferred:skos:ancestor:
-  - "[[Design thinking]]"
-  - "[[Empathy]]"
+inferred:skos:ancestor: "[[Empathy]]"
 ---
 
 ## Definition

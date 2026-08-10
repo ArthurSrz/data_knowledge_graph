@@ -15,8 +15,6 @@ inferred:skos:ancestor:
   - "[[Deep learning]]"
   - "[[machine learning]]"
 inferred:skos:narrower:
-  - "[[Backpropagation]]"
-  - "[[Convolutional neural networks]]"
   - "[[Embedding network]]"
   - "[[Forward propagation]]"
   - "[[Hidden states]]"

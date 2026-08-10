@@ -28,7 +28,6 @@ inferred:skos:ancestor:
   - "[[machine learning]]"
   - "[[supervised learning]]"
 inferred:skos:narrower:
-  - "[[Random forest]]"
   - "[[Recursive tree building]]"
   - "[[Regression trees]]"
   - "[[Tree depth]]"

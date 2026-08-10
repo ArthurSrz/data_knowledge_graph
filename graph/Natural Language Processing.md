@@ -12,7 +12,6 @@ inferred:skos:ancestor:
 inferred:skos:narrower:
   - "[[Bag of words]]"
   - "[[Embeddings]]"
-  - "[[Language modeling]]"
   - "[[Sentiment analysis]]"
   - "[[Tokenizer]]"
   - "[[token]]"

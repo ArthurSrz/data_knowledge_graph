@@ -2,11 +2,8 @@
 HasProvedStandard: "[[Vanilla RAG design]]"
 broader: "[[Large Language Model]]"
 inferred:skos:ancestor:
-  - "[[AI]]"
-  - "[[Artificial Intelligence (AI)]]"
   - "[[Language modeling]]"
   - "[[Large Language Model]]"
-  - "[[Natural Language Processing]]"
 ---
 
 Technique qui permet d'appliquer un [[Large Language Model]] sur un corpus spécifique.

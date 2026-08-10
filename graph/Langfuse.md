@@ -1,8 +1,3 @@
 ---
-broader: "[[LLM Observability]]"
-inferred:skos:ancestor:
-  - "[[LLM Observability]]"
-  - "[[agent observability]]"
+inferred:skos:ancestor: "[[LLM Observability]]"
 ---
-[[LLM Observability]] solution 
-

@@ -1,10 +1,7 @@
 ---
 instanceOf: "[[Graph algorithm]]"
 broader: "[[Centrality]]"
-inferred:skos:ancestor:
-  - "[[Graph algorithm]]"
-  - "[[Metric]]"
-  - "[[centrality]]"
+inferred:skos:ancestor: "[[centrality]]"
 inferred:skos:broader: "[[centrality]]"
 ---
 

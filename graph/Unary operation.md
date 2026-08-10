@@ -8,7 +8,6 @@ maintained by WikiProject: "[[graph/WikiProject Mathematics]]"
 uses: "[[graph/unary operator]]"
 broader: "[[combinatorics]]"
 inferred:skos:ancestor: "[[combinatorics]]"
-inferred:skos:narrower: "[[selection]]"
 ---
 
 Mathematical operation with only one operand. 

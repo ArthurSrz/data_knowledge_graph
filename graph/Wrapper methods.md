@@ -1,8 +1,3 @@
 ---
-broader: "[[feature selection]]"
-inferred:skos:ancestor:
-  - "[[feature engineering]]"
-  - "[[feature selection]]"
-  - "[[machine learning projects]]"
+inferred:skos:ancestor: "[[feature selection]]"
 ---
-Method for [[graph/feature selection]]

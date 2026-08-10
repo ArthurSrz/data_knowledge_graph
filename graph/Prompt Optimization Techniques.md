@@ -6,12 +6,9 @@ category: Prompt Management
 tags: [Optimisation_Prompts, Techniques_Prompting, Raisonnement, CoT]
 broader: "[[AI prompt]]"
 inferred:skos:ancestor:
-  - "[[AI]]"
   - "[[AI prompt]]"
-  - "[[Artificial Intelligence (AI)]]"
   - "[[Language modeling]]"
   - "[[Large Language Model]]"
-  - "[[Natural Language Processing]]"
 ---
 
 # Prompt Optimization Techniques

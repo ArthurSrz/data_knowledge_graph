@@ -6,7 +6,6 @@ subclass of:
 partOf: "[[automation framework]]"
 broader: "[[application development]]"
 inferred:skos:ancestor:
-  - "[[Process]]"
   - "[[application development]]"
   - "[[automation]]"
 ---

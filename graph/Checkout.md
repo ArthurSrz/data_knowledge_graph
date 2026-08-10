@@ -1,7 +1,5 @@
 ---
 broader: "[[Git]]"
-inferred:skos:ancestor:
-  - "[[Git]]"
-  - "[[version control]]"
+inferred:skos:ancestor: "[[Git]]"
 ---
 Working branch on [[Git]]

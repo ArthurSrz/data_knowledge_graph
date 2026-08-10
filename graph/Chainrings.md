@@ -3,8 +3,6 @@ IdenticalTo: "[[_.claude.json.mcpServers]]"
 MountedInParallel: "[[chainrings]]"
 broader: "[[combination]]"
 inferred:skos:ancestor:
-  - "[[Unary operation]]"
-  - "[[algorithm]]"
   - "[[combination]]"
   - "[[combinatorics]]"
   - "[[selection]]"

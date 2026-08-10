@@ -1,8 +1,5 @@
 ---
-inferred:skos:narrower:
-  - "[[Git]]"
-  - "[[Traceable Artifacts]]"
-  - "[[artifact management]]"
+inferred:skos:narrower: "[[artifact management]]"
 ---
 Need to version : 
 * Data pipeline

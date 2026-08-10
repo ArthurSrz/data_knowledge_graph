@@ -1,6 +1,3 @@
 ---
-inferred:skos:narrower:
-  - "[[Louvain algorithm]]"
-  - "[[Node similarity]]"
-  - "[[centrality]]"
+inferred:skos:narrower: "[[Node similarity]]"
 ---

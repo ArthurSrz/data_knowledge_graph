@@ -1,5 +1,3 @@
 ---
-inferred:skos:narrower:
-  - "[[Threshold value]]"
-  - "[[centrality]]"
+inferred:skos:narrower: "[[Threshold value]]"
 ---

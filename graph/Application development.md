@@ -2,18 +2,12 @@
 inferred:skos:narrower:
   - "[[Backend]]"
   - "[[Dependency injection]]"
-  - "[[DevOps]]"
-  - "[[Frontend]]"
-  - "[[License]]"
-  - "[[Log]]"
   - "[[Open source software]]"
   - "[[Readme file]]"
   - "[[Session]]"
   - "[[application programming interface]]"
   - "[[boilerplate]]"
   - "[[bundle]]"
-  - "[[collaboration tools]]"
   - "[[default]]"
   - "[[parsing]]"
-  - "[[query]]"
 ---

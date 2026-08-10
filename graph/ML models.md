@@ -1,15 +1,7 @@
 ---
 inferred:skos:narrower:
   - "[[Decoders model]]"
-  - "[[Inherent error]]"
-  - "[[Instructor model]]"
-  - "[[Linear models]]"
   - "[[Machine Leaning Baseline]]"
-  - "[[Neural network models]]"
-  - "[[Offline models]]"
   - "[[Online models]]"
   - "[[Support vector]]"
-  - "[[Target]]"
-  - "[[feature]]"
-  - "[[parameter]]"
 ---

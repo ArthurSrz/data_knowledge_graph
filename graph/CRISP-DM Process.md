@@ -4,7 +4,6 @@ inferred:skos:ancestor: "[[machine learning projects]]"
 inferred:skos:narrower:
   - "[[Data preparation]]"
   - "[[Evaluate results]]"
-  - "[[Gather data]]"
   - "[[Identify factors]]"
   - "[[Prepare for modeling]]"
   - "[[Problem definition]]"

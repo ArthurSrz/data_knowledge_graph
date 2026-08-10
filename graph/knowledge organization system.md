@@ -15,8 +15,6 @@ exact match:
   - http://purl.org/spar/fabio/ControlledVocabulary
 wikidata entity id: Q6423319
 inferred:skos:narrower:
-  - "[[Ontology]]"
   - "[[conceptual model]]"
-  - "[[controlled vocabulary]]"
   - "[[thesaurus]]"
 ---

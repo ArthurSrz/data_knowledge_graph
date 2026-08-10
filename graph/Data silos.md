@@ -1,8 +1,6 @@
 ---
 broader: "[[data]]"
-inferred:skos:ancestor:
-  - "[[Process]]"
-  - "[[data]]"
+inferred:skos:ancestor: "[[data]]"
 ---
 To break data silos, it requires : 
 
