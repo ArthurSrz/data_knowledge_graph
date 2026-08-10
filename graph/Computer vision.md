@@ -1,4 +1,3 @@
 ---
-inferred:skos:narrower:
-  - "[[Facial recognition]]"
+inferred:skos:narrower: "[[Facial recognition]]"
 ---

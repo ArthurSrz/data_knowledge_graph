@@ -1,4 +1,3 @@
 ---
-inferred:skos:narrower:
-  - "[[model contract]]"
+inferred:skos:narrower: "[[model contract]]"
 ---
