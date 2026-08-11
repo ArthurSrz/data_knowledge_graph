@@ -4,7 +4,7 @@
 
 **A living [[ontology]] of [[data]] science, ML, and AI built as an Obsidian vault with typed semantic relationships.**
 
-[![Concepts](https://img.shields.io/badge/concepts-873-blue?style=flat-square)](#)
+[![Concepts](https://img.shields.io/badge/concepts-874-blue?style=flat-square)](#)
 [![Wikilinks](https://img.shields.io/badge/wikilinks-7%2C800%2B-green?style=flat-square)](#)
 [![SKOS Coverage](https://img.shields.io/badge/SKOS_coverage-80.9%25-orange?style=flat-square)](#)
 [![Datalog Rules](https://img.shields.io/badge/datalog_rules-9-purple?style=flat-square)](#formal-reasoning)
