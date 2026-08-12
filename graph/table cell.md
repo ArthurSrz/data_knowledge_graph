@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[active cell]]"
+inferred:skos:narrower:
+  - "[[active cell]]"
 ---

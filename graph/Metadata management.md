@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[Data lineage]]"
+inferred:skos:narrower:
+  - "[[Data lineage]]"
 ---

@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[stateless protocol]]"
+inferred:skos:narrower:
+  - "[[stateless protocol]]"
 ---
