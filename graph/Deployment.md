@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[Inference]]"
+inferred:skos:narrower:
+  - "[[Inference]]"
 ---

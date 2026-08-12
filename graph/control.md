@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[Management]]"
+inferred:skos:narrower:
+  - "[[Management]]"
 ---

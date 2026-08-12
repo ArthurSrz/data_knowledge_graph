@@ -19,7 +19,8 @@ Library of Congress Classification: BC199.I47
 PhilPapers topic: inference
 Stack Exchange tag: https://stackoverflow.com/tags/inference
 broader: "[[Deployment]]"
-inferred:skos:ancestor: "[[Deployment]]"
+inferred:skos:ancestor:
+  - "[[Deployment]]"
 inferred:skos:narrower:
   - "[[Inference engine]]"
   - "[[Inference pipeline]]"
