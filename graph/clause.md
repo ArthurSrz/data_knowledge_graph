@@ -1,4 +1,3 @@
 ---
-inferred:skos:narrower:
-  - "[[clause classification heuristic]]"
+inferred:skos:narrower: "[[clause classification heuristic]]"
 ---

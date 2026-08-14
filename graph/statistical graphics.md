@@ -1,4 +1,3 @@
 ---
-inferred:skos:narrower:
-  - "[[sparkline]]"
+inferred:skos:narrower: "[[sparkline]]"
 ---
