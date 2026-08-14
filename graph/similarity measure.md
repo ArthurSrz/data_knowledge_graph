@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[Cosine similarity]]"
+inferred:skos:narrower:
+  - "[[Cosine similarity]]"
 ---
