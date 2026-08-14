@@ -1,14 +1,14 @@
 ---
 inferred:skos:narrower:
+  - "[[AutoML]]"
   - "[[Deep learning]]"
   - "[[Edge ML]]"
   - "[[Federated learning]]"
   - "[[ML system]]"
   - "[[Regularization]]"
   - "[[Reinforcement Learning]]"
+  - "[[Training algorithm]]"
   - "[[Unsupervised Learning]]"
-  - "[[autoML]]"
   - "[[loss function]]"
   - "[[supervised learning]]"
-  - "[[training algorithm]]"
 ---

@@ -4,6 +4,6 @@ inferred:skos:narrower:
   - "[[Model Context Protocol (MCP)]]"
   - "[[ReAct data agent]]"
   - "[[Toolkits]]"
-  - "[[agent role type]]"
+  - "[[agent Role Type]]"
   - "[[comparag agent]]"
 ---

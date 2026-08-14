@@ -8,10 +8,8 @@ different from: "[[graph/Theoretical framework]]"
 broader: "[[Modeling]]"
 inferred:skos:ancestor:
   - "[[CRISP-DM Process]]"
+  - "[[Modeling]]"
   - "[[knowledge organization system]]"
-  - "[[modeling]]"
-inferred:skos:broader:
-  - "[[knowledge organization system]]"
-  - "[[modeling]]"
+inferred:skos:broader: "[[knowledge organization system]]"
 ---
 Representation of a system, made of the composition of concepts 

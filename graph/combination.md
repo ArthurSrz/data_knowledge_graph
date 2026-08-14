@@ -9,8 +9,11 @@ instance of:
 subclass of: "[[selection]]"
 broader: "[[combinatorics]]"
 inferred:skos:ancestor:
-  - "[[combinatorics]]"
-  - "[[selection]]"
+  - "[[Combinatorics]]"
+  - "[[Selection]]"
+inferred:skos:broader:
+  - "[[Combinatorics]]"
+  - "[[Selection]]"
 inferred:skos:narrower:
   - "[[Shifter]]"
   - "[[Tooth]]"
