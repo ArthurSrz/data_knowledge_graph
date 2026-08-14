@@ -3,7 +3,8 @@ broader: "[[bayes' theorem]]"
 inferred:skos:ancestor:
   - "[[Bayes' theorem]]"
   - "[[Probability]]"
-inferred:skos:broader: "[[Bayes' theorem]]"
+inferred:skos:broader:
+  - "[[Bayes' theorem]]"
 inferred:skos:narrower:
   - "[[Bayesian network]]"
   - "[[Théorie du cerveau bayésien]]"

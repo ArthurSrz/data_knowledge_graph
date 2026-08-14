@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[combination]]"
+inferred:skos:narrower:
+  - "[[combination]]"
 ---
