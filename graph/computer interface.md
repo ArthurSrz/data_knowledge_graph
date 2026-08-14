@@ -1,4 +1,3 @@
 ---
-inferred:skos:narrower:
-  - "[[application programming interface]]"
+inferred:skos:narrower: "[[application programming interface]]"
 ---

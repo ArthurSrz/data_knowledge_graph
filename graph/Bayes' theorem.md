@@ -1,9 +1,7 @@
 ---
 broader: "[[Probability]]"
-inferred:skos:ancestor:
-  - "[[Probability]]"
-inferred:skos:narrower:
-  - "[[Bayesian inference]]"
+inferred:skos:ancestor: "[[Probability]]"
+inferred:skos:narrower: "[[Bayesian inference]]"
 ---
 Basis of bayesian statistics where we take prior knowledge into account before calculating new probabilities. 
 

@@ -1,4 +1,3 @@
 ---
-inferred:skos:narrower:
-  - "[[parsing]]"
+inferred:skos:narrower: "[[parsing]]"
 ---
