@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[Management of PII]]"
+inferred:skos:narrower:
+  - "[[Management of PII]]"
 ---

@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[Logistic regression]]"
+inferred:skos:narrower:
+  - "[[Logistic regression]]"
 ---

@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[context]]"
+inferred:skos:narrower:
+  - "[[context]]"
 ---

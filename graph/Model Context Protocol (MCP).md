@@ -5,7 +5,8 @@ madeOf:
   - "[[MCP host]]"
   - "[[graph/MCP server]]"
 broader: "[[agentic System]]"
-inferred:skos:ancestor: "[[agentic System]]"
+inferred:skos:ancestor:
+  - "[[agentic System]]"
 inferred:skos:narrower:
   - "[[MCP host]]"
   - "[[MCP server]]"

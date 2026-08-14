@@ -10,6 +10,7 @@ inferred:skos:ancestor:
   - "[[CRISP-DM Process]]"
   - "[[Modeling]]"
   - "[[knowledge organization system]]"
-inferred:skos:broader: "[[knowledge organization system]]"
+inferred:skos:broader:
+  - "[[knowledge organization system]]"
 ---
 Representation of a system, made of the composition of concepts 
