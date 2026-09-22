@@ -44,5 +44,6 @@ wikidata entity id: Q3249551
 inferred:skos:narrower:
   - "[[Management]]"
   - "[[context]]"
+  - "[[context 2]]"
   - "[[problem solving]]"
 ---

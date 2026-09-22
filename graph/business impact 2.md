@@ -1,0 +1,3 @@
+---
+inferred:skos:ancestor: "[[Metric]]"
+---

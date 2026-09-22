@@ -9,6 +9,7 @@ inferred:skos:narrower:
   - "[[Tidy Data]]"
   - "[[Z-Score normalization]]"
   - "[[truncation]]"
+  - "[[truncation 2]]"
 ---
 Step of the [[CRISP-DM Process]]. 
 

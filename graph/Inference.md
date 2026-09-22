@@ -27,6 +27,7 @@ inferred:skos:narrower:
   - "[[Online prediction]]"
   - "[[backward chaining]]"
   - "[[batch prediction]]"
+  - "[[batch prediction 2]]"
   - "[[causal inference]]"
 ---
 Act or [[process]] of deriving logical conclusions from premises known or assumed to be true

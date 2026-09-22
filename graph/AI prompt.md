@@ -26,6 +26,7 @@ inferred:skos:narrower:
   - "[[Prompt templates]]"
   - "[[Prompt-based techniques]]"
   - "[[chain-of-thought]]"
+  - "[[chain-of-thought 2]]"
   - "[[prompts]]"
   - "[[system prompt]]"
 ---

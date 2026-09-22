@@ -1,0 +1,4 @@
+---
+inferred:skos:ancestor: "[[Regularity]]"
+---
+

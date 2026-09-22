@@ -6,7 +6,9 @@ inferred:skos:ancestor:
   - "[[CRISP-DM Process]]"
 inferred:skos:narrower:
   - "[[conceptual model]]"
+  - "[[conceptual model 2]]"
   - "[[training data set]]"
+  - "[[training data set 2]]"
 ---
 We collect past [[Observations]], and associate [[feature]], and define a [[Target]]. The model relate the 3. When we train, we identify the optimal parameters in the equation or set of equations. 
 
