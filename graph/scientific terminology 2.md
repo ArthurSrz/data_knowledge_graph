@@ -7,5 +7,4 @@ used by: "[[graph/scientist]]"
 wikidata entity id: Q12132640
 inferred:skos:narrower:
   - "[[psychological terminology]]"
-  - "[[psychological terminology 2]]"
 ---
