@@ -5,6 +5,5 @@ skos:broader:
 inferred:skos:ancestor:
   - "[[Version control]]"
   - "[[artifact]]"
-inferred:skos:broader:
-  - "[[Version control]]"
+inferred:skos:broader: "[[Version control]]"
 ---

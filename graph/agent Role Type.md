@@ -13,8 +13,7 @@ tags:
   - Hiérarchie
   - Multi_Agent
 broader: "[[agentic System]]"
-inferred:skos:ancestor:
-  - "[[agentic System]]"
+inferred:skos:ancestor: "[[agentic System]]"
 ---
 **Définition** : [[classification]] des agents selon leur fonction et position dans la hiérarchie du système multi-[[agent]].
 

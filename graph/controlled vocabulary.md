@@ -1,4 +1,3 @@
 ---
-inferred:skos:narrower:
-  - "[[thesaurus]]"
+inferred:skos:narrower: "[[thesaurus]]"
 ---

@@ -1,4 +1,3 @@
 ---
-inferred:skos:narrower:
-  - "[[SSH Agent]]"
+inferred:skos:narrower: "[[SSH Agent]]"
 ---

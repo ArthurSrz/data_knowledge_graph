@@ -1,3 +1,3 @@
 ---
-inferred:skos:narrower: "[[Convolutional layers]]"
+inferred:skos:narrower: "[[convolutional layers]]"
 ---

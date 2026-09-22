@@ -1,5 +1,4 @@
 ---
 broader: "[[data]]"
-inferred:skos:ancestor:
-  - "[[data]]"
+inferred:skos:ancestor: "[[data]]"
 ---

@@ -8,8 +8,7 @@ aliases:
   - random_picker
   - blind_folded_mechanism
 broader: "[[agentic System]]"
-inferred:skos:ancestor:
-  - "[[agentic System]]"
+inferred:skos:ancestor: "[[agentic System]]"
 ---
 The entity that selects which RAG [[tools]] to compare and judges the result. In CompaRAG, two agents act: 
 1. the MCPDispatcher (selects [[tools]] via registry.pick_two())
