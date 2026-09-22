@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[knowledge worker]]"
+inferred:skos:narrower:
+  - "[[domain knowledge]]"
 ---

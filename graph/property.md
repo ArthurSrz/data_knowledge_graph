@@ -12,5 +12,6 @@ broader: "[[knowledge graph]]"
 inferred:skos:ancestor:
   - "[[Knowledge graph]]"
   - "[[abstract entity]]"
-inferred:skos:broader: "[[Knowledge graph]]"
+inferred:skos:broader:
+  - "[[Knowledge graph]]"
 ---

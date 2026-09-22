@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[bundle]]"
+inferred:skos:narrower:
+  - "[[bundle]]"
 ---

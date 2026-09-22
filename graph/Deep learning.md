@@ -1,7 +1,8 @@
 ---
 originatesFrom: "[[connexionism]]"
 skos:broader: "[[machine learning]]"
-inferred:skos:ancestor: "[[machine learning]]"
+inferred:skos:ancestor:
+  - "[[machine learning]]"
 inferred:skos:narrower:
   - "[[Keras]]"
   - "[[Transfer learning]]"

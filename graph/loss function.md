@@ -21,7 +21,8 @@ usedIn:
   - "[[Optimization]]"
   - "[[Neural network training]]"
 broader: "[[machine learning]]"
-inferred:skos:ancestor: "[[machine learning]]"
+inferred:skos:ancestor:
+  - "[[machine learning]]"
 ---
 
 # Loss Function

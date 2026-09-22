@@ -26,4 +26,8 @@ MeSH tree code:
   - F02.463.785.810
 Dewey Decimal Classification: "153.43"
 wikidata entity id: Q730920
+inferred:skos:ancestor:
+  - "[[Process]]"
+inferred:skos:broader:
+  - "[[Process]]"
 ---

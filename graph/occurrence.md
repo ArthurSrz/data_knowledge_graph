@@ -53,4 +53,6 @@ equivalent class:
   - http://www.popoloproject.com/specs/event.html
 Commons category: Occurrence
 wikidata entity id: Q1190554
+inferred:skos:narrower:
+  - "[[action]]"
 ---

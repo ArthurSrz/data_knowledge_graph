@@ -26,6 +26,7 @@ Commons category: Ollama
 wikidata entity id: Q124636097
 instanceOf: "[[Inference engine]]"
 broader: "[[Large Language Model]]"
-inferred:skos:ancestor: "[[Large Language Model]]"
+inferred:skos:ancestor:
+  - "[[Large Language Model]]"
 ---
 Stands for Omni-Layer Learning Language Acquisition Model.

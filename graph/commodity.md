@@ -17,5 +17,7 @@ IAB code: "81"
 OmegaWiki Defined Meaning: "955643"
 Commons category: Commodities
 wikidata entity id: Q317088
+inferred:skos:narrower:
+  - "[[primary commodity]]"
 ---
 fungible item produced to satisfy wants or needs

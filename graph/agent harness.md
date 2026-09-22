@@ -1,4 +1,6 @@
 ---
-inferred:skos:ancestor: "[[agent]]"
-inferred:skos:broader: "[[agent]]"
+inferred:skos:ancestor:
+  - "[[agent]]"
+inferred:skos:broader:
+  - "[[agent]]"
 ---

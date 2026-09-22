@@ -2,7 +2,8 @@
 partOf: "[[CRISP-DM Process]]"
 sameAs: "[[modélisation]]"
 broader: "[[CRISP-DM Process]]"
-inferred:skos:ancestor: "[[CRISP-DM Process]]"
+inferred:skos:ancestor:
+  - "[[CRISP-DM Process]]"
 inferred:skos:narrower:
   - "[[conceptual model]]"
   - "[[training data set]]"

@@ -27,4 +27,6 @@ equivalent class:
   - https://schema.org/Action
   - http://www.hozo.jp/owl/YAMATO20210808.miz.owl#action
 wikidata entity id: Q4026292
+inferred:skos:ancestor:
+  - "[[occurrence]]"
 ---
