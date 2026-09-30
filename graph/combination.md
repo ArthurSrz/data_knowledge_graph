@@ -18,5 +18,4 @@ inferred:skos:narrower:
   - "[[Shifter]]"
   - "[[Tooth]]"
   - "[[chainrings]]"
-  - "[[chainrings 2]]"
 ---

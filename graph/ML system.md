@@ -10,7 +10,6 @@ inferred:skos:narrower:
   - "[[Reproducibility]]"
   - "[[best-classification-rate AI detection system]]"
   - "[[cold start problem]]"
-  - "[[cold start problem 2]]"
   - "[[machine learning systems]]"
 ---
 

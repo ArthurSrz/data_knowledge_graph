@@ -16,6 +16,5 @@ exact match:
 wikidata entity id: Q6423319
 inferred:skos:narrower:
   - "[[conceptual model]]"
-  - "[[conceptual model 2]]"
   - "[[thesaurus]]"
 ---

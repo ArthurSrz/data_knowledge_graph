@@ -1,5 +1,4 @@
 ---
 inferred:skos:narrower:
   - "[[requirements engineering]]"
-  - "[[requirements engineering 2]]"
 ---

@@ -9,9 +9,7 @@ inferred:skos:narrower:
   - "[[Trainer]]"
   - "[[TrainingAguments]]"
   - "[[autoModel]]"
-  - "[[autoModel 2]]"
   - "[[autotokenizer]]"
-  - "[[autotokenizer 2]]"
 ---
 
 

@@ -19,6 +19,5 @@ Commons category: Commodities
 wikidata entity id: Q317088
 inferred:skos:narrower:
   - "[[primary commodity]]"
-  - "[[primary commodity 2]]"
 ---
 fungible item produced to satisfy wants or needs
