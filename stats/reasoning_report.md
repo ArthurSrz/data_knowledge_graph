@@ -27,7 +27,7 @@
 
 ### Broken wikilink targets (170)
 
-- AI agent: broader → [[artificial intelligence]]
+- AI agent: broader → [[Artificial Intelligence]]
 - AI agent: broader → [[intelligent agent]]
 - AI agent: contributing_factor → [[robotic process automation]]
 - AI agent: has_use → [[algorithmic trading]]

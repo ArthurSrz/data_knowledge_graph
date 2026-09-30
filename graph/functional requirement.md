@@ -5,4 +5,6 @@ has characteristic: "[[graph/testability]]"
 opposite of: "[[graph/non-functional requirement]]"
 OmegaWiki Defined Meaning: "976863"
 wikidata entity id: Q3264234
+inferred:skos:narrower:
+  - "[[use case]]"
 ---

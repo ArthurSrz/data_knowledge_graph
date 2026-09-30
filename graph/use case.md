@@ -12,4 +12,6 @@ inception: 1986-01-01T00:00:00Z
 ACM Classification Code (2012): "10011108"
 Stack Exchange tag: https://stackoverflow.com/tags/use-case
 wikidata entity id: Q613417
+inferred:skos:ancestor:
+  - "[[functional requirement]]"
 ---
