@@ -17,7 +17,7 @@ I suspect that, _as they're represented in the mind_, there's little difference 
 This may sound as though I am speaking metaphorically, since a mental "place" is not exactly like a worldly place. But then, when you think of a place you know, that thought itself is not a wordly place, but only a linkage of memories and processes inside your mond. This wonderful capacity- to think of thoughts as though they were things- is also what enables us to contemplate the [[product]] of our thoughts. Without the ability to reflect, we would have no general intelligence-however large our repertoire of special-purpose [[skills]] might grow. Of course, this same capacity enables us to think such empty thoughts as "*This statement is about itself*", which is true but useless, or "*This statement is not about itself*", which is false and useless, or "_This statement is false_", which is downright paradoxical. Yet the benefit of being able to conceptualize is surely worth the [[risk]] that we may sometimes be nonsensical. 
 
 
-[[complete graph]] and [[completeness]]  and [[confusion matrix]] 
+
 
 
 
