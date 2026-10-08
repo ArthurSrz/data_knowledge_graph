@@ -11,4 +11,4 @@ I suspect that, _as they're represented in the mind_, there's little difference 
 
 > No conception or idea could have much use unless it could remain unchanged - and stay in some kind of mental "place" - for long enough for us to find it when we need it. Nor could we ever achieve a goal unless it could persist for long enough. In short, no mind can work without some stable states or memories. 
 
-This may sound as though I am speaking metaphorically, since a mental "place" is not exactly like a worldly place. But then, when you think of a place you know, that thought itself 
+This may sound as though I am speaking metaphorically, since a mental "place" is not exactly like a worldly place. But then, when you think of a place you know, that thought itself is not a wordly place, but only a linkage of memories and processes inside your mond. This wonderful capacity- to think of thoughts as though they were things- is also what enables us to contemplate the [[product]] of our thoughts. Without the ability to reflect, we would have no general intelligence-however large our repertoire of special 
