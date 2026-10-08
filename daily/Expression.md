@@ -1,4 +1,4 @@
-Language lets us treat our thoughts as though they were much like ordinary things. Suppose you meet someone who is trying to solve a [[problem]]. You ask what's happening. "_I'm thinking_", you are told. "I can see that", you say, "_but what are you thinking about_" "_Well, I looking for a way to solve this [[problem]], and I think I've just found one_". We speak as though ideas resemble building-blocks that one can find and grasp!
+When we speak, we tend to treat our thoughts like ordinary things. I mean physical things. When solving a [[problem]]. We say : "_Well, I am looking for a way to solve this [[problem]], and I think I've just found one_". We speak as though ideas resemble building-blocks that one can find and grasp!
 
 Why do we "thing-ify" our thoughts? One reason is that this enables us to reapply the wonderful machines our brain contain for understanding wordly things. Another thing it does help us organize our expeditions in the mental world, much as we find our ways through space. Consider how the strategies we use to "find" ideas resemble the strategies we use for finding real things: _Look in the places they used to be or where they're usually found-but don't keep looking again and again in the same place_. 
 
@@ -16,4 +16,8 @@ I suspect that, _as they're represented in the mind_, there's little difference 
 
 This may sound as though I am speaking metaphorically, since a mental "place" is not exactly like a worldly place. But then, when you think of a place you know, that thought itself is not a wordly place, but only a linkage of memories and processes inside your mond. This wonderful capacity- to think of thoughts as though they were things- is also what enables us to contemplate the [[product]] of our thoughts. Without the ability to reflect, we would have no general intelligence-however large our repertoire of special-purpose [[skills]] might grow. Of course, this same capacity enables us to think such empty thoughts as "*This statement is about itself*", which is true but useless, or "*This statement is not about itself*", which is false and useless, or "_This statement is false_", which is downright paradoxical. Yet the benefit of being able to conceptualize is surely worth the [[risk]] that we may sometimes be nonsensical. 
 
-[[action module]] and [[backend]] 
+
+[[complete graph]] and [[completeness]]  and [[confusion matrix]] 
+
+
+
