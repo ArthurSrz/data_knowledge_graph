@@ -1,6 +1,8 @@
-When we speak, we tend to treat our thoughts like ordinary things. I mean physical things. When solving a [[problem]]. We say : "_Well, I am looking for a way to solve this [[problem]], and I think I've just found one_". We speak as though ideas resemble building-blocks that one can find and grasp!
+When we speak, we tend to treat our thoughts like ordinary things. I mean physical things. When solving a [[problem]]. We say : "_Well, I am looking for a way to solve this [[problem]], and I think I've just found one_". We speak as though ideas were objects located in some room, and that could find and grasp them. 
 
-Why do we "thing-ify" our thoughts? One reason is that this enables us to reapply the wonderful machines our brain contain for understanding wordly things. Another thing it does help us organize our expeditions in the mental world, much as we find our ways through space. Consider how the strategies we use to "find" ideas resemble the strategies we use for finding real things: _Look in the places they used to be or where they're usually found-but don't keep looking again and again in the same place_. 
+Isn't it a funny thing to do ? I mean, to "thing-ify" our thoughts? And for what purpose ? 
+
+One reason is that this enables us to reapply the wonderful machines our brain contain for understanding wordly things. Another thing it does help us organize our expeditions in the mental world, much as we find our ways through space, and leverage one of the most developed skill of the human brain: **navigation through space**. 
 
 Indeed, for many centuries our [[memory]] training arts have been dominated by two techniques : 
 1. One is based on similarities of sounds, exploiting the capacities of our language-agencies to make connections between words. 
@@ -8,9 +10,11 @@ Indeed, for many centuries our [[memory]] training arts have been dominated by t
 
 **It seems our minds need some kind of physical [[infrastructure]] to make sense of ideas he produces.** This way we can apply our thing-location [[skills]] to keeping track of our ideas. 
 
-Our ability to treat ideas as though they were objects goes together with our abilities to reuse our brain-machinery over and over again. Whenever an [[agency]] becomes overburdened by a large and complicated structure, we may be able to treat that structure as a simple, single unit by thing-ifying-or, as we usually say, "_conceptualizing_"- it. Then, once we replace a larger structure by representing it with a compact symbol-sign, that overloaded [[agency]] may be able to continue its work. This way, we can build grand structure of idead-much as we can build great towers for smaller parts. 
+Our ability to treat ideas as though they were objects goes together with our abilities to reuse our brain-machinery over and over again. Whenever an [[agency]] becomes overburdened by a large and complicated structure, we may be able to treat that structure as a simple, single unit by thing-ifying-or, as we usually say, "_conceptualizing_"- it. Science and Technology Studies have a word for that kind of human way of capturing complex structures through simplified representation: **artifacts**. We have certainly encountered them using [[Claude]]. Anthropic artifacts are simplified representation you can make to keep track and represent things you're doing with AI.  
 
-I suspect that, _as they're represented in the mind_, there's little difference between a physical [[object]] and an idea. Worldly things are useful to us because they are "substantial" - that id, because their [[properties]] are relatively permanent. Now we don't usually think of ideas as substantial, because they don't have the usual [[property]] of worldly things - such as color, shape and weight. Yet "good idead" must also have substantiality, albeit of a different sort:
+Then, once we replace a larger structure by representing it with a compact symbol-sign, that overloaded [[agency]] may be able to continue its work. This way, we can build grand structure of ideas-much as we can build great towers for smaller parts. 
+
+I suspect that, _as they're represented in the mind_, there's little difference between a physical [[object]] and an idea. Worldly things are useful to us because they are "substantial" - that id, because their [[properties]] are relatively permanent. Now we don't usually think of ideas as substantial, because they don't have the usual [[property]] of worldly things - such as color, shape and weight. **Yet "good ideas" must also have substantiality, albeit of a different sort**:
 
 > No conception or idea could have much use unless it could remain unchanged - and stay in some kind of mental "place" - for long enough for us to find it when we need it. Nor could we ever achieve a goal unless it could persist for long enough. In short, no mind can work without some stable states or memories. 
 
