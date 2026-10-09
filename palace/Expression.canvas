@@ -1,48 +1,416 @@
 {
-	"nodes":[
-		{"id":"ward2","type":"group","label":"Ward 2: 2 hops from Expression","x":-1571.4549323329727,"y":-1571.4549323329727,"width":3142.9098646659454,"height":3142.9098646659454},
-		{"id":"ward1","type":"group","label":"Ward 1: 1 hop from Expression","x":-1141.4549323329727,"y":-1141.4549323329727,"width":2282.9098646659454,"height":2282.9098646659454},
-		{"id":"n0009","type":"group","label":"Object","x":-469.1949709998455,"y":-1121.4549323329727,"width":1264.5199226662546,"height":690.4569243727501},
-		{"id":"n0004","type":"group","label":"AI stack","x":-469.1949709998455,"y":430.99800796022265,"width":938.3899419996909,"height":690.4569243727501},
-		{"id":"n0010","type":"group","label":"abstract entity","x":-1121.4549323329727,"y":-390.99800796022265,"width":690.4569243727501,"height":781.9960159204453},
-		{"id":"n0006","type":"group","label":"Infrastructure","x":-449.1949709998455,"y":520.9980079602226,"width":898.3899419996909,"height":580.4569243727501},
-		{"id":"n000a","type":"group","label":"Process","x":-27.68833011109399,"y":-1031.4549323329727,"width":803.0132817775032,"height":580.4569243727501},
-		{"id":"n0012","type":"group","label":"claude code","x":509.1949709998454,"y":430.99800796022265,"width":612.2599613331273,"height":690.4569243727501},
-		{"id":"n000e","type":"group","label":"Situation","x":-1121.4549323329727,"y":430.99800796022265,"width":612.2599613331272,"height":690.4569243727501},
-		{"id":"ward0","type":"group","label":"Hall of Expression","x":-250.99800796022265,"y":-250.99800796022265,"width":501.9960159204453,"height":501.9960159204453},
-		{"id":"n0016","type":"file","file":"graph/property.md","x":-1101.4549323329727,"y":-300.99800796022265,"width":650.4569243727501,"height":671.9960159204453},
-		{"id":"n0000","type":"file","file":"daily/2026-06-10.md","x":1321.4549323329727,"y":-196,"width":230,"height":346},
-		{"id":"n0000s","type":"text","x":1341.4549323329727,"y":150,"width":190,"height":46,"text":"→ Memory"},
-		{"id":"n000d","type":"file","file":"graph/SSH Agent.md","x":-429.1949709998455,"y":610.9980079602226,"width":858.3899419996909,"height":470.4569243727501},
-		{"id":"n000f","type":"file","file":"graph/Skills.md","x":529.1949709998454,"y":520.9980079602226,"width":572.2599613331273,"height":580.4569243727501},
-		{"id":"n0014","type":"file","file":"graph/problem.md","x":-1101.4549323329727,"y":520.9980079602226,"width":572.2599613331272,"height":534.4569243727501},
-		{"id":"n0015","type":"file","file":"graph/problem solving.md","x":-7.68833011109399,"y":-869.4549323329727,"width":763.0132817775032,"height":352.4569243727501},
-		{"id":"n000b","type":"file","file":"graph/Product.md","x":430.9980079602226,"y":-390.99800796022265,"width":690.4569243727501,"height":370.99800796022265},
-		{"id":"n0017","type":"file","file":"graph/risk.md","x":430.9980079602226,"y":20,"width":690.4569243727501,"height":370.99800796022265},
-		{"id":"n0013","type":"file","file":"graph/data object.md","x":-449.1949709998455,"y":-1031.4549323329727,"width":381.5066408887515,"height":580.4569243727501},
-		{"id":"n0008","type":"file","file":"graph/Memory.md","x":-1121.4549323329727,"y":-1121.4549323329727,"width":612.2599613331272,"height":325.22846218637505},
-		{"id":"n0011","type":"file","file":"graph/agency.md","x":-1121.4549323329727,"y":-756.2264701465976,"width":612.2599613331272,"height":325.22846218637505},
-		{"id":"n000c","type":"file","file":"graph/Properties.md","x":835.3249516664091,"y":-1121.4549323329727,"width":286.1299806665636,"height":690.4569243727501},
-		{"id":"n0005","type":"file","file":"daily/Expression.md","x":-230.99800796022265,"y":-230.99800796022265,"width":461.9960159204453,"height":363.9960159204453},
-		{"id":"n0007","type":"file","file":"graph/Knowledge graph.md","x":-1551.4549323329727,"y":-196,"width":230,"height":392},
-		{"id":"n0001","type":"file","file":"daily/2026-06-22 - The deep signals behind all \"AI-ish\" initiatives.md","x":20,"y":1321.4549323329727,"width":392,"height":132},
-		{"id":"n0001s","type":"text","x":40,"y":1453.4549323329727,"width":352,"height":98,"text":"→ agency\n→ AI stack\n→ Object … +1"},
-		{"id":"n0002","type":"file","file":"daily/2026-08-07.md","x":-196,"y":-1551.4549323329727,"width":392,"height":158},
-		{"id":"n0002s","type":"text","x":-176,"y":-1393.4549323329727,"width":352,"height":72,"text":"→ Memory\n→ Process"},
-		{"id":"n0003","type":"file","file":"daily/2026-09-17 - L'autre fuite des cerveaux.md","x":-412,"y":1321.4549323329727,"width":392,"height":132},
-		{"id":"n000as","type":"text","x":-7.68833011109399,"y":-981.4549323329727,"width":763.0132817775032,"height":72,"text":"different from → Process\nsaid to be the same as → Process"},
-		{"id":"n0003s","type":"text","x":-392,"y":1453.4549323329727,"width":352,"height":98,"text":"→ Infrastructure\n→ Knowledge graph\n→ Situation"},
-		{"id":"n0004f","type":"file","file":"graph/AI stack.md","x":-449.1949709998455,"y":450.99800796022265,"width":898.3899419996909,"height":30},
-		{"id":"n0005s","type":"text","x":-210.99800796022265,"y":132.99800796022265,"width":421.9960159204453,"height":98,"text":"→ agency\n→ Infrastructure\n→ Memory … +7"},
-		{"id":"n0009f","type":"file","file":"graph/Object.md","x":-449.1949709998455,"y":-1101.4549323329727,"width":1224.5199226662546,"height":30},
-		{"id":"n0006f","type":"file","file":"graph/Infrastructure.md","x":-429.1949709998455,"y":540.9980079602226,"width":858.3899419996909,"height":30},
-		{"id":"n000af","type":"file","file":"graph/Process.md","x":-7.68833011109399,"y":-1011.4549323329727,"width":763.0132817775032,"height":30},
-		{"id":"n0010f","type":"file","file":"graph/abstract entity.md","x":-1101.4549323329727,"y":-370.99800796022265,"width":650.4569243727501,"height":30},
-		{"id":"n0012f","type":"file","file":"graph/claude code.md","x":529.1949709998454,"y":450.99800796022265,"width":572.2599613331273,"height":30},
-		{"id":"n000ef","type":"file","file":"graph/Situation.md","x":-1101.4549323329727,"y":450.99800796022265,"width":572.2599613331272,"height":30},
-		{"id":"title","type":"text","x":1611.4549323329727,"y":1113.4549323329727,"width":460,"height":458,"text":"## Plan of Expression\n2026-10-08 · North is up · 1 cell = 1 note\nHall = this note · ward n = n hops · suites nest · open rings are corridors · plaques list exits · only the 24 best-connected notes get a room\n\n**Rooms inside rooms**\nbroader: inside\ninferred:skos:broader: inside\nsubclass of: inside\npartOf: inside\nfacet of: inside\ninferred:skos:narrower: contains\nmadeOf: contains\ndifferent from: across"},
-		{"id":"n0015s","type":"text","x":12.31166988890601,"y":-516.9980079602226,"width":723.0132817775032,"height":46,"text":"has cause → problem"},
-		{"id":"n0014s","type":"text","x":-1081.4549323329727,"y":1055.4549323329727,"width":532.2599613331272,"height":46,"text":"handled, mitigated, or managed by → problem solving"}
-	],
-	"edges":[]
+ "nodes": [
+  {
+   "id": "entrance",
+   "type": "text",
+   "text": "# Expression\nEntrance",
+   "x": -640,
+   "y": 0,
+   "width": 520,
+   "height": 120
+  },
+  {
+   "id": "room1",
+   "type": "group",
+   "label": "1 · When we speak, we tend",
+   "x": 0,
+   "y": 0,
+   "width": 520,
+   "height": 390
+  },
+  {
+   "id": "room1t",
+   "type": "text",
+   "text": "When we speak, we tend to treat our thoughts like ordinary things. I mean physical things. When solving a [[problem]]. We say : \"_Well, I am looking for a way to solve this [[problem]], and I think I've just found one_\". We speak as though ideas were objects located in some room, and that could find and grasp them.",
+   "x": 24,
+   "y": 48,
+   "width": 472,
+   "height": 180
+  },
+  {
+   "id": "room1o0",
+   "type": "file",
+   "file": "graph/problem.md",
+   "x": 24,
+   "y": 252,
+   "width": 232,
+   "height": 90
+  },
+  {
+   "id": "room2",
+   "type": "group",
+   "label": "2 · Isn't it a funny thing",
+   "x": 640,
+   "y": 0,
+   "width": 520,
+   "height": 260
+  },
+  {
+   "id": "room2t",
+   "type": "text",
+   "text": "Isn't it a funny thing to do ? I mean, to \"thing-ify\" our thoughts? And for what purpose ?",
+   "x": 664,
+   "y": 48,
+   "width": 472,
+   "height": 92
+  },
+  {
+   "id": "room3",
+   "type": "group",
+   "label": "3 · One reason is that this",
+   "x": 1280,
+   "y": 0,
+   "width": 520,
+   "height": 276
+  },
+  {
+   "id": "room3t",
+   "type": "text",
+   "text": "One reason is that this enables us to reapply the wonderful machines our brain contain for understanding wordly things. Another thing it does help us organize our expeditions in the mental world, much as we find our ways through space, and leverage one of the most developed skill of the human brain: **navigation through space**.",
+   "x": 1304,
+   "y": 48,
+   "width": 472,
+   "height": 180
+  },
+  {
+   "id": "room4",
+   "type": "group",
+   "label": "4 · Indeed, for many centuries our",
+   "x": 1920,
+   "y": 0,
+   "width": 520,
+   "height": 412
+  },
+  {
+   "id": "room4t",
+   "type": "text",
+   "text": "Indeed, for many centuries our [[memory]] training arts have been dominated by two techniques : \n1. One is based on similarities of sounds, exploiting the capacities of our language-agencies to make connections between words. \n2. The other method is based on imagining the items we want to remember as places in some familiar space, such as a road or room one knows particularly well.",
+   "x": 1944,
+   "y": 48,
+   "width": 472,
+   "height": 202
+  },
+  {
+   "id": "room4o0",
+   "type": "file",
+   "file": "graph/Memory.md",
+   "x": 1944,
+   "y": 274,
+   "width": 232,
+   "height": 90
+  },
+  {
+   "id": "room5",
+   "type": "group",
+   "label": "5 · It seems our minds need",
+   "x": 1920,
+   "y": 620,
+   "width": 520,
+   "height": 346
+  },
+  {
+   "id": "room5t",
+   "type": "text",
+   "text": "**It seems our minds need some kind of physical [[infrastructure]] to make sense of ideas he produces.** This way we can apply our thing-location [[skills]] to keeping track of our ideas.",
+   "x": 1944,
+   "y": 668,
+   "width": 472,
+   "height": 136
+  },
+  {
+   "id": "room5o0",
+   "type": "file",
+   "file": "graph/Infrastructure.md",
+   "x": 1944,
+   "y": 828,
+   "width": 232,
+   "height": 90
+  },
+  {
+   "id": "room5o1",
+   "type": "file",
+   "file": "graph/Skills.md",
+   "x": 2200,
+   "y": 828,
+   "width": 232,
+   "height": 90
+  },
+  {
+   "id": "room6",
+   "type": "group",
+   "label": "6 · Our ability to treat ideas",
+   "x": 1280,
+   "y": 620,
+   "width": 520,
+   "height": 544
+  },
+  {
+   "id": "room6t",
+   "type": "text",
+   "text": "Our ability to treat ideas as though they were objects goes together with our abilities to reuse our brain-machinery over and over again. Whenever an [[agency]] becomes overburdened by a large and complicated structure, we may be able to treat that structure as a simple, single unit by thing-ifying-or, as we usually say, \"_conceptualizing_\"- it. Science and Technology Studies have a word for that kind of human way of capturing complex structures through simplified representation: **artifacts**. We have certainly encountered them using [[Claude]]. Anthropic artifacts are simplified representation you can make to keep track and represent things you're doing with AI.",
+   "x": 1304,
+   "y": 668,
+   "width": 472,
+   "height": 334
+  },
+  {
+   "id": "room6o0",
+   "type": "file",
+   "file": "graph/agency.md",
+   "x": 1304,
+   "y": 1026,
+   "width": 232,
+   "height": 90
+  },
+  {
+   "id": "room6o1",
+   "type": "file",
+   "file": "CLAUDE.md",
+   "x": 1560,
+   "y": 1026,
+   "width": 232,
+   "height": 90
+  },
+  {
+   "id": "room7",
+   "type": "group",
+   "label": "7 · Then, once we replace a",
+   "x": 640,
+   "y": 620,
+   "width": 520,
+   "height": 368
+  },
+  {
+   "id": "room7t",
+   "type": "text",
+   "text": "Then, once we replace a larger structure by representing it with a compact symbol-sign, that overloaded [[agency]] may be able to continue its work. This way, we can build bigger and bigger structure of ideas-much as we can build great towers for smaller parts.",
+   "x": 664,
+   "y": 668,
+   "width": 472,
+   "height": 158
+  },
+  {
+   "id": "room7o0",
+   "type": "file",
+   "file": "graph/agency.md",
+   "x": 664,
+   "y": 850,
+   "width": 232,
+   "height": 90
+  },
+  {
+   "id": "room8",
+   "type": "group",
+   "label": "8 · I suspect that, as they're",
+   "x": 0,
+   "y": 620,
+   "width": 520,
+   "height": 570
+  },
+  {
+   "id": "room8t",
+   "type": "text",
+   "text": "I suspect that, _as they're represented in the mind_, there's little difference between a physical [[object]] and an idea. Worldly things are useful to us because they are \"substantial\" - that id, because their [[properties]] are relatively permanent. Now we don't usually think of ideas as substantial, because they don't have the usual [[property]] of worldly things - such as color, shape and weight. **Yet \"good ideas\" must also have substantiality, albeit of a different sort**:",
+   "x": 24,
+   "y": 668,
+   "width": 472,
+   "height": 246
+  },
+  {
+   "id": "room8o0",
+   "type": "file",
+   "file": "graph/Object.md",
+   "x": 24,
+   "y": 938,
+   "width": 232,
+   "height": 90
+  },
+  {
+   "id": "room8o1",
+   "type": "file",
+   "file": "graph/Properties.md",
+   "x": 280,
+   "y": 938,
+   "width": 232,
+   "height": 90
+  },
+  {
+   "id": "room8o2",
+   "type": "file",
+   "file": "graph/property.md",
+   "x": 24,
+   "y": 1052,
+   "width": 232,
+   "height": 90
+  },
+  {
+   "id": "room9",
+   "type": "group",
+   "label": "9 ·  No conception or idea",
+   "x": 0,
+   "y": 1240,
+   "width": 520,
+   "height": 276
+  },
+  {
+   "id": "room9t",
+   "type": "text",
+   "text": "> No conception or idea could have much use unless it could remain unchanged - and stay in some kind of mental \"place\" - for long enough for us to find it when we need it. Nor could we ever achieve a goal unless it could persist for long enough. In short, no mind can work without some stable states or memories.",
+   "x": 24,
+   "y": 1288,
+   "width": 472,
+   "height": 180
+  },
+  {
+   "id": "room10",
+   "type": "group",
+   "label": "10 · This stability is mandator",
+   "x": 640,
+   "y": 1240,
+   "width": 520,
+   "height": 280
+  },
+  {
+   "id": "room10t",
+   "type": "text",
+   "text": "This [[stability]] is mandator",
+   "x": 664,
+   "y": 1288,
+   "width": 472,
+   "height": 70
+  },
+  {
+   "id": "room10o0",
+   "type": "file",
+   "file": "graph/stability.md",
+   "x": 664,
+   "y": 1382,
+   "width": 232,
+   "height": 90
+  },
+  {
+   "id": "room11",
+   "type": "group",
+   "label": "11 · This may sound as though",
+   "x": 1280,
+   "y": 1240,
+   "width": 520,
+   "height": 768
+  },
+  {
+   "id": "room11t",
+   "type": "text",
+   "text": "This may sound as though I am speaking metaphorically, since a mental \"place\" is not exactly like a worldly place. But then, when you think of a place you know, that thought itself is not a wordly place, but only a linkage of memories and processes inside your mond. This wonderful capacity- to think of thoughts as though they were things- is also what enables us to contemplate the [[product]] of our thoughts. Without the ability to reflect, we would have no general intelligence-however large our repertoire of special-purpose [[skills]] might grow. Of course, this same capacity enables us to think such empty thoughts as \"*This statement is about itself*\", which is true but useless, or \"*This statement is not about itself*\", which is false and useless, or \"_This statement is false_\", which is downright paradoxical. Yet the benefit of being able to conceptualize is surely worth the [[risk]] that we may sometimes be nonsensical.",
+   "x": 1304,
+   "y": 1288,
+   "width": 472,
+   "height": 444
+  },
+  {
+   "id": "room11o0",
+   "type": "file",
+   "file": "graph/Product.md",
+   "x": 1304,
+   "y": 1756,
+   "width": 232,
+   "height": 90
+  },
+  {
+   "id": "room11o1",
+   "type": "file",
+   "file": "graph/Skills.md",
+   "x": 1560,
+   "y": 1756,
+   "width": 232,
+   "height": 90
+  },
+  {
+   "id": "room11o2",
+   "type": "file",
+   "file": "graph/risk.md",
+   "x": 1304,
+   "y": 1870,
+   "width": 232,
+   "height": 90
+  }
+ ],
+ "edges": [
+  {
+   "id": "step0",
+   "fromNode": "entrance",
+   "toNode": "room1",
+   "fromSide": "right",
+   "toSide": "left"
+  },
+  {
+   "id": "step1",
+   "fromNode": "room1",
+   "toNode": "room2",
+   "fromSide": "right",
+   "toSide": "left"
+  },
+  {
+   "id": "step2",
+   "fromNode": "room2",
+   "toNode": "room3",
+   "fromSide": "right",
+   "toSide": "left"
+  },
+  {
+   "id": "step3",
+   "fromNode": "room3",
+   "toNode": "room4",
+   "fromSide": "right",
+   "toSide": "left"
+  },
+  {
+   "id": "step4",
+   "fromNode": "room4",
+   "toNode": "room5",
+   "fromSide": "bottom",
+   "toSide": "top"
+  },
+  {
+   "id": "step5",
+   "fromNode": "room5",
+   "toNode": "room6",
+   "fromSide": "left",
+   "toSide": "right"
+  },
+  {
+   "id": "step6",
+   "fromNode": "room6",
+   "toNode": "room7",
+   "fromSide": "left",
+   "toSide": "right"
+  },
+  {
+   "id": "step7",
+   "fromNode": "room7",
+   "toNode": "room8",
+   "fromSide": "left",
+   "toSide": "right"
+  },
+  {
+   "id": "step8",
+   "fromNode": "room8",
+   "toNode": "room9",
+   "fromSide": "bottom",
+   "toSide": "top"
+  },
+  {
+   "id": "step9",
+   "fromNode": "room9",
+   "toNode": "room10",
+   "fromSide": "right",
+   "toSide": "left"
+  },
+  {
+   "id": "step10",
+   "fromNode": "room10",
+   "toNode": "room11",
+   "fromSide": "right",
+   "toSide": "left"
+  }
+ ]
 }
