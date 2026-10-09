@@ -264,7 +264,7 @@
   {
    "id": "room10",
    "type": "group",
-   "label": "10 · This stability is mandator",
+   "label": "10 · This stability is mandatory !",
    "x": 640,
    "y": 1240,
    "width": 520,
@@ -273,7 +273,7 @@
   {
    "id": "room10t",
    "type": "text",
-   "text": "This [[stability]] is mandator",
+   "text": "This [[stability]] is mandatory !",
    "x": 664,
    "y": 1288,
    "width": 472,
@@ -291,27 +291,27 @@
   {
    "id": "room11",
    "type": "group",
-   "label": "11 · This may sound as though",
+   "label": "11 · This may sound like a",
    "x": 1280,
    "y": 1240,
    "width": 520,
-   "height": 768
+   "height": 746
   },
   {
    "id": "room11t",
    "type": "text",
-   "text": "This may sound as though I am speaking metaphorically, since a mental \"place\" is not exactly like a worldly place. But then, when you think of a place you know, that thought itself is not a wordly place, but only a linkage of memories and processes inside your mond. This wonderful capacity- to think of thoughts as though they were things- is also what enables us to contemplate the [[product]] of our thoughts. Without the ability to reflect, we would have no general intelligence-however large our repertoire of special-purpose [[skills]] might grow. Of course, this same capacity enables us to think such empty thoughts as \"*This statement is about itself*\", which is true but useless, or \"*This statement is not about itself*\", which is false and useless, or \"_This statement is false_\", which is downright paradoxical. Yet the benefit of being able to conceptualize is surely worth the [[risk]] that we may sometimes be nonsensical.",
+   "text": "This may sound like a metaphor, since a mental \"place\" is not exactly like a worldly place. But then, when you think of a place you know, that thought itself is not a wordly place, but only a linkage of memories and processes inside your mond. This wonderful capacity- to think of thoughts as though they were things- is also what enables us to contemplate the [[product]] of our thoughts. Without the ability to reflect, we would have no general intelligence-however large our repertoire of special-purpose [[skills]] might grow. Of course, this same capacity enables us to think such empty thoughts as \"*This statement is about itself*\", which is true but useless, or \"*This statement is not about itself*\", which is false and useless, or \"_This statement is false_\", which is downright paradoxical. Yet the benefit of being able to conceptualize is surely worth the [[risk]] that we may sometimes be nonsensical.",
    "x": 1304,
    "y": 1288,
    "width": 472,
-   "height": 444
+   "height": 422
   },
   {
    "id": "room11o0",
    "type": "file",
    "file": "graph/Product.md",
    "x": 1304,
-   "y": 1756,
+   "y": 1734,
    "width": 232,
    "height": 90
   },
@@ -320,7 +320,7 @@
    "type": "file",
    "file": "graph/Skills.md",
    "x": 1560,
-   "y": 1756,
+   "y": 1734,
    "width": 232,
    "height": 90
   },
@@ -329,7 +329,7 @@
    "type": "file",
    "file": "graph/risk.md",
    "x": 1304,
-   "y": 1870,
+   "y": 1848,
    "width": 232,
    "height": 90
   }
