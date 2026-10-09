@@ -1,392 +1,48 @@
 {
- "nodes": [
-  {
-   "id": "ward2",
-   "type": "group",
-   "label": "Ward 2: 2 hops from Expression",
-   "x": -1571.4549323329727,
-   "y": -1571.4549323329727,
-   "width": 3142.9098646659454,
-   "height": 3142.9098646659454
-  },
-  {
-   "id": "ward1",
-   "type": "group",
-   "label": "Ward 1: 1 hop from Expression",
-   "x": -1141.4549323329727,
-   "y": -1141.4549323329727,
-   "width": 2282.9098646659454,
-   "height": 2282.9098646659454
-  },
-  {
-   "id": "n0009",
-   "type": "group",
-   "label": "Object",
-   "x": -469.1949709998455,
-   "y": -1121.4549323329727,
-   "width": 1264.5199226662546,
-   "height": 690.4569243727501
-  },
-  {
-   "id": "n0004",
-   "type": "group",
-   "label": "AI stack",
-   "x": -469.1949709998455,
-   "y": 430.99800796022265,
-   "width": 938.3899419996909,
-   "height": 690.4569243727501
-  },
-  {
-   "id": "n0010",
-   "type": "group",
-   "label": "abstract entity",
-   "x": -1121.4549323329727,
-   "y": -390.99800796022265,
-   "width": 690.4569243727501,
-   "height": 781.9960159204453
-  },
-  {
-   "id": "n0006",
-   "type": "group",
-   "label": "Infrastructure",
-   "x": -449.1949709998455,
-   "y": 520.9980079602226,
-   "width": 898.3899419996909,
-   "height": 580.4569243727501
-  },
-  {
-   "id": "n000a",
-   "type": "group",
-   "label": "Process",
-   "x": -27.68833011109399,
-   "y": -1031.4549323329727,
-   "width": 803.0132817775032,
-   "height": 580.4569243727501
-  },
-  {
-   "id": "n0012",
-   "type": "group",
-   "label": "claude code",
-   "x": 509.1949709998454,
-   "y": 430.99800796022265,
-   "width": 612.2599613331273,
-   "height": 690.4569243727501
-  },
-  {
-   "id": "n000e",
-   "type": "group",
-   "label": "Situation",
-   "x": -1121.4549323329727,
-   "y": 430.99800796022265,
-   "width": 612.2599613331272,
-   "height": 690.4569243727501
-  },
-  {
-   "id": "ward0",
-   "type": "group",
-   "label": "Hall of Expression",
-   "x": -250.99800796022265,
-   "y": -250.99800796022265,
-   "width": 501.9960159204453,
-   "height": 501.9960159204453
-  },
-  {
-   "id": "n0016",
-   "type": "file",
-   "file": "graph/property.md",
-   "x": -1101.4549323329727,
-   "y": -300.99800796022265,
-   "width": 650.4569243727501,
-   "height": 671.9960159204453
-  },
-  {
-   "id": "n0000",
-   "type": "file",
-   "file": "daily/2026-06-10.md",
-   "x": 1321.4549323329727,
-   "y": -196,
-   "width": 230,
-   "height": 346
-  },
-  {
-   "id": "n0000s",
-   "type": "text",
-   "x": 1341.4549323329727,
-   "y": 150,
-   "width": 190,
-   "height": 46,
-   "text": "→ Memory"
-  },
-  {
-   "id": "n000d",
-   "type": "file",
-   "file": "graph/SSH Agent.md",
-   "x": -429.1949709998455,
-   "y": 610.9980079602226,
-   "width": 858.3899419996909,
-   "height": 470.4569243727501
-  },
-  {
-   "id": "n000f",
-   "type": "file",
-   "file": "graph/Skills.md",
-   "x": 529.1949709998454,
-   "y": 520.9980079602226,
-   "width": 572.2599613331273,
-   "height": 580.4569243727501
-  },
-  {
-   "id": "n0014",
-   "type": "file",
-   "file": "graph/problem.md",
-   "x": -1101.4549323329727,
-   "y": 520.9980079602226,
-   "width": 572.2599613331272,
-   "height": 534.4569243727501
-  },
-  {
-   "id": "n0015",
-   "type": "file",
-   "file": "graph/problem solving.md",
-   "x": -7.68833011109399,
-   "y": -869.4549323329727,
-   "width": 763.0132817775032,
-   "height": 352.4569243727501
-  },
-  {
-   "id": "n000b",
-   "type": "file",
-   "file": "graph/Product.md",
-   "x": 430.9980079602226,
-   "y": -390.99800796022265,
-   "width": 690.4569243727501,
-   "height": 370.99800796022265
-  },
-  {
-   "id": "n0017",
-   "type": "file",
-   "file": "graph/risk.md",
-   "x": 430.9980079602226,
-   "y": 20,
-   "width": 690.4569243727501,
-   "height": 370.99800796022265
-  },
-  {
-   "id": "n0013",
-   "type": "file",
-   "file": "graph/data object.md",
-   "x": -449.1949709998455,
-   "y": -1031.4549323329727,
-   "width": 381.5066408887515,
-   "height": 580.4569243727501
-  },
-  {
-   "id": "n0008",
-   "type": "file",
-   "file": "graph/Memory.md",
-   "x": -1121.4549323329727,
-   "y": -1121.4549323329727,
-   "width": 612.2599613331272,
-   "height": 325.22846218637505
-  },
-  {
-   "id": "n0011",
-   "type": "file",
-   "file": "graph/agency.md",
-   "x": -1121.4549323329727,
-   "y": -756.2264701465976,
-   "width": 612.2599613331272,
-   "height": 325.22846218637505
-  },
-  {
-   "id": "n000c",
-   "type": "file",
-   "file": "graph/Properties.md",
-   "x": 835.3249516664091,
-   "y": -1121.4549323329727,
-   "width": 286.1299806665636,
-   "height": 690.4569243727501
-  },
-  {
-   "id": "n0005",
-   "type": "file",
-   "file": "daily/Expression.md",
-   "x": -230.99800796022265,
-   "y": -230.99800796022265,
-   "width": 461.9960159204453,
-   "height": 363.9960159204453
-  },
-  {
-   "id": "n0007",
-   "type": "file",
-   "file": "graph/Knowledge graph.md",
-   "x": -1551.4549323329727,
-   "y": -196,
-   "width": 230,
-   "height": 392
-  },
-  {
-   "id": "n0001",
-   "type": "file",
-   "file": "daily/2026-06-22 - The deep signals behind all \"AI-ish\" initiatives.md",
-   "x": 20,
-   "y": 1321.4549323329727,
-   "width": 392,
-   "height": 132
-  },
-  {
-   "id": "n0001s",
-   "type": "text",
-   "x": 40,
-   "y": 1453.4549323329727,
-   "width": 352,
-   "height": 98,
-   "text": "→ agency\n→ AI stack\n→ Object … +1"
-  },
-  {
-   "id": "n0002",
-   "type": "file",
-   "file": "daily/2026-08-07.md",
-   "x": -196,
-   "y": -1551.4549323329727,
-   "width": 392,
-   "height": 158
-  },
-  {
-   "id": "n0002s",
-   "type": "text",
-   "x": -176,
-   "y": -1393.4549323329727,
-   "width": 352,
-   "height": 72,
-   "text": "→ Memory\n→ Process"
-  },
-  {
-   "id": "n0003",
-   "type": "file",
-   "file": "daily/2026-09-17 - L'autre fuite des cerveaux.md",
-   "x": -412,
-   "y": 1321.4549323329727,
-   "width": 392,
-   "height": 132
-  },
-  {
-   "id": "n000as",
-   "type": "text",
-   "x": -7.68833011109399,
-   "y": -981.4549323329727,
-   "width": 763.0132817775032,
-   "height": 72,
-   "text": "different from → Process\nsaid to be the same as → Process"
-  },
-  {
-   "id": "n0003s",
-   "type": "text",
-   "x": -392,
-   "y": 1453.4549323329727,
-   "width": 352,
-   "height": 98,
-   "text": "→ Infrastructure\n→ Knowledge graph\n→ Situation"
-  },
-  {
-   "id": "n0004f",
-   "type": "file",
-   "file": "graph/AI stack.md",
-   "x": -449.1949709998455,
-   "y": 450.99800796022265,
-   "width": 898.3899419996909,
-   "height": 30
-  },
-  {
-   "id": "n0005s",
-   "type": "text",
-   "x": -210.99800796022265,
-   "y": 132.99800796022265,
-   "width": 421.9960159204453,
-   "height": 98,
-   "text": "→ agency\n→ Infrastructure\n→ Memory … +7"
-  },
-  {
-   "id": "n0009f",
-   "type": "file",
-   "file": "graph/Object.md",
-   "x": -449.1949709998455,
-   "y": -1101.4549323329727,
-   "width": 1224.5199226662546,
-   "height": 30
-  },
-  {
-   "id": "n0006f",
-   "type": "file",
-   "file": "graph/Infrastructure.md",
-   "x": -429.1949709998455,
-   "y": 540.9980079602226,
-   "width": 858.3899419996909,
-   "height": 30
-  },
-  {
-   "id": "n000af",
-   "type": "file",
-   "file": "graph/Process.md",
-   "x": -7.68833011109399,
-   "y": -1011.4549323329727,
-   "width": 763.0132817775032,
-   "height": 30
-  },
-  {
-   "id": "n0010f",
-   "type": "file",
-   "file": "graph/abstract entity.md",
-   "x": -1101.4549323329727,
-   "y": -370.99800796022265,
-   "width": 650.4569243727501,
-   "height": 30
-  },
-  {
-   "id": "n0012f",
-   "type": "file",
-   "file": "graph/claude code.md",
-   "x": 529.1949709998454,
-   "y": 450.99800796022265,
-   "width": 572.2599613331273,
-   "height": 30
-  },
-  {
-   "id": "n000ef",
-   "type": "file",
-   "file": "graph/Situation.md",
-   "x": -1101.4549323329727,
-   "y": 450.99800796022265,
-   "width": 572.2599613331272,
-   "height": 30
-  },
-  {
-   "id": "title",
-   "type": "text",
-   "x": 1611.4549323329727,
-   "y": 1113.4549323329727,
-   "width": 460,
-   "height": 458,
-   "text": "## Plan of Expression\n2026-10-08 · North is up · 1 cell = 1 note\nHall = this note · ward n = n hops · suites nest · open rings are corridors · plaques list exits · only the 24 best-connected notes get a room\n\n**Rooms inside rooms**\nbroader: inside\ninferred:skos:broader: inside\nsubclass of: inside\npartOf: inside\nfacet of: inside\ninferred:skos:narrower: contains\nmadeOf: contains\ndifferent from: across"
-  },
-  {
-   "id": "n0015s",
-   "type": "text",
-   "x": 12.31166988890601,
-   "y": -516.9980079602226,
-   "width": 723.0132817775032,
-   "height": 46,
-   "text": "has cause → problem"
-  },
-  {
-   "id": "n0014s",
-   "type": "text",
-   "x": -1081.4549323329727,
-   "y": 1055.4549323329727,
-   "width": 532.2599613331272,
-   "height": 46,
-   "text": "handled, mitigated, or managed by → problem solving"
-  }
- ],
- "edges": []
+	"nodes":[
+		{"id":"ward2","type":"group","label":"Ward 2: 2 hops from Expression","x":-1571.4549323329727,"y":-1571.4549323329727,"width":3142.9098646659454,"height":3142.9098646659454},
+		{"id":"ward1","type":"group","label":"Ward 1: 1 hop from Expression","x":-1141.4549323329727,"y":-1141.4549323329727,"width":2282.9098646659454,"height":2282.9098646659454},
+		{"id":"n0009","type":"group","label":"Object","x":-469.1949709998455,"y":-1121.4549323329727,"width":1264.5199226662546,"height":690.4569243727501},
+		{"id":"n0004","type":"group","label":"AI stack","x":-469.1949709998455,"y":430.99800796022265,"width":938.3899419996909,"height":690.4569243727501},
+		{"id":"n0010","type":"group","label":"abstract entity","x":-1121.4549323329727,"y":-390.99800796022265,"width":690.4569243727501,"height":781.9960159204453},
+		{"id":"n0006","type":"group","label":"Infrastructure","x":-449.1949709998455,"y":520.9980079602226,"width":898.3899419996909,"height":580.4569243727501},
+		{"id":"n000a","type":"group","label":"Process","x":-27.68833011109399,"y":-1031.4549323329727,"width":803.0132817775032,"height":580.4569243727501},
+		{"id":"n0012","type":"group","label":"claude code","x":509.1949709998454,"y":430.99800796022265,"width":612.2599613331273,"height":690.4569243727501},
+		{"id":"n000e","type":"group","label":"Situation","x":-1121.4549323329727,"y":430.99800796022265,"width":612.2599613331272,"height":690.4569243727501},
+		{"id":"ward0","type":"group","label":"Hall of Expression","x":-250.99800796022265,"y":-250.99800796022265,"width":501.9960159204453,"height":501.9960159204453},
+		{"id":"n0016","type":"file","file":"graph/property.md","x":-1101.4549323329727,"y":-300.99800796022265,"width":650.4569243727501,"height":671.9960159204453},
+		{"id":"n0000","type":"file","file":"daily/2026-06-10.md","x":1321.4549323329727,"y":-196,"width":230,"height":346},
+		{"id":"n0000s","type":"text","x":1341.4549323329727,"y":150,"width":190,"height":46,"text":"→ Memory"},
+		{"id":"n000d","type":"file","file":"graph/SSH Agent.md","x":-429.1949709998455,"y":610.9980079602226,"width":858.3899419996909,"height":470.4569243727501},
+		{"id":"n000f","type":"file","file":"graph/Skills.md","x":529.1949709998454,"y":520.9980079602226,"width":572.2599613331273,"height":580.4569243727501},
+		{"id":"n0014","type":"file","file":"graph/problem.md","x":-1101.4549323329727,"y":520.9980079602226,"width":572.2599613331272,"height":534.4569243727501},
+		{"id":"n0015","type":"file","file":"graph/problem solving.md","x":-7.68833011109399,"y":-869.4549323329727,"width":763.0132817775032,"height":352.4569243727501},
+		{"id":"n000b","type":"file","file":"graph/Product.md","x":430.9980079602226,"y":-390.99800796022265,"width":690.4569243727501,"height":370.99800796022265},
+		{"id":"n0017","type":"file","file":"graph/risk.md","x":430.9980079602226,"y":20,"width":690.4569243727501,"height":370.99800796022265},
+		{"id":"n0013","type":"file","file":"graph/data object.md","x":-449.1949709998455,"y":-1031.4549323329727,"width":381.5066408887515,"height":580.4569243727501},
+		{"id":"n0008","type":"file","file":"graph/Memory.md","x":-1121.4549323329727,"y":-1121.4549323329727,"width":612.2599613331272,"height":325.22846218637505},
+		{"id":"n0011","type":"file","file":"graph/agency.md","x":-1121.4549323329727,"y":-756.2264701465976,"width":612.2599613331272,"height":325.22846218637505},
+		{"id":"n000c","type":"file","file":"graph/Properties.md","x":835.3249516664091,"y":-1121.4549323329727,"width":286.1299806665636,"height":690.4569243727501},
+		{"id":"n0005","type":"file","file":"daily/Expression.md","x":-230.99800796022265,"y":-230.99800796022265,"width":461.9960159204453,"height":363.9960159204453},
+		{"id":"n0007","type":"file","file":"graph/Knowledge graph.md","x":-1551.4549323329727,"y":-196,"width":230,"height":392},
+		{"id":"n0001","type":"file","file":"daily/2026-06-22 - The deep signals behind all \"AI-ish\" initiatives.md","x":20,"y":1321.4549323329727,"width":392,"height":132},
+		{"id":"n0001s","type":"text","x":40,"y":1453.4549323329727,"width":352,"height":98,"text":"→ agency\n→ AI stack\n→ Object … +1"},
+		{"id":"n0002","type":"file","file":"daily/2026-08-07.md","x":-196,"y":-1551.4549323329727,"width":392,"height":158},
+		{"id":"n0002s","type":"text","x":-176,"y":-1393.4549323329727,"width":352,"height":72,"text":"→ Memory\n→ Process"},
+		{"id":"n0003","type":"file","file":"daily/2026-09-17 - L'autre fuite des cerveaux.md","x":-412,"y":1321.4549323329727,"width":392,"height":132},
+		{"id":"n000as","type":"text","x":-7.68833011109399,"y":-981.4549323329727,"width":763.0132817775032,"height":72,"text":"different from → Process\nsaid to be the same as → Process"},
+		{"id":"n0003s","type":"text","x":-392,"y":1453.4549323329727,"width":352,"height":98,"text":"→ Infrastructure\n→ Knowledge graph\n→ Situation"},
+		{"id":"n0004f","type":"file","file":"graph/AI stack.md","x":-449.1949709998455,"y":450.99800796022265,"width":898.3899419996909,"height":30},
+		{"id":"n0005s","type":"text","x":-210.99800796022265,"y":132.99800796022265,"width":421.9960159204453,"height":98,"text":"→ agency\n→ Infrastructure\n→ Memory … +7"},
+		{"id":"n0009f","type":"file","file":"graph/Object.md","x":-449.1949709998455,"y":-1101.4549323329727,"width":1224.5199226662546,"height":30},
+		{"id":"n0006f","type":"file","file":"graph/Infrastructure.md","x":-429.1949709998455,"y":540.9980079602226,"width":858.3899419996909,"height":30},
+		{"id":"n000af","type":"file","file":"graph/Process.md","x":-7.68833011109399,"y":-1011.4549323329727,"width":763.0132817775032,"height":30},
+		{"id":"n0010f","type":"file","file":"graph/abstract entity.md","x":-1101.4549323329727,"y":-370.99800796022265,"width":650.4569243727501,"height":30},
+		{"id":"n0012f","type":"file","file":"graph/claude code.md","x":529.1949709998454,"y":450.99800796022265,"width":572.2599613331273,"height":30},
+		{"id":"n000ef","type":"file","file":"graph/Situation.md","x":-1101.4549323329727,"y":450.99800796022265,"width":572.2599613331272,"height":30},
+		{"id":"title","type":"text","x":1611.4549323329727,"y":1113.4549323329727,"width":460,"height":458,"text":"## Plan of Expression\n2026-10-08 · North is up · 1 cell = 1 note\nHall = this note · ward n = n hops · suites nest · open rings are corridors · plaques list exits · only the 24 best-connected notes get a room\n\n**Rooms inside rooms**\nbroader: inside\ninferred:skos:broader: inside\nsubclass of: inside\npartOf: inside\nfacet of: inside\ninferred:skos:narrower: contains\nmadeOf: contains\ndifferent from: across"},
+		{"id":"n0015s","type":"text","x":12.31166988890601,"y":-516.9980079602226,"width":723.0132817775032,"height":46,"text":"has cause → problem"},
+		{"id":"n0014s","type":"text","x":-1081.4549323329727,"y":1055.4549323329727,"width":532.2599613331272,"height":46,"text":"handled, mitigated, or managed by → problem solving"}
+	],
+	"edges":[]
 }
