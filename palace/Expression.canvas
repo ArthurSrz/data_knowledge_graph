@@ -12,27 +12,36 @@
   {
    "id": "room1",
    "type": "group",
-   "label": "1 · When we speak, we tend",
+   "label": "1 · You’ve been using artifacts in",
    "x": 0,
    "y": 0,
    "width": 520,
-   "height": 390
+   "height": 434
   },
   {
    "id": "room1t",
    "type": "text",
-   "text": "When we speak, we tend to treat our thoughts like ordinary things. I mean physical things. When solving a [[problem]]. We say : \"_Well, I am looking for a way to solve this [[problem]], and I think I've just found one_\". We speak as though ideas were objects located in some room, and that could find and grasp them.",
+   "text": "You’ve been using artifacts in [[Claude]] for months, and you have no idea what they are. Strangely, the answer starts with the way we talk. When we speak, we treat our thoughts like physical things. Facing a [[problem]], we say: “Well, I’m looking for a way to solve this, and I think I’ve just found one.” We speak as though ideas were objects sitting in some room, waiting for us to find and grasp them.",
    "x": 24,
    "y": 48,
    "width": 472,
-   "height": 180
+   "height": 224
   },
   {
    "id": "room1o0",
    "type": "file",
-   "file": "graph/problem.md",
+   "file": "CLAUDE.md",
    "x": 24,
-   "y": 252,
+   "y": 296,
+   "width": 232,
+   "height": 90
+  },
+  {
+   "id": "room1o1",
+   "type": "file",
+   "file": "graph/problem.md",
+   "x": 280,
+   "y": 296,
    "width": 232,
    "height": 90
   },
@@ -147,7 +156,7 @@
   {
    "id": "room6t",
    "type": "text",
-   "text": "Our ability to treat ideas as though they were objects goes together with our abilities to reuse our brain-machinery over and over again. Whenever an [[agency]] becomes overburdened by a large and complicated structure, we may be able to treat that structure as a simple, single unit by thing-ifying-or, as we usually say, \"_conceptualizing_\"- it. Science and Technology Studies have a word for that kind of human way of capturing complex structures through simplified representation: **artifacts**. We have certainly encountered them using [[Claude]]. Anthropic artifacts are simplified representation you can make to keep track and represent things you're doing with AI.",
+   "text": "Our ability to treat ideas as though they were objects goes together with our abilities to reuse our brain-machinery over and over again. Whenever an [[agency]] becomes overburdened by a large and complicated structure, we may be able to treat that structure as a simple, single unit by thing-ifying-or, as we usually say, \"_conceptualizing_\"- it. Science and Technology Studies have a word for that kind of human way of capturing complex structures through simplified representation: **artifacts**. That's where artifacts in [[Claude]] come fro. Anthropic artifacts are simplified representation you can make to keep track and represent things you're doing with AI.",
    "x": 1304,
    "y": 668,
    "width": 472,
@@ -300,7 +309,7 @@
   {
    "id": "room11t",
    "type": "text",
-   "text": "This may sound like a metaphor, since a mental \"place\" is not exactly like a worldly place. But then, when you think of a place you know, that thought itself is not a wordly place, but only a linkage of memories and processes inside your mond. This wonderful capacity- to think of thoughts as though they were things- is also what enables us to contemplate the [[product]] of our thoughts. Without the ability to reflect, we would have no general intelligence-however large our repertoire of special-purpose [[skills]] might grow. Of course, this same capacity enables us to think such empty thoughts as \"*This statement is about itself*\", which is true but useless, or \"*This statement is not about itself*\", which is false and useless, or \"_This statement is false_\", which is downright paradoxical. Yet the benefit of being able to conceptualize is surely worth the [[risk]] that we may sometimes be nonsensical.",
+   "text": "This may sound like a metaphor, since a mental \"place\" is not exactly like a worldly place. But then, when you think of a place you know, that thought itself is not a wordly place, but only a linkage of memories and processes inside your mind. This wonderful capacity- to think of thoughts as though they were things- is also what enables us to contemplate the [[product]] of our thoughts. Without the ability to reflect, we would have no general intelligence-however large our repertoire of special-purpose [[skills]] might grow. Of course, this same capacity enables us to think such empty thoughts as \"*This statement is about itself*\", which is true but useless, or \"*This statement is not about itself*\", which is false and useless, or \"_This statement is false_\", which is downright paradoxical. Yet the benefit of being able to conceptualize is surely worth the [[risk]] that we may sometimes be nonsensical.",
    "x": 1304,
    "y": 1288,
    "width": 472,

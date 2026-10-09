@@ -1,4 +1,4 @@
-When we speak, we tend to treat our thoughts like ordinary things. I mean physical things. When solving a [[problem]]. We say : "_Well, I am looking for a way to solve this [[problem]], and I think I've just found one_". We speak as though ideas were objects located in some room, and that could find and grasp them. 
+You’ve been using artifacts in [[Claude]] for months, and you have no idea what they are. Strangely, the answer starts with the way we talk. When we speak, we treat our thoughts like physical things. Facing a [[problem]], we say: “Well, I’m looking for a way to solve this, and I think I’ve just found one.” We speak as though ideas were objects sitting in some room, waiting for us to find and grasp them.
 
 Isn't it a funny thing to do ? I mean, to "thing-ify" our thoughts? And for what purpose ? 
 
@@ -10,7 +10,7 @@ Indeed, for many centuries our [[memory]] training arts have been dominated by t
 
 **It seems our minds need some kind of physical [[infrastructure]] to make sense of ideas he produces.** This way we can apply our thing-location [[skills]] to keeping track of our ideas. 
 
-Our ability to treat ideas as though they were objects goes together with our abilities to reuse our brain-machinery over and over again. Whenever an [[agency]] becomes overburdened by a large and complicated structure, we may be able to treat that structure as a simple, single unit by thing-ifying-or, as we usually say, "_conceptualizing_"- it. Science and Technology Studies have a word for that kind of human way of capturing complex structures through simplified representation: **artifacts**. We have certainly encountered them using [[Claude]]. Anthropic artifacts are simplified representation you can make to keep track and represent things you're doing with AI.  
+Our ability to treat ideas as though they were objects goes together with our abilities to reuse our brain-machinery over and over again. Whenever an [[agency]] becomes overburdened by a large and complicated structure, we may be able to treat that structure as a simple, single unit by thing-ifying-or, as we usually say, "_conceptualizing_"- it. Science and Technology Studies have a word for that kind of human way of capturing complex structures through simplified representation: **artifacts**. That's where artifacts in [[Claude]] come from. Anthropic artifacts are simplified representation you can make to keep track and represent things you're doing with AI.  
 
 Then, once we replace a larger structure by representing it with a compact symbol-sign, that overloaded [[agency]] may be able to continue its work. This way, we can build bigger and bigger structure of ideas-much as we can build great towers for smaller parts. 
 
