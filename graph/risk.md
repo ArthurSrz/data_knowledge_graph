@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[dangerousness]]"
+inferred:skos:narrower:
+  - "[[conflict of interest]]"
 ---
