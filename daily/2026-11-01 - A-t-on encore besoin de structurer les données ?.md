@@ -54,6 +54,12 @@ Commençons par ce que la structure **n'apporte pas au modèle** :
 
 Maintenant, sur que la structure apporte au modèle : 
 1. **elle lui permet de répondre correctement à la question**. En effet, ici, la bonne réponse est que tous les himalayistes sont des alpinistes. L'alpinisme désigne ici toute pratique qui consiste à gravir des sommets montagneux (comme l'a dit la mère du célèbre alpiniste français Lionel Terray : "L'alpinisme est un sport stupide qui consiste à grimper les rochers avec les mains, les pieds, et les dents !"), et l'himalayisme est une pratique spécifique de l'alpiniste sur la chaîne himalayenne 
-2. elle lui donne la bonne manière de raisonner. C'est ici la chose la plus fascinante. Regardez de près la 
 
-![[error-canon.png]]
+2. elle lui donne la bonne manière de raisonner. C'est ici la chose la plus fascinante. Regardez ci-dessous de près la réponse 13 (sans) qui a été générée avec une connaissance non-structurée. Il s'y trouve une **erreur flagrante de logique** : tous les himalayistes ne sont pas des alpinistes MAIS l'alpinisme est une pratique plus large sur l'himalayisme 🤯. La logique formelle exige que si A est un sous-ensemble de B, alors tout élément de A fait nécessairement partie de B. Un enfant de 5 ans comprend cela aisément (peut être pas expliqué sous cette forme, certes). Le modèle, sans connaissance structurée, fait cette erreur **alors qu'avec la connaissance structurée, il applique correctement la logique**
+
+![[error-canon.png|378]]
+
+
+# Interprétation : on a, plus que jamais, besoin de structurer les données
+
+Tout simplement. Ce que cette petite démonstration montre c'est qu'à ne pas se soucier de la structure des données que l'on donne aux modèles, ou à laisser le modèle définir lui-même la structure (AI-generated ontologies), on perd toute maitrise du **sens à donner aux données**. J'ai ici développé un exemple extrême où un petit modèle a fait une énorme erreur de logique dans son raisonnement, mais il est fort probable que les plus grands modèles font également des erreurs d'interprétation, évidemment plus subtiles, mais qui peuvent valoir très chers dans des domaines ou industries de pointes. 
