@@ -48,5 +48,12 @@ Les résultats se présentent sous cette forme :
 
 ![[results-canon.png]]
 
-Commençons par ce que la structure **n'apporte pas aux modèles** : 
-1. 
+Commençons par ce que la structure **n'apporte pas au modèle** : 
+1. la structure ne permet pas au modèle d'être plus consistant sémantiquement dans ses réponses. On le voit au fait que la zone d'atterrissage du canon avec le paramétrage de [[test]] n'est pas plus étroite que celle du canon avec le paramétrage de contrôle 
+2. la structure ne [[change]] pas non plus fondamentalement le sens des réponses. On le voit à l'overlap important entre les deux zones d'atterrissage. 
+
+Maintenant, sur que la structure apporte au modèle : 
+1. **elle lui permet de répondre correctement à la question**. En effet, ici, la bonne réponse est que tous les himalayistes sont des alpinistes. L'alpinisme désigne ici toute pratique qui consiste à gravir des sommets montagneux (comme l'a dit la mère du célèbre alpiniste français Lionel Terray : "L'alpinisme est un sport stupide qui consiste à grimper les rochers avec les mains, les pieds, et les dents !"), et l'himalayisme est une pratique spécifique de l'alpiniste sur la chaîne himalayenne 
+2. elle lui donne la bonne manière de raisonner. C'est ici la chose la plus fascinante. Regardez de près la 
+
+![[error-canon.png]]
