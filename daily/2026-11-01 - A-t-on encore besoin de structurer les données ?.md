@@ -7,4 +7,16 @@ En sous-main, cette question en pose une autre, plus intéressante peut être : 
 
 Un avertissement aux lecteurs : je vais porter ici en priorité l'accent sur la méthodologie qui me permet de répondre à cette question (`A-t-on, oui ou non, encore besoin de structurer les données ?`), que sur la réponse elle-même. Il est plus question pour moi ici de donner aux [[data]] scientists, [[data]] analysts ou experts en [[knowledge graph]] le moyen de démontrer **la valeur de leur expertise**. Car oui, vous l'aurez compris, ma conclusion va être ici que oui, on a toujours besoin de structurer les données. Je dirai même : on en a besoin, **plus que jamais !**
 
-# Laboratoire d'expérimentation : le [Canon Ball](https://canon-ball-production.up.railway.app/)
+# Laboratoire d'expérimentation : le [canon ball](https://canon-ball-production.up.railway.app/)
+
+Je vais ici utiliser une petite application créée pour comprendre ce qu'un *[[knowledge]] [[layer]]* apporte à un modèle de connaissance, dite canon ball : 
+
+![[canon-ball .png]]
+
+Cette petit application file la métaphore du modèle de langage considéré comme canon qui tirerait des boulets dans un espace (sémantique). Il permet : 
+1. de modifier les paramètres du canon (ici par l'adjonction de différents types [[knowledge]] [[layer]], chargés dans le canon de différentes manières, voir tous les détails dans l'application)
+2. de faire des tirs selon différents ensembles de paramètres 
+3. de récupérer et surtout de **comparer** les positions des différents boulets selon qu'ils aient été tirés par un ensemble de paramètres ou un autre. 
+
+L'expérimentation que j'y ai ai faite est ici toute simple. J'ai posé la même question au même modèle de langage (un gemma-2b), que j'ai mis dans deux dispositions différentes :
+* d'un côté, le modèle disposa
