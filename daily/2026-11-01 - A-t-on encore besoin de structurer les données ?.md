@@ -62,4 +62,6 @@ Maintenant, sur que la structure apporte au modèle :
 
 # Interprétation : on a, plus que jamais, besoin de structurer les données
 
-Tout simplement. Ce que cette petite démonstration montre c'est qu'à ne pas se soucier de la structure des données que l'on donne aux modèles, ou à laisser le modèle définir lui-même la structure (AI-generated ontologies), on perd toute maitrise du **sens à donner aux données**. J'ai ici développé un exemple extrême où un petit modèle a fait une énorme erreur de logique dans son raisonnement, mais il est fort probable que les plus grands modèles font également des erreurs d'interprétation, évidemment plus subtiles, mais qui peuvent valoir très chers dans des domaines ou industries de pointes. 
+Tout simplement. Ce que cette petite démonstration montre c'est qu'à ne pas se soucier de la structure des données que l'on donne aux modèles, ou à laisser le modèle définir lui-même la structure (AI-generated ontologies), on perd toute maitrise du **sens à donner aux données**. J'ai ici développé un exemple extrême où un petit modèle a fait une énorme erreur de logique dans son raisonnement, mais il est fort probable que les plus grands modèles font également des erreurs d'interprétation, évidemment plus subtiles, mais qui peuvent valoir très cheres dans des domaines ou industries de pointes. 
+
+Mesdames, messieurs les [[data]] analysts, scientists, nous ne sommes pas encore prêt de se passer de vous ! 
