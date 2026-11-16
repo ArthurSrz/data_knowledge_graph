@@ -12,5 +12,7 @@ MeSH tree code:
   - N06.850.520.445.800.750
 Commons category: Receiver operating characteristic
 wikidata entity id: Q327120
+inferred:skos:ancestor:
+  - "[[operating characteristic curve]]"
 ---
 performance of a binary classifier system as its discrimination threshold is varied
