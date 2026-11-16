@@ -1,3 +1,4 @@
 ---
-inferred:skos:ancestor: "[[Git]]"
+inferred:skos:narrower:
+  - "[[pull request approval]]"
 ---

@@ -1,3 +1,6 @@
 ---
-inferred:skos:ancestor: "[[Git]]"
+inferred:skos:narrower:
+  - "[[GitHub Actions]]"
+  - "[[GitHub ruleset]]"
+  - "[[required status check]]"
 ---
