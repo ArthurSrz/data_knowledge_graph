@@ -42,10 +42,10 @@ Commons category: Management
 image: http://commons.wikimedia.org/wiki/Special:FilePath/New%20Board%20Room%20at%202%20Broadway%20%2816458634290%29.jpg
 WordLift URL: http://data.thenextweb.com/tnw/entity/management
 involves: "[[Feedback]]"
-broader: "[[Process]]"
+broader: "[[process]]"
 inferred:skos:ancestor:
-  - "[[Process]]"
   - "[[control]]"
+  - "[[process]]"
 inferred:skos:narrower:
   - "[[Delegation]]"
   - "[[Gouvernance]]"

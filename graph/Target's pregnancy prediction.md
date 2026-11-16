@@ -1,8 +1,6 @@
 ---
 broader: "[[prediction]]"
 inferred:skos:ancestor:
-  - "[[Prediction]]"
-inferred:skos:broader:
-  - "[[Prediction]]"
+  - "[[prediction]]"
 ---
-One of [[Privacy challenge]]
+One of [[privacy challenge]]

@@ -6,6 +6,6 @@ product or material produced:
 broader: "[[Management]]"
 inferred:skos:ancestor:
   - "[[Management]]"
-  - "[[Process]]"
   - "[[control]]"
+  - "[[process]]"
 ---

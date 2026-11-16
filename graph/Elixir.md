@@ -16,7 +16,7 @@ instance of:
   - "[[graph/open-source software]]"
   - "[[graph/functional programming language]]"
   - "[[graph/off-side rule language]]"
-  - "[[graph/programming language]]"
+  - "[[programming language]]"
 programmed in: "[[graph/Elixir]]"
 copyright license: "[[graph/Apache Software License 2.0]]"
 depends on software: "[[graph/BEAM]]"
@@ -67,8 +67,8 @@ FreeBSD port: lang/elixir
 Docker Hub repository: library/elixir
 publication date: 2012-05-25T00:00:00Z
 wikidata entity id: Q5362035
-TypeOf: "[[Process]]"
-broader: "[[Programming language]]"
+TypeOf: "[[process]]"
+broader: "[[programming language]]"
 inferred:skos:ancestor:
-  - "[[Programming language]]"
+  - "[[programming language]]"
 ---

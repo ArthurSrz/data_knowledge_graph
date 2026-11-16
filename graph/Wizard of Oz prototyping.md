@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Prototyping]]"
+inferred:skos:ancestor: "[[prototyping]]"
 ---

@@ -4,7 +4,7 @@ different from:
   - "[[graph/Akt]]"
   - "[[graph/activity]]"
   - "[[graph/quality process]]"
-  - "[[graph/Process]]"
+  - "[[process]]"
   - "[[graph/verb]]"
 has effect:
   - "[[graph/consequent]]"
@@ -30,7 +30,7 @@ studied by:
   - "[[graph/process philosophy]]"
   - "[[graph/process ontology]]"
 part of: "[[graph/Systems Biology Ontology]]"
-said to be the same as: "[[graph/process]]"
+said to be the same as: "[[process]]"
 union of: "[[graph/list of values as qualifiers]]"
 subclass of: "[[graph/occurrent]]"
 instance of: "[[graph/BFO class]]"

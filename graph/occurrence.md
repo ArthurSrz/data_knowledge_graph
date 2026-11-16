@@ -6,7 +6,7 @@ has characteristic:
 has effect:
   - "[[graph/effect]]"
   - "[[graph/result]]"
-  - "[[graph/process]]"
+  - "[[process]]"
   - "[[graph/state]]"
 different from:
   - "[[graph/Event]]"
@@ -22,7 +22,7 @@ characteristic of:
   - "[[graph/event sequence]]"
 has cause:
   - "[[graph/cause]]"
-  - "[[graph/process]]"
+  - "[[process]]"
   - "[[graph/state]]"
   - "[[graph/happening]]"
 model item:

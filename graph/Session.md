@@ -1,6 +1,6 @@
 ---
 inferred:skos:ancestor:
-  - "[[Process]]"
+  - "[[process]]"
   - "[[Situation]]"
   - "[[application development]]"
   - "[[context]]"

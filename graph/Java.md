@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Programming language]]"
+inferred:skos:ancestor: "[[programming language]]"
 ---

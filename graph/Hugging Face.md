@@ -1,8 +1,8 @@
 ---
 broader: "[[Python]]"
 inferred:skos:ancestor:
-  - "[[Programming language]]"
   - "[[Python]]"
+  - "[[programming language]]"
 inferred:skos:narrower:
   - "[[DatasetDict]]"
   - "[[Datasets]]"

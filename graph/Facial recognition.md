@@ -5,4 +5,4 @@ inferred:skos:ancestor:
 inferred:skos:broader:
   - "[[Computer vision]]"
 ---
-One of [[Privacy challenge]]
+One of [[privacy challenge]]

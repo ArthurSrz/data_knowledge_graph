@@ -16,10 +16,10 @@ studied by:
   - "[[graph/anthropology]]"
   - "[[graph/semiotics]]"
 facet of: "[[graph/communication]]"
-broader: "[[Process]]"
+broader: "[[process]]"
 inferred:skos:ancestor:
-  - "[[Process]]"
   - "[[Situation]]"
+  - "[[process]]"
 inferred:skos:narrower:
   - "[[agents.md]]"
 ---

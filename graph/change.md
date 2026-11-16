@@ -1,7 +1,7 @@
 ---
 manifestation of:
   - "[[graph/system dynamics]]"
-  - "[[graph/process]]"
+  - "[[process]]"
 has cause:
   - "[[graph/interactivity]]"
   - "[[graph/converter]]"

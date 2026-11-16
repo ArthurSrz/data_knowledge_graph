@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Process]]"
+inferred:skos:ancestor: "[[process]]"
 ---

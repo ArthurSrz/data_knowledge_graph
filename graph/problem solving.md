@@ -2,7 +2,7 @@
 uses: "[[graph/creativity]]"
 has cause: "[[graph/problem]]"
 subclass of:
-  - "[[graph/process]]"
+  - "[[process]]"
   - "[[graph/intellectual activity]]"
   - "[[graph/mathematisation]]"
   - "[[graph/thought]]"
@@ -27,7 +27,5 @@ MeSH tree code:
 Dewey Decimal Classification: "153.43"
 wikidata entity id: Q730920
 inferred:skos:ancestor:
-  - "[[Process]]"
-inferred:skos:broader:
-  - "[[Process]]"
+  - "[[process]]"
 ---

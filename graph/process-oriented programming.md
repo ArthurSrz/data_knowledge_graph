@@ -1,6 +1,6 @@
 ---
 inferred:skos:ancestor:
-  - "[[Programming language]]"
+  - "[[programming language]]"
   - "[[functional programming]]"
-inferred:skos:broader: "[[Programming language]]"
+inferred:skos:broader: "[[programming language]]"
 ---

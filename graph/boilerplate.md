@@ -1,7 +1,7 @@
 ---
 wikidata entity id: Q1651672
 subclass of:
-  - "[[Provenance]]"
+  - "[[provenance]]"
 opposite of:
   - "[[bespoke]]"
 different from:
@@ -10,8 +10,8 @@ example in:
   - "[[term sheet]]"
 broader: "[[application development]]"
 inferred:skos:ancestor:
-  - "[[Provenance]]"
   - "[[application development]]"
+  - "[[provenance]]"
 ---
 
 Standard reusable text reproduced verbatim across contracts, without negotiation. The term originates from 19th-century printing: metal plates used to reproduce standard text blocks were called boilerplates.

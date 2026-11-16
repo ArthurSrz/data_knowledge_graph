@@ -2,8 +2,8 @@
 broader: "[[Hugging Face]]"
 inferred:skos:ancestor:
   - "[[Hugging Face]]"
-  - "[[Programming language]]"
   - "[[Python]]"
+  - "[[programming language]]"
 ---
 # TrainingArguments
 

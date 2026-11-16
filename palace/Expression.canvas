@@ -26,7 +26,7 @@
 		{"id":"room8","type":"group","label":"8 · I suspect that, as they're","x":0,"y":620,"width":520,"height":570},
 		{"id":"room8t","type":"text","text":"I suspect that, _as they're represented in the mind_, there's little difference between a physical [[object]] and an idea. Worldly things are useful to us because they are \"substantial\" - that id, because their [[properties]] are relatively permanent. Now we don't usually think of ideas as substantial, because they don't have the usual [[property]] of worldly things - such as color, shape and weight. **Yet \"good ideas\" must also have substantiality, albeit of a different sort**:","x":24,"y":668,"width":472,"height":246},
 		{"id":"room8o0","type":"file","file":"graph/Object.md","x":24,"y":938,"width":232,"height":90},
-		{"id":"room8o1","type":"file","file":"graph/Properties.md","x":280,"y":938,"width":232,"height":90},
+		{"id":"room8o1","type":"file","file":"graph/properties.md","x":280,"y":938,"width":232,"height":90},
 		{"id":"room8o2","type":"file","file":"graph/property.md","x":24,"y":1052,"width":232,"height":90},
 		{"id":"room9","type":"group","label":"9 ·  No conception or idea","x":0,"y":1240,"width":520,"height":276},
 		{"id":"room9t","type":"text","text":"> No conception or idea could have much use unless it could remain unchanged - and stay in some kind of mental \"place\" - for long enough for us to find it when we need it. Nor could we ever achieve a goal unless it could persist for long enough. In short, no mind can work without some stable states or memories.","x":24,"y":1288,"width":472,"height":180},

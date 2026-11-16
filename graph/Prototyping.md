@@ -1,3 +1,3 @@
 ---
-inferred:skos:narrower: "[[Pretotyping]]"
+inferred:skos:narrower: "[[pretotyping]]"
 ---

@@ -53,7 +53,7 @@ Mathematical representation:
 From Cybenko (1989) and Hornik (1991):
 "Standard multilayer feedforward networks with as few as one hidden [[layer]] using arbitrary squashing [[functions]] are capable of approximating any Borel measurable function from one finite dimensional space to another to any desired [[degree]] of [[accuracy]]."
 
-## Training [[Process]]
+## Training [[process]]
 
 The key innovation from Rumelhart et al.:
 1. Forward pass: Compute outputs
@@ -61,7 +61,7 @@ The key innovation from Rumelhart et al.:
 3. Backward pass: Propagate error gradients
 4. Update [[weights]]: Δwᵢⱼ = -η∂E/∂wᵢⱼ
 
-## Key [[Properties]]
+## Key [[properties]]
 
 1. **Non-linearity**: Activation [[functions]] enable complex mappings
 2. **Hidden Representations**: Learn features automatically

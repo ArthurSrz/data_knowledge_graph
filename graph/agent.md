@@ -57,7 +57,7 @@ According to Minsky (1986):
 4. **[[Memory]]/State**: Storing information
 5. **Learning Component**: Adapting behavior
 
-#### [[Properties]] of Intelligent Agents
+#### [[properties]] of Intelligent Agents
 
 1. **Situatedness**: Embedded in [[environment]]
 2. **Embodiment**: Physical or virtual presence

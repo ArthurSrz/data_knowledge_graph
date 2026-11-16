@@ -10,8 +10,8 @@ subclass of:
 broader: "[[Management]]"
 inferred:skos:ancestor:
   - "[[Management]]"
-  - "[[Process]]"
   - "[[control]]"
+  - "[[process]]"
 ---
 ## Frein 
 

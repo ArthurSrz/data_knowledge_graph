@@ -50,7 +50,7 @@ From Bengio et al. (2003):
 3. **Word2Vec (2013)**: Mikolov's efficient training
 4. **Modern Embeddings**: Universal sentence encoders, [[BERT]] embeddings
 
-## Mathematical [[Properties]]
+## Mathematical [[properties]]
 
 From Mikolov et al. (2013):
 "The word representations are learned using a simple neural network [[model]] that tries to predict a word based on its [[context]]."
@@ -61,7 +61,7 @@ Key [[properties]]:
 3. **Continuity**: Similar items have similar [[vectors]]
 4. **Compositionality**: Can be combined meaningfully
 
-## Semantic [[Properties]]
+## Semantic [[properties]]
 
 The famous analogy from Mikolov:
 vector("King") - vector("Man") + vector("Woman") ≈ vector("Queen")

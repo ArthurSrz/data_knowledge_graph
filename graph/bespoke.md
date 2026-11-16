@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Provenance]]"
+inferred:skos:ancestor: "[[provenance]]"
 ---

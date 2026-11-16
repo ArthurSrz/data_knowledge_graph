@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Pretraining]]"
+inferred:skos:ancestor: "[[pretraining]]"
 ---

@@ -1,7 +1,7 @@
 ---
 subclass of:
   - "[[heuristic]]"
-  - "[[Provenance]]"
+  - "[[provenance]]"
 uses:
   - "[[bargaining power]]"
   - "[[de facto standard]]"
@@ -17,11 +17,11 @@ related to:
   - "[[negotiation]]"
 broader: "[[clause]]"
 inferred:skos:ancestor:
-  - "[[Provenance]]"
   - "[[clause]]"
   - "[[heuristic]]"
+  - "[[provenance]]"
 ---
-The decision process a legal practitioner applies to assign a clause to a [[Provenance]] type. It is a [[heuristic]] — not an algorithm — because it relies on experience and tacit market knowledge rather than a computable rule.
+The decision process a legal practitioner applies to assign a clause to a [[provenance]] type. It is a [[heuristic]] — not an algorithm — because it relies on experience and tacit market knowledge rather than a computable rule.
 ## Two axes
 
 **Axis 1 — Market practice signal**
