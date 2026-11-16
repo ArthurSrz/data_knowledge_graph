@@ -1,3 +1,5 @@
 ---
-inferred:skos:ancestor: "[[ML models]]"
+inferred:skos:related:
+  - "[[Data leakage]]"
+  - "[[Time-shifted scoring]]"
 ---

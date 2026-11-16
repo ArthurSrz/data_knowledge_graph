@@ -1,8 +1,6 @@
 ---
-inferred:skos:ancestor:
-  - "[[CRISP-DM Process]]"
-  - "[[machine learning projects]]"
-  - "[[model fit]]"
-  - "[[modeling]]"
-inferred:skos:broader: "[[model fit]]"
+inferred:skos:narrower:
+  - "[[Data leakage]]"
+inferred:skos:related:
+  - "[[Group K-Fold Cross Validation]]"
 ---

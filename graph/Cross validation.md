@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[N-Fold Cross Validation]]"
+inferred:skos:narrower:
+  - "[[Group K-Fold Cross Validation]]"
 ---

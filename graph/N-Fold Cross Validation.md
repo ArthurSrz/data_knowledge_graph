@@ -1,3 +1,4 @@
 ---
-inferred:skos:ancestor: "[[Cross validation]]"
+inferred:skos:related:
+  - "[[Group K-Fold Cross Validation]]"
 ---

@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[True Negative (TN)]]"
+inferred:skos:related:
+  - "[[Calibration]]"
 ---

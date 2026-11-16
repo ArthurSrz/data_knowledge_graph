@@ -1,3 +1,4 @@
 ---
-inferred:skos:ancestor: "[[ML system monitoring]]"
+inferred:skos:related:
+  - "[[Time-shifted scoring]]"
 ---

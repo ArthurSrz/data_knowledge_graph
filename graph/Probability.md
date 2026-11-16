@@ -1,4 +1,4 @@
 ---
-inferred:skos:narrower:
-  - "[[Bayes' theorem]]"
+inferred:skos:related:
+  - "[[Calibration]]"
 ---

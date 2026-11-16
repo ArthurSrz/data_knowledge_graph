@@ -1,9 +1,6 @@
 ---
-inferred:skos:ancestor:
-  - "[[CRISP-DM Process]]"
-  - "[[machine learning projects]]"
-  - "[[modeling]]"
-inferred:skos:narrower: "[[Overfitting]]"
+inferred:skos:narrower:
+  - "[[Calibration]]"
 ---
 rower: "[[Overfitting]]"
 ---

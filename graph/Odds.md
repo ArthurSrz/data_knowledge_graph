@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[Logit link function]]"
+inferred:skos:related:
+  - "[[Calibration]]"
 ---

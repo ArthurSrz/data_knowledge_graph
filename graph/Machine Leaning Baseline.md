@@ -1,3 +1,4 @@
 ---
-inferred:skos:ancestor: "[[ML models]]"
+inferred:skos:related:
+  - "[[Time-shifted scoring]]"
 ---

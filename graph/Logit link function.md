@@ -1,3 +1,4 @@
 ---
-inferred:skos:ancestor: "[[Odds]]"
+inferred:skos:related:
+  - "[[Calibration]]"
 ---

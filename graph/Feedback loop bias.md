@@ -1,3 +1,4 @@
 ---
-inferred:skos:ancestor: "[[bias]]"
+inferred:skos:related:
+  - "[[Data leakage]]"
 ---
