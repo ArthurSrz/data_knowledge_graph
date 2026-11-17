@@ -12,7 +12,7 @@ Enables developers with limited ML expertise to quickly build models with little
 - [[autoModel]] - Automatic model selection
 - [[autotokenizer]] - Automatic tokenizer selection
 - [[Hyperparameters]] - AutoML optimizes these
-- [[Model selection]] - Automated by AutoML
+- [[model selection]] - Automated by AutoML
 - [[algorithm selection]] - AutoML choice process
 - [[feature selection]] - Automated feature engineering
 - [[automation framework]] - Foundation for AutoML

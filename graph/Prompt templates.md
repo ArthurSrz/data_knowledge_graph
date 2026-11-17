@@ -1,5 +1,5 @@
 ---
-connectsFrom: "[[Non-parametric knowledge]]"
+connectsFrom: "[[non-parametric knowledge]]"
 connectsTo: "[[Parametric knowledge]]"
 broader: "[[AI prompt]]"
 inferred:skos:ancestor:

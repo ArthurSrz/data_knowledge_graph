@@ -1,7 +1,7 @@
 ---
 inferred:skos:ancestor:
   - "[[Graph algorithm]]"
-  - "[[Metric]]"
+  - "[[metric]]"
   - "[[centrality]]"
 inferred:skos:broader: "[[centrality]]"
 ---

@@ -1,12 +1,14 @@
 ---
 rdf:type: skos:Concept
-skos:altLabel: [target leakage, fuite de cible]
+skos:altLabel:
+  - target leakage
+  - fuite de cible
 skos:broader:
   - "[[feature selection]]"
   - "[[Overfitting]]"
 skos:related:
   - "[[Target]]"
-  - "[[Measurement bias]]"
+  - "[[measurement bias]]"
   - "[[Feedback loop bias]]"
 inferred:skos:ancestor:
   - "[[Overfitting]]"

@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Model maintenance]]"
+inferred:skos:ancestor: "[[model maintenance]]"
 ---

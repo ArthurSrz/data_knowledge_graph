@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Metric]]"
+inferred:skos:ancestor: "[[metric]]"
 ---

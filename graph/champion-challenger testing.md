@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Model selection]]"
+inferred:skos:ancestor: "[[model selection]]"
 ---

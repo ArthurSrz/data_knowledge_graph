@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Medical Data Privacy]]"
+inferred:skos:ancestor: "[[medical data privacy]]"
 ---

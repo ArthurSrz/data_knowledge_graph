@@ -1,3 +1,3 @@
 ---
-inferred:skos:narrower: "[[Node similarity]]"
+inferred:skos:narrower: "[[node similarity]]"
 ---
