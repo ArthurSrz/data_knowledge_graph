@@ -1,4 +1,5 @@
 ---
 inferred:skos:narrower:
+  - "[[Quantile binning]]"
   - "[[Time-shifted scoring]]"
 ---

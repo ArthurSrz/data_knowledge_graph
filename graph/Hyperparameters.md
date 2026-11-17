@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[Learning rate]]"
+inferred:skos:related:
+  - "[[Quantile binning]]"
 ---

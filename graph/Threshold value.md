@@ -1,3 +1,4 @@
 ---
-inferred:skos:ancestor: "[[Metric]]"
+inferred:skos:narrower:
+  - "[[Quantile binning]]"
 ---
