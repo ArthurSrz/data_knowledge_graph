@@ -1,7 +1,7 @@
 ---
 opposite of:
   - "[[graph/logical contradiction]]"
-  - "[[graph/inconsistency]]"
+  - "[[logical contradiction]]"
   - "[[graph/discord]]"
 characteristic of:
   - "[[graph/formal system]]"

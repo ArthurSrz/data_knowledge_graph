@@ -4,8 +4,8 @@ uses:
 subclass of: []
 broader: "[[Bayesian inference]]"
 inferred:skos:ancestor:
-  - "[[Bayes' theorem]]"
   - "[[Bayesian inference]]"
+  - "[[bayes' theorem]]"
 ---
 
 [Bayesian epistemology](https://en.wikipedia.org/wiki/Bayesian_epistemology)

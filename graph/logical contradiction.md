@@ -5,7 +5,6 @@ opposite of:
   - "[[graph/consistency]]"
 subclass of:
   - "[[graph/quality]]"
-  - "[[graph/inconsistency]]"
   - "[[graph/mismatch]]"
 described by source:
   - "[[graph/Granat Encyclopedic Dictionary]]"
@@ -22,3 +21,4 @@ Harper's tag: contradiction
 Commons category: Logical contradiction
 wikidata entity id: Q363948
 ---
+logical incompatibility between two or more propositions

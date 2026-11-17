@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Deploy]]"
+inferred:skos:ancestor: "[[deploy]]"
 ---
