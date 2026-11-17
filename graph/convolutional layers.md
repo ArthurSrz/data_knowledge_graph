@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Convolutional neural networks]]"
+inferred:skos:ancestor: "[[convolutional neural networks]]"
 ---

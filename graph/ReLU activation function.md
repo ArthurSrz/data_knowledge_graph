@@ -1,10 +1,21 @@
 ---
-foundationalPaper: "Deep Sparse Rectifier Neural Networks (Glorot, Bordes & Bengio, 2011)"
-keyPapers: ["Rectified Linear Units Improve Restricted Boltzmann Machines (Nair & Hinton, 2010)", "ImageNet Classification with Deep Convolutional Neural Networks (Krizhevsky et al., 2012)"]
+foundationalPaper: Deep Sparse Rectifier Neural Networks (Glorot, Bordes & Bengio, 2011)
+keyPapers:
+  - Rectified Linear Units Improve Restricted Boltzmann Machines (Nair & Hinton, 2010)
+  - ImageNet Classification with Deep Convolutional Neural Networks (Krizhevsky et al., 2012)
 typeOf: "[[Activation function]]"
-advantages: ["[[Computational efficiency]]", "[[Sparse activation]]", "[[Gradient propagation]]"]
-variants: ["[[Leaky ReLU]]", "[[Parametric ReLU]]", "[[ELU]]", "[[GELU]]"]
-usedIn: ["[[Deep neural networks]]", "[[Convolutional neural networks]]"]
+advantages:
+  - "[[Computational efficiency]]"
+  - "[[Sparse activation]]"
+  - "[[Gradient propagation]]"
+variants:
+  - "[[Leaky ReLU]]"
+  - "[[Parametric ReLU]]"
+  - "[[ELU]]"
+  - "[[GELU]]"
+usedIn:
+  - "[[Deep neural networks]]"
+  - "[[convolutional neural networks]]"
 broader: "[[artificial neural network]]"
 inferred:skos:ancestor:
   - "[[Deep learning]]"

@@ -1,3 +1,3 @@
 ---
-inferred:skos:narrower: "[[Counterfactual explanations]]"
+inferred:skos:narrower: "[[counterfactual explanations]]"
 ---

@@ -216,7 +216,7 @@ The graph encodes [SKOS](https://www.w3.org/2004/02/skos/)-style hierarchical re
 - [control theory](graph/control%20theory.md)
   - [Damping](graph/Damping.md) · [Inertia](graph/Inertia.md) · [James Clerk Maxwell](graph/James%20Clerk%20Maxwell.md) · [state observer](graph/state%20observer.md)
 - [Deep learning](graph/Deep%20learning.md)
-  - [artificial neural network](graph/artificial%20neural%20network.md) → [artificial neuron](graph/artificial%20neuron.md) · [autoencoder](graph/autoencoder.md) · [backpropagation](backpropagation.md) · [CNN](graph/Convolutional%20neural%20networks.md) · [multilayer perceptron](graph/multilayer%20perceptron.md) · [ReLU](graph/ReLU%20activation%20function.md) · [Sigmoid](graph/Sigmoid%20function.md) · [Weights](graph/Weights.md) · …
+  - [artificial neural network](graph/artificial%20neural%20network.md) → [artificial neuron](graph/artificial%20neuron.md) · [autoencoder](graph/autoencoder.md) · [backpropagation](backpropagation.md) · [CNN](convolutional%20neural%20networks.md) · [multilayer perceptron](graph/multilayer%20perceptron.md) · [ReLU](graph/ReLU%20activation%20function.md) · [Sigmoid](graph/Sigmoid%20function.md) · [Weights](graph/Weights.md) · …
   - [foundation model](graph/foundation%20model.md) → [multimodal model](graph/multimodal%20model.md) · [tabular foundation model](graph/tabular%20foundation%20model.md) → [TabPFN](graph/TabPFN.md)
   - [Keras](graph/Keras.md) · [Transfer learning](graph/Transfer%20learning.md)
   - [Transformers](graph/Transformers.md) → [attention weights](graph/attention%20weights.md) · [Decoder-only](graph/Decoder-only.md) · [Encoder-only](graph/Encoder-only.md)
