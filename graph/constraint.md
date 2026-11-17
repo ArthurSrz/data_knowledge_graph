@@ -6,3 +6,4 @@ instance of: "[[graph/condition type]]"
 Stack Exchange tag: https://physics.stackexchange.com/tags/constrained-dynamics
 wikidata entity id: Q231612
 ---
+[[parameter]] that a system must obey to
