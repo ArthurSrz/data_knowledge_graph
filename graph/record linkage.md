@@ -11,6 +11,8 @@ skos:related:
 inferred:skos:ancestor:
   - "[[algorithm]]"
   - "[[process]]"
+inferred:skos:related:
+  - "[[master data]]"
 ---
 joining records from different [[datasets]] that refer to the same entity. They may [[share]] a common identifier, or be matched on their [[properties]].
 

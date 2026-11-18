@@ -1,3 +1,4 @@
 ---
-inferred:skos:ancestor: "[[systems theory]]"
+inferred:skos:related:
+  - "[[knowledge management]]"
 ---

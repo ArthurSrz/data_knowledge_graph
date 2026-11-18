@@ -1,4 +1,5 @@
 ---
 inferred:skos:related:
+  - "[[master data]]"
   - "[[record linkage]]"
 ---

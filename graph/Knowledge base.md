@@ -1,3 +1,4 @@
 ---
-inferred:skos:ancestor: "[[knowledge]]"
+inferred:skos:related:
+  - "[[knowledge management]]"
 ---
