@@ -1,6 +1,6 @@
 ---
 dependencies:
-  - "[[Large Language Model]]"
+  - "[[large language model]]"
 tags:
   - AI_Agents
   - Autonomie

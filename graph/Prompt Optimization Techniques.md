@@ -1,13 +1,28 @@
 ---
-related_to: [Prompt Engineering, Reasoning Enhancement, Performance Optimization]
-dependencies: [Prompt Templates]
-components: [Chain-of-Thought, Few-Shot Learning, Zero-Shot Learning, Tree-of-Thought, Self-Consistency, Plan-and-Solve, Iterative Prompting]
+related_to:
+  - Prompt Engineering
+  - Reasoning Enhancement
+  - Performance Optimization
+dependencies:
+  - Prompt Templates
+components:
+  - Chain-of-Thought
+  - Few-Shot Learning
+  - Zero-Shot Learning
+  - Tree-of-Thought
+  - Self-Consistency
+  - Plan-and-Solve
+  - Iterative Prompting
 category: Prompt Management
-tags: [Optimisation_Prompts, Techniques_Prompting, Raisonnement, CoT]
+tags:
+  - Optimisation_Prompts
+  - Techniques_Prompting
+  - Raisonnement
+  - CoT
 broader: "[[AI prompt]]"
 inferred:skos:ancestor:
   - "[[AI prompt]]"
-  - "[[Large Language Model]]"
+  - "[[large language model]]"
 ---
 
 # Prompt Optimization Techniques

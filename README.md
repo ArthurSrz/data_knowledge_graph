@@ -164,7 +164,7 @@ The graph encodes [SKOS](https://www.w3.org/2004/02/skos/)-style hierarchical re
 - [agent observability](graph/agent%20observability.md)
   - [agentOps](agentOps.md)
   - [LLM Observability](graph/LLM%20Observability.md)
-    - [Langfuse](graph/Langfuse.md)
+    - [langfuse](langfuse.md)
 - [Agile approach](graph/Agile%20approach.md)
   - [Daily stand-ups](graph/Daily%20stand-ups.md)
   - [Demo sessions](graph/Demo%20sessions.md)
@@ -185,9 +185,9 @@ The graph encodes [SKOS](https://www.w3.org/2004/02/skos/)-style hierarchical re
     - [Natural Language Processing](graph/Natural%20Language%20Processing.md)
       - [bag of words](bag%20of%20words.md) · [Sentiment analysis](graph/Sentiment%20analysis.md) · [token](graph/token.md) · [Tokenizer](graph/Tokenizer.md)
       - [Embeddings](graph/Embeddings.md) → [embedding](graph/embedding.md) · [Embeddings models](graph/Embeddings%20models.md) · [latent space](graph/latent%20space.md) · [vectorization](graph/vectorization.md) · [Word embeddings](graph/Word%20embeddings.md)
-      - [Language modeling](graph/Language%20modeling.md)
+      - [language modeling](language%20modeling.md)
         - [autoregressive language models](graph/autoregressive%20language%20models.md) → [GPT2](graph/GPT2.md)
-        - [Large Language Model](graph/Large%20Language%20Model.md)
+        - [large language model](large%20language%20model.md)
           - [AI prompt](graph/AI%20prompt.md) → [chain-of-thought](graph/chain-of-thought.md) · [prompt identity](prompt%20identity.md) · [prompt optimization techniques](prompt%20optimization%20techniques.md) · [prompt templates](prompt%20templates.md) · [system prompt](graph/system%20prompt.md) · …
           - [RAG (Retrieval-Augmented Generation)](graph/RAG%20%28Retrieval-Augmented%20Generation%29.md) → [Retriever](graph/Retriever.md) · [HyDE](graph/Hypothetical%20Document%20Embeddings%20%28HyDE%29.md) · …
           - [chat engines](graph/chat%20engines.md) · [Hallucination](graph/Hallucination.md) · [In-Context Learning](graph/In-Context%20Learning.md) · [LLaMA](graph/LLaMA.md) · [Ollama](graph/Ollama.md) · …
@@ -233,7 +233,7 @@ The graph encodes [SKOS](https://www.w3.org/2004/02/skos/)-style hierarchical re
 - [Infrastructure](graph/Infrastructure.md)
   - [authentication protocol](graph/authentication%20protocol.md) → [OAuth](graph/OAuth.md) · [SSH Key](graph/SSH%20Key.md)
   - [cloud computing](graph/cloud%20computing.md) · [Datawarehouse](graph/Datawarehouse.md) · [deploy](deploy.md) · [Docker](graph/Docker.md) · [HTTP](graph/HTTP.md) · [NoSQL database](graph/NoSQL%20database.md) · [Virtualization](graph/Virtualization.md) · …
-- [knowledge graph](graph/knowledge%20graph.md)
+- [knowledge graph](knowledge%20graph.md)
   - [CYPHER](graph/CYPHER.md) · [context graph](graph/context%20graph.md) · [graph hop](graph/graph%20hop.md) · [properties](properties.md) · [Text2Cypher](graph/Text2Cypher.md) · …
 - [knowledge organization system](graph/knowledge%20organization%20system.md)
   - [concept](graph/concept.md) · [controlled vocabulary](graph/controlled%20vocabulary.md) · [Ontology](graph/Ontology.md) · [taxonomy](graph/taxonomy.md) · [thesaurus](graph/thesaurus.md) · …

@@ -7,7 +7,7 @@ has part(s): "[[graph/niyyah]]"
 has effect: "[[graph/intentional human activity]]"
 described by source:
   - "[[graph/Otto's encyclopedia]]"
-  - "[[graph/Lean Logic]]"
+  - "[[lean logic]]"
   - "[[graph/Ottův slovník naučný]]"
 subclass of: "[[graph/mental state]]"
 has cause: "[[graph/goal]]"

@@ -1,4 +1,4 @@
 ---
 inferred:skos:ancestor:
-  - "[[Large Language Model]]"
+  - "[[large language model]]"
 ---

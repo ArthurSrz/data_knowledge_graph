@@ -1,6 +1,6 @@
 ---
 introducedin: "[[Attention Is All You Need]]"
-enablesArchitecture: "[[Large Language Model]]"
+enablesArchitecture: "[[large language model]]"
 uses: "[[attention weights]]"
 processes: "[[Word embeddings]]"
 foundationFor:
@@ -99,7 +99,7 @@ Transformers can work using:
 - [[Decoder-only]] - Architecture type (e.g., GPT)
 - [[BERT]] - Famous encoder-only transformer
 - [[GPT2]] - Example of decoder-only transformer
-- [[Large Language Model]] - Built on transformer architecture
+- [[large language model]] - Built on transformer architecture
 - [[Embeddings]] - Input representation for transformers
 
 See also: [[Natural Language Processing]], [[Deep learning]], [[Self-attention]], [[Multi-head attention]]

@@ -11,13 +11,13 @@ used by:
   - "[[graph/artificial intelligence model]]"
   - "[[graph/prompt engineer]]"
   - "[[graph/AI prompter]]"
-  - "[[Large Language Model]]"
+  - "[[large language model]]"
 has part(s): "[[graph/negative prompt]]"
 main Wikidata property: AI-generation prompt
 wikidata entity id: Q117217619
-broader: "[[Large Language Model]]"
+broader: "[[large language model]]"
 inferred:skos:ancestor:
-  - "[[Large Language Model]]"
+  - "[[large language model]]"
 inferred:skos:narrower:
   - "[[chain-of-thought]]"
   - "[[prompt identity]]"

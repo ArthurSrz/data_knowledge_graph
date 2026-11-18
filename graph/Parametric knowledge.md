@@ -1,1 +1,1 @@
-Knowledge that is learned by [[Large Language Model]] during the training phase 
+Knowledge that is learned by [[large language model]] during the training phase 

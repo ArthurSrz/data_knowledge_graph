@@ -92,7 +92,7 @@ As McCulloch noted: "What we thought we were doing... was treating the brain as 
 
 ## Related concepts
 
-- [[Layer]] - Neurons are organized into layers
+- [[layer]] - Neurons are organized into layers
 - [[Neuron layer]] - Collection of artificial neurons
 - [[multilayer perceptron]] - Network with multiple neuron layers
 - [[ReLU activation function]] - Common activation function

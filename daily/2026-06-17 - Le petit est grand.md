@@ -6,4 +6,4 @@ Dans beaucoup de domaines, ces différences subtiles ne posent aucun problèmes,
 
 ![[diff 1.png]]
 
-Aujourd'hui aucun [[Large Language Model]] n'est capable de garantir une forme de [[persistence]]. Ca se traduit immédiatement par une sensation de mouvement permanent. Un auteur parlait d'une société liquide. Avait-il dit cela par euphémisme ? La société n'est plus liquide, elle est vaporeuse, flottant de plus en plus dans un espace latent ([[latent space]]) où tout n'est ni faux, ni vrai, seulement probable. 
+Aujourd'hui aucun [[large language model]] n'est capable de garantir une forme de [[persistence]]. Ca se traduit immédiatement par une sensation de mouvement permanent. Un auteur parlait d'une société liquide. Avait-il dit cela par euphémisme ? La société n'est plus liquide, elle est vaporeuse, flottant de plus en plus dans un espace latent ([[latent space]]) où tout n'est ni faux, ni vrai, seulement probable. 

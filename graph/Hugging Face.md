@@ -21,5 +21,5 @@ inferred:skos:narrower:
 - [[BERT]] - Available through Hugging Face
 - [[GPT2]] - Available through Hugging Face
 - [[camemBERT]] - French language model on HF
-- [[Large Language Model]] - Many LLMs hosted on HF
+- [[large language model]] - Many LLMs hosted on HF
 - [[Fine-tuning]] - Common task using HF tools

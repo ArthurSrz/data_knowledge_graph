@@ -1,3 +1,3 @@
 ---
-inferred:skos:narrower: "[[Large Language Model]]"
+inferred:skos:narrower: "[[large language model]]"
 ---

@@ -1,13 +1,22 @@
 ---
-related_to: [Prompt Name, Prompt Version, Prompt Management]
+related_to:
+  - Prompt Name
+  - Prompt Version
+  - Prompt Management
 dependencies: []
-components: [Prompt ID, Prompt Name, Prompt Version]
+components:
+  - Prompt ID
+  - Prompt Name
+  - Prompt Version
 category: Prompt Management
-tags: [Identité_Prompt, Versioning_Prompt, Gestion_Prompts]
+tags:
+  - Identité_Prompt
+  - Versioning_Prompt
+  - Gestion_Prompts
 broader: "[[AI prompt]]"
 inferred:skos:ancestor:
   - "[[AI prompt]]"
-  - "[[Large Language Model]]"
+  - "[[large language model]]"
 ---
 
 # Prompt Identity

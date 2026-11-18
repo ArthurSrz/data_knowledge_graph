@@ -1,13 +1,24 @@
 ---
-foundationalPaper: "Neural Text Generation with Unlikelihood Training (Welleck et al., 2020)"
-keyPapers: ["Hallucinations in Neural Machine Translation (Lee et al., 2018)", "On Faithfulness and Factuality in Abstractive Summarization (Maynez et al., 2020)", "Survey of Hallucination in Natural Language Generation (Ji et al., 2023)"]
+foundationalPaper: Neural Text Generation with Unlikelihood Training (Welleck et al., 2020)
+keyPapers:
+  - Hallucinations in Neural Machine Translation (Lee et al., 2018)
+  - On Faithfulness and Factuality in Abstractive Summarization (Maynez et al., 2020)
+  - Survey of Hallucination in Natural Language Generation (Ji et al., 2023)
 reliéA: "[[Artificial Intelligence (AI)]]"
-affecte: ["[[Large Language Model]]", "[[Neural Machine Translation]]", "[[Text Generation]]"]
-mitigated_by: ["[[Retrieval Augmented Generation]]", "[[Factual grounding]]", "[[Unlikelihood training]]"]
-types: ["[[Intrinsic hallucination]]", "[[Extrinsic hallucination]]"]
-broader: "[[Large Language Model]]"
+affecte:
+  - "[[large language model]]"
+  - "[[Neural Machine Translation]]"
+  - "[[Text Generation]]"
+mitigated_by:
+  - "[[Retrieval Augmented Generation]]"
+  - "[[Factual grounding]]"
+  - "[[Unlikelihood training]]"
+types:
+  - "[[Intrinsic hallucination]]"
+  - "[[Extrinsic hallucination]]"
+broader: "[[large language model]]"
 inferred:skos:ancestor:
-  - "[[Large Language Model]]"
+  - "[[large language model]]"
 ---
 
 # Hallucination

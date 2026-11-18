@@ -10,8 +10,6 @@ partially coincident with: "[[graph/quality]]"
 subclass of: "[[abstract entity]]"
 broader: "[[knowledge graph]]"
 inferred:skos:ancestor:
-  - "[[Knowledge graph]]"
   - "[[abstract entity]]"
-inferred:skos:broader:
-  - "[[Knowledge graph]]"
+  - "[[knowledge graph]]"
 ---

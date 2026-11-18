@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Large Language Model]]"
+inferred:skos:ancestor: "[[large language model]]"
 ---

@@ -5,7 +5,7 @@ keyPapers:
   - "Beyond Regression: New Tools for Prediction and Analysis in the Behavioral Sciences (Werbos, 1974)"
 typeOf: "[[Neural network models]]"
 composedOf:
-  - "[[Layer]]"
+  - "[[layer]]"
   - "[[Artificial neuron]]"
   - "[[Activation function]]"
 enables:
@@ -43,8 +43,8 @@ From the original paper:
 Each unit in one [[layer]] is connected to each unit in the next [[layer]]."
 
 Mathematical representation:
-[[Layer]] 1: h₁ = f₁(W₁x + b₁)
-[[Layer]] 2: h₂ = f₂(W₂h₁ + b₂)
+[[layer]] 1: h₁ = f₁(W₁x + b₁)
+[[layer]] 2: h₂ = f₂(W₂h₁ + b₂)
 ...
 [[Output]]: y = fₙ(Wₙhₙ₋₁ + bₙ)
 
