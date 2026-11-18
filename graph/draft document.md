@@ -20,9 +20,12 @@ aliases:
   - draft copy
   - first sketch
   - work in progress
+  - stub
+inferred:skos:ancestor:
+  - "[[creative work]]"
+  - "[[unfinished creative work]]"
 ---
+Version préliminaire et non finalisée d'un document ou d'une œuvre en cours de travail.
 
-Version préliminaire et non finalisée d'un document ou d'une œuvre en cours de travail (Wikidata).
-
-Dans ce graphe : une note **stub** est une ébauche de concept. Elle a un nom et des relations
+Dans ce graphe : une note **stub** est une ébauche de [[concept]]. Elle a un nom et des relations
 dans son frontmatter, mais pas encore de corps qui la définisse.

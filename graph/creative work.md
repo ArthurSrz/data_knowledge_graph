@@ -1,3 +1,5 @@
 ---
-inferred:skos:ancestor: "[[intellectual work]]"
+inferred:skos:narrower:
+  - "[[unfinished creative work]]"
 ---
+artistic creation
