@@ -1,6 +1,9 @@
 ---
 rdf:type: skos:Concept
-skos:altLabel: [quantile cut, découpage par quantiles, rank-based labelling]
+skos:altLabel:
+  - quantile cut
+  - découpage par quantiles
+  - rank-based labelling
 skos:broader:
   - "[[Threshold value]]"
   - "[[feature engineering]]"
@@ -8,7 +11,7 @@ skos:related:
   - "[[heuristic]]"
   - "[[Hyperparameters]]"
   - "[[discrimination threshold]]"
-  - "[[Calibration]]"
+  - "[[calibration]]"
 inferred:skos:ancestor:
   - "[[Threshold value]]"
   - "[[feature engineering]]"

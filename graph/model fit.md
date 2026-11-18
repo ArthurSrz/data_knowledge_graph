@@ -1,6 +1,6 @@
 ---
 inferred:skos:narrower:
-  - "[[Calibration]]"
+  - "[[calibration]]"
 ---
 rower: "[[Overfitting]]"
 ---

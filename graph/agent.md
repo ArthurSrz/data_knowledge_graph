@@ -98,7 +98,7 @@ The agent [[concept]]:
 
 #### Related Concepts
 - [[Society of Mind]]
-- [[Artificial Intelligence]]
+- [[artificial intelligence]]
 - [[Multi-agent systems]]
 - [[Cognitive architecture]]
 - [[Autonomous systems]]

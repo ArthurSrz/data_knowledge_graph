@@ -189,7 +189,7 @@ NPUs have:
    - Latency minimization
 
 ## Related Concepts
-- [[Artificial Intelligence]]
+- [[artificial intelligence]]
 - [[Deep learning]]
 - [[Hardware acceleration]]
 - [[ASIC]]

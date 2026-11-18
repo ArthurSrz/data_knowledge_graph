@@ -1,6 +1,6 @@
 ---
-resultsIn: "[[Artificial Intelligence]]"
+resultsIn: "[[artificial intelligence]]"
 inferred:skos:narrower:
   - "[[AI stack]]"
 ---
-The institution and discipline that nurtures the design of [[Artificial Intelligence]]
+The institution and discipline that nurtures the design of [[artificial intelligence]]
