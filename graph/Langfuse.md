@@ -1,3 +1,4 @@
 ---
-inferred:skos:ancestor: "[[LLM Observability]]"
+inferred:skos:related:
+  - "[[tracing]]"
 ---

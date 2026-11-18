@@ -45,4 +45,5 @@ inferred:skos:narrower:
   - "[[Management]]"
   - "[[context]]"
   - "[[problem solving]]"
+  - "[[record linkage]]"
 ---

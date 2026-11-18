@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[Langfuse]]"
+inferred:skos:related:
+  - "[[tracing]]"
 ---

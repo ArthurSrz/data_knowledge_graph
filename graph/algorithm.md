@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[selection]]"
+inferred:skos:narrower:
+  - "[[record linkage]]"
 ---

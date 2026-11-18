@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[completeness]]"
+inferred:skos:related:
+  - "[[record linkage]]"
 ---
