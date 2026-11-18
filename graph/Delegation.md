@@ -7,10 +7,10 @@ has effect:
   - "[[Iron law of oligarchy]]"
 subclass of:
   - "[[legal act]]"
-broader: "[[Management]]"
+broader: "[[management]]"
 inferred:skos:ancestor:
-  - "[[Management]]"
   - "[[control]]"
+  - "[[management]]"
   - "[[process]]"
 ---
 ## Frein 

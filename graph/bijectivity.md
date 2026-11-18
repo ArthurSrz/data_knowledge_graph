@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Mapping]]"
+inferred:skos:ancestor: "[[mapping]]"
 ---

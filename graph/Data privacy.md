@@ -1,4 +1,4 @@
 ---
 inferred:skos:narrower:
-  - "[[Management of PII]]"
+  - "[[management of PII]]"
 ---

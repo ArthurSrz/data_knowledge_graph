@@ -3,9 +3,9 @@ needs: "[[Explore the data]]"
 partOf: "[[continuum data]]"
 product or material produced:
   - "[[Data catalog]]"
-broader: "[[Management]]"
+broader: "[[management]]"
 inferred:skos:ancestor:
-  - "[[Management]]"
   - "[[control]]"
+  - "[[management]]"
   - "[[process]]"
 ---
