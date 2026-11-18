@@ -1,6 +1,7 @@
 ---
 wikidata entity id: Q1418701
 broader: "[[business process]]"
+subclass of: "[[person]]"
 inferred:skos:ancestor:
   - "[[business process]]"
   - "[[process]]"

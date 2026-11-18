@@ -28,6 +28,8 @@ RELATION_MAP = {
     "CanBeConstructedWith": "constructed_with",
     "contributing factor of": "contributing_factor",
     "has use": "has_use",
+    "disjoint with": "disjoint_with",
+    "owl:disjointWith": "disjoint_with",
 }
 
 INFERRED_PREFIX = "inferred:skos:"
@@ -49,6 +51,13 @@ SKOS_RULES = [
     "in_cycle(X) :- ancestor(X, X)",
     "conflict(X, Y) :- related_s(X, Y), opposite_of(X, Y)",
     "s27_violation(X, Y) :- related_s(X, Y), ancestor(X, Y)",
+    # Disjointness (owl:disjointWith): symmetric, and no concept may fall under
+    # both sides. disjoint_violation(X, Y): X sits under class Y, which is
+    # disjoint with another ancestor (or with X itself).
+    "disjoint_s(X, Y) :- disjoint_with(X, Y)",
+    "disjoint_s(X, Y) :- disjoint_with(Y, X)",
+    "disjoint_violation(X, Y) :- ancestor(X, Y), ancestor(X, Z), disjoint_s(Y, Z)",
+    "disjoint_violation(X, Y) :- ancestor(X, Y), disjoint_s(X, Y)",
 ]
 
 
@@ -415,6 +424,7 @@ def cmd_check(args):
             ("in_cycle", "Broader cycles (concept is its own ancestor)"),
             ("conflict", "Related + OppositeOf conflicts"),
             ("s27_violation", "SKOS S27 violations (related + hierarchical)"),
+            ("disjoint_violation", "Disjointness violations (concept under two disjoint classes)"),
         ]:
             results = engine.query(f"{check_name}(?X, ?Y)") if check_name != "in_cycle" else engine.query(f"{check_name}(?X)")
             if results:
@@ -508,6 +518,7 @@ def cmd_report(args):
             ("in_cycle", "Broader cycles"),
             ("conflict", "Related + OppositeOf conflicts"),
             ("s27_violation", "SKOS S27 violations"),
+            ("disjoint_violation", "Disjointness violations"),
         ]:
             if check_name == "in_cycle":
                 results = engine.query(f"{check_name}(?X)")
