@@ -180,8 +180,8 @@ The graph encodes [SKOS](https://www.w3.org/2004/02/skos/)-style hierarchical re
       - [action module](graph/action%20module.md) · [agency](graph/agency.md) · [agent harness](graph/agent%20harness.md) · [agent identity](graph/agent%20identity.md) · [agent role type](graph/agent%20role%20type.md) · [Autonomy](graph/Autonomy.md) · [claude code](graph/claude%20code.md) · [claude managed agents](graph/claude%20managed%20agents.md) · [comparag agent](graph/comparag%20agent.md) · [context mode](graph/context%20mode.md) · [Human-in-the-loop](graph/Human-in-the-loop.md) · [ReAct data agent](graph/ReAct%20data%20agent.md) · [ReAct mode](graph/ReAct%20mode.md) · [search module](graph/search%20module.md) · [Subagent](graph/Subagent.md) · [Tool arena](graph/Tool%20arena.md) · [Tool Assignment Gate](graph/Tool%20Assignment%20Gate.md) · [Toolkits](graph/Toolkits.md) · [tools](tools.md)
       - [Model Context Protocol (MCP)](graph/Model%20Context%20Protocol%20%28MCP%29.md) → [MCP host](graph/MCP%20host.md) · [MCP server](graph/MCP%20server.md)
     - [compound AI system](compound%20AI%20system.md)
-    - [computer vision](graph/computer%20vision.md) → [Facial recognition](graph/Facial%20recognition.md)
-    - [connexionism](graph/connexionism.md) · [Expert systems](graph/Expert%20systems.md) · [Narrow AI](graph/Narrow%20AI.md) · [Symbolism](graph/Symbolism.md)
+    - [computer vision](graph/computer%20vision.md) → [facial recognition](facial%20recognition.md)
+    - [connexionism](graph/connexionism.md) · [expert systems](expert%20systems.md) · [Narrow AI](graph/Narrow%20AI.md) · [Symbolism](graph/Symbolism.md)
     - [Natural Language Processing](graph/Natural%20Language%20Processing.md)
       - [bag of words](bag%20of%20words.md) · [Sentiment analysis](graph/Sentiment%20analysis.md) · [token](graph/token.md) · [Tokenizer](graph/Tokenizer.md)
       - [Embeddings](graph/Embeddings.md) → [embedding](graph/embedding.md) · [Embeddings models](graph/Embeddings%20models.md) · [latent space](graph/latent%20space.md) · [vectorization](graph/vectorization.md) · [Word embeddings](graph/Word%20embeddings.md)
@@ -224,7 +224,7 @@ The graph encodes [SKOS](https://www.w3.org/2004/02/skos/)-style hierarchical re
   - [dialogue](dialogue.md) · [elicitation interview](graph/elicitation%20interview.md) · [Socratic](graph/Socratic.md) → [Socrates](graph/Socrates.md)
 - [evaluation](graph/evaluation.md)
   - [Cross validation](graph/Cross%20validation.md) · [Evaluation metrics](graph/Evaluation%20metrics.md) → [accuracy](graph/accuracy.md) · [F1 Score](graph/F1%20Score.md) · [Precision](graph/Precision.md) · [Recall](graph/Recall.md) · [ROC](graph/Receiver%20Operating%20Characteristic%20curve.md) · [Regression Error Metrics](graph/Regression%20Error%20Metrics.md) · …
-- [Fairness](graph/Fairness.md)
+- [fairness](fairness.md)
   - [bias](graph/bias.md) → [Feedback loop bias](graph/Feedback%20loop%20bias.md) · [Historical bias](graph/Historical%20bias.md)
   - [Data privacy](graph/Data%20privacy.md) → [Data privacy laws](graph/Data%20privacy%20laws.md) · [privacy by design](privacy%20by%20design.md) · [Sensitive Information](graph/Sensitive%20Information.md) · …
   - [Transparency](graph/Transparency.md) → [Interpretability](graph/Interpretability.md) → [LIME](graph/Local%20Interpretable%20Model-Agnostic%20Explanations%20%28LIME%29.md) · [SHAP](graph/Shapley%20Additive%20Explanations%20%28SHAP%29.md)

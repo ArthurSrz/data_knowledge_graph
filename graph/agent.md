@@ -69,7 +69,7 @@ According to Minsky (1986):
 1. **Artificial Intelligence**:
    - Robotics
    - Game playing
-   - [[Expert systems]]
+   - [[expert systems]]
 
 2. **Multi-Agent Systems**:
    - Distributed problem solving

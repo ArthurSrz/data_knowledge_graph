@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Fairness]]"
+inferred:skos:ancestor: "[[fairness]]"
 ---

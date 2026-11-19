@@ -3,6 +3,6 @@ broader: "[[Data privacy]]"
 inferred:skos:ancestor:
   - "[[Data privacy]]"
 ---
-Fourth [[Fair Information Practices]]. 
+Fourth [[fair information practices]]. 
 
 Accountability ; Enforcement 

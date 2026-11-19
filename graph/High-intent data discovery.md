@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Exploratory Data Analysis]]"
+inferred:skos:ancestor: "[[exploratory data analysis]]"
 ---

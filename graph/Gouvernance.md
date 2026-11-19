@@ -1,5 +1,5 @@
 ---
-needs: "[[Explore the data]]"
+needs: "[[explore the data]]"
 partOf: "[[continuum data]]"
 product or material produced:
   - "[[Data catalog]]"
