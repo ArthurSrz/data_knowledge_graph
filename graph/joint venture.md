@@ -5,5 +5,7 @@ subclass of:
 - '[[graph/business]]'
 - '[[graph/collaboration]]'
 wikidata entity id: Q489209
+inferred:skos:ancestor:
+  - "[[business]]"
 ---
 business agreement to develop, for a finite time, a new entity

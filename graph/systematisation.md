@@ -2,7 +2,8 @@
 wikidata entity id: Q56312904
 instance of: "[[philosophical concept]]"
 subclass of: "[[union]]"
-different from: "[[Classification]]"
+inferred:skos:ancestor:
+  - "[[union]]"
 ---
 **Systematisation**: process of integrating disparate knowledge into a unified system.
 

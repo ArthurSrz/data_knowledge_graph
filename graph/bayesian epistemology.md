@@ -1,11 +1,11 @@
 ---
 uses:
-  - "[[Bayesian inference]]"
+  - "[[bayesian inference]]"
 subclass of: []
-broader: "[[Bayesian inference]]"
+broader: "[[bayesian inference]]"
 inferred:skos:ancestor:
-  - "[[Bayesian inference]]"
   - "[[bayes' theorem]]"
+  - "[[bayesian inference]]"
 ---
 
 [Bayesian epistemology](https://en.wikipedia.org/wiki/Bayesian_epistemology)

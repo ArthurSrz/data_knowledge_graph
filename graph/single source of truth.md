@@ -7,6 +7,8 @@ uses:
   - "[[data deduplication]]"
   - "[[canonicalization]]"
 skos:altLabel: ["SSoT", "SSOT"]
+inferred:skos:ancestor:
+  - "[[source of information]]"
 ---
 **Single source of truth**: information-systems practice of normalising data by using one source for each data element.
 

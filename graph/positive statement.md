@@ -3,6 +3,8 @@ wikidata entity id: Q7233295
 subclass of: "[[declarative sentence]]"
 opposite of: "[[normative statement]]"
 skos:altLabel: ["descriptive statement", "current-state evidence"]
+inferred:skos:ancestor:
+  - "[[declarative sentence]]"
 ---
 **Positive statement**: concerns what is, was or will be, and expresses no approval or disapproval of what should be.
 

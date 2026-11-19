@@ -1,0 +1,7 @@
+---
+wikidata entity id: Q1151067
+inferred:skos:narrower:
+  - "[[business rule]]"
+  - "[[notation]]"
+---
+Prescription, including laws, regulations, instructions, guidelines, and social conventions; determinate method for performing any operation

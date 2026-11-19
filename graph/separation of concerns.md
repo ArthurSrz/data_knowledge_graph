@@ -4,6 +4,8 @@ instance of: "[[programming principle]]"
 subclass of: "[[programming paradigm]]"
 skos:definition: "solution approach where the problem is broken down into parts that can be solved independently of each other, by separating the what from the how"
 skos:scopeNote: "My usage: applied to knowledge-store artifacts rather than code. Each kind of knowledge has one home."
+inferred:skos:ancestor:
+  - "[[programming paradigm]]"
 ---
 Air Liquide store layout:
 - the flow (tasks, gateways, lanes) → [[Business Process Model and Notation]];

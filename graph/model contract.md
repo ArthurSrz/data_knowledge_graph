@@ -16,6 +16,7 @@ broader: "[[contract]]"
 inferred:skos:ancestor:
   - "[[Documentation]]"
   - "[[Provenance]]"
+  - "[[chronology]]"
   - "[[contract]]"
   - "[[intellectual work]]"
 inferred:skos:broader:

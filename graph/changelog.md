@@ -2,6 +2,8 @@
 wikidata entity id: Q255135
 subclass of: "[[logbook]]"
 skos:altLabel: ["change log", "knowledge changelog"]
+inferred:skos:ancestor:
+  - "[[logbook]]"
 ---
 **Changelog**: log or record of all notable changes made to a project.
 

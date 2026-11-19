@@ -10,6 +10,7 @@ skos:definition: "chronology of the ownership, custody or location of a historic
 skos:scopeNote: "My usage: the provenance of a *statement* in a knowledge store — which interview, document chunk or decision it comes from, and who said it. Wikidata's sense is the custody chain of an object; dcterms:provenance (its exact match) already widens it to any resource. Not [[Data lineage]], which tracks data moving between systems."
 inferred:skos:ancestor:
   - "[[Documentation]]"
+  - "[[chronology]]"
 inferred:skos:broader:
   - "[[Documentation]]"
 inferred:skos:narrower:

@@ -1,5 +1,5 @@
 ---
-inspiredBy: "[[Bayesian inference]]"
+inspiredBy: "[[bayesian inference]]"
 broader: "[[Inference]]"
 inferred:skos:ancestor:
   - "[[Deployment]]"

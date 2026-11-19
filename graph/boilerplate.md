@@ -13,6 +13,7 @@ inferred:skos:ancestor:
   - "[[Documentation]]"
   - "[[Provenance]]"
   - "[[application development]]"
+  - "[[chronology]]"
 inferred:skos:broader:
   - "[[Provenance]]"
 ---

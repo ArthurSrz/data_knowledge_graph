@@ -8,7 +8,9 @@ facet of:
   - "[[risk management]]"
 skos:altLabel: ["audit log"]
 inferred:skos:ancestor:
+  - "[[activity log]]"
   - "[[documentary evidence]]"
+  - "[[evidence]]"
 ---
 **Audit trail**: chronological record of a sequence of activities, kept for security purposes.
 

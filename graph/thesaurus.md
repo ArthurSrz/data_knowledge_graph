@@ -42,5 +42,7 @@ wikidata entity id: Q17152639
 broader: "[[knowledge organization system]]"
 inferred:skos:ancestor:
   - "[[controlled vocabulary]]"
+  - "[[data set]]"
   - "[[knowledge organization system]]"
+  - "[[vocabulary]]"
 ---

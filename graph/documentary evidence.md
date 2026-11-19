@@ -2,7 +2,10 @@
 wikidata entity id: Q5287668
 subclass of: "[[evidence]]"
 skos:altLabel: ["recorded evidence"]
+inferred:skos:ancestor:
+  - "[[evidence]]"
 inferred:skos:narrower:
+  - "[[activity log]]"
   - "[[audit trail]]"
 ---
 **Documentary evidence**: media records describing an occurrence.

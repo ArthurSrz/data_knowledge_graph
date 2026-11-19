@@ -10,7 +10,9 @@ has part:
   - "[[subject heading]]"
 exact match: http://purl.org/spar/fabio/ControlledVocabulary
 inferred:skos:ancestor:
+  - "[[data set]]"
   - "[[knowledge organization system]]"
+  - "[[vocabulary]]"
 inferred:skos:narrower:
   - "[[thesaurus]]"
 ---

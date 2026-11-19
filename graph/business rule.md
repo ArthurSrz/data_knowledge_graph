@@ -2,6 +2,8 @@
 wikidata entity id: Q1518244
 subclass of: "[[rule]]"
 characteristic of: "[[business activity]]"
+inferred:skos:ancestor:
+  - "[[rule]]"
 ---
 **Business rule**: rule that defines or constrains an aspect of the business, applying to people, processes, corporate behaviour or computing systems.
 

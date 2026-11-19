@@ -19,6 +19,7 @@ broader: "[[clause]]"
 inferred:skos:ancestor:
   - "[[Documentation]]"
   - "[[Provenance]]"
+  - "[[chronology]]"
   - "[[clause]]"
   - "[[heuristic]]"
 inferred:skos:broader:
