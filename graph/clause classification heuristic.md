@@ -18,9 +18,11 @@ related to:
 broader: "[[clause]]"
 inferred:skos:ancestor:
   - "[[Documentation]]"
+  - "[[Provenance]]"
   - "[[clause]]"
   - "[[heuristic]]"
-  - "[[provenance]]"
+inferred:skos:broader:
+  - "[[Provenance]]"
 ---
 The decision process a legal practitioner applies to assign a clause to a [[provenance]] type. It is a [[heuristic]] — not an algorithm — because it relies on experience and tacit market knowledge rather than a computable rule.
 ## Two axes

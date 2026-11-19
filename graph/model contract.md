@@ -15,9 +15,11 @@ example:
 broader: "[[contract]]"
 inferred:skos:ancestor:
   - "[[Documentation]]"
+  - "[[Provenance]]"
   - "[[contract]]"
   - "[[intellectual work]]"
-  - "[[provenance]]"
+inferred:skos:broader:
+  - "[[Provenance]]"
 ---
 
 A template contract issued by an institution or firm (e.g. LMA, ISDA, ICC) intended as a starting point for negotiation — explicitly distinct from a standard form contract, where terms are take-it-or-leave-it. The model contract is negotiable; the standard form is not.

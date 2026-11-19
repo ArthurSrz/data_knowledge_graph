@@ -11,8 +11,10 @@ example in:
 broader: "[[application development]]"
 inferred:skos:ancestor:
   - "[[Documentation]]"
+  - "[[Provenance]]"
   - "[[application development]]"
-  - "[[provenance]]"
+inferred:skos:broader:
+  - "[[Provenance]]"
 ---
 
 Standard reusable text reproduced verbatim across contracts, without negotiation. The term originates from 19th-century printing: metal plates used to reproduce standard text blocks were called boilerplates.
