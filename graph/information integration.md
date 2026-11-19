@@ -1,0 +1,6 @@
+---
+wikidata entity id: Q17092450
+skos:definition: "cohesive synthesis of information"
+skos:scopeNote: "My usage: merging sources that disagree (interview vs Handbook vs register) without losing which source said what. Each merged claim keeps its [[provenance]], and conflicts go to the friction register as a [[logical contradiction]] or a gap, rather than being resolved silently."
+---
+The operation inside [[systematisation]]. Not [[Data lineage]], which follows data across systems rather than merging claims.

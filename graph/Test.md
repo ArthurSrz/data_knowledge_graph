@@ -1,4 +1,4 @@
 ---
 inferred:skos:narrower:
-  - "[[End-to-end test]]"
+  - "[[end-to-end test]]"
 ---

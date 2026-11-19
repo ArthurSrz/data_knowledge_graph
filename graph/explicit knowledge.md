@@ -9,3 +9,5 @@ inferred:skos:ancestor:
   - "[[knowledge]]"
 ---
 [[knowledge]] that has been articulated, codified and stored in some medium.
+
+The conversion is the *externalization* step of the [[SECI model of knowledge dimensions]].

@@ -208,7 +208,7 @@ The graph encodes [SKOS](https://www.w3.org/2004/02/skos/)-style hierarchical re
 - [Combinatorics](graph/Combinatorics.md) · [combinatorics](graph/combinatorics.md)
   - [graph theory](graph/graph%20theory.md) · [probability](graph/probability.md) · [combination](graph/combination.md) · [Unary operation](graph/Unary%20operation.md)
 - [Confusion Matrix](graph/Confusion%20Matrix.md)
-  - [False Negative (FN)](graph/False%20Negative%20%28FN%29.md) · [False Positive (FP)](graph/False%20Positive%20%28FP%29.md) · [True Negative (TN)](graph/True%20Negative%20%28TN%29.md) · [True Positive (TP)](graph/True%20Positive%20%28TP%29.md)
+  - [false negative (FN)](false%20negative%20(FN).md) · [false positive (FP)](false%20positive%20(FP).md) · [True Negative (TN)](graph/True%20Negative%20%28TN%29.md) · [True Positive (TP)](graph/True%20Positive%20%28TP%29.md)
 - [Containerization (computing)](graph/Containerization%20%28computing%29.md)
   - [container](graph/container.md) · [Docker](graph/Docker.md) → [Docker images](graph/Docker%20images.md)
 - [contract](graph/contract.md)
@@ -223,7 +223,7 @@ The graph encodes [SKOS](https://www.w3.org/2004/02/skos/)-style hierarchical re
 - [elicitation](graph/elicitation.md)
   - [dialogue](dialogue.md) · [elicitation interview](graph/elicitation%20interview.md) · [Socratic](graph/Socratic.md) → [Socrates](graph/Socrates.md)
 - [evaluation](graph/evaluation.md)
-  - [Cross validation](graph/Cross%20validation.md) · [Evaluation metrics](graph/Evaluation%20metrics.md) → [accuracy](graph/accuracy.md) · [F1 Score](graph/F1%20Score.md) · [Precision](graph/Precision.md) · [Recall](graph/Recall.md) · [ROC](graph/Receiver%20Operating%20Characteristic%20curve.md) · [Regression Error Metrics](graph/Regression%20Error%20Metrics.md) · …
+  - [Cross validation](graph/Cross%20validation.md) · [evaluation metrics](evaluation%20metrics.md) → [accuracy](graph/accuracy.md) · [F1 Score](graph/F1%20Score.md) · [Precision](graph/Precision.md) · [Recall](graph/Recall.md) · [ROC](graph/Receiver%20Operating%20Characteristic%20curve.md) · [Regression Error Metrics](graph/Regression%20Error%20Metrics.md) · …
 - [fairness](fairness.md)
   - [bias](graph/bias.md) → [Feedback loop bias](graph/Feedback%20loop%20bias.md) · [Historical bias](graph/Historical%20bias.md)
   - [Data privacy](graph/Data%20privacy.md) → [Data privacy laws](graph/Data%20privacy%20laws.md) · [privacy by design](privacy%20by%20design.md) · [Sensitive Information](graph/Sensitive%20Information.md) · …

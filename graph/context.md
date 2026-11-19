@@ -3,7 +3,7 @@ has part(s):
   - "[[graph/social status]]"
   - "[[graph/text]]"
   - "[[graph/identity]]"
-  - "[[Environment]]"
+  - "[[environment]]"
   - "[[graph/discourse topic]]"
 has use: "[[Interpretation]]"
 subclass of: "[[Situation]]"

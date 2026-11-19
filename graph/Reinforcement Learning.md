@@ -11,7 +11,7 @@ inspiredBy:
   - "[[Control theory]]"
 keyComponents:
   - "[[Agent 1]]"
-  - "[[Environment]]"
+  - "[[environment]]"
   - "[[State]]"
   - "[[Action]]"
   - "[[Reward]]"

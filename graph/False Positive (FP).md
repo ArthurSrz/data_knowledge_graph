@@ -1,6 +1,6 @@
 ---
 inferred:skos:ancestor:
-  - "[[Evaluation metrics]]"
+  - "[[evaluation metrics]]"
   - "[[confusion matrix]]"
   - "[[evaluation]]"
 inferred:skos:broader: "[[confusion matrix]]"
