@@ -7,8 +7,6 @@ skos:altLabel: ["ML modeling", "machine learning modeling", "modélisation (CRIS
 skos:scopeNote: "Machine-learning sense only: the CRISP-DM phase where a model is fitted to data. Building a representation of a domain out of concepts is [[conceptual modeling]]."
 inferred:skos:ancestor:
   - "[[CRISP-DM Process]]"
-inferred:skos:narrower:
-  - "[[training data set]]"
 ---
 We collect past [[Observations]], and associate [[feature]], and define a [[Target]]. The model relate the 3. When we train, we identify the optimal parameters in the equation or set of equations. 
 

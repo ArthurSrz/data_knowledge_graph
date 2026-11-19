@@ -22,6 +22,7 @@ RELATION_MAP = {
     "skos:related": "related",
     "related_to": "related",
     "oppositeOf": "opposite_of",
+    "opposite of": "opposite_of",
     "uses": "uses",
     "dependencies": "depends_on",
     "studied in": "studied_in",
@@ -49,7 +50,11 @@ SKOS_RULES = [
     "related_s(X, Y) :- related(X, Y)",
     "related_s(X, Y) :- related(Y, X)",
     "in_cycle(X) :- ancestor(X, X)",
-    "conflict(X, Y) :- related_s(X, Y), opposite_of(X, Y)",
+    "opposite_s(X, Y) :- opposite_of(X, Y)",
+    "opposite_s(X, Y) :- opposite_of(Y, X)",
+    "conflict(X, Y) :- related_s(X, Y), opposite_s(X, Y)",
+    # A concept cannot sit under its own opposite in the hierarchy.
+    "conflict(X, Y) :- ancestor(X, Y), opposite_s(X, Y)",
     "s27_violation(X, Y) :- related_s(X, Y), ancestor(X, Y)",
     # Disjointness (owl:disjointWith): symmetric, and no concept may fall under
     # both sides. disjoint_violation(X, Y): X sits under class Y, which is
@@ -422,7 +427,7 @@ def cmd_check(args):
     if SKOS_RULES:
         for check_name, label in [
             ("in_cycle", "Broader cycles (concept is its own ancestor)"),
-            ("conflict", "Related + OppositeOf conflicts"),
+            ("conflict", "Opposite conflicts (opposites that are related or hierarchical)"),
             ("s27_violation", "SKOS S27 violations (related + hierarchical)"),
             ("disjoint_violation", "Disjointness violations (concept under two disjoint classes)"),
         ]:
@@ -516,7 +521,7 @@ def cmd_report(args):
     if SKOS_RULES:
         for check_name, label in [
             ("in_cycle", "Broader cycles"),
-            ("conflict", "Related + OppositeOf conflicts"),
+            ("conflict", "Opposite conflicts (opposites that are related or hierarchical)"),
             ("s27_violation", "SKOS S27 violations"),
             ("disjoint_violation", "Disjointness violations"),
         ]:

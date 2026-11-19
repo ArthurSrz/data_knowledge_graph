@@ -1,9 +1,9 @@
 ---
 ComplementaryWith: "[[Test data set]]"
-skos:broader: "[[modeling]]"
+subclass of: "[[data set]]"
+usedIn: "[[Modeling]]"
 inferred:skos:ancestor:
-  - "[[CRISP-DM Process]]"
-  - "[[modeling]]"
+  - "[[data set]]"
 ---
 
 One of the two legs of [[modeling]]. You [[model]] with training [[data]] and then evaluate the [[model]] using 
