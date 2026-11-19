@@ -5,11 +5,9 @@ partially coincident with: "[[model]]"
 subclass of: "[[graph/Knowledge organization system]]"
 opposite of: "[[graph/Physical model]]"
 different from: "[[graph/Theoretical framework]]"
-broader: "[[modeling]]"
+product of: "[[conceptual modeling]]"
 inferred:skos:ancestor:
-  - "[[CRISP-DM Process]]"
   - "[[knowledge organization system]]"
-  - "[[modeling]]"
 inferred:skos:broader:
   - "[[knowledge organization system]]"
 ---
