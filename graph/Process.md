@@ -41,6 +41,8 @@ Commons category: Processes
 equivalent class: http://biomodels.net/SBO/SBO_0000375
 exact match: http://purl.obolibrary.org/obo/BFO_0000015
 wikidata entity id: Q3249551
+inferred:skos:ancestor:
+  - "[[occurrent]]"
 inferred:skos:narrower:
   - "[[business process]]"
   - "[[context]]"

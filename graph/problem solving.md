@@ -27,5 +27,6 @@ MeSH tree code:
 Dewey Decimal Classification: "153.43"
 wikidata entity id: Q730920
 inferred:skos:ancestor:
+  - "[[occurrent]]"
   - "[[process]]"
 ---

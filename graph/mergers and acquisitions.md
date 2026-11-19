@@ -9,6 +9,7 @@ subclass of:
 wikidata entity id: Q731112
 inferred:skos:ancestor:
   - "[[business process]]"
+  - "[[occurrent]]"
   - "[[process]]"
 ---
 transactions in which the ownership of companies, other business organizations or their operating units are transferred or combined

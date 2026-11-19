@@ -3,6 +3,7 @@ skos:broader: "[[context]]"
 inferred:skos:ancestor:
   - "[[Situation]]"
   - "[[context]]"
+  - "[[occurrent]]"
   - "[[process]]"
 ---
 

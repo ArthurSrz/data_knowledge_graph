@@ -20,5 +20,6 @@ OmegaWiki Defined Meaning: "5548"
 Commons category: Changing
 IMDb keyword: change
 wikidata entity id: Q1150070
-inferred:skos:narrower: "[[process philosophy]]"
+inferred:skos:ancestor:
+  - "[[occurrent]]"
 ---

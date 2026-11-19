@@ -11,6 +11,7 @@ broader: "[[management]]"
 inferred:skos:ancestor:
   - "[[control]]"
   - "[[management]]"
+  - "[[occurrent]]"
   - "[[process]]"
 ---
 ## Frein 

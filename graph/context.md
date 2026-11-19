@@ -19,6 +19,7 @@ facet of: "[[graph/communication]]"
 broader: "[[process]]"
 inferred:skos:ancestor:
   - "[[Situation]]"
+  - "[[occurrent]]"
   - "[[process]]"
 inferred:skos:narrower:
   - "[[agents.md]]"

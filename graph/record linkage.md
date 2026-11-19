@@ -10,6 +10,7 @@ skos:related:
   - "[[credit note]]"
 inferred:skos:ancestor:
   - "[[algorithm]]"
+  - "[[occurrent]]"
   - "[[process]]"
 inferred:skos:related:
   - "[[master data]]"

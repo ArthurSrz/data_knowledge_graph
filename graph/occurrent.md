@@ -1,6 +1,10 @@
 ---
 disjoint with: "[[continuant]]"
 skos:altLabel: ["perdurant", "occurrent entity"]
+inferred:skos:narrower:
+  - "[[change]]"
+  - "[[occurrence]]"
+  - "[[process]]"
 ---
 In BFO, an entity that unfolds itself in time: it has temporal parts and happens, rather than exists. [[Process]], [[occurrence]] and events are occurrents.
 

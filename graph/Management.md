@@ -45,6 +45,7 @@ involves: "[[Feedback]]"
 broader: "[[process]]"
 inferred:skos:ancestor:
   - "[[control]]"
+  - "[[occurrent]]"
   - "[[process]]"
 inferred:skos:narrower:
   - "[[Delegation]]"

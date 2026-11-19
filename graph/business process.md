@@ -10,6 +10,7 @@ different from: "[[strategic management]]"
 broader: "[[process]]"
 skos:altLabel: ["business practice", "business function", "business method"]
 inferred:skos:ancestor:
+  - "[[occurrent]]"
   - "[[process]]"
 inferred:skos:narrower:
   - "[[business process mapping]]"

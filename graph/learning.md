@@ -15,6 +15,7 @@ has cause:
 facet of: "[[memory]]"
 broader: "[[process]]"
 inferred:skos:ancestor:
+  - "[[occurrent]]"
   - "[[process]]"
 inferred:skos:narrower:
   - "[[training]]"

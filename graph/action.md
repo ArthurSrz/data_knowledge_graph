@@ -29,4 +29,5 @@ equivalent class:
 wikidata entity id: Q4026292
 inferred:skos:ancestor:
   - "[[occurrence]]"
+  - "[[occurrent]]"
 ---
