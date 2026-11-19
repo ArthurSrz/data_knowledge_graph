@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[How-to-use]]"
+inferred:skos:narrower:
+  - "[[provenance]]"
 ---

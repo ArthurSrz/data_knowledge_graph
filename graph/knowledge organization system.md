@@ -16,6 +16,7 @@ exact match:
 wikidata entity id: Q6423319
 inferred:skos:narrower:
   - "[[conceptual model]]"
+  - "[[controlled vocabulary]]"
   - "[[thesaurus]]"
 inferred:skos:related:
   - "[[knowledge management]]"

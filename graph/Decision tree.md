@@ -28,7 +28,7 @@ inferred:skos:ancestor:
 inferred:skos:narrower:
   - "[[Recursive tree building]]"
   - "[[Regression trees]]"
-  - "[[Tree depth]]"
+  - "[[tree depth]]"
 ---
 
 # Decision Tree

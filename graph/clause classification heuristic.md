@@ -17,6 +17,7 @@ related to:
   - "[[negotiation]]"
 broader: "[[clause]]"
 inferred:skos:ancestor:
+  - "[[Documentation]]"
   - "[[clause]]"
   - "[[heuristic]]"
   - "[[provenance]]"

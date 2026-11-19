@@ -10,6 +10,7 @@ example in:
   - "[[term sheet]]"
 broader: "[[application development]]"
 inferred:skos:ancestor:
+  - "[[Documentation]]"
   - "[[application development]]"
   - "[[provenance]]"
 ---

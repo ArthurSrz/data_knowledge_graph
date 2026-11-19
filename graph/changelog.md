@@ -1,0 +1,8 @@
+---
+wikidata entity id: Q255135
+subclass of: "[[logbook]]"
+skos:altLabel: ["change log", "knowledge changelog"]
+---
+**Changelog**: log or record of all notable changes made to a project.
+
+A Clarifeye store keeps one per store (`list_knowledge_changelog`): each entry gives the artifact slug, version number, `edit_source` (clara / mcp / ui), the user and the `conversation_id`. That makes it the way to watch an [[AI agent]]: you can rebuild what Clara did in a session without reading the chat, then compare it with what the chat says it did. It is the store-level form of [[agent observability]] and of [[Version control]].
