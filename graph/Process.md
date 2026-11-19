@@ -45,6 +45,7 @@ inferred:skos:ancestor:
   - "[[occurrent]]"
 inferred:skos:narrower:
   - "[[business process]]"
+  - "[[conceptual modeling]]"
   - "[[context]]"
   - "[[learning]]"
   - "[[management]]"

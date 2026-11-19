@@ -2,7 +2,7 @@
 inferred:skos:narrower:
   - "[[Data preparation]]"
   - "[[Identify factors]]"
+  - "[[Modeling]]"
   - "[[evaluate results]]"
-  - "[[modeling]]"
   - "[[prepare for modeling]]"
 ---
