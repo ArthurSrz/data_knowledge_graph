@@ -1,3 +1,3 @@
 ---
-inferred:skos:narrower: "[[Gradient descent]]"
+inferred:skos:narrower: "[[gradient descent]]"
 ---

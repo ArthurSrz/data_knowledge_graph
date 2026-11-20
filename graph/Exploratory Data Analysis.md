@@ -1,3 +1,3 @@
 ---
-inferred:skos:narrower: "[[High-intent data discovery]]"
+inferred:skos:narrower: "[[high-intent data discovery]]"
 ---

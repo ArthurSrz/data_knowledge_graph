@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Gradient descent]]"
+inferred:skos:ancestor: "[[gradient descent]]"
 ---

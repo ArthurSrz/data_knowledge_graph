@@ -9,7 +9,7 @@ skos:broader:
 skos:related:
   - "[[Target]]"
   - "[[measurement bias]]"
-  - "[[Feedback loop bias]]"
+  - "[[feedback loop bias]]"
 inferred:skos:ancestor:
   - "[[Overfitting]]"
   - "[[feature selection]]"

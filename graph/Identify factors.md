@@ -1,6 +1,6 @@
 ---
 partOf: "[[business understanding]]"
-importPartOf: "[[Gouvernance]]"
+importPartOf: "[[gouvernance]]"
 broader: "[[CRISP-DM Process]]"
 inferred:skos:ancestor:
   - "[[CRISP-DM Process]]"

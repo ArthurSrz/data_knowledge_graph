@@ -5,7 +5,7 @@ keyPapers:
   - A General Theory of Discriminant Analysis (Fisher, 1936)
   - Theory of Games and Economic Behavior (von Neumann & Morgenstern, 1944)
 minimizedBy:
-  - "[[Gradient descent]]"
+  - "[[gradient descent]]"
   - "[[backpropagation]]"
 examples:
   - "[[Mean squared error]]"

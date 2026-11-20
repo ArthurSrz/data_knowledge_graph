@@ -1,6 +1,6 @@
 ---
 inferred:skos:narrower:
   - "[[Edges]]"
-  - "[[Graph network analysis]]"
+  - "[[graph network analysis]]"
   - "[[Network graph]]"
 ---

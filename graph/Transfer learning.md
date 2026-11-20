@@ -5,7 +5,7 @@ keyPapers:
   - How transferable are features in deep neural networks? (Yosinski et al., 2014)
   - Deep Learning of Representations for Unsupervised and Transfer Learning (Bengio, 2012)
 typeOf: "[[Machine learning]] technique"
-implements: "[[Fine-tuning]]"
+implements: "[[fine-tuning]]"
 usedIn:
   - "[[Deep learning]]"
   - "[[Neural network models]]"

@@ -1,3 +1,3 @@
 ---
-inferred:skos:narrower: "[[Git worktree]]"
+inferred:skos:narrower: "[[git worktree]]"
 ---

@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Graph algorithm]]"
+inferred:skos:ancestor: "[[araph algorithm]]"
 ---

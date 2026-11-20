@@ -13,6 +13,6 @@ Each review has a state: APPROVED, CHANGES_REQUESTED, COMMENTED or DISMISSED. Gi
 
 The author of a [[Pull request]] can never approve it. So a PR opened by a bot or shared token can be approved by everyone except that account.
 
-Counting approvals yourself (outside the [[GitHub ruleset]]) must reproduce this "latest per person" rule, otherwise one person approving twice counts as two.
+Counting approvals yourself (outside the [[github ruleset]]) must reproduce this "latest per person" rule, otherwise one person approving twice counts as two.
 
 **Example (equium-wiki):** `tools/approbations_github.py` applies exactly this rule to decide whether to turn the [[required status check]] `relecture-croisee` green.

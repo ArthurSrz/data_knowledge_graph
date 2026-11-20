@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Graph network analysis]]"
+inferred:skos:ancestor: "[[graph network analysis]]"
 ---

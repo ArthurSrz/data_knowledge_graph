@@ -12,7 +12,7 @@ timestamp: 2026-06-28T00:00:00Z
 instanceOf: "[[excel vs. gsheet problem]]"
 ---
 
-## Google Sheets-Only [[Functions]]
+## Google Sheets-Only [[functions]]
 
 These [[functions]] produce `#NAME?` in [[Excel]] — there is no equivalent:
 
@@ -39,7 +39,7 @@ These [[functions]] produce `#NAME?` in [[Excel]] — there is no equivalent:
 
 34+ [[functions]] total have no [[Excel]] counterpart.
 
-## [[Excel]]-Only [[Functions]]
+## [[Excel]]-Only [[functions]]
 
 | Function | Purpose |
 |----------|---------|

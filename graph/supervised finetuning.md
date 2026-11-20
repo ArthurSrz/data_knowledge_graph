@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Fine-tuning]]"
+inferred:skos:ancestor: "[[fine-tuning]]"
 ---

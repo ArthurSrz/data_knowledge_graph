@@ -4,7 +4,7 @@ has part(s):
   - "[[graph/direction]]"
   - "[[graph/vector length]]"
 subclass of: "[[vector]]"
-instance of: "[[Geometric concept]]"
+instance of: "[[geometric concept]]"
 part of: "[[graph/Euclidean space]]"
 skos:broader: "[[index]]"
 inferred:skos:ancestor:

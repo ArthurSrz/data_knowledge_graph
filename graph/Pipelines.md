@@ -24,7 +24,7 @@ types:
   - "[[Inference pipeline]]"
   - "[[Data pipeline]]"
   - "[[ML pipeline]]"
-inferred:skos:narrower: "[[Feature pipeline]]"
+inferred:skos:narrower: "[[feature pipeline]]"
 ---
 
 # Pipelines

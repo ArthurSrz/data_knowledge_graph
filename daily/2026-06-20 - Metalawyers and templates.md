@@ -20,9 +20,9 @@ First, Clara is more focused, questions go straight to the [[target]] (if the [[
 
 Now, slide template and formatting, which are maybe the top #1 priority today, for many companies. As [[Claude]], ChatGPT and every other LLM are good but not great at following [[templates]]. It always tricky. The quick fix I've found is : [[design]] tokens expressed **in the closest way** to the one [[Claude]] would generate himself to generate slides. And that tokens are expressed with [[Java]] script code. 
 
-The all idea here is to reverse-engineer the slides and reach a 500-1000 [[token]] long [[design]]-[[token]] or [[design]] system description that will be located inside the first operational [[knowledge]] artifact you can find. These, from past observation, ensure [[persistence]] when used for [[graph/Generation]] inside LLM [[agent harness]]. 
+The all idea here is to reverse-engineer the slides and reach a 500-1000 [[token]] long [[design]]-[[token]] or [[design]] system description that will be located inside the first operational [[knowledge]] artifact you can find. These, from past observation, ensure [[persistence]] when used for [[generation]] inside LLM [[agent harness]]. 
 
-Probably, all big companies already have slide [[templates]], that explain the rules to follow when creating slide decks. Those rules are never followed of course, as everyone has its own recipe, but slide [[graph/Generation]] feels like a time loss for so many people. The problem is that slides are cognitively very heavy, and that's a major ISSUE. 
+Probably, all big companies already have slide [[templates]], that explain the rules to follow when creating slide decks. Those rules are never followed of course, as everyone has its own recipe, but slide [[generation]] feels like a time loss for so many people. The problem is that slides are cognitively very heavy, and that's a major ISSUE. 
 
 Worth spending time around understanding what makes slide so heavy and how to unravel this issue for everyone.
 

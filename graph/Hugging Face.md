@@ -22,4 +22,4 @@ inferred:skos:narrower:
 - [[GPT2]] - Available through Hugging Face
 - [[camemBERT]] - French language model on HF
 - [[large language model]] - Many LLMs hosted on HF
-- [[Fine-tuning]] - Common task using HF tools
+- [[fine-tuning]] - Common task using HF tools

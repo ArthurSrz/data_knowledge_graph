@@ -1,5 +1,5 @@
 ---
-shouldPayAttentionTo: "[[Feedback loop bias]]"
+shouldPayAttentionTo: "[[feedback loop bias]]"
 broader: "[[ML system]]"
 inferred:skos:ancestor:
   - "[[ML system]]"

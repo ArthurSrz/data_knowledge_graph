@@ -2,9 +2,13 @@
 wikidata entity id: Q5071951
 subclass of: "[[data set]]"
 has use: "[[Version control]]"
-used by: "[[Git]]"
+used by: "[[git]]"
 has part: "[[commit message]]"
-skos:altLabel: ["commit", "revision", "patch", "changelist"]
+skos:altLabel:
+  - commit
+  - revision
+  - patch
+  - changelist
 inferred:skos:ancestor:
   - "[[data set]]"
 ---

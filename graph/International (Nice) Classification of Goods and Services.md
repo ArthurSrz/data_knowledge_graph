@@ -10,5 +10,5 @@ language of work or name:
   - "[[graph/English]]"
   - "[[graph/Russian]]"
   - "[[graph/French]]"
-skos:narrower: "[[Good and services classes]]"
+skos:narrower: "[[good and services classes]]"
 ---

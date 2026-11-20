@@ -1,6 +1,6 @@
 ---
 rdf:type: Concept
-broader: "[[Github]]"
+broader: "[[github]]"
 partOf: "[[automation framework]]"
 description: GitHub's built-in CI/automation runner — YAML workflows launched by repository events.
 tags:
@@ -9,7 +9,7 @@ tags:
   - automation
 timestamp: 2026-11-16T00:00:00Z
 inferred:skos:ancestor:
-  - "[[Github]]"
+  - "[[github]]"
 inferred:skos:narrower:
   - "[[workflow recursion guard]]"
 ---

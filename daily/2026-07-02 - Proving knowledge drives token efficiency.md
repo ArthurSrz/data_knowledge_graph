@@ -13,7 +13,7 @@ And [[token]] jam became quite expansive these days ! So proving that [[knowledg
 
 Second, because trying to prove that is a way to stress-[[test]] the hypothesis that [[knowledge]] reduces the natural semantic dispersion of [[large language model]]. For it is reasonable enough to assume that the sparser a [[model]]'s [[output]], semantically speaking, the more iterations are required to [[reach]] a given [[outcome]]. And the more iterations, the more tokens you consume. 
 
-Third, and most important , if [[knowledge]] does drive [[token]] efficiency, because it gets you semantically deep and precise [[output]] faster, that would confirm (as [Alban Leveau-Vallier has argued](https://hyper.hypotheses.org/171)) , that traveling through a [[latent space]] is the right way to think about [[Generation]].
+Third, and most important , if [[knowledge]] does drive [[token]] efficiency, because it gets you semantically deep and precise [[output]] faster, that would confirm (as [Alban Leveau-Vallier has argued](https://hyper.hypotheses.org/171)) , that traveling through a [[latent space]] is the right way to think about [[generation]].
 
 
 > [!summary] Interlude

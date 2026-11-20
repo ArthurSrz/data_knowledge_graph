@@ -9,7 +9,7 @@ different from: "[[content management]]"
 skos:related:
   - "[[knowledge organization system]]"
   - "[[knowledge base]]"
-  - "[[Feedback loops]]"
+  - "[[feedback loops]]"
 inferred:skos:related:
   - "[[SECI model of knowledge dimensions]]"
   - "[[knowledge transfer]]"

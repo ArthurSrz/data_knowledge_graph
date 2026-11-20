@@ -1,3 +1,3 @@
 ---
-inferred:skos:narrower: "[[HTML]]"
+inferred:skos:narrower: "[[html]]"
 ---

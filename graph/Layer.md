@@ -14,7 +14,7 @@ types:
   - "[[Convolutional layer]]"
   - "[[Pooling layer]]"
 connectsThrough:
-  - "[[Forward propagation]]"
+  - "[[forward propagation]]"
   - "[[backpropagation]]"
 formsPartOf: "[[Neural network models]]"
 ---

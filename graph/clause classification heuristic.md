@@ -21,7 +21,6 @@ inferred:skos:ancestor:
   - "[[Provenance]]"
   - "[[chronology]]"
   - "[[clause]]"
-  - "[[heuristic]]"
 inferred:skos:broader:
   - "[[Provenance]]"
 ---

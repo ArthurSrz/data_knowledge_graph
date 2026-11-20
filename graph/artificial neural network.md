@@ -14,14 +14,14 @@ inferred:skos:ancestor:
   - "[[machine learning]]"
 inferred:skos:narrower:
   - "[[Embedding network]]"
-  - "[[Forward propagation]]"
-  - "[[Hidden states]]"
   - "[[ReLU activation function]]"
   - "[[Sigmoid function]]"
   - "[[Weights]]"
   - "[[artificial neuron]]"
   - "[[autoencoder]]"
   - "[[biological neural network]]"
+  - "[[forward propagation]]"
+  - "[[hidden states]]"
   - "[[multilayer perceptron]]"
   - "[[neuron layer]]"
 ---

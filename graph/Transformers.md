@@ -94,7 +94,7 @@ Transformers can work using:
 ## Related concepts
 
 - [[attention weights]] - Core mechanism of transformers
-- [[Hidden states]] - Internal representations in transformers
+- [[hidden states]] - Internal representations in transformers
 - [[Encoder-only]] - Architecture type (e.g., BERT)
 - [[Decoder-only]] - Architecture type (e.g., GPT)
 - [[BERT]] - Famous encoder-only transformer

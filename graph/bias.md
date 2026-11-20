@@ -1,5 +1,5 @@
 ---
 inferred:skos:narrower:
-  - "[[Feedback loop bias]]"
+  - "[[feedback loop bias]]"
   - "[[measurement bias]]"
 ---

@@ -1,6 +1,6 @@
 ---
 inferred:skos:narrower:
-  - "[[GitHub Actions]]"
-  - "[[GitHub ruleset]]"
+  - "[[gitHub actions]]"
+  - "[[github ruleset]]"
   - "[[required status check]]"
 ---

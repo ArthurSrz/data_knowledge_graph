@@ -1,3 +1,3 @@
 ---
-inferred:skos:narrower: "[[Homebrew]]"
+inferred:skos:narrower: "[[homebrew]]"
 ---

@@ -1,5 +1,5 @@
 ---
-broader: "[[Fine-tuning]]"
+broader: "[[fine-tuning]]"
 inferred:skos:ancestor:
-  - "[[Fine-tuning]]"
+  - "[[fine-tuning]]"
 ---

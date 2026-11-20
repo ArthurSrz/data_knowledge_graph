@@ -1,6 +1,6 @@
 ---
 inferred:skos:ancestor:
-  - "[[Graph algorithm]]"
+  - "[[araph algorithm]]"
   - "[[metric]]"
   - "[[algorithm]]"
   - "[[centrality]]"

@@ -1,6 +1,6 @@
 [[AI stack]] or [[data]], we often come down to the same issues : 
 * databases mismatch or edge-cases not being covered by the structure (NS-Deep)
-* lack of [[data]] or [[graph/Generation]] of synthetic [[data]] 
+* lack of [[data]] or [[generation]] of synthetic [[data]] 
 * reporting to ease processes
 * bad [[data]] models and the painful job of templating with "[[data]] in the wild"
 * automatic [[Unstructured data]] extraction (to [[Java]] Script Notion [[Object]] / [[JSON]])

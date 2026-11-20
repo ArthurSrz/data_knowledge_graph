@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Functions]]"
+inferred:skos:ancestor: "[[functions]]"
 ---
