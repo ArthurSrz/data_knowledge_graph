@@ -1,3 +1,3 @@
 ---
-inferred:skos:narrower: "[[Social network analysis]]"
+inferred:skos:narrower: "[[social network analysis]]"
 ---
