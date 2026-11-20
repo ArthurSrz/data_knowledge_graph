@@ -1,6 +1,6 @@
 ---
 inferred:skos:ancestor:
-  - "[[Slide deck]]"
+  - "[[slide deck]]"
   - "[[creative work]]"
   - "[[intellectual work]]"
 inferred:skos:broader: "[[creative work]]"

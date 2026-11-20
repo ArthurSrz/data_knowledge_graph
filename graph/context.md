@@ -6,7 +6,7 @@ has part(s):
   - "[[environment]]"
   - "[[graph/discourse topic]]"
 has use: "[[Interpretation]]"
-subclass of: "[[Situation]]"
+subclass of: "[[situation]]"
 described by source:
   - "[[graph/National Encyclopedia of Uzbekistan]]"
   - "[[graph/Armenian Soviet Encyclopedia, vol. 5]]"
@@ -18,9 +18,9 @@ studied by:
 facet of: "[[graph/communication]]"
 broader: "[[process]]"
 inferred:skos:ancestor:
-  - "[[Situation]]"
   - "[[occurrent]]"
   - "[[process]]"
+  - "[[situation]]"
 inferred:skos:narrower:
   - "[[agents.md]]"
 ---

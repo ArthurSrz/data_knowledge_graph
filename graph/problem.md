@@ -1,7 +1,7 @@
 ---
 handled, mitigated, or managed by: "[[graph/problem solving]]"
 subclass of:
-  - "[[graph/situation]]"
+  - "[[situation]]"
   - "[[graph/concern]]"
 studied by:
   - "[[graph/problem shaping]]"
@@ -18,7 +18,5 @@ Commons category: Problems
 pronunciation audio: http://commons.wikimedia.org/wiki/Special:FilePath/De-Problem.ogg
 wikidata entity id: Q621184
 inferred:skos:ancestor:
-  - "[[Situation]]"
-inferred:skos:broader:
-  - "[[Situation]]"
+  - "[[situation]]"
 ---
