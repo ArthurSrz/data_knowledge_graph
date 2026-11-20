@@ -9,6 +9,7 @@ skos:related: "[[domain knowledge]]"
 inferred:skos:ancestor:
   - "[[knowledge]]"
 inferred:skos:related:
+  - "[[SECI model of knowledge dimensions]]"
   - "[[knowledge transfer]]"
 ---
 **Tacit knowledge**: knowledge that is hard to transfer by writing it down or saying it (Polanyi, 1958).

@@ -11,6 +11,7 @@ skos:related:
   - "[[knowledge base]]"
   - "[[Feedback loops]]"
 inferred:skos:related:
+  - "[[SECI model of knowledge dimensions]]"
   - "[[knowledge transfer]]"
 ---
 the [[process]] of creating, sharing, using and managing an organization's [[knowledge]].

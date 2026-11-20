@@ -7,6 +7,8 @@ has cause: "[[knowledge extraction]]"
 skos:altLabel: ["codified knowledge", "connaissance explicite"]
 inferred:skos:ancestor:
   - "[[knowledge]]"
+inferred:skos:related:
+  - "[[SECI model of knowledge dimensions]]"
 ---
 [[knowledge]] that has been articulated, codified and stored in some medium.
 
