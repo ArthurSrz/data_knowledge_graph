@@ -2708,5 +2708,15 @@
     "rich": 43,
     "links": 3557,
     "avg_score": 11.6
+  },
+  {
+    "date": "2026-11-20",
+    "total": 1025,
+    "empty": 705,
+    "stubs": 211,
+    "medium": 65,
+    "rich": 44,
+    "links": 3891,
+    "avg_score": 12.7
   }
 ]
