@@ -4,7 +4,6 @@ inferred:skos:ancestor:
   - "[[programming language]]"
 inferred:skos:narrower:
   - "[[CountVectorizer]]"
-  - "[[Hugging Face]]"
   - "[[Jupyter notebooks]]"
   - "[[Numpy]]"
   - "[[Pandas]]"
@@ -12,6 +11,7 @@ inferred:skos:narrower:
   - "[[Sci-kit Learn]]"
   - "[[SpaCy]]"
   - "[[Virtual Environment]]"
+  - "[[hugging face]]"
   - "[[matplotlib]]"
   - "[[openpyxl]]"
   - "[[pydantic]]"

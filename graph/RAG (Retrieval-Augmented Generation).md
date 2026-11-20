@@ -1,5 +1,5 @@
 ---
 inferred:skos:narrower:
-  - "[[Hypothetical Document Embeddings (HyDE)]]"
+  - "[[hypothetical document embeddings (HyDE)]]"
   - "[[vanilla RAG design]]"
 ---

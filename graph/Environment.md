@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Infrastructure]]"
+inferred:skos:ancestor: "[[infrastructure]]"
 ---

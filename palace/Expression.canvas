@@ -14,7 +14,7 @@
 		{"id":"room4o0","type":"file","file":"graph/Memory.md","x":1944,"y":274,"width":232,"height":90},
 		{"id":"room5","type":"group","label":"5 · It seems our minds need","x":1920,"y":620,"width":520,"height":346},
 		{"id":"room5t","type":"text","text":"**It seems our minds need some kind of physical [[infrastructure]] to make sense of ideas he produces.** This way we can apply our thing-location [[skills]] to keeping track of our ideas.","x":1944,"y":668,"width":472,"height":136},
-		{"id":"room5o0","type":"file","file":"graph/Infrastructure.md","x":1944,"y":828,"width":232,"height":90},
+		{"id":"room5o0","type":"file","file":"graph/infrastructure.md","x":1944,"y":828,"width":232,"height":90},
 		{"id":"room5o1","type":"file","file":"graph/Skills.md","x":2200,"y":828,"width":232,"height":90},
 		{"id":"room6","type":"group","label":"6 · Our ability to treat ideas","x":1280,"y":620,"width":520,"height":544},
 		{"id":"room6t","type":"text","text":"Our ability to treat ideas as though they were objects goes together with our abilities to reuse our brain-machinery over and over again. Whenever an [[agency]] becomes overburdened by a large and complicated structure, we may be able to treat that structure as a simple, single unit by thing-ifying-or, as we usually say, \"_conceptualizing_\"- it. Science and Technology Studies have a word for that kind of human way of capturing complex structures through simplified representation: **artifacts**. That's where artifacts in [[Claude]] come fro. Anthropic artifacts are simplified representation you can make to keep track and represent things you're doing with AI.","x":1304,"y":668,"width":472,"height":334},

@@ -2,7 +2,7 @@
 madeOf:
   - "[[application development]]"
   - "[[Model development]]"
-  - "[[Infrastructure]]"
+  - "[[infrastructure]]"
 broader: "[[AI]]"
 inferred:skos:ancestor:
   - "[[AI]]"

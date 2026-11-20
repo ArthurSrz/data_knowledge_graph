@@ -31,7 +31,7 @@
 		{"id":"n0018","type":"file","file":"graph/generation.md","x":7460,"y":0,"width":260,"height":80},
 		{"id":"n0019","type":"file","file":"graph/goals.md","x":7800,"y":0,"width":260,"height":80},
 		{"id":"n001a","type":"file","file":"graph/hallucination.md","x":9880,"y":180,"width":260,"height":80},
-		{"id":"n001b","type":"file","file":"graph/Inference engine.md","x":8140,"y":0,"width":260,"height":80},
+		{"id":"n001b","type":"file","file":"graph/inference engine.md","x":8140,"y":0,"width":260,"height":80},
 		{"id":"n001c","type":"file","file":"graph/LLaMA.md","x":8480,"y":0,"width":260,"height":80},
 		{"id":"n001d","type":"group","label":"Language modeling","x":8820,"y":0,"width":1400,"height":830},
 		{"id":"n001df","type":"file","file":"graph/language modeling.md","x":8860,"y":20,"width":260,"height":50},

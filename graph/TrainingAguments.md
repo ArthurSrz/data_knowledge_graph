@@ -1,8 +1,8 @@
 ---
-broader: "[[Hugging Face]]"
+broader: "[[hugging face]]"
 inferred:skos:ancestor:
-  - "[[Hugging Face]]"
   - "[[Python]]"
+  - "[[hugging face]]"
   - "[[programming language]]"
 ---
 # TrainingArguments
@@ -173,5 +173,5 @@ TrainingArguments has:
 Wolf, T., Debut, L., et al. (2019). HuggingFace's Transformers: State-of-the-art Natural Language Processing. arXiv preprint arXiv:1910.03771.
 
 ---
-partOf: "[[Hugging Face]]"
+partOf: "[[hugging face]]"
 ---

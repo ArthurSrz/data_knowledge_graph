@@ -1,7 +1,7 @@
 ---
 partOf: "[[Vanilla RAG design]]"
-broader: "[[Inference]]"
+broader: "[[inference]]"
 inferred:skos:ancestor:
   - "[[Deployment]]"
-  - "[[Inference]]"
+  - "[[inference]]"
 ---

@@ -1,7 +1,7 @@
 ---
-broader: "[[Inference]]"
+broader: "[[inference]]"
 inferred:skos:ancestor:
   - "[[Deployment]]"
-  - "[[Inference]]"
+  - "[[inference]]"
 ---
 Example is food delivery "time-to-arrive". 

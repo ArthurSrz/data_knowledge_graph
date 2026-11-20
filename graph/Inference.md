@@ -22,11 +22,11 @@ broader: "[[Deployment]]"
 inferred:skos:ancestor:
   - "[[Deployment]]"
 inferred:skos:narrower:
-  - "[[Inference engine]]"
-  - "[[Inference pipeline]]"
   - "[[Online prediction]]"
   - "[[backward chaining]]"
   - "[[batch prediction]]"
   - "[[causal inference]]"
+  - "[[inference engine]]"
+  - "[[inference pipeline]]"
 ---
 Act or [[process]] of deriving logical conclusions from premises known or assumed to be true

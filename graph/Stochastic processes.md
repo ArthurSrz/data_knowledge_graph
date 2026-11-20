@@ -1,3 +1,3 @@
 ---
-inferred:skos:narrower: "[[Independent Cascade Model]]"
+inferred:skos:narrower: "[[Independent cascade model]]"
 ---

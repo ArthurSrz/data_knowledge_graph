@@ -1,8 +1,8 @@
 ---
-partOf: "[[Hugging Face]]"
-broader: "[[Hugging Face]]"
+partOf: "[[hugging face]]"
+broader: "[[hugging face]]"
 inferred:skos:ancestor:
-  - "[[Hugging Face]]"
   - "[[Python]]"
+  - "[[hugging face]]"
   - "[[programming language]]"
 ---

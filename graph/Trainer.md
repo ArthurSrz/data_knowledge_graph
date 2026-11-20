@@ -1,8 +1,8 @@
 ---
-broader: "[[Hugging Face]]"
+broader: "[[hugging face]]"
 inferred:skos:ancestor:
-  - "[[Hugging Face]]"
   - "[[Python]]"
+  - "[[hugging face]]"
   - "[[programming language]]"
 ---
 # Trainer
@@ -208,5 +208,5 @@ Wolf, T., Debut, L., et al. (2019). HuggingFace's Transformers: State-of-the-art
 Hugging Face Documentation. (2024). Trainer. Retrieved from https://huggingface.co/docs/transformers/main_classes/trainer
 
 ---
-partOf: "[[Hugging Face]]"
+partOf: "[[hugging face]]"
 ---

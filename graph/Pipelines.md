@@ -21,7 +21,7 @@ implementations:
   - "[[MLflow]]"
 types:
   - "[[Training pipeline]]"
-  - "[[Inference pipeline]]"
+  - "[[inference pipeline]]"
   - "[[Data pipeline]]"
   - "[[ML pipeline]]"
 inferred:skos:narrower: "[[feature pipeline]]"

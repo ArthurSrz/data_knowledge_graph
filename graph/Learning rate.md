@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Hyperparameters]]"
+inferred:skos:ancestor: "[[hyperparameters]]"
 ---

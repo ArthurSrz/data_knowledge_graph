@@ -8,8 +8,8 @@ skos:scopeNote: "Machine-learning sense only: the CRISP-DM phase where a model i
 inferred:skos:ancestor:
   - "[[CRISP-DM Process]]"
 ---
-We collect past [[Observations]], and associate [[feature]], and define a [[Target]]. The model relate the 3. When we train, we identify the optimal parameters in the equation or set of equations. 
+We collect past [[Observations]], and associate [[feature]], and define a [[[hyperparameters]]l relate the 3. When we train, we identify the optimal parameters in the equation or set of equations. 
 
-We start by selecting [[feature]]. Then we choose a template, the [[algorithm]]. We tune the template with [[Hyperparameters]]. And we use the [[Loss function]] to evaluate the performance or our model. 
+We start by selecting [[feature]]. Then we choose a template, the [[algorithm]]. We tune the template with [[hyperparameters]]. And we use the [[Loss function]] to evaluate the performance or our model. 
 
 Breaks down into 2 steps : [[model selection]] and [[model tuning]]

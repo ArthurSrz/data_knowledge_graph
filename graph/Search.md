@@ -1,3 +1,3 @@
 ---
-inferred:skos:narrower: "[[Hybrid search]]"
+inferred:skos:narrower: "[[hybrid search]]"
 ---

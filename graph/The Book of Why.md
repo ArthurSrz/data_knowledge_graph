@@ -10,8 +10,8 @@ wikidata entity id: Q98199430
 broader: "[[causal inference]]"
 inferred:skos:ancestor:
   - "[[Deployment]]"
-  - "[[Inference]]"
   - "[[causal inference]]"
+  - "[[inference]]"
 ---
  The book explores the subject of causality and [[causal inference]] from statistical and philosophical points of view for a general audience.
  

@@ -177,7 +177,7 @@ The graph encodes [SKOS](https://www.w3.org/2004/02/skos/)-style hierarchical re
   - [AI stack](graph/AI%20stack.md)
   - [Artificial Intelligence (AI)](graph/Artificial%20Intelligence%20%28AI%29.md)
     - [agentic System](agentic%20System.md)
-      - [action module](graph/action%20module.md) · [agency](graph/agency.md) · [agent harness](graph/agent%20harness.md) · [agent identity](graph/agent%20identity.md) · [agent role type](graph/agent%20role%20type.md) · [autonomy](autonomy.md) · [claude code](graph/claude%20code.md) · [claude managed agents](graph/claude%20managed%20agents.md) · [comparag agent](graph/comparag%20agent.md) · [context mode](graph/context%20mode.md) · [Human-in-the-loop](graph/Human-in-the-loop.md) · [ReAct data agent](graph/ReAct%20data%20agent.md) · [ReAct mode](graph/ReAct%20mode.md) · [search module](graph/search%20module.md) · [Subagent](graph/Subagent.md) · [Tool arena](graph/Tool%20arena.md) · [Tool Assignment Gate](graph/Tool%20Assignment%20Gate.md) · [Toolkits](graph/Toolkits.md) · [tools](tools.md)
+      - [action module](graph/action%20module.md) · [agency](graph/agency.md) · [agent harness](graph/agent%20harness.md) · [agent identity](graph/agent%20identity.md) · [agent role type](graph/agent%20role%20type.md) · [autonomy](autonomy.md) · [claude code](graph/claude%20code.md) · [claude managed agents](graph/claude%20managed%20agents.md) · [comparag agent](graph/comparag%20agent.md) · [context mode](graph/context%20mode.md) · [human-in-the-loop](human-in-the-loop.md) · [ReAct data agent](graph/ReAct%20data%20agent.md) · [ReAct mode](graph/ReAct%20mode.md) · [search module](graph/search%20module.md) · [Subagent](graph/Subagent.md) · [Tool arena](graph/Tool%20arena.md) · [Tool Assignment Gate](graph/Tool%20Assignment%20Gate.md) · [Toolkits](graph/Toolkits.md) · [tools](tools.md)
       - [Model Context Protocol (MCP)](graph/Model%20Context%20Protocol%20%28MCP%29.md) → [MCP host](graph/MCP%20host.md) · [MCP server](graph/MCP%20server.md)
     - [compound AI system](compound%20AI%20system.md)
     - [computer vision](graph/computer%20vision.md) → [facial recognition](facial%20recognition.md)
@@ -189,8 +189,8 @@ The graph encodes [SKOS](https://www.w3.org/2004/02/skos/)-style hierarchical re
         - [autoregressive language models](graph/autoregressive%20language%20models.md) → [GPT2](graph/GPT2.md)
         - [large language model](large%20language%20model.md)
           - [AI prompt](graph/AI%20prompt.md) → [chain-of-thought](graph/chain-of-thought.md) · [prompt identity](prompt%20identity.md) · [prompt optimization techniques](prompt%20optimization%20techniques.md) · [prompt templates](prompt%20templates.md) · [system prompt](graph/system%20prompt.md) · …
-          - [RAG (Retrieval-Augmented Generation)](graph/RAG%20%28Retrieval-Augmented%20Generation%29.md) → [Retriever](graph/Retriever.md) · [HyDE](graph/Hypothetical%20Document%20Embeddings%20%28HyDE%29.md) · …
-          - [chat engines](graph/chat%20engines.md) · [hallucination](hallucination.md) · [In-Context Learning](graph/In-Context%20Learning.md) · [LLaMA](graph/LLaMA.md) · [Ollama](graph/Ollama.md) · …
+          - [RAG (Retrieval-Augmented Generation)](graph/RAG%20%28Retrieval-Augmented%20Generation%29.md) → [Retriever](graph/Retriever.md) · [HyDE](hypothetical%20document%20embeddings%20(HyDE).md) · …
+          - [chat engines](graph/chat%20engines.md) · [hallucination](hallucination.md) · [in-context learning](in-context%20learning.md) · [LLaMA](graph/LLaMA.md) · [Ollama](graph/Ollama.md) · …
         - [masked language models](graph/masked%20language%20models.md) → [BERT](graph/BERT.md) → [camemBERT](graph/camemBERT.md)
   - [claude cowork](graph/claude%20cowork.md) · [man-Computer Symbiosis](man-Computer%20Symbiosis.md) · [The Shift from Models to Compound AI Systems](graph/The%20Shift%20from%20Models%20to%20Compound%20AI%20Systems.md) · …
 - [algorithm](algorithm.md)
@@ -214,7 +214,7 @@ The graph encodes [SKOS](https://www.w3.org/2004/02/skos/)-style hierarchical re
 - [contract](graph/contract.md)
   - [compliant privacy policy](graph/compliant%20privacy%20policy.md) · [liability](graph/liability.md) · [model contract](graph/model%20contract.md) · [Rider](graph/Rider.md)
 - [control theory](graph/control%20theory.md)
-  - [Damping](graph/Damping.md) · [Inertia](graph/Inertia.md) · [James Clerk Maxwell](graph/James%20Clerk%20Maxwell.md) · [state observer](graph/state%20observer.md)
+  - [Damping](graph/Damping.md) · [inertia](inertia.md) · [James Clerk Maxwell](graph/James%20Clerk%20Maxwell.md) · [state observer](graph/state%20observer.md)
 - [Deep learning](graph/Deep%20learning.md)
   - [artificial neural network](graph/artificial%20neural%20network.md) → [artificial neuron](graph/artificial%20neuron.md) · [autoencoder](graph/autoencoder.md) · [backpropagation](backpropagation.md) · [CNN](convolutional%20neural%20networks.md) · [multilayer perceptron](graph/multilayer%20perceptron.md) · [ReLU](graph/ReLU%20activation%20function.md) · [Sigmoid](graph/Sigmoid%20function.md) · [Weights](graph/Weights.md) · …
   - [foundation model](graph/foundation%20model.md) → [multimodal model](graph/multimodal%20model.md) · [tabular foundation model](graph/tabular%20foundation%20model.md) → [TabPFN](graph/TabPFN.md)
@@ -230,7 +230,7 @@ The graph encodes [SKOS](https://www.w3.org/2004/02/skos/)-style hierarchical re
   - [Transparency](graph/Transparency.md) → [Interpretability](graph/Interpretability.md) → [LIME](graph/Local%20Interpretable%20Model-Agnostic%20Explanations%20%28LIME%29.md) · [SHAP](graph/Shapley%20Additive%20Explanations%20%28SHAP%29.md)
 - [Graph theory](graph/Graph%20theory.md)
   - [adjacency matrix](graph/adjacency%20matrix.md) · [Edges](graph/Edges.md) · [node](graph/node.md) · [heterogeneous graph](heterogeneous%20graph.md) · [Network graph](graph/Network%20graph.md) · …
-- [Infrastructure](graph/Infrastructure.md)
+- [infrastructure](infrastructure.md)
   - [authentication protocol](graph/authentication%20protocol.md) → [OAuth](graph/OAuth.md) · [SSH Key](graph/SSH%20Key.md)
   - [cloud computing](graph/cloud%20computing.md) · [Datawarehouse](graph/Datawarehouse.md) · [deploy](deploy.md) · [Docker](graph/Docker.md) · [HTTP](graph/HTTP.md) · [NoSQL database](graph/NoSQL%20database.md) · [Virtualization](graph/Virtualization.md) · …
 - [knowledge graph](knowledge%20graph.md)
@@ -240,7 +240,7 @@ The graph encodes [SKOS](https://www.w3.org/2004/02/skos/)-style hierarchical re
 - [machine learning](graph/machine%20learning.md)
   - [supervised learning](graph/supervised%20learning.md) → [Decision tree](graph/Decision%20tree.md) · [KNN](graph/K-Nearest%20Neighbor%20algorithm.md) · [Naive Bayes](graph/Naive%20Bayes%20Classifier.md) · [SVM](graph/Support%20Vector%20Machine.md)
   - [Unsupervised Learning](graph/Unsupervised%20Learning.md) · [Reinforcement Learning](graph/Reinforcement%20Learning.md) · [federated learning](federated%20learning.md)
-  - [Hyperparameters](graph/Hyperparameters.md) · [loss function](graph/loss%20function.md) · [Regularization](graph/Regularization.md)
+  - [hyperparameters](hyperparameters.md) · [loss function](graph/loss%20function.md) · [Regularization](graph/Regularization.md)
   - [Optimizer algorithm](graph/Optimizer%20algorithm.md) → [gradient descent](gradient%20descent.md)
   - [ML system](graph/ML%20system.md) → [cold start problem](graph/cold%20start%20problem.md) · [Reproducibility](graph/Reproducibility.md) · …
 - [machine learning projects](graph/machine%20learning%20projects.md)
