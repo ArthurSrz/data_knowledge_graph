@@ -2,6 +2,8 @@
 wikidata entity id: Q228502
 subclass of:
   - "[[security control]]"
+has goal:
+  - "[[control]]"
 ---
 selective restriction of access to a place or other resource, allowing only authorized users.
 

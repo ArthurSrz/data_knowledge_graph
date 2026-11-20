@@ -1,5 +1,9 @@
 ---
 wikidata entity id: Q115305900
+uses:
+  - "[[AI prompt]]"
+facet of:
+  - "[[artificial intelligence]]"
 inferred:skos:narrower:
   - "[[AI prompt]]"
   - "[[Ollama]]"

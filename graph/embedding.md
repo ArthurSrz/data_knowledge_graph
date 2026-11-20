@@ -1,5 +1,7 @@
 ---
 wikidata entity id: Q133284072
+part of:
+  - "[[machine learning]]"
 inferred:skos:narrower:
   - "[[latent space]]"
   - "[[sentence embedding]]"

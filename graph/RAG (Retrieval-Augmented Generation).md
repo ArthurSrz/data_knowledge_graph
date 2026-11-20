@@ -6,6 +6,8 @@ subclass of:
 skos:altLabel:
   - retrieval-augmented generation
   - RAG
+facet of:
+  - "[[large language model]]"
 inferred:skos:ancestor:
   - "[[information retrieval]]"
   - "[[search]]"

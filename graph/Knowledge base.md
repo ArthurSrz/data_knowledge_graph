@@ -3,6 +3,8 @@ wikidata entity id: Q593744
 subclass of:
   - "[[conceptual model]]"
   - "[[Documentation]]"
+has part(s):
+  - "[[knowledge]]"
 inferred:skos:ancestor:
   - "[[Documentation]]"
   - "[[conceptual model]]"

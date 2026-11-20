@@ -5,6 +5,10 @@ subclass of:
   - "[[natural language processing]]"
 skos:related:
   - "[[Word embeddings]]"
+uses:
+  - "[[Natural Language Processing]]"
+  - "[[artificial neural network]]"
+  - "[[cosine similarity]]"
 inferred:skos:ancestor:
   - "[[Artificial Intelligence (AI)]]"
   - "[[Natural Language Processing]]"
