@@ -44,7 +44,7 @@ According to Minsky (1986):
 
 #### Key Characteristics
 
-1. **[[Autonomy]]**: Operate without direct intervention
+1. **[[autonomy]]**: Operate without direct intervention
 2. **Reactivity**: Perceive and respond to [[environment]]
 3. **Proactivity**: Exhibit goal-directed behavior
 4. **Social Ability**: Interact with other agents
