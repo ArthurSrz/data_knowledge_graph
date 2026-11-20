@@ -7,7 +7,7 @@ skos:scopeNote: "My usage: applied to knowledge-store artifacts rather than code
 inferred:skos:ancestor:
   - "[[programming paradigm]]"
 ---
-Air Liquide store layout:
+Store layout for a process-capture knowledge store:
 - the flow (tasks, gateways, lanes) → [[Business Process Model and Notation]];
 - policy and clarifications → mapping rules, as [[business rule]]s;
 - evidence, attribution, open questions → registers, with [[provenance]];

@@ -8,10 +8,9 @@ instance of: "[[geometric concept]]"
 part of: "[[graph/Euclidean space]]"
 skos:broader: "[[index]]"
 inferred:skos:ancestor:
-  - "[[Index]]"
   - "[[Vector]]"
+  - "[[index]]"
 inferred:skos:broader:
-  - "[[Index]]"
   - "[[Vector]]"
 ---
 An [[index]] made of [[Vectors]]. Can be queried in [[CYPHER]] language.

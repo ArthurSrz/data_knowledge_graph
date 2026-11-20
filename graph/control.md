@@ -1,4 +1,5 @@
 ---
 inferred:skos:narrower:
+  - "[[Version control]]"
   - "[[management]]"
 ---

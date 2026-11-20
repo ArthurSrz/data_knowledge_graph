@@ -13,6 +13,7 @@ inferred:skos:narrower:
   - "[[Sentiment analysis]]"
   - "[[Tokenizer]]"
   - "[[bag of words]]"
+  - "[[sentence embedding]]"
   - "[[token]]"
 ---
 

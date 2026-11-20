@@ -7,6 +7,6 @@ inferred:skos:ancestor:
   - "[[independent continuant]]"
   - "[[person]]"
 ---
-Concept in process and quality management: the person accountable for a [[business process]], its design and its performance. At Air Liquide, the Business Process Owner (Cluster/GBU/GBS BPO) validates the capture brief and the AS-IS, and arbitrates between [[subject-matter expert]]s; the Group BPO owns the Group reference.
+Concept in process and quality management: the person accountable for a [[business process]], its design and its performance. In a process-capture project, the Business Process Owner (BPO) validates the capture brief and the AS-IS, and arbitrates between [[subject-matter expert]]s; a group-level BPO owns the reference model.
 
 Wikidata stub: Q1418701 carries only a description, no structural statement — both links are mine, not Wikidata's. A process owner is a [[person]] (a continuant) who is *accountable for* a [[business process]] (an occurrent); it is not a kind of process, hence no `broader` link to it.

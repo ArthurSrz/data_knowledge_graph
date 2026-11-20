@@ -1,3 +1,4 @@
 ---
-inferred:skos:ancestor: "[[agentic System]]"
+inferred:skos:narrower:
+  - "[[software agent]]"
 ---

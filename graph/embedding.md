@@ -1,4 +1,5 @@
 ---
 inferred:skos:narrower:
   - "[[latent space]]"
+  - "[[sentence embedding]]"
 ---

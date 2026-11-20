@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[LLM Observability]]"
+inferred:skos:related:
+  - "[[software observability]]"
 ---

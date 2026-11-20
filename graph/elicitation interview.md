@@ -1,3 +1,4 @@
 ---
-inferred:skos:ancestor: "[[elicitation]]"
+inferred:skos:related:
+  - "[[semi-structured interview]]"
 ---

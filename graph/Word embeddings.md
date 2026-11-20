@@ -10,6 +10,8 @@ inferred:skos:ancestor:
   - "[[Artificial Intelligence (AI)]]"
   - "[[Embeddings]]"
   - "[[Natural Language Processing]]"
+inferred:skos:related:
+  - "[[sentence embedding]]"
 ---
 
 # Word Embeddings

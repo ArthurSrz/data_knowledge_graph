@@ -20,7 +20,7 @@ inferred:skos:narrower:
 ---
 In a Clarifeye store, provenance is what lets [[tacit knowledge]] become [[explicit knowledge]] without losing its weight: the artifact states the [[business rule]] impersonally, and the source link (interview turn, Handbook chunk) carries who said it.
 
-Air Liquide rule (Clara session 64aae74c, 2026-11-19): names stay out of method and mapping-rule text ("Approvers are assigned automatically…", not "Adrien reports…"); attribution stays in the register's evidence and decision fields and in the link. Cite the dedicated chunk, not the whole document (e.g. Signavio Modeling Handbook §11).
+Rule (2026-11-19): names stay out of method and mapping-rule text ("Approvers are assigned automatically…", not "the expert reports…"); attribution stays in the register's evidence and decision fields and in the link. Cite the dedicated chunk, not the whole document (e.g. Signavio Modeling Handbook §11).
 
 Risk: an impersonal sentence reads as a [[normative statement]] even when it rests on one [[positive statement]] by one person. The link is the only thing keeping the single-source status visible.
 

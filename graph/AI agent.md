@@ -3,4 +3,6 @@ inferred:skos:ancestor:
   - "[[agent]]"
 inferred:skos:broader:
   - "[[agent]]"
+inferred:skos:related:
+  - "[[software agent]]"
 ---

@@ -28,4 +28,6 @@ inferred:skos:narrower:
   - "[[prompt-based techniques]]"
   - "[[prompts]]"
   - "[[system prompt]]"
+inferred:skos:related:
+  - "[[prompt engineering]]"
 ---

@@ -17,6 +17,6 @@ inferred:skos:narrower:
   - "[[mergers and acquisitions]]"
   - "[[standard operating procedure]]"
 ---
-A collection of related, structured activities that produce a service or product for a customer. The unit an Air Liquide BPO owns and maps: one Group process (code + name in the Process Classification Framework) captured as it really runs in a cluster.
+A collection of related, structured activities that produce a service or [[product]] for a customer. 
 
-Narrower in the graph: [[business process mapping]], [[standard operating procedure]]. Represented with [[Business Process Model and Notation]]; responsibilities with [[responsibility assignment matrix]]; owned by a [[process owner]].
+Narrower in the [[graph]]: [[business process mapping]], [[standard operating procedure]]. Represented with [[Business Process Model and Notation]]; responsibilities with [[responsibility assignment matrix]]; owned by a [[process owner]].
