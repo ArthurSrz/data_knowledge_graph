@@ -10,5 +10,7 @@ inferred:skos:ancestor:
   - "[[knowledge organization system]]"
 inferred:skos:broader:
   - "[[knowledge organization system]]"
+inferred:skos:narrower:
+  - "[[knowledge base]]"
 ---
 Representation of a system, made of the composition of concepts 

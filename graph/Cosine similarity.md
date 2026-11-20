@@ -1,5 +1,5 @@
 ---
-calculationUnder: "[[Retrieval Augmented Generation]]"
+calculationUnder: "[[retrieval augmented generation]]"
 broader: "[[similarity measure]]"
 inferred:skos:ancestor:
   - "[[similarity measure]]"

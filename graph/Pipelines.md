@@ -6,7 +6,7 @@ keyPapers:
   - Data Science Pipelines (Smith & Johnson, 2015)
 enables:
   - "[[Workflow automation]]"
-  - "[[Reproducibility]]"
+  - "[[reproducibility]]"
   - "[[Modular design]]"
 components:
   - "[[Data ingestion]]"

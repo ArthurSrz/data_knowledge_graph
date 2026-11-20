@@ -3,10 +3,12 @@ wikidata entity id: Q121362277
 subclass of:
   - "[[information retrieval]]"
   - "[[generative artificial intelligence]]"
-skos:altLabel: ["retrieval-augmented generation", "RAG"]
+skos:altLabel:
+  - retrieval-augmented generation
+  - RAG
 inferred:skos:ancestor:
-  - "[[Search]]"
   - "[[information retrieval]]"
+  - "[[search]]"
 inferred:skos:narrower:
   - "[[hypothetical document embeddings (HyDE)]]"
   - "[[vanilla RAG design]]"

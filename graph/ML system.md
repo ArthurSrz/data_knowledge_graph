@@ -7,10 +7,10 @@ inferred:skos:narrower:
   - "[[ML System failures]]"
   - "[[ML system design process]]"
   - "[[Nano-precision detection system]]"
-  - "[[Reproducibility]]"
   - "[[best-classification-rate AI detection system]]"
   - "[[cold start problem]]"
   - "[[machine learning systems]]"
+  - "[[reproducibility]]"
 ---
 
 Important design decisions : 

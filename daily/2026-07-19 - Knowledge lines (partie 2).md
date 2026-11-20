@@ -9,7 +9,7 @@ Je ne m’étendrai pas ici sur les moyens de développer ces chaînes d’activ
 
 ## Ce que veut dire conduire un modèle de langage 
 
-Conduire un modèle de langage se distingue de toute technique de [[Retrieval Augmented Generation]] ou d'ingénierie de contexte. Il s'agit de littéralement influer sur ce qui se trouve **à l'intérieur du modèle** pour le mener avec une quasi-certitude d'un point A à un point B. Un RAG ou toute ingénierie de contexte influe sur ce qui se passe **à l'extérieur du modèle**, c'est-à-dire au niveau de la complétion. 
+Conduire un modèle de langage se distingue de toute technique de [[retrieval augmented generation]] ou d'ingénierie de contexte. Il s'agit de littéralement influer sur ce qui se trouve **à l'intérieur du modèle** pour le mener avec une quasi-certitude d'un point A à un point B. Un RAG ou toute ingénierie de contexte influe sur ce qui se passe **à l'extérieur du modèle**, c'est-à-dire au niveau de la complétion. 
 
 Alors, comment est-ce qu'on conduit un LLM ?
 

@@ -1,5 +1,5 @@
 ---
 inferred:skos:narrower:
-  - "[[Semi-structured data]]"
+  - "[[semi-structured data]]"
   - "[[continuum data]]"
 ---

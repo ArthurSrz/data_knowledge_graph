@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Schema design]]"
+inferred:skos:ancestor: "[[schema design]]"
 ---

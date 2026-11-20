@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Search]]"
+inferred:skos:ancestor: "[[search]]"
 ---

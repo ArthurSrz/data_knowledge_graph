@@ -10,10 +10,10 @@ inferred:skos:ancestor:
   - "[[Artificial Intelligence (AI)]]"
 inferred:skos:narrower:
   - "[[Embeddings]]"
-  - "[[Sentiment analysis]]"
   - "[[Tokenizer]]"
   - "[[bag of words]]"
   - "[[sentence embedding]]"
+  - "[[sentiment analysis]]"
   - "[[token]]"
 ---
 

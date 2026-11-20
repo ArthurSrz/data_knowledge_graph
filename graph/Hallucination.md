@@ -10,7 +10,7 @@ affecte:
   - "[[Neural Machine Translation]]"
   - "[[Text Generation]]"
 mitigated_by:
-  - "[[Retrieval Augmented Generation]]"
+  - "[[retrieval augmented generation]]"
   - "[[Factual grounding]]"
   - "[[Unlikelihood training]]"
 types:

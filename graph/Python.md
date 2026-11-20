@@ -8,7 +8,6 @@ inferred:skos:narrower:
   - "[[Numpy]]"
   - "[[Pandas]]"
   - "[[PyTorch]]"
-  - "[[Sci-kit Learn]]"
   - "[[SpaCy]]"
   - "[[Virtual Environment]]"
   - "[[hugging face]]"
@@ -16,6 +15,7 @@ inferred:skos:narrower:
   - "[[openpyxl]]"
   - "[[pydantic]]"
   - "[[pypi]]"
+  - "[[sci-kit Learn]]"
 ---
 ![Python (programming language)](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg)
 
