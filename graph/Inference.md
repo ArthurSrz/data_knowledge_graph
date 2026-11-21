@@ -18,15 +18,12 @@ Dewey Decimal Classification: "160"
 Library of Congress Classification: BC199.I47
 PhilPapers topic: inference
 Stack Exchange tag: https://stackoverflow.com/tags/inference
-broader: "[[Deployment]]"
-inferred:skos:ancestor:
-  - "[[Deployment]]"
+skos:related: "[[Deployment]]"
 inferred:skos:narrower:
   - "[[Online prediction]]"
   - "[[backward chaining]]"
   - "[[batch prediction]]"
   - "[[causal inference]]"
-  - "[[inference engine]]"
   - "[[inference pipeline]]"
 ---
 Act or [[process]] of deriving logical conclusions from premises known or assumed to be true

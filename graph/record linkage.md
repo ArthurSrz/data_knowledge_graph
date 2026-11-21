@@ -1,17 +1,13 @@
 ---
 wikidata entity id: Q1266546
-subclass of:
-  - "[[process]]"
-  - "[[algorithm]]"
+subclass of: "[[process]]"
+uses: "[[algorithm]]"
 facet of: "[[data processing]]"
 skos:altLabel: ["reconciliation", "data matching", "entity resolution", "rapprochement"]
 skos:related:
   - "[[Data quality]]"
   - "[[credit note]]"
-inferred:skos:ancestor:
-  - "[[algorithm]]"
-  - "[[occurrent]]"
-  - "[[process]]"
+skos:scopeNote: "Divergence from Wikidata: Q1266546 is subclass of both process and algorithm. Here record linkage is the activity (a process, an occurrent); the matching algorithm it runs is an information content entity, hence `uses` algorithm."
 inferred:skos:related:
   - "[[master data]]"
 ---

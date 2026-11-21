@@ -4,11 +4,5 @@ subclass of: "[[causal reasoning]]"
 Commons category: Causal inference
 GitHub topic: causal-inference
 wikidata entity id: Q5054566
-skos:broader: "[[inference]]"
-inferred:skos:ancestor:
-  - "[[Deployment]]"
-  - "[[inference]]"
-inferred:skos:narrower:
-  - "[[Joshua Pearl]]"
-  - "[[The Book of Why]]"
+skos:scopeNote: "Kept as Wikidata states it: instance of inference (sourced). The former `skos:broader` inference duplicated it, and a person and a book were filed under it as subclasses."
 ---

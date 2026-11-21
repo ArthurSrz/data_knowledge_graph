@@ -25,8 +25,5 @@ logo image: http://commons.wikimedia.org/wiki/Special:FilePath/Ollama-logo.svg
 Commons category: Ollama
 wikidata entity id: Q124636097
 instanceOf: "[[inference engine]]"
-broader: "[[large language model]]"
-inferred:skos:ancestor:
-  - "[[large language model]]"
 ---
 Stands for Omni-Layer Learning Language Acquisition Model.
