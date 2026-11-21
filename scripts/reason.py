@@ -96,7 +96,9 @@ def parse_targets(value):
             continue
         for m in re.finditer(r"\[\[([^\]|#]+)\]\]", v):
             t = m.group(1)
-            t = re.sub(r"^graph/", "", t)
+            # Obsidian links may carry a folder path ([[graph/x]], [[db/x]]);
+            # note names cannot contain "/", so keep the last segment.
+            t = t.rsplit("/", 1)[-1]
             t = re.sub(r"\.md$", "", t)
             targets.append(t.strip())
     return targets
