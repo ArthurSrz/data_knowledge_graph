@@ -14,4 +14,4 @@ inferred:skos:ancestor:
 ---
 atomic group of changes between successive revisions in a version-[[control]] [[repository]].
 
-In [[Clarifeye]], one approved edit becomes a set of [[artifact]] versions written together (e.g. a new version of the method artifact plus a new version of the register it affects). The [[changelog]] `description` plays the role of the [[commit message]]. The unit of [[change control]].
+In [[Clarifeye]], one approved edit becomes a set of [[artifact]] versions written together (e.g. a new version of the method artifact plus a new version of the register it affects). The [[changelog]] entry's description plays the role of the [[commit message]]. The unit of [[change control]].

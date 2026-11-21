@@ -11,4 +11,4 @@ inferred:skos:narrower:
 ---
 **Version control**: activity of managing the versions of one or more files.
 
-Every write to a Clarifeye artifact creates an `ArtifactVersion` (version_number, change_summary, edit_source) and a [[changelog]] entry.
+Every write to a Clarifeye artifact creates a new artifact version (version number, change summary, source of the edit) and a [[changelog]] entry.

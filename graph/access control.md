@@ -7,4 +7,4 @@ has goal:
 ---
 selective restriction of access to a place or other resource, allowing only authorized users.
 
-In [[Clarifeye]], a store is shared with `StoreShare`, which lists which artifacts (`artifact_slugs`) and whether the Library (`include_library`) another store may read. 
+In [[Clarifeye]], a store can be shared with another store: the share lists which artifacts, and whether the Library, the other store may read. 
