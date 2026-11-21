@@ -44,7 +44,7 @@ What Clara ([[clarifeye]]) does covers two of the four conversions:
 - **Externalization**: [[tacit knowledge]] from interviews → [[explicit knowledge]] written as impersonal [[business rule]]s with [[provenance]];
 - **[[Combination]]**: explicit sources merged into the method and registers ([[systematisation]], [[information integration]]).
 
-Gourlay's criticism fits [[Clarifeye]]: a curation pass often *starts* with [[combination]] (Handbook + Dictionary export + register), and the interview that follows is the externalization step. The spiral does not have to begin with socialization.
+Gourlay's criticism fits [[Clarifeye]]: a curation pass often *starts* with [[combination]] (reference documentation + vocabulary export + register), and the interview that follows is the externalization step. The spiral does not have to begin with socialization.
 
 The two conversions fail in different ways :
 - an externalization fails when a single [[person]]'s [[normative statement]] is written as an impersonal [[rule]] and loses its [[provenance]];
