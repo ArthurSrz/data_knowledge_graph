@@ -1,12 +1,12 @@
 ---
 related_to:
-  - Prompt Templates
-  - Context Management
-  - Output Formatting
+  - "[[Prompt Templates]]"
+  - "[[Context Management]]"
+  - "[[Output Formatting]]"
 dependencies:
-  - User Goal
-  - Tools
-  - Chat History
+  - "[[User Goal]]"
+  - "[[Tools]]"
+  - "[[Chat History]]"
 components:
   - User Goal
   - Instruction

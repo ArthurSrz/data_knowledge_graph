@@ -1,9 +1,9 @@
 ---
 related_to:
-  - Agent Capabilities
-  - Tools
-  - Integrations
-  - Agent Environment
+  - "[[Agent Capabilities]]"
+  - "[[Tools]]"
+  - "[[Integrations]]"
+  - "[[Agent Environment]]"
 dependencies: []
 components:
   - Coding

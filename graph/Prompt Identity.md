@@ -1,8 +1,8 @@
 ---
 related_to:
-  - Prompt Name
-  - Prompt Version
-  - Prompt Management
+  - "[[Prompt Name]]"
+  - "[[Prompt Version]]"
+  - "[[Prompt Management]]"
 dependencies: []
 components:
   - Prompt ID

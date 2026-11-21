@@ -1,8 +1,8 @@
 ---
 related_to:
-  - Prompt Templates
-  - Conversation Patterns
-  - Instruction Patterns
+  - "[[Prompt Templates]]"
+  - "[[Conversation Patterns]]"
+  - "[[Instruction Patterns]]"
 dependencies: []
 components:
   - Chat-style prompts

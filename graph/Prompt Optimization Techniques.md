@@ -1,10 +1,10 @@
 ---
 related_to:
-  - Prompt Engineering
-  - Reasoning Enhancement
-  - Performance Optimization
+  - "[[Prompt Engineering]]"
+  - "[[Reasoning Enhancement]]"
+  - "[[Performance Optimization]]"
 dependencies:
-  - Prompt Templates
+  - "[[Prompt Templates]]"
 components:
   - Chain-of-Thought
   - Few-Shot Learning
