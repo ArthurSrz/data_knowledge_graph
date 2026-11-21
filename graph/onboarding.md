@@ -12,11 +12,11 @@ said to be the same as: "[[induction training]]"
 broader: "[[process]]"
 skos:altLabel: ["organizational socialization", "employment induction", "induction"]
 skos:definition: "Mechanism through which new employees acquire the knowledge, skills, and behaviors necessary to become effective organizational members."
-skos:scopeNote: "Onboarding of a person. In Clarifeye, « onboarding » (/onboarding/start) also names the product flow that creates a knowledge store from a template: that store-creation sense is not covered by this concept."
+skos:scopeNote: "Onboarding of a person. In Clarifeye, « onboarding » also names the product flow that creates a knowledge store from a template: that store-creation sense is not covered by this concept."
 inferred:skos:ancestor:
   - "[[occurrent]]"
   - "[[process]]"
 ---
 The mechanism through which newcomers acquire the knowledge, skills and behaviours to become effective members of an organisation. Wikidata makes [[training]] a part of it.
 
-Divergence with Clarifeye usage: « onboarding » there names the product flow that creates a knowledge store (`/onboarding/start` → template → scoping with Clara), i.e. onboarding a *store*, not a person. The customer training of a new BPO is the Wikidata sense.
+Divergence with Clarifeye usage: « onboarding » there names the product flow that creates a knowledge store (template → scoping with Clara), i.e. onboarding a *store*, not a person. The customer training of a new BPO is the Wikidata sense.

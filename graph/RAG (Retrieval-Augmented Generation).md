@@ -17,4 +17,4 @@ inferred:skos:narrower:
 ---
 **Retrieval-augmented generation**: type of information retrieval using LLMs.
 
-In a Clarifeye store, Clara retrieves chunks from the Library, then answers or writes artifacts citing them with `?verbatim=` links (citation_rules.py), which keep the [[Provenance]] of each claim.
+In a Clarifeye store, Clara retrieves chunks from the Library, then answers or writes artifacts citing them with links anchored to the exact quoted passage, which keep the [[Provenance]] of each claim.

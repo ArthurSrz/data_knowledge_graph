@@ -18,4 +18,4 @@ inferred:skos:broader:
 ---
 numeric representation of a sentence.
 
-What makes a chunk findable by [[meaning]] rather than by keyword in a store's Library: chunks are embedded at indexing (`ExtractionFlow`) and [[queries]] are matched against them. The sentence-level counterpart of [[Word embeddings]].
+What makes a chunk findable by [[meaning]] rather than by keyword in a store's Library: chunks are embedded at indexing and [[queries]] are matched against them. The sentence-level counterpart of [[Word embeddings]].
