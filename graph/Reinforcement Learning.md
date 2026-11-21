@@ -4,7 +4,7 @@ keyPapers:
   - Learning from Delayed Rewards (Sutton, 1988)
   - Q-Learning (Watkins, 1989)
   - "Reinforcement Learning: An Introduction (Sutton & Barto, 1998)"
-typeOf: "[[Machine learning paradigm]]"
+instance of: "[[Machine learning paradigm]]"
 inspiredBy:
   - "[[Behaviorist psychology]]"
   - "[[Dynamic programming]]"

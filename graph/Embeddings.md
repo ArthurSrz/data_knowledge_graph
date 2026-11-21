@@ -15,7 +15,7 @@ properties:
   - "[[Semantic similarity]]"
   - "[[Dense representation]]"
   - "[[Continuous space]]"
-types:
+skos:narrower:
   - "[[Word embeddings]]"
   - "[[Sentence embeddings]]"
   - "[[Document embeddings]]"

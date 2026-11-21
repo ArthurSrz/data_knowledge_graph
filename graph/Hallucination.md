@@ -13,7 +13,7 @@ mitigated_by:
   - "[[retrieval augmented generation]]"
   - "[[Factual grounding]]"
   - "[[Unlikelihood training]]"
-types:
+skos:narrower:
   - "[[Intrinsic hallucination]]"
   - "[[Extrinsic hallucination]]"
 broader: "[[large language model]]"

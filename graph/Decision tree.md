@@ -4,7 +4,7 @@ keyPapers:
   - "C4.5: Programs for Machine Learning (Quinlan, 1993)"
   - Classification and Regression Trees (Breiman et al., 1984)
   - Experiments in Induction (Hunt, Marin & Stone, 1966)
-typeOf: "[[Supervised learning]] algorithm"
+subclass of: "[[supervised learning algorithm]]"
 usedFor:
   - "[[classification]]"
   - "[[Regression]]"

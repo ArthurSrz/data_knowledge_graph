@@ -3,7 +3,7 @@ foundationalPaper: A Training Algorithm for Optimal Margin Classifiers (Boser, G
 keyPapers:
   - Support-Vector Networks (Cortes & Vapnik, 1995)
   - The Nature of Statistical Learning Theory (Vapnik, 1995)
-typeOf: "[[Supervised learning algorithm]]"
+subclass of: "[[supervised learning algorithm]]"
 usedFor:
   - "[[classification]]"
   - "[[Regression]]"
