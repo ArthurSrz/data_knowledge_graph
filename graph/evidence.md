@@ -1,5 +1,6 @@
 ---
 wikidata entity id: Q176763
+subclass of: "[[information content entity]]"
 inferred:skos:narrower:
   - "[[chain of custody]]"
   - "[[documentary evidence]]"

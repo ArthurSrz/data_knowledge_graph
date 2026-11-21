@@ -6,7 +6,9 @@ has part(s):
 based on: "[[graph/mental model]]"
 studied by: "[[graph/knowledge organization]]"
 subject has role: "[[graph/knowledge organization]]"
-subclass of: "[[graph/conceptual system]]"
+subclass of:
+  - "[[graph/conceptual system]]"
+  - "[[information content entity]]"
 maintained by WikiProject: "[[graph/WikiProject KOS]]"
 instance of: "[[graph/type of system]]"
 properties for this type: BARTOC ID
