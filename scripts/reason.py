@@ -89,6 +89,12 @@ SKOS_RULES = [
     "part_of(X, Y) :- has_part(Y, X)",
     "part_of(X, Z) :- part_of(X, Y), part_of(Y, Z)",
     "part_cycle(X, Y) :- part_of(X, Y), part_of(Y, X)",
+    # Cross-level disjointness: X is an instance on one side and a subclass
+    # on the other. Only valid for individuals (Wikidata classes are often
+    # also instances of metaclasses), so candidates are filtered in Python
+    # by individual_cross_violations(): the engine ignores `not`.
+    "cross_candidate(X, Y) :- type_of(X, Y), ancestor(X, Z), disjoint_s(Y, Z)",
+    "cross_candidate(X, Z) :- type_of(X, Y), ancestor(X, Z), disjoint_s(Y, Z)",
 ]
 
 
@@ -256,6 +262,22 @@ def find_orphans(notes):
             for t in targets:
                 has_edges.add(t)
     return sorted(set(notes.keys()) - has_edges)
+
+
+def individual_cross_violations(engine):
+    """Cross-level disjointness, restricted to individuals.
+
+    Returns sorted (X, Y) pairs from cross_candidate where X has no
+    subclass and no instance (so X is an individual, not a class).
+    Done in Python because the Datalog engine silently ignores negation.
+    """
+    out = set()
+    for row in engine.query("cross_candidate(?X, ?Y)") or []:
+        x = row["X"]
+        if engine.query(f"broader(?C, {x})") or engine.query(f"instance_of(?I, {x})"):
+            continue
+        out.add((x, row["Y"]))
+    return sorted(out)
 
 
 def compute_inferred_facts(engine, notes, filenames, name_of):
@@ -475,6 +497,14 @@ def cmd_check(args):
     else:
         print("\nNote: No SKOS_RULES defined — skipping cycle/conflict/S27 checks.")
 
+    if SKOS_RULES:
+        cross = individual_cross_violations(engine)
+        if cross:
+            findings += len(cross)
+            print(f"\n⚠ Disjointness violations across instance/subclass (individuals) ({len(cross)}):")
+            for x, y in cross[:20]:
+                print(f"  {name_of.get(x, x)} ↔ {name_of.get(y, y)}")
+
     if unmapped:
         print(f"\nℹ Unmapped frontmatter keys (ignored): {', '.join(sorted(unmapped))}")
 
@@ -569,6 +599,13 @@ def cmd_report(args):
                     else:
                         x = name_of.get(row["X"], row["X"])
                         lines.append(f"- {x}")
+
+    if SKOS_RULES:
+        cross = individual_cross_violations(engine)
+        if cross:
+            lines.append(f"\n### Disjointness violations across instance/subclass ({len(cross)})\n")
+            for x, y in cross:
+                lines.append(f"- {name_of.get(x, x)} ↔ {name_of.get(y, y)}")
 
     if unmapped:
         lines.append(f"\n## Unmapped frontmatter keys\n")
