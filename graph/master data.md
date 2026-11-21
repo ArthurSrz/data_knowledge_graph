@@ -11,4 +11,4 @@ inferred:skos:related:
 ---
 **Master data**: stable or slowly changing reference data in an information system, such as a customer's addresses, category or billing entities.
 
-In billing, the client file holds it: payers, entities, routing and identifiers (NetSuite code, client building code). It must stay consistent across systems ([[record linkage]]), otherwise invoices go unpaid.
+In billing, the client file holds it: payers, entities, routing and identifiers (ERP customer code, site code). It must stay consistent across systems ([[record linkage]]), otherwise invoices go unpaid.

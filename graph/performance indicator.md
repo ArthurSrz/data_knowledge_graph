@@ -5,4 +5,4 @@ has use: "[[performance measurement]]"
 broader: "[[performance metric]]"
 skos:altLabel: ["KPI", "key performance indicator"]
 ---
-A measurement of performance-related attributes, compared against benchmarks or expectations. In the Process Card of a process store: KPIs and SLA of the [[business process]], taken from the Group Signavio Dictionary where it exists; a local KPI is marked « local » and logged as a taxonomy deviation.
+A measurement of performance-related attributes, compared against benchmarks or expectations. In a process-capture store, the process card lists the KPIs and SLA of the [[business process]], taken from the organisation's reference dictionary where one exists; a locally defined KPI is flagged as such and logged as a deviation from the reference taxonomy.

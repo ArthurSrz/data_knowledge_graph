@@ -18,9 +18,9 @@ inferred:skos:narrower:
   - "[[clause classification heuristic]]"
   - "[[model contract]]"
 ---
-In a Clarifeye store, provenance is what lets [[tacit knowledge]] become [[explicit knowledge]] without losing its weight: the artifact states the [[business rule]] impersonally, and the source link (interview turn, Handbook chunk) carries who said it.
+In a Clarifeye store, provenance is what lets [[tacit knowledge]] become [[explicit knowledge]] without losing its weight: the artifact states the [[business rule]] impersonally, and the source link (interview turn, document chunk) carries who said it.
 
-Rule (2026-11-19): names stay out of method and mapping-rule text ("Approvers are assigned automatically…", not "the expert reports…"); attribution stays in the register's evidence and decision fields and in the link. Cite the dedicated chunk, not the whole document (e.g. Signavio Modeling Handbook §11).
+Rule: names stay out of method and rule text (state the rule, not "the expert reports…"); attribution stays in the register's evidence and decision fields and in the link. Cite the dedicated chunk (e.g. one section of a handbook), not the whole document.
 
 Risk: an impersonal sentence reads as a [[normative statement]] even when it rests on one [[positive statement]] by one person. The link is the only thing keeping the single-source status visible.
 

@@ -10,4 +10,4 @@ inferred:skos:narrower:
 ---
 **Documentary evidence**: media records describing an occurrence.
 
-In a capture campaign: interview transcripts (cited per turn), Handbook chunks (cited per section, e.g. §11), the Signavio Dictionary export. The registers' "Source position A/B" columns hold documentary evidence, and an older statement that has been superseded is kept as documentary history rather than deleted ([[belief revision]]). Narrower: [[audit trail]].
+In a capture campaign: interview transcripts (cited per turn), reference documentation (cited per section), a vocabulary export from the BPM tool. The registers' source columns hold documentary evidence, and an older statement that has been superseded is kept as documentary history rather than deleted ([[belief revision]]). Narrower: [[audit trail]].

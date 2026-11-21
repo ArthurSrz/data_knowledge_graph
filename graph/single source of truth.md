@@ -12,4 +12,4 @@ inferred:skos:ancestor:
 ---
 **Single source of truth**: information-systems practice of normalising data by using one source for each data element.
 
-Clara applied it when it kept one Michael-only task-validation draft rather than adding the 60-minute and 45-minute alternatives. It's breached when three registers (working table, Decision Register, older review brief) show different statuses for the same gap, which is the drift to watch.
+In a knowledge store, an agent applies it by updating the one existing draft rather than adding parallel alternatives next to it. It's breached when several registers (a working table, a decision register, an older review brief) show different statuses for the same gap, which is the drift to watch.

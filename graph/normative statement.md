@@ -8,4 +8,4 @@ skos:scopeNote: "My usage: a governance rule or proposed rule (who validates, wh
 inferred:skos:ancestor:
   - "[[declarative sentence]]"
 ---
-In a process-capture store's registers there are three kinds: an individual's proposal (e.g. champions run import checks), a campaign working rule, and an approved Group rule. A [[logical contradiction]] between a proposal and the current implementation ("no champions today") is a difference between what should be and what is, not a conflict to resolve as if both were facts.
+In a process-capture store's registers there are three kinds: an individual's proposal (e.g. "a reviewer checks every import"), a campaign working rule, and an approved organisation-wide rule. A [[logical contradiction]] between a proposal and the current implementation ("there is no reviewer today") is a difference between what should be and what is, not a conflict to resolve as if both were facts.
