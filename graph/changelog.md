@@ -4,8 +4,6 @@ subclass of: "[[logbook]]"
 skos:altLabel: ["change log", "knowledge changelog"]
 inferred:skos:ancestor:
   - "[[logbook]]"
-inferred:skos:narrower:
-  - "[[Version control]]"
 ---
 **Changelog**: log or record of all notable changes made to a project.
 

@@ -2,11 +2,10 @@
 wikidata entity id: Q189439
 subclass of:
   - "[[control]]"
-  - "[[changelog]]"
+product or material produced: "[[changelog]]"
+skos:scopeNote: "Divergence from Wikidata: Q189439 is also `subclass of` changelog (Q255135), unsourced and inconsistent with its own `instance of` type of practice. Version control is an activity; the changelog is the record it produces, hence `product or material produced` (P1056) rather than `subclass of`."
 inferred:skos:ancestor:
-  - "[[changelog]]"
   - "[[control]]"
-  - "[[logbook]]"
 inferred:skos:narrower:
   - "[[artifact management]]"
 ---
