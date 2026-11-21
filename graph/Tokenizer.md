@@ -1,5 +1,5 @@
 ---
-TypeOf: "[[Word embeddings]]"
+skos:related: "[[Word embeddings]]"
 broader: "[[Natural Language Processing]]"
 inferred:skos:ancestor:
   - "[[Artificial Intelligence (AI)]]"

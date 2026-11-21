@@ -1,7 +1,6 @@
 ---
 subFieldOf: "[[Artificial Intelligence (AI)]]"
-useTechniques: "[[Bag of words]]"
-useTechniques: "[[Word embeddings]]"
+useTechniques: ["[[Bag of words]]", "[[Word embeddings]]"]
 relatedTo: "[[Computer vision]]"
 applications: ["[[Large Language Model]]", "[[BERT]]", "[[GPT2]]"]
 techniques: ["[[Transformers]]", "[[Tokenizer]]", "[[Embeddings]]"]

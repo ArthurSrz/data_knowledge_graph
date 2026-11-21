@@ -18,17 +18,33 @@ RELATION_MAP = {
     "broader": "broader",
     "skos:broader": "broader",
     "subclass of": "broader",
+    "subclassOf": "broader",
+    "subFieldOf": "broader",
     "skos:narrower": "narrower",
     "skos:related": "related",
     "related_to": "related",
+    "relatedTo": "related",
     "oppositeOf": "opposite_of",
     "opposite of": "opposite_of",
     "uses": "uses",
     "dependencies": "depends_on",
     "studied in": "studied_in",
+    "studied by": "studied_in",
     "CanBeConstructedWith": "constructed_with",
     "contributing factor of": "contributing_factor",
     "has use": "has_use",
+    "hasUse": "has_use",
+    "instance of": "instance_of",
+    "instanceOf": "instance_of",
+    "instanceof": "instance_of",
+    "part of": "part_of",
+    "partOf": "part_of",
+    "formsPartOf": "part_of",
+    "has part": "has_part",
+    "has part(s)": "has_part",
+    "composedOf": "has_part",
+    "components": "has_part",
+    "consists_of": "has_part",
     "disjoint with": "disjoint_with",
     "owl:disjointWith": "disjoint_with",
 }
@@ -63,6 +79,16 @@ SKOS_RULES = [
     "disjoint_s(X, Y) :- disjoint_with(Y, X)",
     "disjoint_violation(X, Y) :- ancestor(X, Y), ancestor(X, Z), disjoint_s(Y, Z)",
     "disjoint_violation(X, Y) :- ancestor(X, Y), disjoint_s(X, Y)",
+    # instance of (kept apart from broader: targets are often metaclasses).
+    # type_of(X, C): X is a member of C or of any ancestor of C.
+    "type_of(X, C) :- instance_of(X, C)",
+    "type_of(X, C) :- instance_of(X, D), ancestor(D, C)",
+    "disjoint_violation(X, Y) :- type_of(X, Y), type_of(X, Z), disjoint_s(Y, Z)",
+    # Part-whole (mereology), kept apart from the hierarchy: a part is not
+    # a kind of its whole. has_part is the inverse; part_of is transitive.
+    "part_of(X, Y) :- has_part(Y, X)",
+    "part_of(X, Z) :- part_of(X, Y), part_of(Y, Z)",
+    "part_cycle(X, Y) :- part_of(X, Y), part_of(Y, X)",
 ]
 
 
@@ -96,7 +122,9 @@ def parse_targets(value):
             continue
         for m in re.finditer(r"\[\[([^\]|#]+)\]\]", v):
             t = m.group(1)
-            t = re.sub(r"^graph/", "", t)
+            # Obsidian links may carry a folder path ([[graph/x]], [[db/x]]);
+            # note names cannot contain "/", so keep the last segment.
+            t = t.rsplit("/", 1)[-1]
             t = re.sub(r"\.md$", "", t)
             targets.append(t.strip())
     return targets
@@ -430,6 +458,7 @@ def cmd_check(args):
             ("conflict", "Opposite conflicts (opposites that are related or hierarchical)"),
             ("s27_violation", "SKOS S27 violations (related + hierarchical)"),
             ("disjoint_violation", "Disjointness violations (concept under two disjoint classes)"),
+            ("part_cycle", "Part-whole cycles (concept is part of its own part)"),
         ]:
             results = engine.query(f"{check_name}(?X, ?Y)") if check_name != "in_cycle" else engine.query(f"{check_name}(?X)")
             if results:
@@ -524,6 +553,7 @@ def cmd_report(args):
             ("conflict", "Opposite conflicts (opposites that are related or hierarchical)"),
             ("s27_violation", "SKOS S27 violations"),
             ("disjoint_violation", "Disjointness violations"),
+            ("part_cycle", "Part-whole cycles"),
         ]:
             if check_name == "in_cycle":
                 results = engine.query(f"{check_name}(?X)")

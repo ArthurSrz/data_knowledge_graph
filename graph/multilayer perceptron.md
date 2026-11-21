@@ -3,7 +3,7 @@ foundationalPaper: Learning Internal Representations by Error Propagation (Rumel
 keyPapers:
   - "Perceptrons: An Introduction to Computational Geometry (Minsky & Papert, 1969)"
   - "Beyond Regression: New Tools for Prediction and Analysis in the Behavioral Sciences (Werbos, 1974)"
-typeOf: "[[Neural network models]]"
+subclass of: "[[Neural network models]]"
 composedOf:
   - "[[layer]]"
   - "[[Artificial neuron]]"

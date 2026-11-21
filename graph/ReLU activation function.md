@@ -3,7 +3,7 @@ foundationalPaper: Deep Sparse Rectifier Neural Networks (Glorot, Bordes & Bengi
 keyPapers:
   - Rectified Linear Units Improve Restricted Boltzmann Machines (Nair & Hinton, 2010)
   - ImageNet Classification with Deep Convolutional Neural Networks (Krizhevsky et al., 2012)
-typeOf: "[[Activation function]]"
+instance of: "[[Activation function]]"
 advantages:
   - "[[Computational efficiency]]"
   - "[[Sparse activation]]"

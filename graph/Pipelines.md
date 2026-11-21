@@ -19,7 +19,7 @@ implementations:
   - "[[Apache Beam]]"
   - "[[Kubeflow]]"
   - "[[MLflow]]"
-types:
+skos:narrower:
   - "[[Training pipeline]]"
   - "[[inference pipeline]]"
   - "[[Data pipeline]]"

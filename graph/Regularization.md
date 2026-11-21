@@ -1,10 +1,9 @@
 ---
 foundationalPaper: "Ridge Regression: Biased Estimation for Nonorthogonal Problems (Hoerl & Kennard, 1970)"
 keyPapers: ["Regression Shrinkage and Selection via the Lasso (Tibshirani, 1996)", "An Introduction to Statistical Learning (James et al., 2013)", "Regularization and Variable Selection via the Elastic Net (Zou & Hastie, 2005)"]
-typeOf: "[[Overfitting]] prevention technique"
 prevents: "[[Overfitting]]"
 reduces: "[[Model complexity]]"
-types: ["[[L1 regularization]]", "[[L2 regularization]]", "[[Elastic net]]", "[[Dropout]]"]
+skos:narrower: ["[[L1 regularization]]", "[[L2 regularization]]", "[[Elastic net]]", "[[Dropout]]"]
 usedIn: ["[[Linear regression]]", "[[Neural networks]]", "[[Support Vector Machines]]"]
 broader: "[[machine learning]]"
 inferred:skos:ancestor:

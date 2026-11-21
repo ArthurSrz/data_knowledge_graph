@@ -1,5 +1,4 @@
 ---
-TypeOf: "[[index]]"
 has part(s):
   - "[[graph/direction]]"
   - "[[graph/vector length]]"

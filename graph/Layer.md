@@ -7,7 +7,7 @@ composedOf:
   - "[[Artificial neuron]]"
   - "[[Weights]]"
   - "[[Activation function]]"
-types:
+skos:narrower:
   - "[[Input layer]]"
   - "[[Hidden layer]]"
   - "[[Output layer]]"

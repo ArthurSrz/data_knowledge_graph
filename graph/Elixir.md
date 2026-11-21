@@ -67,7 +67,6 @@ FreeBSD port: lang/elixir
 Docker Hub repository: library/elixir
 publication date: 2012-05-25T00:00:00Z
 wikidata entity id: Q5362035
-TypeOf: "[[process]]"
 broader: "[[programming language]]"
 inferred:skos:ancestor:
   - "[[programming language]]"

@@ -1,5 +1,5 @@
 ---
-typeOf: "[[Deep learning]] framework"
+instance of: "[[deep learning framework]]"
 usedFor: "[[Neural network models]]"
 alternativeTo: "[[TensorFlow]]"
 operatesOn: "[[Tensors]]"
