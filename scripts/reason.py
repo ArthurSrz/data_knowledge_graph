@@ -34,6 +34,9 @@ RELATION_MAP = {
     "contributing factor of": "contributing_factor",
     "has use": "has_use",
     "hasUse": "has_use",
+    "instance of": "instance_of",
+    "instanceOf": "instance_of",
+    "instanceof": "instance_of",
     "disjoint with": "disjoint_with",
     "owl:disjointWith": "disjoint_with",
 }
@@ -68,6 +71,11 @@ SKOS_RULES = [
     "disjoint_s(X, Y) :- disjoint_with(Y, X)",
     "disjoint_violation(X, Y) :- ancestor(X, Y), ancestor(X, Z), disjoint_s(Y, Z)",
     "disjoint_violation(X, Y) :- ancestor(X, Y), disjoint_s(X, Y)",
+    # instance of (kept apart from broader: targets are often metaclasses).
+    # type_of(X, C): X is a member of C or of any ancestor of C.
+    "type_of(X, C) :- instance_of(X, C)",
+    "type_of(X, C) :- instance_of(X, D), ancestor(D, C)",
+    "disjoint_violation(X, Y) :- type_of(X, Y), type_of(X, Z), disjoint_s(Y, Z)",
 ]
 
 
