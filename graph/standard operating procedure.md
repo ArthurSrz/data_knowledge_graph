@@ -1,15 +1,10 @@
 ---
 wikidata entity id: Q702761
-subclass of:
-  - "[[business process]]"
-  - "[[procedure]]"
+subclass of: "[[Documentation]]"
+main subject: "[[business process]]"
 facet of: "[[quality management]]"
-broader: "[[business process]]"
 skos:altLabel:
   - SOP
-inferred:skos:ancestor:
-  - "[[business process]]"
-  - "[[occurrent]]"
-  - "[[process]]"
+skos:scopeNote: "Divergence from Wikidata: Q702761 is subclass of business process and procedure, while its own description is 'a set of step-by-step instructions'. Here the SOP is the written document (a continuant); carrying it out is a [[business process]] (an occurrent)."
 ---
-Step-by-step [[instructions]] an organisation writes so workers carry out a routine operation — or that routine itself. In [[process]] capture, an SOP is *documented standard* evidence: it says how the [[process]] should run. 
+Step-by-step [[instructions]] an organisation writes so workers carry out a routine operation. The document is the SOP; each time the routine is carried out, that is a [[business process]]. In [[process]] capture, an SOP is *documented standard* evidence: it says how the [[process]] should run. 
