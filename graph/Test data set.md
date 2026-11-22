@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Split data]]"
+inferred:skos:ancestor: "[[split data]]"
 ---

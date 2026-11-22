@@ -169,7 +169,7 @@ The graph encodes [SKOS](https://www.w3.org/2004/02/skos/)-style hierarchical re
   - [Daily stand-ups](graph/Daily%20stand-ups.md)
   - [Demo sessions](graph/Demo%20sessions.md)
   - [Product owner](graph/Product%20owner.md)
-  - [Sprint planning](graph/Sprint%20planning.md)
+  - [sprint planning](sprint%20planning.md)
 - [AI](graph/AI.md)
   - [AI engineering](graph/AI%20engineering.md)
   - [AI Hierarchy of needs](graph/AI%20Hierarchy%20of%20needs.md)
@@ -177,11 +177,11 @@ The graph encodes [SKOS](https://www.w3.org/2004/02/skos/)-style hierarchical re
   - [AI stack](graph/AI%20stack.md)
   - [Artificial Intelligence (AI)](graph/Artificial%20Intelligence%20%28AI%29.md)
     - [agentic System](agentic%20System.md)
-      - [action module](graph/action%20module.md) · [agency](graph/agency.md) · [agent harness](graph/agent%20harness.md) · [agent identity](graph/agent%20identity.md) · [agent role type](graph/agent%20role%20type.md) · [autonomy](autonomy.md) · [claude code](graph/claude%20code.md) · [claude managed agents](graph/claude%20managed%20agents.md) · [comparag agent](graph/comparag%20agent.md) · [context mode](graph/context%20mode.md) · [human-in-the-loop](human-in-the-loop.md) · [ReAct data agent](graph/ReAct%20data%20agent.md) · [ReAct mode](graph/ReAct%20mode.md) · [search module](graph/search%20module.md) · [Subagent](graph/Subagent.md) · [Tool arena](graph/Tool%20arena.md) · [Tool Assignment Gate](graph/Tool%20Assignment%20Gate.md) · [Toolkits](graph/Toolkits.md) · [tools](tools.md)
+      - [action module](graph/action%20module.md) · [agency](graph/agency.md) · [agent harness](graph/agent%20harness.md) · [agent identity](graph/agent%20identity.md) · [agent role type](graph/agent%20role%20type.md) · [autonomy](autonomy.md) · [claude code](graph/claude%20code.md) · [claude managed agents](graph/claude%20managed%20agents.md) · [comparag agent](graph/comparag%20agent.md) · [context mode](graph/context%20mode.md) · [human-in-the-loop](human-in-the-loop.md) · [ReAct data agent](graph/ReAct%20data%20agent.md) · [ReAct mode](graph/ReAct%20mode.md) · [search module](graph/search%20module.md) · [subagent](subagent.md) · [Tool arena](graph/Tool%20arena.md) · [Tool Assignment Gate](graph/Tool%20Assignment%20Gate.md) · [Toolkits](graph/Toolkits.md) · [tools](tools.md)
       - [Model Context Protocol (MCP)](graph/Model%20Context%20Protocol%20%28MCP%29.md) → [MCP host](graph/MCP%20host.md) · [MCP server](graph/MCP%20server.md)
     - [compound AI system](compound%20AI%20system.md)
     - [computer vision](graph/computer%20vision.md) → [facial recognition](facial%20recognition.md)
-    - [connexionism](graph/connexionism.md) · [expert systems](expert%20systems.md) · [Narrow AI](graph/Narrow%20AI.md) · [Symbolism](graph/Symbolism.md)
+    - [connexionism](graph/connexionism.md) · [expert systems](expert%20systems.md) · [Narrow AI](graph/Narrow%20AI.md) · [symbolism](symbolism.md)
     - [Natural Language Processing](graph/Natural%20Language%20Processing.md)
       - [bag of words](bag%20of%20words.md) · [sentiment analysis](sentiment%20analysis.md) · [token](graph/token.md) · [Tokenizer](graph/Tokenizer.md)
       - [Embeddings](graph/Embeddings.md) → [embedding](graph/embedding.md) · [Embeddings models](graph/Embeddings%20models.md) · [latent space](graph/latent%20space.md) · [vectorization](graph/vectorization.md) · [Word embeddings](graph/Word%20embeddings.md)
@@ -238,7 +238,7 @@ The graph encodes [SKOS](https://www.w3.org/2004/02/skos/)-style hierarchical re
 - [knowledge organization system](graph/knowledge%20organization%20system.md)
   - [concept](graph/concept.md) · [controlled vocabulary](graph/controlled%20vocabulary.md) · [Ontology](graph/Ontology.md) · [taxonomy](graph/taxonomy.md) · [thesaurus](graph/thesaurus.md) · …
 - [machine learning](graph/machine%20learning.md)
-  - [supervised learning](graph/supervised%20learning.md) → [Decision tree](graph/Decision%20tree.md) · [KNN](graph/K-Nearest%20Neighbor%20algorithm.md) · [Naive Bayes](graph/Naive%20Bayes%20Classifier.md) · [SVM](graph/Support%20Vector%20Machine.md)
+  - [supervised learning](graph/supervised%20learning.md) → [Decision tree](graph/Decision%20tree.md) · [KNN](graph/K-Nearest%20Neighbor%20algorithm.md) · [Naive Bayes](graph/Naive%20Bayes%20Classifier.md) · [SVM](support%20vector%20machine.md)
   - [Unsupervised Learning](graph/Unsupervised%20Learning.md) · [Reinforcement Learning](graph/Reinforcement%20Learning.md) · [federated learning](federated%20learning.md)
   - [hyperparameters](hyperparameters.md) · [loss function](graph/loss%20function.md) · [Regularization](graph/Regularization.md)
   - [Optimizer algorithm](graph/Optimizer%20algorithm.md) → [gradient descent](gradient%20descent.md)
@@ -259,7 +259,7 @@ The graph encodes [SKOS](https://www.w3.org/2004/02/skos/)-style hierarchical re
 - [spreadsheet](graph/spreadsheet.md) → [excel](graph/excel.md) · [google sheet](graph/google%20sheet.md) · [named-ranges](graph/named-ranges.md) · …
 - [Vector space](graph/Vector%20space.md) → [Distance](graph/Distance.md) · [cosine similarity](cosine%20similarity.md) · [Tensors](graph/Tensors.md) · [vector](graph/vector.md) · …
 - [version control](graph/version%20control.md) → [git](git.md) · [repository](repository.md) · …
-- *+ 20 more root concepts: [Data augmentation](graph/Data%20augmentation.md), [Data science team](graph/Data%20science%20team.md), [Decision support](graph/Decision%20support.md), [dividual](dividual.md), [araph algorithm](araph%20algorithm.md), [heuristic](graph/heuristic.md), [Kernel](graph/Kernel.md), [metric](metric.md), [modeling](modeling.md), [pattern](graph/pattern.md), [Pipelines](graph/Pipelines.md), [Product](graph/Product.md), [prototyping](prototyping.md), [regression](graph/regression.md), [risk](graph/risk.md), [schema design](schema%20design.md), [search](search.md), [semantics](graph/semantics.md), [Stochastic processes](graph/Stochastic%20processes.md), [systems theory](graph/systems%20theory.md), …*
+- *+ 20 more root concepts: [Data augmentation](graph/Data%20augmentation.md), [Data science team](graph/Data%20science%20team.md), [Decision support](graph/Decision%20support.md), [dividual](dividual.md), [araph algorithm](araph%20algorithm.md), [heuristic](graph/heuristic.md), [Kernel](graph/Kernel.md), [metric](metric.md), [modeling](modeling.md), [pattern](graph/pattern.md), [Pipelines](graph/Pipelines.md), [Product](graph/Product.md), [prototyping](prototyping.md), [regression](graph/regression.md), [risk](graph/risk.md), [schema design](schema%20design.md), [search](search.md), [semantics](graph/semantics.md), [stochastic processes](stochastic%20processes.md), [systems theory](graph/systems%20theory.md), …*
 
 </details>
 

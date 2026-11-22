@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Stochastic processes]]"
+inferred:skos:ancestor: "[[stochastic processes]]"
 ---

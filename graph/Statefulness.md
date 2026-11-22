@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Stateful]]"
+inferred:skos:ancestor: "[[stateful]]"
 ---

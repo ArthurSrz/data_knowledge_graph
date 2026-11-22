@@ -1,3 +1,3 @@
 ---
-inferred:skos:narrower: "[[Swagger]]"
+inferred:skos:narrower: "[[swagger]]"
 ---

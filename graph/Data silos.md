@@ -17,4 +17,4 @@ To break data silos, it requires :
 	1. Responsibility for data stewardship
 	2. Make it easy to discover and access
 
-See [[Facebook story]] and [[Spotify story]]
+See [[Facebook story]] and [[spotify story]]

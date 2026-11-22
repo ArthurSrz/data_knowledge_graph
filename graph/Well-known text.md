@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Spatial Reference System Identifier (SRID)]]"
+inferred:skos:ancestor: "[[spatial reference system identifier (SRID)]]"
 ---

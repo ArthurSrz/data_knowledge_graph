@@ -1,5 +1,5 @@
 
-Feature developed in [[Spotify story]] to help data scientist understand data more easily 
+Feature developed in [[spotify story]] to help data scientist understand data more easily 
 
 > So, we abandoned the curated example query and instead allow users to search through all recent queries made on the given dataset. This gives users the opportunity to see a variety of up-to-date queries that use the dataset, and the ability to search for specific queries on the dataset (e.g. “show me queries on this table that reference this specific field”).
 

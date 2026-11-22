@@ -1,3 +1,3 @@
 ---
-inferred:skos:narrower: "[[Support vector]]"
+inferred:skos:narrower: "[[support vector]]"
 ---

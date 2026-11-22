@@ -25,7 +25,7 @@ Breaks down into 3 steps : [[Split data 1]], [[Determine feature set 1]], [[Prep
 - [[Data lineage]] - Tracking data origins
 - [[Data catalog]] - Documenting data assets
 - [[data understanding]] - Analyzing data characteristics
-- [[Structured data]] - Formatted data
+- [[structured data]] - Formatted data
 - [[unstructured data]] - Raw, unformatted data
 - [[Tidy Data]] - Organized data format
 - [[Data silos]] - Isolated data sources

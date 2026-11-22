@@ -25,7 +25,7 @@ Comme si nous jouions tous à être des chimistes et que nous préparions, dans 
 
 Le tube ici, c'est une [[session]]. C'est à dire du contexte temporaire fait pour échanger des informations.
 
-Une [[session]] possède deux propriétés qui ne vont pas très bien ensemble. Elle est *[[stateful]]* ([[Statefulness]]), c'est-à-dire qu'elle garde un état. Chaque message s'ajoute au précédent, le modèle se souvient de ce que vous avez dit dix échanges plus tôt, la conversation se remplit. Mais elle est aussi impermanente ([[Impermanence]]) : cet état ne dure que le temps de la conversation. Fermez l'onglet, ouvrez-en un autre, et tout est à refaire.
+Une [[session]] possède deux propriétés qui ne vont pas très bien ensemble. Elle est *[[stateful]]* ([[statefulness]]), c'est-à-dire qu'elle garde un état. Chaque message s'ajoute au précédent, le modèle se souvient de ce que vous avez dit dix échanges plus tôt, la conversation se remplit. Mais elle est aussi impermanente ([[Impermanence]]) : cet état ne dure que le temps de la conversation. Fermez l'onglet, ouvrez-en un autre, et tout est à refaire.
 
 Un récipient qui se remplit et qui ne retient pas : voilà ce qu'est une conversation avec [[Claude]] ou chatGPT.  
 

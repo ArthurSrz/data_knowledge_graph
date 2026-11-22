@@ -1,5 +1,5 @@
 ---
-originatesFrom: "[[Symbolism]]"
+originatesFrom: "[[symbolism]]"
 broader: "[[Artificial Intelligence (AI)]]"
 inferred:skos:ancestor:
   - "[[Artificial Intelligence (AI)]]"
