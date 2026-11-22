@@ -1,18 +1,18 @@
 ---
 wikidata entity id: Q408386
 model item:
-  - "[[db/abductive reasoning]]"
+  - "[[abductive reasoning]]"
   - "[[backward chaining]]"
 has part(s):
-  - "[[db/deductive reasoning]]"
-  - "[[db/inductive reasoning]]"
-partially coincident with: "[[db/reasoning]]"
-subclass of: "[[db/process]]"
-different from: "[[db/Inferentzia]]"
+  - "[[deductive reasoning]]"
+  - "[[inductive reasoning]]"
+partially coincident with: "[[reasoning]]"
+subclass of: "[[process]]"
+different from: "[[Inferentzia]]"
 instance of:
-  - "[[db/sourcing circumstance]]"
-  - "[[db/type of process]]"
-has characteristic: "[[db/type of reasoning]]"
+  - "[[sourcing circumstance]]"
+  - "[[type of process]]"
+has characteristic: "[[type of reasoning]]"
 main Wikidata property: based on heuristic
 Dewey Decimal Classification: "160"
 Library of Congress Classification: BC199.I47

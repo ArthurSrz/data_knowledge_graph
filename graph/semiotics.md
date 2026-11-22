@@ -1,23 +1,23 @@
 ---
 wikidata entity id: Q60195
 is the study of:
-  - "[[db/symbol]]"
-  - "[[db/semiosis]]"
-  - "[[db/sign]]"
-different from: "[[db/semiology]]"
+  - "[[symbol]]"
+  - "[[semiosis]]"
+  - "[[sign]]"
+different from: "[[semiology]]"
 instance of:
-  - "[[db/field of study (education)]]"
-  - "[[db/academic major]]"
-  - "[[db/academic discipline]]"
+  - "[[field of study (education)]]"
+  - "[[academic major]]"
+  - "[[academic discipline]]"
 described by source:
-  - "[[db/Armenian Soviet Encyclopedia]]"
-  - "[[db/Basque Literature Terms Dictionary]]"
-  - "[[db/Literatura Terminoen Hiztegia]]"
-topic has template: "[[db/Template_Semiotics]]"
-practiced by: "[[db/semiotician]]"
-Wikimedia outline: "[[db/outline of semiotics]]"
-subclass of: "[[db/interdisciplinary program]]"
-partially coincident with: "[[db/linguistics]]"
+  - "[[Armenian Soviet Encyclopedia]]"
+  - "[[Basque Literature Terms Dictionary]]"
+  - "[[Literatura Terminoen Hiztegia]]"
+topic has template: "[[Template_Semiotics]]"
+practiced by: "[[semiotician]]"
+Wikimedia outline: "[[outline of semiotics]]"
+subclass of: "[[interdisciplinary program]]"
+partially coincident with: "[[linguistics]]"
 OmegaWiki Defined Meaning: "803684"
 Dewey Decimal Classification: "302.2"
 image: http://commons.wikimedia.org/wiki/Special:FilePath/Evolution2glyph.png

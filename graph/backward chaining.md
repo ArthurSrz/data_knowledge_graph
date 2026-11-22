@@ -1,7 +1,7 @@
 ---
-subclass of: "[[db/inference]]"
-opposite of: "[[db/forward chaining]]"
-instance of: "[[db/type of reasoning]]"
+subclass of: "[[inference]]"
+opposite of: "[[forward chaining]]"
+instance of: "[[type of reasoning]]"
 literal translation:
   - incatenamento a ritroso
   - ragionamento a ritroso
