@@ -1,19 +1,14 @@
 ---
-wikidata entity id: Q5071951
-subclass of: "[[data set]]"
-has use: "[[Version control]]"
-used by: "[[git]]"
+skos:exactMatch: "wd:Q5071951"
+iso-thes:broaderGeneric: "[[data set]]"
+kg:hasUse: "[[Version control]]"
+kg:usedBy: "[[git]]"
 has part: "[[commit message]]"
 skos:altLabel:
-  - commit
-  - revision
-  - patch
-  - changelist
-inferred:skos:ancestor:
-  - "[[continuant]]"
-  - "[[data set]]"
-  - "[[generically dependent continuant]]"
-  - "[[information content entity]]"
+  - "commit"
+  - "revision"
+  - "patch"
+  - "changelist"
 ---
 atomic group of changes between successive revisions in a version-[[control]] [[repository]].
 

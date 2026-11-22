@@ -58,6 +58,15 @@ class Unit(unittest.TestCase):
         self.assertIn("disjoint_violation", kinds({"x": note(subclass_of=["c1", "c2"])}))
         self.assertEqual(set(), kinds({"x": note(subclass_of="c1")}))
 
+    def test_schema_keys(self):
+        # keys written by the ontology migration carry the same semantics
+        self.assertIn("disjoint_violation", kinds({"x": note(**{"iso-thes:broaderGeneric": ["c1", "c2"]})}))
+        self.assertIn("part_cycle", kinds({"a": note(**{"iso-thes:broaderPartitive": "b"}),
+                                           "b": note(**{"iso-thes:broaderPartitive": "a"})}))
+        # `has part` is the inverse: a has part b ⇔ b part of a; with a part of b, the cycle closes
+        self.assertIn("part_cycle", kinds({"a": note(**{"has part": "b", "iso-thes:broaderPartitive": "b"}),
+                                           "b": ""}))
+
     def test_part_cycle(self):
         self.assertIn("part_cycle", kinds({"a": note(part_of="b"), "b": note(part_of="a")}))
         self.assertEqual(set(), kinds({"a": note(part_of="b"), "b": ""}))
@@ -91,8 +100,8 @@ class Integration(unittest.TestCase):
 
     def test_process_owner(self):
         good = (reason.GRAPH_DIR / "process owner.md").read_text()
-        bad = good.replace('subclass of: "[[person]]"\naccountable for: "[[business process]]"',
-                           'subclass of:\n  - "[[person]]"\n  - "[[business process]]"')
+        bad = good.replace('iso-thes:broaderGeneric: "[[person]]"\nkg:accountableFor: "[[business process]]"',
+                           'iso-thes:broaderGeneric:\n  - "[[person]]"\n  - "[[business process]]"')
         self.assertNotEqual(good, bad)
         self.assertIn("disjoint_violation", kinds({"process owner": bad}))
         self.assertEqual(set(), kinds({"process owner": good}))

@@ -1,11 +1,7 @@
 ---
-wikidata entity id: Q1418701
-subclass of: "[[person]]"
-accountable for: "[[business process]]"
-inferred:skos:ancestor:
-  - "[[continuant]]"
-  - "[[independent continuant]]"
-  - "[[person]]"
+skos:exactMatch: "wd:Q1418701"
+iso-thes:broaderGeneric: "[[person]]"
+kg:accountableFor: "[[business process]]"
 ---
 Concept in process and quality management: the person accountable for a [[business process]], its design and its performance. In a process-capture project, the Business Process Owner (BPO) validates the capture brief and the AS-IS, and arbitrates between [[subject-matter expert]]s; a group-level BPO owns the reference model.
 

@@ -1,3 +1,0 @@
----
-inferred:skos:ancestor: "[[graph]]"
----

@@ -1,7 +1,4 @@
 ---
-broader: "[[supervised learning]]"
-inferred:skos:ancestor:
-  - "[[machine learning]]"
-  - "[[supervised learning]]"
+skos:broader: "[[supervised learning]]"
 ---
 [[classification]] algorithm, part of [[supervised learning]]

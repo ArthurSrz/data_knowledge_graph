@@ -1,12 +1,3 @@
 ---
-subclass of: "[[information content entity]]"
-inferred:skos:ancestor:
-  - "[[continuant]]"
-  - "[[generically dependent continuant]]"
-  - "[[information content entity]]"
-inferred:skos:narrower:
-  - "[[Provenance]]"
-  - "[[agents.md]]"
-  - "[[knowledge base]]"
-  - "[[standard operating procedure]]"
+iso-thes:broaderGeneric: "[[information content entity]]"
 ---

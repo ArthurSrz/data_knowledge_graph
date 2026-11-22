@@ -1,10 +1,10 @@
 ---
-foundationalPaper: Induction of Decision Trees (Quinlan, 1986)
-subclass of: "[[supervised learning algorithm]]"
+dcterms:isReferencedBy: "Induction of Decision Trees (Quinlan, 1986)"
+iso-thes:broaderGeneric: "[[supervised learning algorithm]]"
 usedFor:
   - "[[classification]]"
   - "[[Regression]]"
-components:
+has part:
   - "[[Root node]]"
   - "[[Internal nodes]]"
   - "[[Leaf nodes]]"
@@ -17,14 +17,7 @@ algorithms:
 extendedBy:
   - "[[Random forest]]"
   - "[[Gradient boosting trees]]"
-broader: "[[supervised learning]]"
-inferred:skos:ancestor:
-  - "[[machine learning]]"
-  - "[[supervised learning]]"
-inferred:skos:narrower:
-  - "[[Regression trees]]"
-  - "[[recursive tree building]]"
-  - "[[tree depth]]"
+skos:broader: "[[supervised learning]]"
 ---
 
 # Decision Tree

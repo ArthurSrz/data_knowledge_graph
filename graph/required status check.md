@@ -1,14 +1,11 @@
 ---
-rdf:type: Concept
-broader: "[[github]]"
-partOf: "[[github ruleset]]"
-description: A named green/red light on a commit that a ruleset demands before merge.
+dcterms:type: "Concept"
+skos:broader: "[[github]]"
+iso-thes:broaderPartitive: "[[github ruleset]]"
+skos:definition: "A named green/red light on a commit that a ruleset demands before merge."
 tags:
-  - github
-  - ci
-timestamp: 2026-11-16T00:00:00Z
-inferred:skos:ancestor:
-  - "[[github]]"
+  - "github"
+  - "ci"
 ---
 A commit status is a small label (`context`, `state` = success / pending / failure, `description`) attached to one commit SHA through the GitHub API. Anyone with the right token can post it — a [[gitHub actions]] workflow, an external server, a bot.
 

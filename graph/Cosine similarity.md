@@ -1,8 +1,6 @@
 ---
 calculationUnder: "[[retrieval augmented generation]]"
-broader: "[[similarity measure]]"
-inferred:skos:ancestor:
-  - "[[similarity measure]]"
+skos:broader: "[[similarity measure]]"
 ---
 
 In the context of vector space representations, cosine similarity is a measure of the similarity between two vectors. It is calculated by taking the dot product of the two vectors and dividing it by the product of their magnitudes (lengths). 

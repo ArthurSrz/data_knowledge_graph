@@ -1,8 +1,6 @@
 ---
-wikidata entity id: Q189447
-instance of: "[[business process]]"
-subclass of: "[[quality management]]"
-inferred:skos:ancestor:
-  - "[[quality management]]"
+skos:exactMatch: "wd:Q189447"
+iso-thes:broaderInstantial: "[[business process]]"
+iso-thes:broaderGeneric: "[[quality management]]"
 ---
 Management to identification, evaluation, and prioritization of risks

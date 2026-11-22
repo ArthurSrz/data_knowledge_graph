@@ -1,29 +1,16 @@
 ---
-wikidata entity id: Q63032908
-subclass of:
+skos:exactMatch: "wd:Q63032908"
+iso-thes:broaderGeneric:
   - "[[provenance]]"
-different from:
-  - "[[boilerplate]]"
-  - "[[standard form contract]]"
-partially coincident with:
-  - "[[term sheet]]"
+skos:scopeNote:
+  - "Different from [[boilerplate]]."
+  - "Different from [[standard form contract]]."
 has part:
   - "[[standard contractual clause]]"
 example:
   - "[[ISDA Master Agreement]]"
   - "[[LMA standard]]"
-broader: "[[contract]]"
-inferred:skos:ancestor:
-  - "[[Documentation]]"
-  - "[[Provenance]]"
-  - "[[chronology]]"
-  - "[[continuant]]"
-  - "[[contract]]"
-  - "[[generically dependent continuant]]"
-  - "[[information content entity]]"
-  - "[[intellectual work]]"
-inferred:skos:broader:
-  - "[[Provenance]]"
+skos:broader: "[[contract]]"
 ---
 
 A template contract issued by an institution or firm (e.g. LMA, ISDA, ICC) intended as a starting point for negotiation — explicitly distinct from a standard form contract, where terms are take-it-or-leave-it. The model contract is negotiable; the standard form is not.

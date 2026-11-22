@@ -1,8 +1,4 @@
 ---
-broader: "[[decision tree]]"
-inferred:skos:ancestor:
-  - "[[decision tree]]"
-  - "[[machine learning]]"
-  - "[[supervised learning]]"
+skos:broader: "[[decision tree]]"
 ---
 Decision trees applied to [[Regression]] problem

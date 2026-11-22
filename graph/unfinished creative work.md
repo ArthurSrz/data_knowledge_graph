@@ -1,15 +1,6 @@
 ---
-subclass of: "[[graph/creative work]]"
-has characteristic: "[[graph/not completed]]"
-has cause:
-  - "[[graph/project cancellation]]"
-  - "[[graph/death]]"
-instance of: "[[graph/type of work]]"
-Commons category: Unfinished art works
-wikidata entity id: Q2910675
-inferred:skos:ancestor:
-  - "[[creative work]]"
-inferred:skos:narrower:
-  - "[[draft document]]"
+iso-thes:broaderGeneric: "[[graph/creative work]]"
+iso-thes:broaderInstantial: "[[graph/type of work]]"
+skos:exactMatch: "wd:Q2910675"
 ---
 [[creative work]] that has not been finished

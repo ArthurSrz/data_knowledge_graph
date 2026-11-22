@@ -1,11 +1,10 @@
 ---
-different from: '[[graph/joint venture (Q21697695)]]'
-instance of: '[[graph/legal form]]'
-subclass of:
-- '[[graph/business]]'
-- '[[graph/collaboration]]'
-wikidata entity id: Q489209
-inferred:skos:ancestor:
-  - "[[business]]"
+skos:scopeNote:
+  - "Different from [[joint venture (Q21697695)]]."
+iso-thes:broaderInstantial: "[[graph/legal form]]"
+iso-thes:broaderGeneric:
+  - "[[graph/business]]"
+  - "[[graph/collaboration]]"
+skos:exactMatch: "wd:Q489209"
 ---
 business agreement to develop, for a finite time, a new entity

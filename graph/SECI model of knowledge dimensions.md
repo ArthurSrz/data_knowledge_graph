@@ -1,9 +1,10 @@
 ---
-wikidata entity id: Q1241796
-instance of: "[[conceptual model]]"
-skos:altLabel: ["SECI model", "Nonaka–Takeuchi model"]
+skos:exactMatch: "wd:Q1241796"
+iso-thes:broaderInstantial: "[[conceptual model]]"
+skos:altLabel:
+  - "SECI model"
+  - "Nonaka–Takeuchi model"
 skos:definition: "model of knowledge creation"
-Commons category: SECI model
 skos:related:
   - "[[tacit knowledge]]"
   - "[[explicit knowledge]]"

@@ -1,15 +1,14 @@
 ---
-rdf:type: Research Note
-title: Formula Compatibility — Google Sheets vs Excel
-description: Functions unique to each platform, array formula incompatibilities, and implicit type coercion differences.
+dcterms:type: "Concept"
+skos:prefLabel: "Formula Compatibility — Google Sheets vs Excel"
+skos:definition: "Functions unique to each platform, array formula incompatibilities, and implicit type coercion differences."
 tags:
-  - formulas
-  - compatibility
-  - excel
-  - google-sheets
-  - array-formulas
-timestamp: 2026-06-28T00:00:00Z
-instanceOf: "[[excel vs. gsheet problem]]"
+  - "formulas"
+  - "compatibility"
+  - "excel"
+  - "google-sheets"
+  - "array-formulas"
+iso-thes:broaderInstantial: "[[excel vs. gsheet problem]]"
 ---
 
 ## Google Sheets-Only [[functions]]

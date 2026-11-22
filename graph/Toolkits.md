@@ -1,26 +1,22 @@
 ---
-related_to:
+skos:related:
   - "[[Agent Capabilities]]"
   - "[[Tools]]"
   - "[[Integrations]]"
   - "[[Agent Environment]]"
-dependencies: []
-components:
-  - Coding
-  - Email
-  - File
-  - Github
-  - Specialized Tools
-category: Agent Creation Registry
+kg:dependsOn: []
+has part:
+  - "Coding"
+  - "Email"
+  - "File"
+  - "Github"
+  - "Specialized Tools"
+dcterms:subject: "Agent Creation Registry"
 tags:
-  - Outils
-  - Capacités_Agent
-  - Intégrations
-broader: "[[agentic System]]"
-inferred:skos:ancestor:
-  - "[[agentic System]]"
-inferred:skos:related:
-  - "[[tools]]"
+  - "Outils"
+  - "Capacités_Agent"
+  - "Intégrations"
+skos:broader: "[[agentic System]]"
 ---
 
 # Toolkits

@@ -1,0 +1,8 @@
+{
+ "inferred:skos:ancestor": [
+  "continuant"
+ ],
+ "inferred:skos:narrower": [
+  "information content entity"
+ ]
+}

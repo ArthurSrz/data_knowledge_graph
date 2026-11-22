@@ -1,20 +1,14 @@
 ---
-wikidata entity id: Q29043221
-subclass of:
+skos:exactMatch: "wd:Q29043221"
+iso-thes:broaderGeneric:
   - "[[embedding]]"
   - "[[natural language processing]]"
 skos:related:
   - "[[Word embeddings]]"
-uses:
+kg:uses:
   - "[[Natural Language Processing]]"
   - "[[artificial neural network]]"
   - "[[cosine similarity]]"
-inferred:skos:ancestor:
-  - "[[Artificial Intelligence (AI)]]"
-  - "[[Natural Language Processing]]"
-  - "[[embedding]]"
-inferred:skos:broader:
-  - "[[Natural Language Processing]]"
 ---
 numeric representation of a sentence.
 

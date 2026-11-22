@@ -1,7 +1,4 @@
 ---
-broader: "[[AI prompt]]"
-inferred:skos:ancestor:
-  - "[[AI prompt]]"
-  - "[[large language model]]"
+skos:broader: "[[AI prompt]]"
 ---
 Techniques that adapt a [[model]] without [[updating]] the [[model]] [[weights]]. 

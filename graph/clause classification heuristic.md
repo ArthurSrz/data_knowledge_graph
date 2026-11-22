@@ -1,31 +1,21 @@
 ---
-subclass of:
+iso-thes:broaderGeneric:
   - "[[heuristic]]"
   - "[[provenance]]"
-uses:
+kg:uses:
   - "[[bargaining power]]"
   - "[[de facto standard]]"
   - "[[categorization]]"
-part of:
+iso-thes:broaderPartitive:
   - "[[pre-contractual phase]]"
 outputs:
   - "[[boilerplate]]"
   - "[[model contract]]"
   - "[[bespoke]]"
-related to:
+skos:related:
   - "[[term sheet]]"
   - "[[negotiation]]"
-broader: "[[clause]]"
-inferred:skos:ancestor:
-  - "[[Documentation]]"
-  - "[[Provenance]]"
-  - "[[chronology]]"
-  - "[[clause]]"
-  - "[[continuant]]"
-  - "[[generically dependent continuant]]"
-  - "[[information content entity]]"
-inferred:skos:broader:
-  - "[[Provenance]]"
+skos:broader: "[[clause]]"
 ---
 The decision process a legal practitioner applies to assign a clause to a [[provenance]] type. It is a [[heuristic]] — not an algorithm — because it relies on experience and tacit market knowledge rather than a computable rule.
 ## Two axes

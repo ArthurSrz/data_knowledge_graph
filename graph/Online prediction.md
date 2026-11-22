@@ -1,10 +1,4 @@
 ---
-broader: "[[inference]]"
-inferred:skos:ancestor:
-  - "[[Inference]]"
-  - "[[occurrent]]"
-  - "[[process]]"
-inferred:skos:broader:
-  - "[[Inference]]"
+skos:broader: "[[inference]]"
 ---
 Example is food delivery "time-to-arrive". 

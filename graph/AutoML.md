@@ -1,7 +1,5 @@
 ---
-broader: "[[machine learning]]"
-inferred:skos:ancestor:
-  - "[[machine learning]]"
+skos:broader: "[[machine learning]]"
 ---
 Enables developers with limited ML expertise to quickly build models with little/no code.
 

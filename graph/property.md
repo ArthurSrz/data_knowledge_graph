@@ -1,15 +1,12 @@
 ---
-facet of: "[[Object]]"
-instance of:
+skos:broader:
+  - "[[Object]]"
+  - "[[knowledge graph]]"
+iso-thes:broaderInstantial:
   - "[[graph/category of being]]"
   - "[[graph/metaclass]]"
-said to be the same as:
+skos:closeMatch:
   - "[[graph/attribute]]"
   - "[[graph/quality]]"
-partially coincident with: "[[graph/quality]]"
-subclass of: "[[abstract entity]]"
-broader: "[[knowledge graph]]"
-inferred:skos:ancestor:
-  - "[[abstract entity]]"
-  - "[[knowledge graph]]"
+iso-thes:broaderGeneric: "[[abstract entity]]"
 ---

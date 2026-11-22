@@ -1,4 +1,4 @@
 ---
-part of: "[[graph/psychological terminology]]"
-wikidata entity id: Q13604401
+iso-thes:broaderPartitive: "[[graph/psychological terminology]]"
+skos:exactMatch: "wd:Q13604401"
 ---

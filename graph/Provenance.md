@@ -1,25 +1,13 @@
 ---
-wikidata entity id: Q1773840
-subclass of:
+skos:exactMatch:
+  - "wd:Q1773840"
+  - "http://purl.org/dc/terms/provenance"
+iso-thes:broaderGeneric:
   - "[[chronology]]"
   - "[[documentation]]"
-partially coincident with: "[[chain of custody]]"
-facet of: "[[authentication]]"
-exact match: http://purl.org/dc/terms/provenance
+skos:broader: "[[authentication]]"
 skos:definition: "chronology of the ownership, custody or location of a historical object or economic good"
 skos:scopeNote: "My usage: the provenance of a *statement* in a knowledge store — which interview, document chunk or decision it comes from, and who said it. Wikidata's sense is the custody chain of an object; dcterms:provenance (its exact match) already widens it to any resource. Not [[Data lineage]], which tracks data moving between systems."
-inferred:skos:ancestor:
-  - "[[Documentation]]"
-  - "[[chronology]]"
-  - "[[continuant]]"
-  - "[[generically dependent continuant]]"
-  - "[[information content entity]]"
-inferred:skos:broader:
-  - "[[Documentation]]"
-inferred:skos:narrower:
-  - "[[boilerplate]]"
-  - "[[clause classification heuristic]]"
-  - "[[model contract]]"
 ---
 In a Clarifeye store, provenance is what lets [[tacit knowledge]] become [[explicit knowledge]] without losing its weight: the artifact states the [[business rule]] impersonally, and the source link (interview turn, document chunk) carries who said it.
 

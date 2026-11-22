@@ -1,0 +1,9 @@
+{
+ "inferred:skos:ancestor": [
+  "Vector",
+  "index"
+ ],
+ "inferred:skos:broader": [
+  "Vector"
+ ]
+}

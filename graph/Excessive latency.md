@@ -1,7 +1,4 @@
 ---
-broader: "[[ML system]]"
-inferred:skos:ancestor:
-  - "[[ML system]]"
-  - "[[machine learning]]"
+skos:broader: "[[ML system]]"
 ---
 One of [[ML System failures]].

@@ -1,9 +1,9 @@
 ---
-rdf:type: skos:Concept
+dcterms:type: "Concept"
 skos:altLabel:
-  - quantile cut
-  - découpage par quantiles
-  - rank-based labelling
+  - "quantile cut"
+  - "découpage par quantiles"
+  - "rank-based labelling"
 skos:broader:
   - "[[Threshold value]]"
   - "[[feature engineering]]"
@@ -12,9 +12,6 @@ skos:related:
   - "[[hyperparameters]]"
   - "[[discrimination threshold]]"
   - "[[calibration]]"
-inferred:skos:ancestor:
-  - "[[Threshold value]]"
-  - "[[feature engineering]]"
 ---
 Turning a continuous score into classes by fixing the *share* of each class (bottom 30 %, middle 40 %, top 30 %) instead of fixing a [[Threshold value]] on the score. The cut points are then read off the data, group by group.
 

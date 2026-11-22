@@ -1,24 +1,16 @@
 ---
-has part(s):
+has part:
   - "[[graph/social status]]"
   - "[[graph/text]]"
   - "[[graph/identity]]"
   - "[[environment]]"
   - "[[graph/discourse topic]]"
-has use: "[[Interpretation]]"
-subclass of: "[[situation]]"
-described by source:
+kg:hasUse: "[[Interpretation]]"
+iso-thes:broaderGeneric: "[[situation]]"
+dcterms:isReferencedBy:
   - "[[graph/National Encyclopedia of Uzbekistan]]"
   - "[[graph/Armenian Soviet Encyclopedia, vol. 5]]"
-studied by:
-  - "[[graph/linguistics]]"
-  - "[[graph/sociology]]"
-  - "[[graph/anthropology]]"
-  - "[[graph/semiotics]]"
-facet of: "[[graph/communication]]"
-broader: "[[process]]"
-inferred:skos:ancestor:
-  - "[[occurrent]]"
+skos:broader:
+  - "[[graph/communication]]"
   - "[[process]]"
-  - "[[situation]]"
 ---

@@ -1,24 +1,19 @@
 ---
-related_to:
+skos:related:
   - "[[Prompt Templates]]"
   - "[[Conversation Patterns]]"
   - "[[Instruction Patterns]]"
-dependencies: []
-components:
-  - Chat-style prompts
-  - Instruct-style prompts
-category: Prompt Management
+kg:dependsOn: []
+has part:
+  - "Chat-style prompts"
+  - "Instruct-style prompts"
+dcterms:subject: "Prompt Management"
 tags:
-  - Types_Prompts
-  - Templates
-  - Conversation
-  - Instructions
-broader: "[[AI prompt]]"
-inferred:skos:ancestor:
-  - "[[AI prompt]]"
-  - "[[large language model]]"
-inferred:skos:related:
-  - "[[prompt templates]]"
+  - "Types_Prompts"
+  - "Templates"
+  - "Conversation"
+  - "Instructions"
+skos:broader: "[[AI prompt]]"
 ---
 
 # Prompt Template Types

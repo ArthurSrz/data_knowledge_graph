@@ -1,15 +1,14 @@
 ---
-rdf:type: Research Note
-title: Calculation Engine Differences
-description: Iterative calculation settings, partial column ranges, and evaluation order differences between Excel and Google Sheets.
+dcterms:type: "Concept"
+skos:prefLabel: "Calculation Engine Differences"
+skos:definition: "Iterative calculation settings, partial column ranges, and evaluation order differences between Excel and Google Sheets."
 tags:
-  - calculation
-  - circular-references
-  - evaluation
-  - excel
-  - google-sheets
-timestamp: 2026-06-28T00:00:00Z
-instanceOf: "[[excel vs. gsheet problem]]"
+  - "calculation"
+  - "circular-references"
+  - "evaluation"
+  - "excel"
+  - "google-sheets"
+iso-thes:broaderInstantial: "[[excel vs. gsheet problem]]"
 ---
 
 ## Iterative Calculation (Circular References)

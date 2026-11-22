@@ -1,6 +1,4 @@
 ---
-wikidata entity id: Q4830453
-inferred:skos:narrower:
-  - "[[joint venture]]"
+skos:exactMatch: "wd:Q4830453"
 ---
 Organization undertaking commercial, industrial, or professional activity

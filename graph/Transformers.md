@@ -1,20 +1,13 @@
 ---
 introducedin: "[[Attention Is All You Need]]"
 enablesArchitecture: "[[large language model]]"
-uses: "[[attention weights]]"
+kg:uses: "[[attention weights]]"
 processes: "[[Word embeddings]]"
 foundationFor:
   - "[[BERT]]"
   - "[[GPT2]]"
   - "[[Natural Language Processing]]"
-broader: "[[deep learning]]"
-inferred:skos:ancestor:
-  - "[[deep learning]]"
-  - "[[machine learning]]"
-inferred:skos:narrower:
-  - "[[Decoder-only]]"
-  - "[[Encoder-only]]"
-  - "[[attention weights]]"
+skos:broader: "[[deep learning]]"
 ---
 
 # Transformers

@@ -1,17 +1,15 @@
 ---
-facet of: "[[graph/problem solving]]"
-has part(s):
+skos:broader: "[[graph/problem solving]]"
+has part:
   - "[[graph/occurrence]]"
   - "[[graph/action]]"
-part of:
+iso-thes:broaderPartitive:
   - "[[graph/test case]]"
   - "[[graph/software requirements specification]]"
-subclass of: "[[graph/functional requirement]]"
-OmegaWiki Defined Meaning: "958349"
-inception: 1986-01-01T00:00:00Z
+iso-thes:broaderGeneric: "[[graph/functional requirement]]"
+skos:closeMatch:
+  - "OmegaWiki Defined Meaning: 958349"
+  - "https://stackoverflow.com/tags/use-case"
 ACM Classification Code (2012): "10011108"
-Stack Exchange tag: https://stackoverflow.com/tags/use-case
-wikidata entity id: Q613417
-inferred:skos:ancestor:
-  - "[[functional requirement]]"
+skos:exactMatch: "wd:Q613417"
 ---

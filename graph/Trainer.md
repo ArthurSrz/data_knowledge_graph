@@ -1,12 +1,5 @@
 ---
-broader: "[[hugging face]]"
-inferred:skos:ancestor:
-  - "[[Programming language]]"
-  - "[[Python]]"
-  - "[[continuant]]"
-  - "[[generically dependent continuant]]"
-  - "[[hugging face]]"
-  - "[[information content entity]]"
+skos:broader: "[[hugging face]]"
 ---
 Trainer is a high-level [[training]] API [[class]] in the [[Hugging Face]] [[Transformers]] library that provides a complete [[training]] and [[evaluation]] loop for [[PyTorch]] models, introduced as part of the [[Transformers]] library by Thomas Wolf et al. (2019).
 

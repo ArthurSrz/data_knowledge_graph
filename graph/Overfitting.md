@@ -1,6 +1,4 @@
 ---
-inferred:skos:narrower:
-  - "[[data leakage]]"
-inferred:skos:related:
-  - "[[Group K-Fold Cross Validation]]"
+skos:broader:
+  - "[[model fit]]"
 ---

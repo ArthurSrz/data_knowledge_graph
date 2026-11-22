@@ -1,10 +1,8 @@
 ---
-wikidata entity id: Q631360
-subclass of: "[[economic indicator]]"
-broader: "[[index]]"
-has part(s):
+skos:exactMatch: "wd:Q631360"
+iso-thes:broaderGeneric: "[[economic indicator]]"
+skos:broader: "[[index]]"
+has part:
   - "[[consumer price index]]"
-inferred:skos:ancestor:
-  - "[[index]]"
 ---
 an [[index]] that measures how prices [[change]] over time.

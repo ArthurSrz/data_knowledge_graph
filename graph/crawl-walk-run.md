@@ -1,12 +1,9 @@
 ---
-broader: "[[process]]"
+skos:broader: "[[process]]"
 skos:related:
   - "[[Deployment]]"
   - "[[human-in-the-loop]]"
 skos:scopeNote: "Not in Wikidata. Read here as a staged process (occurrent); strictly, the plan describing the stages would be a continuant."
-inferred:skos:ancestor:
-  - "[[occurrent]]"
-  - "[[process]]"
 ---
 Staged way to bring in something new: **crawl** (observe without consequences), **walk** (enforce on a limited scope), **run** (automate everywhere). Each stage only starts once the previous one has shown it can be trusted.
 

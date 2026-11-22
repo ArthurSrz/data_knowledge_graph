@@ -1,14 +1,9 @@
 ---
-wikidata entity id: Q1341685
+skos:exactMatch: "wd:Q1341685"
 inspiredBy: "[[bayesian inference]]"
-subclass of: "[[computer program]]"
-has use: "[[inference]]"
+iso-thes:broaderGeneric: "[[computer program]]"
+kg:hasUse: "[[inference]]"
 skos:scopeNote: "A software component that performs inference, not a kind of inference: `subclass of` program (Wikidata Q1341685) and `has use` inference, instead of the former `broader` inference."
-inferred:skos:ancestor:
-  - "[[computer program]]"
-  - "[[continuant]]"
-  - "[[generically dependent continuant]]"
-  - "[[information content entity]]"
 ---
 
 In the field of artificial intelligence, an inference engine is a software component of an intelligent system that applies logical rules to the knowledge base to deduce new information.

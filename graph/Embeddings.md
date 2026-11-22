@@ -1,9 +1,9 @@
 ---
-foundationalPaper: Distributed Representations (Hinton, 1984)
-keyPapers:
-  - A Neural Probabilistic Language Model (Bengio et al., 2003)
-  - Efficient Estimation of Word Representations in Vector Space (Mikolov et al., 2013)
-  - Distributed Representations of Words and Phrases (Mikolov et al., 2013)
+dcterms:isReferencedBy:
+  - "Distributed Representations (Hinton, 1984)"
+  - "A Neural Probabilistic Language Model (Bengio et al., 2003)"
+  - "Efficient Estimation of Word Representations in Vector Space (Mikolov et al., 2013)"
+  - "Distributed Representations of Words and Phrases (Mikolov et al., 2013)"
 entity: "[[data structure]]"
 storedInto: "[[vector database]]"
 represents:
@@ -16,18 +16,10 @@ properties:
   - "[[Dense representation]]"
   - "[[Continuous space]]"
 skos:narrower:
-  - "[[Word embeddings]]"
   - "[[Sentence embeddings]]"
   - "[[Document embeddings]]"
   - "[[Graph embeddings]]"
-broader: "[[Natural Language Processing]]"
-inferred:skos:ancestor:
-  - "[[Artificial Intelligence (AI)]]"
-  - "[[Natural Language Processing]]"
-inferred:skos:narrower:
-  - "[[Embeddings models]]"
-  - "[[latent space]]"
-  - "[[vectorization]]"
+skos:broader: "[[Natural Language Processing]]"
 ---
 
 A vector representation of a [[token]] 

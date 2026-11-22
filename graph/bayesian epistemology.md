@@ -1,11 +1,8 @@
 ---
-uses:
+kg:uses:
   - "[[bayesian inference]]"
-subclass of: []
-broader: "[[bayesian inference]]"
-inferred:skos:ancestor:
-  - "[[bayes' theorem]]"
-  - "[[bayesian inference]]"
+iso-thes:broaderGeneric: []
+skos:broader: "[[bayesian inference]]"
 ---
 
 [Bayesian epistemology](https://en.wikipedia.org/wiki/Bayesian_epistemology)

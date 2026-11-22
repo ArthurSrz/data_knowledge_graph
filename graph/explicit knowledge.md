@@ -1,14 +1,11 @@
 ---
-wikidata entity id: Q1323686
-subclass of: "[[knowledge]]"
-instance of: "[[knowledge type]]"
-opposite of: "[[tacit knowledge]]"
-has cause: "[[knowledge extraction]]"
-skos:altLabel: ["codified knowledge", "connaissance explicite"]
-inferred:skos:ancestor:
-  - "[[knowledge]]"
-inferred:skos:related:
-  - "[[SECI model of knowledge dimensions]]"
+skos:exactMatch: "wd:Q1323686"
+iso-thes:broaderGeneric: "[[knowledge]]"
+iso-thes:broaderInstantial: "[[knowledge type]]"
+kg:oppositeOf: "[[tacit knowledge]]"
+skos:altLabel:
+  - "codified knowledge"
+  - "connaissance explicite"
 ---
 [[knowledge]] that has been articulated, codified and stored in some medium.
 

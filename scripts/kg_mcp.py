@@ -44,10 +44,11 @@ def kg_search(query: str, k: int = 10) -> str:
 @mcp.tool()
 def kg_upsert_concept(name: str, frontmatter: str, body: str) -> str:
     """Create or replace a concept note, ONLY if it keeps the graph logically coherent.
-    `frontmatter`: YAML relations without the --- fences (e.g. 'subclass of: "[[person]]"').
+    `frontmatter`: YAML relations without the --- fences, keys from schema.yml
+    (e.g. 'iso-thes:broaderGeneric: "[[person]]"', 'kg:accountableFor: "[[business process]]"').
     The note is checked in memory by the logic gate (cycles, SKOS S27, opposites, disjointness,
     instance/subclass crossing, part-whole cycles); refused with the proof chains otherwise.
-    Before any `subclass of`/`broader`: decide occurrent vs continuant."""
+    Before any iso-thes:broaderGeneric: decide occurrent vs continuant."""
     import subprocess, time, yaml
     from reason import GRAPH_DIR, STATS_DIR, VAULT
     if not name.strip() or any(c in name for c in "/\\\0") or name.startswith("."):

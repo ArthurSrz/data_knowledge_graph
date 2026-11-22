@@ -1,9 +1,7 @@
 ---
-facet of: "[[graph/negotiation]]"
-subclass of: "[[graph/power]]"
-wikidata entity id: Q2625018
-broader: "[[negotiation]]"
-inferred:skos:ancestor:
+skos:broader:
+  - "[[graph/negotiation]]"
   - "[[negotiation]]"
-  - "[[power]]"
+iso-thes:broaderGeneric: "[[graph/power]]"
+skos:exactMatch: "wd:Q2625018"
 ---

@@ -1,6 +1,6 @@
 ---
-part of: "[[graph/information system]]"
-has part(s):
+iso-thes:broaderPartitive: "[[graph/information system]]"
+has part:
   - "[[concept]]"
   - "[[graph/relation]]"
   - "[[graph/quasi-synonym]]"
@@ -12,40 +12,24 @@ has part(s):
   - "[[graph/non-preferred term]]"
   - "[[graph/top term]]"
   - "[[graph/synonym]]"
-partially coincident with: "[[graph/thesaurus]]"
-different from:
-  - "[[graph/thesaurus]]"
-  - "[[graph/ontology]]"
-  - "[[graph/taxonomy]]"
-  - "[[graph/authority file]]"
-model item:
-  - "[[graph/Medical Subject Headings]]"
-  - "[[graph/Art & Architecture Thesaurus]]"
-  - "[[graph/EuroVoc]]"
-  - "[[graph/Education Resources Information Center Thesaurus]]"
-  - "[[graph/Thesaurus of Psychological Index Terms]]"
-has use:
+skos:scopeNote:
+  - "Different from [[thesaurus]]."
+  - "Different from [[ontology]]."
+  - "Different from [[taxonomy]]."
+  - "Different from [[authority file]]."
+kg:hasUse:
   - "[[graph/information retrieval]]"
   - "[[graph/document retrieval]]"
-studied by: "[[graph/documentation science]]"
-subclass of:
+iso-thes:broaderGeneric:
   - "[[graph/controlled vocabulary]]"
   - "[[graph/network]]"
 has goal: "[[graph/prop]]"
-described by source: "[[graph/ISO 25964-1_2011]]"
-described at URL: https://books.infotoday.com/asist/Powering-Search/Sample-Chapter.pdf
-Dewey Decimal Classification: "025.431"
+dcterms:isReferencedBy: "[[graph/ISO 25964-1_2011]]"
+described at URL: "https://books.infotoday.com/asist/Powering-Search/Sample-Chapter.pdf"
+dcterms:subject: "025.431"
 name:
-  - information retrieval thesaurus
-  - IR thesaurus
-wikidata entity id: Q17152639
-broader: "[[knowledge organization system]]"
-inferred:skos:ancestor:
-  - "[[continuant]]"
-  - "[[controlled vocabulary]]"
-  - "[[data set]]"
-  - "[[generically dependent continuant]]"
-  - "[[information content entity]]"
-  - "[[knowledge organization system]]"
-  - "[[vocabulary]]"
+  - "information retrieval thesaurus"
+  - "IR thesaurus"
+skos:exactMatch: "wd:Q17152639"
+skos:broader: "[[knowledge organization system]]"
 ---

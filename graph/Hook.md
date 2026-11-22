@@ -1,5 +1,5 @@
 ---
-wikidata entity id: Q1203383
+skos:exactMatch: "wd:Q1203383"
 skos:related:
   - "[[trigger]]"
   - "[[claude code]]"

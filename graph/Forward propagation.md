@@ -1,21 +1,17 @@
 ---
-foundationalPaper: Learning Internal Representations by Error Propagation (Rumelhart, Hinton & Williams, 1986)
-keyPapers:
+dcterms:isReferencedBy:
+  - "Learning Internal Representations by Error Propagation (Rumelhart, Hinton & Williams, 1986)"
   - "Perceptrons: An Introduction to Computational Geometry (Minsky & Papert, 1969)"
-  - Neural Networks and Deep Learning (Nielsen, 2015)
+  - "Neural Networks and Deep Learning (Nielsen, 2015)"
 trainingTechnique: "[[deep learning]]"
-partOf: "[[Neural network models]]"
+iso-thes:broaderPartitive: "[[Neural network models]]"
 complementedBy: "[[backpropagation]]"
-consists_of:
+has part:
   - "[[Matrix multiplication]]"
   - "[[Activation function]]"
   - "[[Bias addition]]"
 produces: "[[output]]"
-broader: "[[artificial neural network]]"
-inferred:skos:ancestor:
-  - "[[artificial neural network]]"
-  - "[[deep learning]]"
-  - "[[machine learning]]"
+skos:broader: "[[artificial neural network]]"
 ---
 
 # Forward Propagation

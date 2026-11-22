@@ -1,14 +1,14 @@
 ---
-wikidata entity id: Q7523885
-instance of: "[[best practice]]"
-facet of: "[[data management]]"
-subclass of: "[[source of information]]"
-uses:
+skos:exactMatch: "wd:Q7523885"
+iso-thes:broaderInstantial: "[[best practice]]"
+skos:broader: "[[data management]]"
+iso-thes:broaderGeneric: "[[source of information]]"
+kg:uses:
   - "[[data deduplication]]"
   - "[[canonicalization]]"
-skos:altLabel: ["SSoT", "SSOT"]
-inferred:skos:ancestor:
-  - "[[source of information]]"
+skos:altLabel:
+  - "SSoT"
+  - "SSOT"
 ---
 **Single source of truth**: information-systems practice of normalising data by using one source for each data element.
 

@@ -1,16 +1,14 @@
 ---
-rdf:type: skos:Concept
+dcterms:type: "Concept"
 skos:altLabel:
-  - lagged scoring
-  - notation décalée
+  - "lagged scoring"
+  - "notation décalée"
 skos:broader: "[[feature engineering]]"
 skos:related:
   - "[[data leakage]]"
   - "[[Target]]"
   - "[[concept drift]]"
   - "[[Machine Leaning Baseline]]"
-inferred:skos:ancestor:
-  - "[[feature engineering]]"
 ---
 Train on (what was known at t−1) → outcome at t, then score t+1 by sliding every [[feature]] forward one period into the same columns. The model never sees the outcome it must predict, and the training setup mirrors the real use.
 

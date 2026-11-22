@@ -1,29 +1,25 @@
 ---
-subclass of:
+iso-thes:broaderGeneric:
   - "[[graph/unfinished creative work]]"
   - "[[graph/document]]"
   - "[[graph/edition]]"
 followed by: "[[graph/clean copy]]"
-different from: "[[graph/Brulion]]"
-partially coincident with: "[[graph/unpublished work]]"
-has characteristic: "[[graph/date of the first concept]]"
-wikidata entity id: Q560361
-aliases:
-  - ébauche
-  - brouillon
-  - premier jet
-  - première ébauche
-  - travail en cours
-  - draft
-  - first draft
-  - second draft
-  - draft copy
-  - first sketch
-  - work in progress
-  - stub
-inferred:skos:ancestor:
-  - "[[creative work]]"
-  - "[[unfinished creative work]]"
+skos:scopeNote:
+  - "Different from [[Brulion]]."
+skos:exactMatch: "wd:Q560361"
+skos:altLabel:
+  - "ébauche"
+  - "brouillon"
+  - "premier jet"
+  - "première ébauche"
+  - "travail en cours"
+  - "draft"
+  - "first draft"
+  - "second draft"
+  - "draft copy"
+  - "first sketch"
+  - "work in progress"
+  - "stub"
 ---
 Version préliminaire et non finalisée d'un document ou d'une œuvre en cours de travail.
 

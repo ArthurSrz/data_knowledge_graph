@@ -1,0 +1,9 @@
+{
+ "inferred:skos:ancestor": [
+  "Automation",
+  "application development"
+ ],
+ "inferred:skos:broader": [
+  "Automation"
+ ]
+}

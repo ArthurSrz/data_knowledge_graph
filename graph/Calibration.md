@@ -1,16 +1,14 @@
 ---
-rdf:type: skos:Concept
-skos:altLabel: [probability calibration, reliability]
+dcterms:type: "Concept"
+skos:altLabel:
+  - "probability calibration"
+  - "reliability"
 skos:broader: "[[model fit]]"
 skos:related:
   - "[[Probability]]"
   - "[[Odds]]"
   - "[[Logit link function]]"
   - "[[confusion matrix]]"
-inferred:skos:ancestor:
-  - "[[model fit]]"
-inferred:skos:related:
-  - "[[Quantile binning]]"
 ---
 A model is calibrated when its probabilities can be read as frequencies: among the people it gives 70 %, about 70 % do the thing. Ranking well ([[True Positive Rate (Recall)]], AUC) does not imply calibration, and a product of two scores only reads as a [[Probability]] if each factor is calibrated.
 

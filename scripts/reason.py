@@ -48,7 +48,20 @@ RELATION_MAP = {
     "consists_of": "has_part",
     "disjoint with": "disjoint_with",
     "owl:disjointWith": "disjoint_with",
+    # schema.yml keys (ontology migration). Same semantics as the old keys above,
+    # which stay mapped so the gate can compare pre- and post-migration states.
+    # Phase 4 replaces this table with rules generated from schema.yml.
+    "iso-thes:broaderGeneric": "broader",
+    "iso-thes:broaderInstantial": "instance_of",
+    "iso-thes:broaderPartitive": "part_of",
+    "iso-thes:narrowerPartitive": "has_part",
+    "kg:disjointWith": "disjoint_with",
+    "kg:oppositeOf": "opposite_of",
+    "kg:uses": "uses",
+    "kg:dependsOn": "depends_on",
+    "kg:hasUse": "has_use",
 }
+INFERRED_DIR = Path(__file__).resolve().parent.parent / "inferred"
 
 INFERRED_PREFIX = "inferred:skos:"
 
@@ -481,52 +494,28 @@ def compute_inferred_facts(engine, notes, filenames, name_of):
 
 
 def write_inferred_to_notes(inferred, graph_dir):
-    """Write inferred facts into note frontmatter as inferred:skos:* keys."""
-    written = 0
+    """Write inferred facts to inferred/<note>.json (never into the notes since the
+    ontology migration). Files of notes that no longer have inferences are removed,
+    so stale inferences cannot linger. Returns the number of files changed."""
+    import json
+    INFERRED_DIR.mkdir(exist_ok=True)
+    changed = 0
+    keep = set()
     for concept, rels in sorted(inferred.items()):
-        path = graph_dir / f"{concept}.md"
-        if not path.exists():
+        if not (graph_dir / f"{concept}.md").exists():
             continue
-
-        text = path.read_text(encoding="utf-8")
-        fm_match = re.match(r"^---\n(.*?)\n---", text, re.DOTALL)
-
-        if fm_match:
-            fm_text = fm_match.group(1)
-            body = text[fm_match.end():]
-            clean_lines = []
-            skip_list = False
-            for line in fm_text.split("\n"):
-                if line.startswith(INFERRED_PREFIX):
-                    skip_list = True
-                    continue
-                if skip_list and line.startswith("  - "):
-                    continue
-                skip_list = False
-                clean_lines.append(line)
-
-            for rel_name, targets in sorted(rels.items()):
-                key = f"{INFERRED_PREFIX}{rel_name}"
-                clean_lines.append(f"{key}:")
-                for t in targets:
-                    clean_lines.append(f'  - "[[{t}]]"')
-
-            new_text = "---\n" + "\n".join(clean_lines) + "\n---" + body
-        else:
-            # No frontmatter yet — create one
-            fm_lines = []
-            for rel_name, targets in sorted(rels.items()):
-                key = f"{INFERRED_PREFIX}{rel_name}"
-                fm_lines.append(f"{key}:")
-                for t in targets:
-                    fm_lines.append(f'  - "[[{t}]]"')
-            new_text = "---\n" + "\n".join(fm_lines) + "\n---\n" + text
-
-        if new_text != text:
-            path.write_text(new_text, encoding="utf-8")
-            written += 1
-
-    return written
+        path = INFERRED_DIR / f"{concept}.json"
+        keep.add(path.name)
+        text = json.dumps({f"{INFERRED_PREFIX}{r}": t for r, t in sorted(rels.items())},
+                          ensure_ascii=False, indent=1) + "\n"
+        if not path.exists() or path.read_text(encoding="utf-8") != text:
+            path.write_text(text, encoding="utf-8")
+            changed += 1
+    for path in INFERRED_DIR.glob("*.json"):
+        if path.name not in keep:
+            path.unlink()
+            changed += 1
+    return changed
 
 
 def run_query(engine, query_str, atom_of, name_of, raw=False):

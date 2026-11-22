@@ -1,5 +1,0 @@
----
-inferred:skos:narrower:
-  - "[[Embedded methods]]"
-  - "[[data leakage]]"
----

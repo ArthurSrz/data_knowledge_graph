@@ -1,0 +1,6 @@
+{
+ "inferred:skos:ancestor": [
+  "occurrence",
+  "occurrent"
+ ]
+}

@@ -1,0 +1,10 @@
+{
+ "inferred:skos:ancestor": [
+  "bayes' theorem"
+ ],
+ "inferred:skos:narrower": [
+  "Théorie du cerveau bayésien",
+  "bayesian epistemology",
+  "bayesian network"
+ ]
+}

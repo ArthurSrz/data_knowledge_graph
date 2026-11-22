@@ -1,0 +1,116 @@
+{"note": "Group K-Fold Cross Validation", "key": "rdf:type", "value": "skos:Concept"}
+{"note": "Quantile binning", "key": "rdf:type", "value": "skos:Concept"}
+{"note": "Time-shifted scoring", "key": "rdf:type", "value": "skos:Concept"}
+{"note": "agent", "key": "rdf:type", "value": "skos:Concept"}
+{"note": "audit-notes", "key": "rdf:type", "value": "Research Note"}
+{"note": "calculated-fields", "key": "type", "value": "Research Note"}
+{"note": "calibration", "key": "rdf:type", "value": "skos:Concept"}
+{"note": "compatibility", "key": "rdf:type", "value": "Research Note"}
+{"note": "data leakage", "key": "rdf:type", "value": "skos:Concept"}
+{"note": "differences", "key": "rdf:type", "value": "Research Note"}
+{"note": "end-to-end test", "key": "rdf:type", "value": "Concept"}
+{"note": "gitHub actions", "key": "rdf:type", "value": "Concept"}
+{"note": "github ruleset", "key": "rdf:type", "value": "Concept"}
+{"note": "openpyxl", "key": "rdf:type", "value": "Research Note"}
+{"note": "pull request approval", "key": "rdf:type", "value": "Concept"}
+{"note": "required status check", "key": "rdf:type", "value": "Concept"}
+{"note": "rules", "key": "rdf:type", "value": "Research Note"}
+{"note": "state-of-the-art", "key": "rdf:type", "value": "Research Note"}
+{"note": "workflow recursion guard", "key": "rdf:type", "value": "Concept"}
+{"note": "AI prompt", "key": "main Wikidata property", "value": "AI-generation prompt"}
+{"note": "Django", "key": "creator", "value": "[[Lawrence Journal-World]]"}
+{"note": "Elixir", "key": "creator", "value": "[[graph/José Valim]]"}
+{"note": "Elixir", "key": "logo image", "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Official%20Elixir%20logo.png"}
+{"note": "Elixir", "key": "Commons category", "value": "Elixir (programming language)"}
+{"note": "Gilles Deleuze", "key": "maintained by WikiProject", "value": "[[WikiProject Mathematics]]"}
+{"note": "Gilles Deleuze", "key": "Commons category", "value": "Gilles Deleuze"}
+{"note": "Gilles Deleuze", "key": "image", "value": "http://commons.wikimedia.org/wiki/Special:FilePath/AVT%20Gilles-Deleuze%206342.webp"}
+{"note": "Inference", "key": "model item", "value": ["[[abductive reasoning]]", "[[backward chaining]]"]}
+{"note": "Inference", "key": "main Wikidata property", "value": "based on heuristic"}
+{"note": "Iron law of oligarchy", "key": "image", "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Figure%201%20Cumulative%20growth%20in%20policy%20%28red-solid%20line%29%20and%20non-policy%20%28green-dashed%20line%29%20pages%2C%20overlaid%20on%20active%20population%20%28blue-dotted%20line%29.png"}
+{"note": "Ollama", "key": "logo image", "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Ollama-logo.svg"}
+{"note": "Ollama", "key": "Commons category", "value": "Ollama"}
+{"note": "Physics", "key": "model item", "value": ["[[graph/experimental physics]]", "[[graph/astrophysics]]"]}
+{"note": "PostgreSQL", "key": "creator", "value": "[[Michael Stonebraker]]"}
+{"note": "SECI model of knowledge dimensions", "key": "Commons category", "value": "SECI model"}
+{"note": "action", "key": "pronunciation audio", "value": "http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q7026%20%28cat%29-Millars-acci%C3%B3.wav"}
+{"note": "action", "key": "Commons category", "value": "Action (philosophy)"}
+{"note": "application programming interface", "key": "Commons category", "value": "Application programming interfaces"}
+{"note": "audit-notes", "key": "timestamp", "value": "2026-06-28 00:00:00+00:00"}
+{"note": "bayesian network", "key": "image", "value": "http://commons.wikimedia.org/wiki/Special:FilePath/SimpleBayesNet.svg"}
+{"note": "bipartite graph", "key": "maintained by WikiProject", "value": "[[graph/WikiProject Mathematics]]"}
+{"note": "bipartite graph", "key": "image", "value": "http://commons.wikimedia.org/wiki/Special:FilePath/HinhVeCM.png"}
+{"note": "bipartite graph", "key": "Commons category", "value": "Bipartite graphs"}
+{"note": "blueprint", "key": "Commons category", "value": "Blueprints"}
+{"note": "bundle", "key": "image", "value": "http://commons.wikimedia.org/wiki/Special:FilePath/KalksandsteinPalettenstapel.jpg"}
+{"note": "calculated-fields", "key": "timestamp", "value": "2026-06-28 00:00:00+00:00"}
+{"note": "causal inference", "key": "Commons category", "value": "Causal inference"}
+{"note": "change", "key": "Commons category", "value": "Changing"}
+{"note": "classification scheme", "key": "model item", "value": ["[[graph/Paul Otlet]]", "[[graph/taxonomy]]"]}
+{"note": "classification scheme", "key": "Commons category", "value": "Classification systems"}
+{"note": "classification scheme", "key": "image", "value": "http://commons.wikimedia.org/wiki/Special:FilePath/%C3%81rvore%20de%20prof%C3%ADrio.JPG"}
+{"note": "commodity", "key": "topic has template", "value": "[[graph/Template_Commodity]]"}
+{"note": "commodity", "key": "Commons category", "value": "Commodities"}
+{"note": "compatibility", "key": "timestamp", "value": "2026-06-28 00:00:00+00:00"}
+{"note": "consistency", "key": "maintained by WikiProject", "value": "[[graph/WikiProject Mathematics]]"}
+{"note": "consistency", "key": "Commons category", "value": "Consistency"}
+{"note": "control theory", "key": "maintained by WikiProject", "value": "[[WikiProject Mathematics]]"}
+{"note": "control theory", "key": "Commons category", "value": "Control theory"}
+{"note": "differences", "key": "timestamp", "value": "2026-06-28 00:00:00+00:00"}
+{"note": "end-to-end test", "key": "timestamp", "value": "2026-11-16 00:00:00+00:00"}
+{"note": "gitHub actions", "key": "timestamp", "value": "2026-11-16 00:00:00+00:00"}
+{"note": "github ruleset", "key": "timestamp", "value": "2026-11-16 00:00:00+00:00"}
+{"note": "intention", "key": "Commons category", "value": "Intention"}
+{"note": "intention", "key": "pronunciation audio", "value": "http://commons.wikimedia.org/wiki/Special:FilePath/De-Absicht.ogg"}
+{"note": "knowledge organization system", "key": "maintained by WikiProject", "value": "[[graph/WikiProject KOS]]"}
+{"note": "lawyer", "key": "topic has template", "value": "[[graph/Template_Lawyer]]"}
+{"note": "lawyer", "key": "image", "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Diana%20Ellis%20-%2019%20Oct%202011.jpg"}
+{"note": "lawyer", "key": "Commons category", "value": "Lawyers"}
+{"note": "lawyer", "key": "pronunciation audio", "value": "http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q1571%20%28mar%29-Neelima64-%E0%A4%B5%E0%A4%95%E0%A5%80%E0%A4%B2.wav"}
+{"note": "logical contradiction", "key": "Commons category", "value": "Logical contradiction"}
+{"note": "management", "key": "Commons category", "value": "Management"}
+{"note": "management", "key": "image", "value": "http://commons.wikimedia.org/wiki/Special:FilePath/New%20Board%20Room%20at%202%20Broadway%20%2816458634290%29.jpg"}
+{"note": "occurrence", "key": "model item", "value": ["[[graph/impact]]", "[[graph/Discovery of the Higgs Boson]]", "[[graph/victory]]"]}
+{"note": "occurrence", "key": "topic has template", "value": "[[graph/Template_Infobox event]]"}
+{"note": "occurrence", "key": "maintained by WikiProject", "value": "[[graph/WikiProject Events]]"}
+{"note": "occurrence", "key": "Commons category", "value": "Occurrence"}
+{"note": "openpyxl", "key": "timestamp", "value": "2026-06-28 00:00:00+00:00"}
+{"note": "operating characteristic curve", "key": "Commons category", "value": "Operating characteristics"}
+{"note": "orientation", "key": "main Wikidata property", "value": "orientation"}
+{"note": "periodic table", "key": "topic has template", "value": ["[[graph/Template_Periodic table (32 columns, micro)]]", "[[graph/Template_Periodic table (navbox)]]", "[[graph/Template_Periodic table]]", "[[graph/Template_Navbox periodic table]]", "[[graph/Template_Periodic table (group names)]]"]}
+{"note": "periodic table", "key": "maintained by WikiProject", "value": ["[[graph/WikiProject Physics]]", "[[graph/WikiProject Chemistry]]", "[[graph/WikiProject Elements]]"]}
+{"note": "periodic table", "key": "video", "value": ["http://commons.wikimedia.org/wiki/Special:FilePath/Erfindung%20des%20Periodensystems.webm", "http://commons.wikimedia.org/wiki/Special:FilePath/Orbitales%20atomiques%20et%20classification%20p%C3%A9riodique.ogv"]}
+{"note": "periodic table", "key": "pronunciation audio", "value": "http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q9610%20%28ben%29-Tahmid-%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AF%E0%A6%BC%20%E0%A6%B8%E0%A6%BE%E0%A6%B0%E0%A6%A3%E0%A7%80.wav"}
+{"note": "periodic table", "key": "image", "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Periodic%20table%20%2832-col%2C%20enwiki%29%2C%20black%20and%20white.png"}
+{"note": "periodic table", "key": "Commons category", "value": "Periodic table"}
+{"note": "problem solving", "key": "topic has template", "value": "[[graph/Q140638695]]"}
+{"note": "problem solving", "key": "main Wikidata property", "value": "handled, mitigated, or managed by"}
+{"note": "problem solving", "key": "Commons category", "value": "Problem solving"}
+{"note": "problem solving", "key": "spoken text audio", "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Wikipedia%20-%20Problem-solving%20%28spoken%20by%20AI%20voice%29.mp3"}
+{"note": "problem", "key": "Commons category", "value": "Problems"}
+{"note": "problem", "key": "pronunciation audio", "value": "http://commons.wikimedia.org/wiki/Special:FilePath/De-Problem.ogg"}
+{"note": "process", "key": "Commons category", "value": "Processes"}
+{"note": "pull request approval", "key": "timestamp", "value": "2026-11-16 00:00:00+00:00"}
+{"note": "pypi", "key": "logo image", "value": "http://commons.wikimedia.org/wiki/Special:FilePath/PyPI%20logo.svg"}
+{"note": "receiver operating characteristics", "key": "image", "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Roccurves.png"}
+{"note": "receiver operating characteristics", "key": "Commons category", "value": "Receiver operating characteristic"}
+{"note": "required status check", "key": "timestamp", "value": "2026-11-16 00:00:00+00:00"}
+{"note": "requirements engineering", "key": "Commons category", "value": "Requirements analysis"}
+{"note": "rules", "key": "timestamp", "value": "2026-06-28 00:00:00+00:00"}
+{"note": "semantics", "key": "topic has template", "value": "[[Template_Semantics]]"}
+{"note": "semantics", "key": "image", "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Perubahan%20semantik%20pada%20bahasa%20Sunda%20Ciamis.png"}
+{"note": "semantics", "key": "Commons category", "value": "Semantics"}
+{"note": "semiotics", "key": "topic has template", "value": "[[Template_Semiotics]]"}
+{"note": "semiotics", "key": "image", "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Evolution2glyph.png"}
+{"note": "semiotics", "key": "Wikimedia import URL", "value": "https://en.wikipedia.org/wiki/Semiotics"}
+{"note": "semiotics", "key": "Commons category", "value": "Semiotics"}
+{"note": "sparkline", "key": "maintained by WikiProject", "value": "[[graph/WikiProject Mathematics]]"}
+{"note": "sparkline", "key": "Commons category", "value": "Sparkline"}
+{"note": "spreadsheet", "key": "topic has template", "value": "[[graph/Template_Spreadsheets]]"}
+{"note": "spreadsheet", "key": "image", "value": "http://commons.wikimedia.org/wiki/Special:FilePath/OpenOffice.org%20Calc.png"}
+{"note": "spreadsheet", "key": "Commons category", "value": "Spreadsheet software"}
+{"note": "state-of-the-art", "key": "timestamp", "value": "2026-06-28 00:00:00+00:00"}
+{"note": "tautology", "key": "maintained by WikiProject", "value": "[[graph/WikiProject Mathematics]]"}
+{"note": "thesaurus", "key": "model item", "value": ["[[graph/Medical Subject Headings]]", "[[graph/Art & Architecture Thesaurus]]", "[[graph/EuroVoc]]", "[[graph/Education Resources Information Center Thesaurus]]", "[[graph/Thesaurus of Psychological Index Terms]]"]}
+{"note": "unfinished creative work", "key": "Commons category", "value": "Unfinished art works"}
+{"note": "workflow recursion guard", "key": "timestamp", "value": "2026-11-16 00:00:00+00:00"}

@@ -1,0 +1,14 @@
+{
+ "inferred:skos:ancestor": [
+  "Documentation",
+  "Ontology",
+  "conceptual model",
+  "continuant",
+  "generically dependent continuant",
+  "information content entity",
+  "knowledge organization system"
+ ],
+ "inferred:skos:related": [
+  "knowledge management"
+ ]
+}

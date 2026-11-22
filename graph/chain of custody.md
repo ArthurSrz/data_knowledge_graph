@@ -1,10 +1,5 @@
 ---
-wikidata entity id: Q738898
-subclass of: "[[evidence]]"
-inferred:skos:ancestor:
-  - "[[continuant]]"
-  - "[[evidence]]"
-  - "[[generically dependent continuant]]"
-  - "[[information content entity]]"
+skos:exactMatch: "wd:Q738898"
+iso-thes:broaderGeneric: "[[evidence]]"
 ---
 Chronological documentation showing the custody, control, transfer, analysis, and disposition of physical or electronic evidence

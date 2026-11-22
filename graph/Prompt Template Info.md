@@ -1,33 +1,28 @@
 ---
-related_to:
+skos:related:
   - "[[Prompt Templates]]"
   - "[[Context Management]]"
   - "[[Output Formatting]]"
-dependencies:
+kg:dependsOn:
   - "[[User Goal]]"
   - "[[Tools]]"
   - "[[Chat History]]"
-components:
-  - User Goal
-  - Instruction
-  - Input Query
-  - Context Doc
-  - Few-shot Example
-  - Output Format
-  - Tools
-  - Chat History
-category: Prompt Management
+has part:
+  - "User Goal"
+  - "Instruction"
+  - "Input Query"
+  - "Context Doc"
+  - "Few-shot Example"
+  - "Output Format"
+  - "Tools"
+  - "Chat History"
+dcterms:subject: "Prompt Management"
 tags:
-  - Templates_Prompt
-  - Contexte
-  - Exemples
-  - Format_Sortie
-broader: "[[AI prompt]]"
-inferred:skos:ancestor:
-  - "[[AI prompt]]"
-  - "[[large language model]]"
-inferred:skos:related:
-  - "[[prompt templates]]"
+  - "Templates_Prompt"
+  - "Contexte"
+  - "Exemples"
+  - "Format_Sortie"
+skos:broader: "[[AI prompt]]"
 ---
 
 # Prompt Template Info

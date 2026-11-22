@@ -1,0 +1,20 @@
+{
+ "inferred:skos:ancestor": [
+  "continuant",
+  "generically dependent continuant"
+ ],
+ "inferred:skos:narrower": [
+  "Documentation",
+  "Programming language",
+  "algorithm",
+  "computer program",
+  "data",
+  "data set",
+  "diagram",
+  "evidence",
+  "knowledge organization system",
+  "logbook",
+  "model",
+  "rule"
+ ]
+}

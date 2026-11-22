@@ -1,18 +1,10 @@
 ---
-facet of:
+skos:broader:
   - "[[administrative law]]"
   - "[[contract law]]"
   - "[[management]]"
-has effect:
-  - "[[Iron law of oligarchy]]"
-subclass of:
+iso-thes:broaderGeneric:
   - "[[legal act]]"
-broader: "[[management]]"
-inferred:skos:ancestor:
-  - "[[control]]"
-  - "[[management]]"
-  - "[[occurrent]]"
-  - "[[process]]"
 ---
 ## Frein 
 

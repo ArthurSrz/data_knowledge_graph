@@ -1,15 +1,14 @@
 ---
-rdf:type: Research Note
-title: Data Validation Differences
-description: Error handling modes, validation type granularity, checkbox behavior, and dropdown list differences between Excel and Google Sheets.
+dcterms:type: "Concept"
+skos:prefLabel: "Data Validation Differences"
+skos:definition: "Error handling modes, validation type granularity, checkbox behavior, and dropdown list differences between Excel and Google Sheets."
 tags:
-  - data-validation
-  - checkboxes
-  - dropdowns
-  - excel
-  - google-sheets
-timestamp: 2026-06-28T00:00:00Z
-instanceOf: "[[excel vs. gsheet problem]]"
+  - "data-validation"
+  - "checkboxes"
+  - "dropdowns"
+  - "excel"
+  - "google-sheets"
+iso-thes:broaderInstantial: "[[excel vs. gsheet problem]]"
 ---
 
 ## Error Handling Modes

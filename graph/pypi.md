@@ -1,18 +1,12 @@
 ---
 maintained by: "[[graph/Python Software Foundation]]"
-instance of:
+iso-thes:broaderInstantial:
   - "[[graph/package manager]]"
   - "[[graph/software repository]]"
-different from: "[[graph/Python package]]"
+skos:scopeNote:
+  - "Different from [[Python package]]."
 software engine: "[[graph/warehouse]]"
-official website: https://pypi.org
-logo image: http://commons.wikimedia.org/wiki/Special:FilePath/PyPI%20logo.svg
-wikidata entity id: Q2984686
-broader: "[[Python]]"
-inferred:skos:ancestor:
-  - "[[Programming language]]"
-  - "[[Python]]"
-  - "[[continuant]]"
-  - "[[generically dependent continuant]]"
-  - "[[information content entity]]"
+official website: "https://pypi.org"
+skos:exactMatch: "wd:Q2984686"
+skos:broader: "[[Python]]"
 ---

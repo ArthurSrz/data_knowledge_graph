@@ -1,0 +1,16 @@
+{
+ "inferred:skos:ancestor": [
+  "Documentation",
+  "Provenance",
+  "authentication",
+  "chronology",
+  "continuant",
+  "contract",
+  "generically dependent continuant",
+  "information content entity",
+  "intellectual work"
+ ],
+ "inferred:skos:broader": [
+  "Provenance"
+ ]
+}

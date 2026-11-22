@@ -3,6 +3,7 @@
 
 Used by scripts/kg_mcp.py (MCP server) and ~/.claude/hooks/kg-ground.py (prompt hook).
 """
+import json
 import re
 import sys
 import unicodedata
@@ -39,6 +40,10 @@ def load(graph_dir=GRAPH_DIR):
         if isinstance(aliases, str):
             aliases = [aliases]
         edges = [(k, t) for k, v in fm.items() if k != "aliases" for t in parse_targets(v)]
+        inferred = graph_dir.parent / "inferred" / f"{p.stem}.json"  # reason.py writes them here
+        if inferred.exists():
+            edges += [(k, t) for k, v in json.loads(inferred.read_text(encoding="utf-8")).items()
+                      for t in v]  # bare note names
         notes[p.stem] = {"name": p.stem, "fm": fm, "body": body, "aliases": aliases,
                          "edges": edges, "back": []}
     lower = {n.lower(): n for n in notes}
@@ -73,7 +78,7 @@ def render(note, excerpt=600):
     lines = [f"## [[{note['name']}]]"]
     if note["aliases"]:
         lines.append("aliases: " + ", ".join(map(str, note["aliases"])))
-    wid = note["fm"].get("wikidata entity id")
+    wid = note["fm"].get("wikidata entity id") or note["fm"].get("skos:exactMatch")
     if wid:
         lines.append(f"wikidata: {wid}")
     for k, t in note["edges"]:

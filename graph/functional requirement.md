@@ -1,10 +1,8 @@
 ---
-subclass of: "[[graph/design requirement]]"
-facet of: "[[graph/test]]"
-has characteristic: "[[graph/testability]]"
-opposite of: "[[graph/non-functional requirement]]"
-OmegaWiki Defined Meaning: "976863"
-wikidata entity id: Q3264234
-inferred:skos:narrower:
-  - "[[use case]]"
+iso-thes:broaderGeneric: "[[graph/design requirement]]"
+skos:broader: "[[graph/test]]"
+kg:oppositeOf: "[[graph/non-functional requirement]]"
+skos:closeMatch:
+  - "OmegaWiki Defined Meaning: 976863"
+skos:exactMatch: "wd:Q3264234"
 ---

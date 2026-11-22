@@ -1,20 +1,17 @@
 ---
-wikidata entity id: Q851587
-instance of: "[[type of process]]"
-subclass of: "[[process]]"
-manifestation of: "[[procedure]]"
+skos:exactMatch: "wd:Q851587"
+iso-thes:broaderInstantial: "[[type of process]]"
+iso-thes:broaderGeneric: "[[process]]"
 has part: "[[business activity]]"
-uses: "[[visualization]]"
-used by: "[[business]]"
-different from: "[[strategic management]]"
-broader: "[[process]]"
-skos:altLabel: ["business practice", "business function", "business method"]
-inferred:skos:ancestor:
-  - "[[occurrent]]"
-  - "[[process]]"
-inferred:skos:narrower:
-  - "[[business process mapping]]"
-  - "[[mergers and acquisitions]]"
+kg:uses: "[[visualization]]"
+kg:usedBy: "[[business]]"
+skos:scopeNote:
+  - "Different from [[strategic management]]."
+skos:broader: "[[process]]"
+skos:altLabel:
+  - "business practice"
+  - "business function"
+  - "business method"
 ---
 A collection of related, structured activities that produce a service or [[product]] for a customer. 
 

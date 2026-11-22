@@ -1,6 +1,4 @@
 ---
-broader: "[[fine-tuning]]"
-inferred:skos:ancestor:
-  - "[[fine-tuning]]"
+skos:broader: "[[fine-tuning]]"
 ---
 Class to format data points into structured prompts 

@@ -1,10 +1,10 @@
 ---
-subclass of:
+iso-thes:broaderGeneric:
   - "[[graph/dilemma]]"
   - "[[graph/optimization problem]]"
   - "[[graph/decision]]"
-facet of:
+skos:broader:
   - "[[graph/decision making]]"
   - "[[graph/Pareto efficiency]]"
-wikidata entity id: Q638123
+skos:exactMatch: "wd:Q638123"
 ---

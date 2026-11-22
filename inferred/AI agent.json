@@ -1,0 +1,8 @@
+{
+ "inferred:skos:ancestor": [
+  "agent"
+ ],
+ "inferred:skos:related": [
+  "software agent"
+ ]
+}

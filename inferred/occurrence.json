@@ -1,0 +1,8 @@
+{
+ "inferred:skos:ancestor": [
+  "occurrent"
+ ],
+ "inferred:skos:narrower": [
+  "action"
+ ]
+}

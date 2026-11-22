@@ -1,12 +1,9 @@
 ---
-wikidata entity id: Q255135
-subclass of: "[[logbook]]"
-skos:altLabel: ["change log", "knowledge changelog"]
-inferred:skos:ancestor:
-  - "[[continuant]]"
-  - "[[generically dependent continuant]]"
-  - "[[information content entity]]"
-  - "[[logbook]]"
+skos:exactMatch: "wd:Q255135"
+iso-thes:broaderGeneric: "[[logbook]]"
+skos:altLabel:
+  - "change log"
+  - "knowledge changelog"
 ---
 **Changelog**: log or record of all notable changes made to a project.
 

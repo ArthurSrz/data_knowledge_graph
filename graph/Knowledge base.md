@@ -1,18 +1,9 @@
 ---
-wikidata entity id: Q593744
-subclass of:
+skos:exactMatch: "wd:Q593744"
+iso-thes:broaderGeneric:
   - "[[conceptual model]]"
   - "[[Documentation]]"
-has part(s):
+has part:
   - "[[knowledge]]"
-inferred:skos:ancestor:
-  - "[[Documentation]]"
-  - "[[conceptual model]]"
-  - "[[continuant]]"
-  - "[[generically dependent continuant]]"
-  - "[[information content entity]]"
-  - "[[knowledge organization system]]"
-inferred:skos:related:
-  - "[[knowledge management]]"
 ---
 **Knowledge base**: information repository with multiple applications.

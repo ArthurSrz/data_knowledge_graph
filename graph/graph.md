@@ -1,17 +1,12 @@
 ---
 originatesFrom: "[[graph theory]]"
-facet of: "[[graph/discrete mathematics]]"
-studied by: "[[graph theory]]"
-subclass of:
+skos:broader: "[[graph/discrete mathematics]]"
+iso-thes:broaderGeneric:
   - "[[graph/Hypergraph]]"
   - "[[graph/Relational structure]]"
-has part(s):
+has part:
   - "[[node]]"
   - "[[Edges]]"
-inferred:skos:narrower:
-  - "[[bipartite graph]]"
-  - "[[knowledge graph]]"
-  - "[[monopartite graph]]"
 ---
 ### Definition 1 
 

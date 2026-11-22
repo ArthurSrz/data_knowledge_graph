@@ -1,21 +1,19 @@
 ---
-subclass of:
+iso-thes:broaderGeneric:
   - "[[graph/computer programming]]"
   - "[[graph/programming paradigm]]"
   - "[[graph/structured programming]]"
-part of: "[[graph/computer programming]]"
-uses:
+iso-thes:broaderPartitive: "[[graph/computer programming]]"
+kg:uses:
   - "[[graph/subroutine]]"
   - "[[graph/public interface]]"
   - "[[graph/module]]"
-instance of:
+iso-thes:broaderInstantial:
   - "[[graph/software development methodology]]"
   - "[[graph/computer science term]]"
   - "[[graph/engineering]]"
-has characteristic: "[[graph/modularity]]"
 does not use: "[[graph/implementation detail]]"
-Stack Exchange tag: https://stackoverflow.com/tags/modular-design
-wikidata entity id: Q6453666
-inferred:skos:ancestor:
-  - "[[programming paradigm]]"
+skos:closeMatch:
+  - "https://stackoverflow.com/tags/modular-design"
+skos:exactMatch: "wd:Q6453666"
 ---

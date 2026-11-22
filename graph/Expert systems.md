@@ -1,6 +1,4 @@
 ---
 originatesFrom: "[[symbolism]]"
-broader: "[[Artificial Intelligence (AI)]]"
-inferred:skos:ancestor:
-  - "[[Artificial Intelligence (AI)]]"
+skos:broader: "[[Artificial Intelligence (AI)]]"
 ---

@@ -1,5 +1,3 @@
 ---
-broader: "[[CRISP-DM Process]]"
-inferred:skos:ancestor:
-  - "[[CRISP-DM Process]]"
+skos:broader: "[[CRISP-DM Process]]"
 ---

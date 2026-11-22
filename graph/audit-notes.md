@@ -1,15 +1,14 @@
 ---
-rdf:type: Research Note
-title: Audit Implementation Notes
-description: Floating-point tolerance, formula vs value comparison, and enhancement tab exclusion in the bijectivity audit.
+dcterms:type: "Concept"
+skos:prefLabel: "Audit Implementation Notes"
+skos:definition: "Floating-point tolerance, formula vs value comparison, and enhancement tab exclusion in the bijectivity audit."
 tags:
-  - audit
-  - floating-point
-  - tolerance
-  - openpyxl
-  - testing
-timestamp: 2026-06-28T00:00:00Z
-instanceOf: "[[excel vs. gsheet problem]]"
+  - "audit"
+  - "floating-point"
+  - "tolerance"
+  - "openpyxl"
+  - "testing"
+iso-thes:broaderInstantial: "[[excel vs. gsheet problem]]"
 ---
 
 ## Floating-Point Tolerance in Value Comparison

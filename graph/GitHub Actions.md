@@ -1,17 +1,12 @@
 ---
-rdf:type: Concept
-broader: "[[github]]"
-partOf: "[[automation framework]]"
-description: GitHub's built-in CI/automation runner — YAML workflows launched by repository events.
+dcterms:type: "Concept"
+skos:broader: "[[github]]"
+iso-thes:broaderPartitive: "[[automation framework]]"
+skos:definition: "GitHub's built-in CI/automation runner — YAML workflows launched by repository events."
 tags:
-  - github
-  - ci
-  - automation
-timestamp: 2026-11-16T00:00:00Z
-inferred:skos:ancestor:
-  - "[[github]]"
-inferred:skos:narrower:
-  - "[[workflow recursion guard]]"
+  - "github"
+  - "ci"
+  - "automation"
 ---
 A workflow is a YAML file in `.github/workflows/` with an `on:` block listing the [[trigger]]s (push, pull_request, pull_request_review, schedule, manual dispatch…) and jobs that run shell steps on a fresh machine.
 

@@ -1,6 +1,4 @@
 ---
-partOf: "[[automation framework]]"
-inferred:skos:related:
-  - "[[hook]]"
+iso-thes:broaderPartitive: "[[automation framework]]"
 ---
 First action that launches [[automation]]

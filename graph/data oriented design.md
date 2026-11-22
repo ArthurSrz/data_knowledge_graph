@@ -1,6 +1,7 @@
 ---
-different from: "[[graph/domain driven design]]"
-subclass of: "[[graph/software design]]"
-short name: DOD
-wikidata entity id: Q24882785
+skos:scopeNote:
+  - "Different from [[domain driven design]]."
+iso-thes:broaderGeneric: "[[graph/software design]]"
+skos:altLabel: "DOD"
+skos:exactMatch: "wd:Q24882785"
 ---

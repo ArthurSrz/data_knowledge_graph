@@ -1,10 +1,5 @@
 ---
-wikidata entity id: Q2001982
-subclass of: "[[rule]]"
-inferred:skos:ancestor:
-  - "[[continuant]]"
-  - "[[generically dependent continuant]]"
-  - "[[information content entity]]"
-  - "[[rule]]"
+skos:exactMatch: "wd:Q2001982"
+iso-thes:broaderGeneric: "[[rule]]"
 ---
 System of symbols to represent facts or quantities

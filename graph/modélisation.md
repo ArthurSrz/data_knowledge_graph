@@ -1,3 +1,3 @@
 ---
-partOf: "[[continuum data]]"
+iso-thes:broaderPartitive: "[[continuum data]]"
 ---

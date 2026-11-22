@@ -1,4 +1,4 @@
 ---
-wikidata entity id: Q2936505
+skos:exactMatch: "wd:Q2936505"
 ---
 Process that puts something into its canonical form

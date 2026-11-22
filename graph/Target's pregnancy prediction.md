@@ -1,6 +1,4 @@
 ---
-broader: "[[prediction]]"
-inferred:skos:ancestor:
-  - "[[prediction]]"
+skos:broader: "[[prediction]]"
 ---
 One of [[privacy challenge]]

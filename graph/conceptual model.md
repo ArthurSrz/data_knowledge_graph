@@ -1,19 +1,10 @@
 ---
-part of: "[[graph/scientific model]]"
-facet of: "[[Ontology]]"
-partially coincident with: "[[model]]"
-subclass of: "[[graph/Knowledge organization system]]"
-opposite of: "[[graph/Physical model]]"
-different from: "[[graph/Theoretical framework]]"
+iso-thes:broaderPartitive: "[[graph/scientific model]]"
+skos:broader: "[[Ontology]]"
+iso-thes:broaderGeneric: "[[graph/Knowledge organization system]]"
+kg:oppositeOf: "[[graph/Physical model]]"
+skos:scopeNote:
+  - "Different from [[Theoretical framework]]."
 product of: "[[conceptual modeling]]"
-inferred:skos:ancestor:
-  - "[[continuant]]"
-  - "[[generically dependent continuant]]"
-  - "[[information content entity]]"
-  - "[[knowledge organization system]]"
-inferred:skos:broader:
-  - "[[knowledge organization system]]"
-inferred:skos:narrower:
-  - "[[knowledge base]]"
 ---
 Representation of a system, made of the composition of concepts 

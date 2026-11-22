@@ -1,6 +1,4 @@
 ---
-broader: "[[computer vision]]"
-inferred:skos:ancestor:
-  - "[[computer vision]]"
+skos:broader: "[[computer vision]]"
 ---
 One of [[privacy challenge]]

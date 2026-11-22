@@ -1,14 +1,5 @@
 ---
-broader: "[[CRISP-DM Process]]"
-inferred:skos:ancestor:
-  - "[[CRISP-DM Process]]"
-inferred:skos:narrower:
-  - "[[Min-max normalization]]"
-  - "[[One-hot encoding]]"
-  - "[[Tidy Data]]"
-  - "[[Z-Score normalization]]"
-  - "[[label encoding]]"
-  - "[[truncation]]"
+skos:broader: "[[CRISP-DM Process]]"
 ---
 Step of the [[CRISP-DM Process]]. 
 

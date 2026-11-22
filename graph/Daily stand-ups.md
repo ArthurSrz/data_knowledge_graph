@@ -1,5 +1,3 @@
 ---
-broader: "[[Agile approach]]"
-inferred:skos:ancestor:
-  - "[[Agile approach]]"
+skos:broader: "[[Agile approach]]"
 ---

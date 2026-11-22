@@ -1,18 +1,5 @@
 ---
-broader: "[[Python]]"
-inferred:skos:ancestor:
-  - "[[Programming language]]"
-  - "[[Python]]"
-  - "[[continuant]]"
-  - "[[generically dependent continuant]]"
-  - "[[information content entity]]"
-inferred:skos:narrower:
-  - "[[TrainingAguments]]"
-  - "[[autoModel]]"
-  - "[[autotokenizer]]"
-  - "[[datasetDict]]"
-  - "[[datasets]]"
-  - "[[trainer]]"
+skos:broader: "[[Python]]"
 ---
 
 

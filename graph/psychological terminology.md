@@ -1,12 +1,9 @@
 ---
-used by:
+kg:usedBy:
   - "[[graph/psychologist]]"
   - "[[graph/psychology]]"
-subclass of: "[[graph/scientific terminology]]"
-partially coincident with: "[[graph/psychology concept]]"
-instance of: "[[graph/type of specialized terminology]]"
-facet of: "[[graph/psychology]]"
-wikidata entity id: Q77468620
-inferred:skos:ancestor:
-  - "[[scientific terminology]]"
+iso-thes:broaderGeneric: "[[graph/scientific terminology]]"
+iso-thes:broaderInstantial: "[[graph/type of specialized terminology]]"
+skos:broader: "[[graph/psychology]]"
+skos:exactMatch: "wd:Q77468620"
 ---

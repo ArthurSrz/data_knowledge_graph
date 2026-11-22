@@ -1,0 +1,10 @@
+{
+ "inferred:skos:ancestor": [
+  "machine learning"
+ ],
+ "inferred:skos:narrower": [
+  "Naive Bayes Classifier",
+  "Support Vector Machine",
+  "decision tree"
+ ]
+}

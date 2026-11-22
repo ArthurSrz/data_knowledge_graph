@@ -1,16 +1,13 @@
 ---
-wikidata entity id: Q743861
-subclass of: "[[knowledge]]"
-instance of: "[[knowledge type]]"
-opposite of: "[[explicit knowledge]]"
-discoverer or inventor: "[[Michael Polanyi]]"
-skos:altLabel: ["implicit knowledge", "latent knowledge", "connaissance tacite"]
+skos:exactMatch: "wd:Q743861"
+iso-thes:broaderGeneric: "[[knowledge]]"
+iso-thes:broaderInstantial: "[[knowledge type]]"
+kg:oppositeOf: "[[explicit knowledge]]"
+skos:altLabel:
+  - "implicit knowledge"
+  - "latent knowledge"
+  - "connaissance tacite"
 skos:related: "[[domain knowledge]]"
-inferred:skos:ancestor:
-  - "[[knowledge]]"
-inferred:skos:related:
-  - "[[SECI model of knowledge dimensions]]"
-  - "[[knowledge transfer]]"
 ---
 **Tacit knowledge**: knowledge that is hard to transfer by writing it down or saying it (Polanyi, 1958).
 

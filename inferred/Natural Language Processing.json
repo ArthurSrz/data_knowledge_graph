@@ -1,0 +1,13 @@
+{
+ "inferred:skos:ancestor": [
+  "Artificial Intelligence (AI)"
+ ],
+ "inferred:skos:narrower": [
+  "Embeddings",
+  "Tokenizer",
+  "bag of words",
+  "sentence embedding",
+  "sentiment analysis",
+  "token"
+ ]
+}

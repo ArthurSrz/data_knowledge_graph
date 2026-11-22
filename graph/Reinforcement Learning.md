@@ -1,10 +1,10 @@
 ---
-foundationalPaper: "Reinforcement Learning: A Survey (Kaelbling, Littman & Moore, 1996)"
-keyPapers:
-  - Learning from Delayed Rewards (Sutton, 1988)
-  - Q-Learning (Watkins, 1989)
+dcterms:isReferencedBy:
+  - "Reinforcement Learning: A Survey (Kaelbling, Littman & Moore, 1996)"
+  - "Learning from Delayed Rewards (Sutton, 1988)"
+  - "Q-Learning (Watkins, 1989)"
   - "Reinforcement Learning: An Introduction (Sutton & Barto, 1998)"
-instance of: "[[Machine learning paradigm]]"
+iso-thes:broaderInstantial: "[[Machine learning paradigm]]"
 inspiredBy:
   - "[[Behaviorist psychology]]"
   - "[[Dynamic programming]]"
@@ -21,9 +21,7 @@ algorithms:
   - "[[SARSA]]"
   - "[[Policy gradient]]"
   - "[[Actor-critic methods]]"
-broader: "[[machine learning]]"
-inferred:skos:ancestor:
-  - "[[machine learning]]"
+skos:broader: "[[machine learning]]"
 ---
 
 # Reinforcement Learning

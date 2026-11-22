@@ -1,58 +1,23 @@
 ---
-manifestation of: "[[graph/sequence]]"
-different from:
-  - "[[graph/Akt]]"
-  - "[[graph/activity]]"
-  - "[[graph/quality process]]"
+skos:scopeNote:
+  - "Different from [[Akt]]."
+  - "Different from [[activity]]."
+  - "Different from [[quality process]]."
+  - "Different from [[process]]."
+  - "Different from [[verb]]."
+skos:broader: "[[graph/object]]"
+has part: "[[graph/occurrence]]"
+iso-thes:broaderPartitive: "[[graph/Systems Biology Ontology]]"
+skos:closeMatch:
   - "[[process]]"
-  - "[[graph/verb]]"
-has effect:
-  - "[[graph/consequent]]"
-  - "[[graph/effect]]"
-  - "[[graph/occurrence]]"
-  - "[[graph/result]]"
-  - "[[graph/state]]"
-facet of: "[[graph/object]]"
-has characteristic:
-  - "[[graph/intensity]]"
-  - "[[graph/rate]]"
-  - "[[graph/resource]]"
-  - "[[graph/duration]]"
-  - "[[graph/result]]"
-  - "[[graph/continuity]]"
-  - "[[graph/type of process]]"
-has cause:
-  - "[[graph/occurrence]]"
-  - "[[graph/cause]]"
-  - "[[graph/state]]"
-has part(s): "[[graph/occurrence]]"
-studied by:
-  - "[[graph/process philosophy]]"
-  - "[[graph/process ontology]]"
-part of: "[[graph/Systems Biology Ontology]]"
-said to be the same as: "[[process]]"
+  - "http://biomodels.net/SBO/SBO_0000375"
 union of: "[[graph/list of values as qualifiers]]"
-subclass of: "[[graph/occurrent]]"
-instance of: "[[graph/BFO class]]"
+iso-thes:broaderGeneric: "[[graph/occurrent]]"
+iso-thes:broaderInstantial: "[[graph/BFO class]]"
 properties for this type:
-  - inception
-  - duration
-Commons category: Processes
-equivalent class: http://biomodels.net/SBO/SBO_0000375
-exact match: http://purl.obolibrary.org/obo/BFO_0000015
-wikidata entity id: Q3249551
-inferred:skos:ancestor:
-  - "[[occurrent]]"
-inferred:skos:narrower:
-  - "[[Deployment]]"
-  - "[[Inference]]"
-  - "[[business process]]"
-  - "[[conceptual modeling]]"
-  - "[[context]]"
-  - "[[crawl-walk-run]]"
-  - "[[learning]]"
-  - "[[management]]"
-  - "[[onboarding]]"
-  - "[[problem solving]]"
-  - "[[record linkage]]"
+  - "inception"
+  - "duration"
+skos:exactMatch:
+  - "http://purl.obolibrary.org/obo/BFO_0000015"
+  - "wd:Q3249551"
 ---

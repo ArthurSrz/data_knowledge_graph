@@ -1,0 +1,11 @@
+{
+ "inferred:skos:ancestor": [
+  "Test"
+ ],
+ "inferred:skos:broader": [
+  "Test"
+ ],
+ "inferred:skos:narrower": [
+  "use case"
+ ]
+}

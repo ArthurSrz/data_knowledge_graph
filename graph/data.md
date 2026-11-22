@@ -1,11 +1,3 @@
 ---
-subclass of: "[[information content entity]]"
-inferred:skos:ancestor:
-  - "[[continuant]]"
-  - "[[generically dependent continuant]]"
-  - "[[information content entity]]"
-inferred:skos:narrower:
-  - "[[data lineage]]"
-  - "[[data silos]]"
-  - "[[master data]]"
+iso-thes:broaderGeneric: "[[information content entity]]"
 ---

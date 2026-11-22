@@ -1,21 +1,21 @@
 ---
-wikidata entity id: Q7091744
-instance of: "[[employment]]"
-subclass of: "[[process]]"
+skos:exactMatch: "wd:Q7091744"
+iso-thes:broaderInstantial: "[[employment]]"
+iso-thes:broaderGeneric: "[[process]]"
 has part:
   - "[[training]]"
   - "[[learning]]"
   - "[[socialization]]"
   - "[[role model]]"
   - "[[interpersonal relationship]]"
-said to be the same as: "[[induction training]]"
-broader: "[[process]]"
-skos:altLabel: ["organizational socialization", "employment induction", "induction"]
+skos:closeMatch: "[[induction training]]"
+skos:broader: "[[process]]"
+skos:altLabel:
+  - "organizational socialization"
+  - "employment induction"
+  - "induction"
 skos:definition: "Mechanism through which new employees acquire the knowledge, skills, and behaviors necessary to become effective organizational members."
 skos:scopeNote: "Onboarding of a person. In Clarifeye, « onboarding » also names the product flow that creates a knowledge store from a template: that store-creation sense is not covered by this concept."
-inferred:skos:ancestor:
-  - "[[occurrent]]"
-  - "[[process]]"
 ---
 The mechanism through which newcomers acquire the knowledge, skills and behaviours to become effective members of an organisation. Wikidata makes [[training]] a part of it.
 
