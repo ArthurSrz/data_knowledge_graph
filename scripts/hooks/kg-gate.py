@@ -19,7 +19,7 @@ import sys
 import time
 from pathlib import Path
 
-VAULT = Path(os.environ.get("KG_VAULT", "/Users/asarazin/Documents/knowledge_glossary"))
+VAULT = Path(os.environ.get("KG_VAULT", "/Users/asarazin/Documents/pkg"))
 MODE = os.environ.get("KG_GATE", "warn")
 
 
