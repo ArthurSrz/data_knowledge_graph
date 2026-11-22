@@ -1,0 +1,37 @@
+name: kg-gate
+
+# Safety net: same judge as the hooks and the MCP tool (scripts/reason.py gate).
+# Posts a status only; never merges or pushes (no recursion with push: main workflows).
+on:
+  # No paths filter on PRs: kg-gate is a required check, and a filtered-out
+  # workflow never reports, leaving the PR pending forever.
+  pull_request:
+  push:
+    branches: [main]
+    paths: ["graph/**"]
+
+permissions:
+  contents: read
+
+jobs:
+  kg-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install gate env (no torch)
+        run: pip install --no-deps -r requirements-gate.txt
+
+      - name: Gate the changeset
+        env:
+          BASE: ${{ github.event_name == 'pull_request' && github.event.pull_request.base.sha || github.event.before }}
+        run: |
+          # first push of a branch has no "before"
+          if [ -z "$BASE" ] || [ "$BASE" = "0000000000000000000000000000000000000000" ]; then BASE=HEAD~1; fi
+          python scripts/reason.py gate --base "$(git merge-base "$BASE" HEAD)"

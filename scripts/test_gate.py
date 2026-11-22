@@ -80,6 +80,15 @@ class Unit(unittest.TestCase):
 
 
 class Integration(unittest.TestCase):
+    def test_git_base_spaces_accents(self):
+        name = "zz gate é test"
+        path = reason.GRAPH_DIR / f"{name}.md"
+        path.write_text("x")  # untracked
+        try:
+            self.assertIsNone(reason.git_base_overlay("HEAD").get(name, "missing"))
+        finally:
+            path.unlink()
+
     def test_process_owner(self):
         good = (reason.GRAPH_DIR / "process owner.md").read_text()
         bad = good.replace('subclass of: "[[person]]"\naccountable for: "[[business process]]"',

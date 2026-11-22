@@ -377,6 +377,20 @@ def proof(kind, x, y, notes, filenames):
 
 def hint(kind):
     # TODO(arthur): tes règles de modélisation, une phrase par type de violation.
+    """Returns a human-readable hint for fixing a violation of the given kind."""
+    if kind == "in_cycle":
+        return "Supprimer le cycle hiérarchique (un concept ne peut pas être son propre ancêtre)."
+    if kind == "part_cycle":
+        return "Supprimer le cycle partie–tout (un concept ne peut pas être une partie de lui-même)."
+    if kind == "conflict":
+        return "Supprimer la relation entre deux concepts opposés (un concept ne peut pas être lié à son opposé)."
+    if kind == "disjoint_violation":
+        return "Supprimer la relation entre deux concepts disjoints (un concept ne peut pas être lié à un concept qu'il exclut)."
+    if kind == "s27_violation":
+        return "Supprimer la relation entre deux concepts liés hiérarchiquement (un concept ne peut pas être lié à un de ses ancêtres)."
+    if kind == "cross_violation":
+        return "Supprimer la relation entre deux concepts croisés (un concept ne peut pas être lié à un concept qu'il traverse)."
+    
     return "Remplacer le lien hiérarchique fautif par une relation transversale."
 
 
@@ -392,10 +406,11 @@ def git_base_overlay(rev):
     """Overlay restoring graph/ to `rev` for every note changed since (incl. untracked)."""
     import subprocess
     git = lambda *a: subprocess.run(["git", "-C", str(VAULT), *a], capture_output=True, text=True)
-    changed = git("diff", "--name-only", rev, "--", "graph/").stdout.split()
-    changed += git("ls-files", "--others", "--exclude-standard", "graph/").stdout.split()
+    # -z: note names have spaces and accents (git would split/quote them otherwise)
+    changed = git("diff", "-z", "--name-only", rev, "--", "graph/").stdout.split("\0")
+    changed += git("ls-files", "-z", "--others", "--exclude-standard", "graph/").stdout.split("\0")
     overlay = {}
-    for path in changed:
+    for path in filter(None, changed):
         old = git("show", f"{rev}:{path}")
         overlay[Path(path).stem] = old.stdout if old.returncode == 0 else None
     return overlay
@@ -772,6 +787,16 @@ def cmd_write(args):
     print(f"Done. {stats['total_inferred']} inferred facts, {stats['files_written']} files updated.")
 
 
+def write_violations():
+    """stats/violations.md: current logical violations, whoever made them (Obsidian too)."""
+    found, _, _ = logic_violations()
+    lines = [f"# Violations logiques\n\nMis à jour : {time.strftime('%Y-%m-%d %H:%M:%S')}\n"]
+    lines += [f"- {LOGIC_KINDS[k]} : [[{x}]] ↔ [[{y}]]" for k, x, y in sorted(found)] or ["Aucune."]
+    (STATS_DIR / "violations.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    if found:
+        print(f"  ⚠ {len(found)} logical violation(s), see stats/violations.md")
+
+
 def cmd_watch(args):
     """Watch graph/ for changes and continuously re-run reasoning + write-back."""
     from watchdog.observers import Observer
@@ -797,12 +822,14 @@ def cmd_watch(args):
             print(f"\n[{ts}] Change detected, re-running reasoning...")
             try:
                 run_reasoning_and_write()
+                write_violations()
             except Exception as e:
                 print(f"  Error: {e}")
 
     print(f"Watching {GRAPH_DIR}/ for changes (debounce {debounce_seconds}s). Ctrl+C to stop.")
     print("Running initial pass...")
     run_reasoning_and_write()
+    write_violations()
 
     handler = Handler()
     observer = Observer()
