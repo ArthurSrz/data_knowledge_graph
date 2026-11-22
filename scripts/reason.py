@@ -48,7 +48,20 @@ RELATION_MAP = {
     "consists_of": "has_part",
     "disjoint with": "disjoint_with",
     "owl:disjointWith": "disjoint_with",
+    # schema.yml keys (ontology migration). Same semantics as the old keys above,
+    # which stay mapped so the gate can compare pre- and post-migration states.
+    # Phase 4 replaces this table with rules generated from schema.yml.
+    "iso-thes:broaderGeneric": "broader",
+    "iso-thes:broaderInstantial": "instance_of",
+    "iso-thes:broaderPartitive": "part_of",
+    "iso-thes:narrowerPartitive": "has_part",
+    "kg:disjointWith": "disjoint_with",
+    "kg:oppositeOf": "opposite_of",
+    "kg:uses": "uses",
+    "kg:dependsOn": "depends_on",
+    "kg:hasUse": "has_use",
 }
+INFERRED_DIR = Path(__file__).resolve().parent.parent / "inferred"
 
 INFERRED_PREFIX = "inferred:skos:"
 
