@@ -1,5 +1,5 @@
 ---
-wikidata entity id: Q1469824
+wikidata entity id: "Q1469824"
 subclass of:
   - "[[knowledge organization system]]"
   - "[[vocabulary]]"
@@ -8,16 +8,7 @@ has part:
   - "[[preferred term]]"
   - "[[non-preferred term]]"
   - "[[subject heading]]"
-exact match: http://purl.org/spar/fabio/ControlledVocabulary
-inferred:skos:ancestor:
-  - "[[continuant]]"
-  - "[[data set]]"
-  - "[[generically dependent continuant]]"
-  - "[[information content entity]]"
-  - "[[knowledge organization system]]"
-  - "[[vocabulary]]"
-inferred:skos:narrower:
-  - "[[thesaurus]]"
+exact match: "http://purl.org/spar/fabio/ControlledVocabulary"
 ---
 **Controlled vocabulary**: standardized, organized set of words and phrases for retrieving and disambiguating information, which separates preferred from non-preferred terms.
 

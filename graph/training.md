@@ -1,5 +1,5 @@
 ---
-wikidata entity id: Q918385
+wikidata entity id: "Q918385"
 instance of:
   - "[[learning approach]]"
   - "[[activity]]"
@@ -14,10 +14,6 @@ practiced by:
 broader: "[[learning]]"
 skos:definition: "Acquisition of knowledge, skills, and competencies as a result of teaching."
 skos:scopeNote: "Human learning only, e.g. training a Business Process Owner or a contributor on Clarifeye. For the machine-learning sense (fitting a model), see [[machine learning]] → [[training data set]], [[Training algorithm]]."
-inferred:skos:ancestor:
-  - "[[learning]]"
-  - "[[occurrent]]"
-  - "[[process]]"
 ---
 Acquisition of [[knowledge]], [[skills]] and competencies as a result of teaching. Wikidata places it *part of* [[onboarding]].
 

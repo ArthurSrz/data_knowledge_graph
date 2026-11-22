@@ -8,10 +8,8 @@ part of:
   - "[[graph/software requirements specification]]"
 subclass of: "[[graph/functional requirement]]"
 OmegaWiki Defined Meaning: "958349"
-inception: 1986-01-01T00:00:00Z
+inception: 1986-01-01T00:00:00+00:00
 ACM Classification Code (2012): "10011108"
-Stack Exchange tag: https://stackoverflow.com/tags/use-case
-wikidata entity id: Q613417
-inferred:skos:ancestor:
-  - "[[functional requirement]]"
+Stack Exchange tag: "https://stackoverflow.com/tags/use-case"
+wikidata entity id: "Q613417"
 ---

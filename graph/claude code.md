@@ -1,9 +1,7 @@
 ---
-wikidata entity id: Q138457287
+wikidata entity id: "Q138457287"
 instance of: "[[agent harness]]"
 skos:scopeNote: "Wikidata: instance of agent harness (and of command-line interface). An individual tool, so `instance of`, not `subclass of`; the older broader → [[agentic System]] link was dropped for that reason."
-inferred:skos:related:
-  - "[[hook]]"
 ---
 Anthropic's coding agent, used from the terminal, IDEs, the desktop app and the web. It reads and edits files, runs commands and calls tools ([[MCP server]]s), inside a harness that the user configures: [[claude.md]] files for rules, [[skills]] for packaged procedures, and [[hook]]s for automatic checks.
 

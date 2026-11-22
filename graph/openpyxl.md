@@ -1,22 +1,16 @@
 ---
-rdf:type: Research Note
-title: openpyxl Limitations
-description: Features silently lost when round-tripping xlsx files through openpyxl — shapes, slicers, macros, sparklines, comments.
+rdf:type: "Research Note"
+title: "openpyxl Limitations"
+description: "Features silently lost when round-tripping xlsx files through openpyxl — shapes, slicers, macros, sparklines, comments."
 tags:
-  - openpyxl
-  - python
-  - library
-  - xlsx
-  - limitations
-timestamp: 2026-06-28T00:00:00Z
+  - "openpyxl"
+  - "python"
+  - "library"
+  - "xlsx"
+  - "limitations"
+timestamp: 2026-06-28T00:00:00+00:00
 instanceOf: "[[excel vs. gsheet problem]]"
 broader: "[[Python]]"
-inferred:skos:ancestor:
-  - "[[Programming language]]"
-  - "[[Python]]"
-  - "[[continuant]]"
-  - "[[generically dependent continuant]]"
-  - "[[information content entity]]"
 ---
 
 ## Features Lost on Round-Trip Through openpyxl

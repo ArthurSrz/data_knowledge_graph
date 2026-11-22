@@ -17,8 +17,4 @@ studied by:
   - "[[graph/semiotics]]"
 facet of: "[[graph/communication]]"
 broader: "[[process]]"
-inferred:skos:ancestor:
-  - "[[occurrent]]"
-  - "[[process]]"
-  - "[[situation]]"
 ---

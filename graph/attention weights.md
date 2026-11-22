@@ -1,8 +1,8 @@
 ---
-foundationalPaper: Attention Is All You Need (Vaswani et al., 2017)
+foundationalPaper: "Attention Is All You Need (Vaswani et al., 2017)"
 keyPapers:
-  - Neural Machine Translation by Jointly Learning to Align and Translate (Bahdanau et al., 2014)
-  - Effective Approaches to Attention-based Neural Machine Translation (Luong et al., 2015)
+  - "Neural Machine Translation by Jointly Learning to Align and Translate (Bahdanau et al., 2014)"
+  - "Effective Approaches to Attention-based Neural Machine Translation (Luong et al., 2015)"
 goesOnInside: "[[large language model]]"
 usedIn:
   - "[[Transformers]]"
@@ -13,10 +13,6 @@ relatedTo:
   - "[[Query-Key-Value]]"
   - "[[Scaled dot-product attention]]"
 broader: "[[Transformers]]"
-inferred:skos:ancestor:
-  - "[[Transformers]]"
-  - "[[deep learning]]"
-  - "[[machine learning]]"
 ---
 
 # Attention Weights

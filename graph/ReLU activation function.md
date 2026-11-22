@@ -1,8 +1,8 @@
 ---
-foundationalPaper: Deep Sparse Rectifier Neural Networks (Glorot, Bordes & Bengio, 2011)
+foundationalPaper: "Deep Sparse Rectifier Neural Networks (Glorot, Bordes & Bengio, 2011)"
 keyPapers:
-  - Rectified Linear Units Improve Restricted Boltzmann Machines (Nair & Hinton, 2010)
-  - ImageNet Classification with Deep Convolutional Neural Networks (Krizhevsky et al., 2012)
+  - "Rectified Linear Units Improve Restricted Boltzmann Machines (Nair & Hinton, 2010)"
+  - "ImageNet Classification with Deep Convolutional Neural Networks (Krizhevsky et al., 2012)"
 instance of: "[[Activation function]]"
 advantages:
   - "[[Computational efficiency]]"
@@ -17,10 +17,6 @@ usedIn:
   - "[[Deep neural networks]]"
   - "[[convolutional neural networks]]"
 broader: "[[artificial neural network]]"
-inferred:skos:ancestor:
-  - "[[artificial neural network]]"
-  - "[[deep learning]]"
-  - "[[machine learning]]"
 ---
 
 # ReLU (Rectified Linear Unit)

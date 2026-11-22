@@ -1,11 +1,7 @@
 ---
-wikidata entity id: Q3298296
+wikidata entity id: "Q3298296"
 instance of: "[[business process]]"
 broader: "[[business process]]"
-inferred:skos:ancestor:
-  - "[[business process]]"
-  - "[[occurrent]]"
-  - "[[process]]"
 ---
 The activity of describing what an organisation does, who is responsible, to what standard a [[process]] should be completed and how its success is measured — typically rendered as diagrams (e.g. BPMN) at increasing levels of detail (L1 → L4).
 

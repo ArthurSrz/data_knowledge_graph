@@ -14,9 +14,7 @@ described by source:
 partially coincident with: "[[graph/challenge]]"
 opposite of: "[[graph/solution]]"
 has characteristic: "[[graph/undesirability]]"
-Commons category: Problems
-pronunciation audio: http://commons.wikimedia.org/wiki/Special:FilePath/De-Problem.ogg
-wikidata entity id: Q621184
-inferred:skos:ancestor:
-  - "[[situation]]"
+Commons category: "Problems"
+pronunciation audio: "http://commons.wikimedia.org/wiki/Special:FilePath/De-Problem.ogg"
+wikidata entity id: "Q621184"
 ---

@@ -1,0 +1,9 @@
+{
+ "inferred:skos:ancestor": [
+  "intellectual work"
+ ],
+ "inferred:skos:narrower": [
+  "articles of association",
+  "model contract"
+ ]
+}

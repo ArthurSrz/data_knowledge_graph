@@ -8,10 +8,6 @@ subclass of:
 has part(s):
   - "[[node]]"
   - "[[Edges]]"
-inferred:skos:narrower:
-  - "[[bipartite graph]]"
-  - "[[knowledge graph]]"
-  - "[[monopartite graph]]"
 ---
 ### Definition 1 
 

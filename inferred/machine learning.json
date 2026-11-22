@@ -1,0 +1,14 @@
+{
+ "inferred:skos:narrower": [
+  "ML system",
+  "Regularization",
+  "Reinforcement Learning",
+  "Training algorithm",
+  "Unsupervised Learning",
+  "autoML",
+  "deep learning",
+  "federated learning",
+  "loss function",
+  "supervised learning"
+ ]
+}

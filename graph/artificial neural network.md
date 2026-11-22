@@ -9,20 +9,6 @@ instance of:
   - "[[Artificial Intelligence (AI)]]"
 different from: "[[biological neural network]]"
 broader: "[[deep learning]]"
-inferred:skos:ancestor:
-  - "[[deep learning]]"
-  - "[[machine learning]]"
-inferred:skos:narrower:
-  - "[[Embedding network]]"
-  - "[[ReLU activation function]]"
-  - "[[Sigmoid function]]"
-  - "[[Weights]]"
-  - "[[artificial neuron]]"
-  - "[[autoencoder]]"
-  - "[[biological neural network]]"
-  - "[[forward propagation]]"
-  - "[[multilayer perceptron]]"
-  - "[[neuron layer]]"
 ---
 ![Neural network (machine learning) Thumbnail](https://upload.wikimedia.org/wikipedia/commons/4/46/Colored_neural_network.svg)
 [Neural network (machine learning)](https://en.wikipedia.org/wiki/Neural_network_(machine_learning))

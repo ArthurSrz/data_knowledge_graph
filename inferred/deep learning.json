@@ -1,0 +1,11 @@
+{
+ "inferred:skos:ancestor": [
+  "machine learning"
+ ],
+ "inferred:skos:narrower": [
+  "Keras",
+  "Transfer learning",
+  "Transformers",
+  "artificial neural network"
+ ]
+}

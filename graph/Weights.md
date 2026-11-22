@@ -1,10 +1,6 @@
 ---
 partOf: "[[Neural network models]]"
 broader: "[[artificial neural network]]"
-inferred:skos:ancestor:
-  - "[[artificial neural network]]"
-  - "[[deep learning]]"
-  - "[[machine learning]]"
 ---
 Parameters of [[large language model]] that can be expressed as : 
 

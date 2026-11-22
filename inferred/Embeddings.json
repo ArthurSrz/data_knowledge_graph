@@ -1,0 +1,11 @@
+{
+ "inferred:skos:ancestor": [
+  "Artificial Intelligence (AI)",
+  "Natural Language Processing"
+ ],
+ "inferred:skos:narrower": [
+  "Embeddings models",
+  "latent space",
+  "vectorization"
+ ]
+}

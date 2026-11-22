@@ -1,4 +1,0 @@
----
-inferred:skos:related:
-  - "[[Quantile binning]]"
----

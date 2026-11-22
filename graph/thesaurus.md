@@ -33,19 +33,11 @@ subclass of:
   - "[[graph/network]]"
 has goal: "[[graph/prop]]"
 described by source: "[[graph/ISO 25964-1_2011]]"
-described at URL: https://books.infotoday.com/asist/Powering-Search/Sample-Chapter.pdf
+described at URL: "https://books.infotoday.com/asist/Powering-Search/Sample-Chapter.pdf"
 Dewey Decimal Classification: "025.431"
 name:
-  - information retrieval thesaurus
-  - IR thesaurus
-wikidata entity id: Q17152639
+  - "information retrieval thesaurus"
+  - "IR thesaurus"
+wikidata entity id: "Q17152639"
 broader: "[[knowledge organization system]]"
-inferred:skos:ancestor:
-  - "[[continuant]]"
-  - "[[controlled vocabulary]]"
-  - "[[data set]]"
-  - "[[generically dependent continuant]]"
-  - "[[information content entity]]"
-  - "[[knowledge organization system]]"
-  - "[[vocabulary]]"
 ---

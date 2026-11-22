@@ -1,15 +1,12 @@
 ---
-rdf:type: Concept
+rdf:type: "Concept"
 broader: "[[gitHub actions]]"
-description: GitHub's rule that actions performed with GITHUB_TOKEN do not trigger other workflows.
+description: "GitHub's rule that actions performed with GITHUB_TOKEN do not trigger other workflows."
 tags:
-  - github
-  - ci
-  - pitfall
-timestamp: 2026-11-16T00:00:00Z
-inferred:skos:ancestor:
-  - "[[gitHub actions]]"
-  - "[[github]]"
+  - "github"
+  - "ci"
+  - "pitfall"
+timestamp: 2026-11-16T00:00:00+00:00
 ---
 To prevent infinite loops, a push, merge or PR event made with the automatic `GITHUB_TOKEN` of [[gitHub actions]] fires **no** new workflow run (except `workflow_dispatch` / `repository_dispatch`).
 

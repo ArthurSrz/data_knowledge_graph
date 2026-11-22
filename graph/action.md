@@ -21,13 +21,10 @@ described by source:
 has characteristic: "[[graph/being]]"
 instance of: "[[graph/philosophical concept]]"
 OmegaWiki Defined Meaning: "969675"
-pronunciation audio: http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q7026%20%28cat%29-Millars-acci%C3%B3.wav
-Commons category: Action (philosophy)
+pronunciation audio: "http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q7026%20%28cat%29-Millars-acci%C3%B3.wav"
+Commons category: "Action (philosophy)"
 equivalent class:
-  - https://schema.org/Action
-  - http://www.hozo.jp/owl/YAMATO20210808.miz.owl#action
-wikidata entity id: Q4026292
-inferred:skos:ancestor:
-  - "[[occurrence]]"
-  - "[[occurrent]]"
+  - "https://schema.org/Action"
+  - "http://www.hozo.jp/owl/YAMATO20210808.miz.owl#action"
+wikidata entity id: "Q4026292"
 ---

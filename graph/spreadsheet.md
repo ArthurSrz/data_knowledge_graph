@@ -13,12 +13,9 @@ uses: "[[graph/spreadsheet function]]"
 Nomenclature for Museum Cataloging:
   - "13674"
   - "10413"
-GitHub topic: spreadsheet
+GitHub topic: "spreadsheet"
 OmegaWiki Defined Meaning: "672324"
-image: http://commons.wikimedia.org/wiki/Special:FilePath/OpenOffice.org%20Calc.png
-Commons category: Spreadsheet software
-wikidata entity id: Q183197
-inferred:skos:narrower:
-  - "[[active cell]]"
-  - "[[sparkline]]"
+image: "http://commons.wikimedia.org/wiki/Special:FilePath/OpenOffice.org%20Calc.png"
+Commons category: "Spreadsheet software"
+wikidata entity id: "Q183197"
 ---

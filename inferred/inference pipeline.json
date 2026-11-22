@@ -1,0 +1,12 @@
+{
+ "inferred:skos:ancestor": [
+  "Inference",
+  "Pipelines",
+  "occurrent",
+  "process"
+ ],
+ "inferred:skos:broader": [
+  "Inference",
+  "Pipelines"
+ ]
+}

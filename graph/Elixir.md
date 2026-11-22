@@ -31,48 +31,41 @@ readable file format:
   - "[[graph/Elixir source code file]]"
   - "[[graph/Elixir script file]]"
 social media followers: 36498
-MacPorts port: elixir
-GitHub topic: elixir
-Homebrew formula name: elixir
-openSUSE package: elixir
-Repology project name: elixir
-Ubuntu package: elixir
-Fedora package: elixir
-Arch Linux package: elixir
-Debian stable package: elixir
+MacPorts port: "elixir"
+GitHub topic: "elixir"
+Homebrew formula name: "elixir"
+openSUSE package: "elixir"
+Repology project name: "elixir"
+Ubuntu package: "elixir"
+Fedora package: "elixir"
+Arch Linux package: "elixir"
+Debian stable package: "elixir"
 file extension:
-  - ex
-  - exs
+  - "ex"
+  - "exs"
 software version identifier: "1.20"
-source code repository URL: https://github.com/elixir-lang/elixir
+source code repository URL: "https://github.com/elixir-lang/elixir"
 ArchWiki article:
-  - Elixir
-  - Elixir_(Español)
-Gentoo Wiki article: Elixir
-media type: text/x-elixir
-inception: 2011-01-09T00:00:00Z
-logo image: http://commons.wikimedia.org/wiki/Special:FilePath/Official%20Elixir%20logo.png
-official website: https://elixir-lang.org/
-official blog URL: https://elixir-lang.org/blog/
-Stack Exchange tag: https://stackoverflow.com/tags/elixir
-IRC channel URL: irc://irc.libera.chat/elixir
-Gentoo package: dev-lang/elixir
-SlackBuilds package: development/elixir
-Commons category: Elixir (programming language)
-AUR package: elixir-git
-GitHub account: elixir-lang
-X (Twitter) username: elixirlang
-OpenBSD port: lang/elixir
-FreeBSD port: lang/elixir
-Docker Hub repository: library/elixir
-publication date: 2012-05-25T00:00:00Z
-wikidata entity id: Q5362035
+  - "Elixir"
+  - "Elixir_(Español)"
+Gentoo Wiki article: "Elixir"
+media type: "text/x-elixir"
+inception: 2011-01-09T00:00:00+00:00
+logo image: "http://commons.wikimedia.org/wiki/Special:FilePath/Official%20Elixir%20logo.png"
+official website: "https://elixir-lang.org/"
+official blog URL: "https://elixir-lang.org/blog/"
+Stack Exchange tag: "https://stackoverflow.com/tags/elixir"
+IRC channel URL: "irc://irc.libera.chat/elixir"
+Gentoo package: "dev-lang/elixir"
+SlackBuilds package: "development/elixir"
+Commons category: "Elixir (programming language)"
+AUR package: "elixir-git"
+GitHub account: "elixir-lang"
+X (Twitter) username: "elixirlang"
+OpenBSD port: "lang/elixir"
+FreeBSD port: "lang/elixir"
+Docker Hub repository: "library/elixir"
+publication date: 2012-05-25T00:00:00+00:00
+wikidata entity id: "Q5362035"
 broader: "[[programming language]]"
-inferred:skos:ancestor:
-  - "[[Programming language]]"
-  - "[[continuant]]"
-  - "[[generically dependent continuant]]"
-  - "[[information content entity]]"
-inferred:skos:broader:
-  - "[[Programming language]]"
 ---

@@ -6,11 +6,6 @@ subclass of: "[[vector]]"
 instance of: "[[geometric concept]]"
 part of: "[[graph/Euclidean space]]"
 skos:broader: "[[index]]"
-inferred:skos:ancestor:
-  - "[[Vector]]"
-  - "[[index]]"
-inferred:skos:broader:
-  - "[[Vector]]"
 ---
 An [[index]] made of [[Vectors]]. Can be queried in [[CYPHER]] language.
 

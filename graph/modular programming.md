@@ -14,8 +14,6 @@ instance of:
   - "[[graph/engineering]]"
 has characteristic: "[[graph/modularity]]"
 does not use: "[[graph/implementation detail]]"
-Stack Exchange tag: https://stackoverflow.com/tags/modular-design
-wikidata entity id: Q6453666
-inferred:skos:ancestor:
-  - "[[programming paradigm]]"
+Stack Exchange tag: "https://stackoverflow.com/tags/modular-design"
+wikidata entity id: "Q6453666"
 ---

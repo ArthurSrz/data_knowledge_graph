@@ -1,9 +1,9 @@
 ---
-foundationalPaper: Method of Least Squares (Legendre, 1805)
+foundationalPaper: "Method of Least Squares (Legendre, 1805)"
 keyPapers:
-  - Theory of Errors of Observations (Gauss, 1809)
-  - A General Theory of Discriminant Analysis (Fisher, 1936)
-  - Theory of Games and Economic Behavior (von Neumann & Morgenstern, 1944)
+  - "Theory of Errors of Observations (Gauss, 1809)"
+  - "A General Theory of Discriminant Analysis (Fisher, 1936)"
+  - "Theory of Games and Economic Behavior (von Neumann & Morgenstern, 1944)"
 minimizedBy:
   - "[[gradient descent]]"
   - "[[backpropagation]]"
@@ -21,8 +21,6 @@ usedIn:
   - "[[Optimization]]"
   - "[[Neural network training]]"
 broader: "[[machine learning]]"
-inferred:skos:ancestor:
-  - "[[machine learning]]"
 ---
 
 # Loss Function

@@ -17,9 +17,7 @@ instance of: "[[graph/philosophical concept]]"
 subclass of: "[[graph/occurrent]]"
 has effect: "[[graph/variation]]"
 OmegaWiki Defined Meaning: "5548"
-Commons category: Changing
-IMDb keyword: change
-wikidata entity id: Q1150070
-inferred:skos:ancestor:
-  - "[[occurrent]]"
+Commons category: "Changing"
+IMDb keyword: "change"
+wikidata entity id: "Q1150070"
 ---

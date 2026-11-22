@@ -1,0 +1,13 @@
+{
+ "inferred:skos:ancestor": [
+  "continuant",
+  "data set",
+  "generically dependent continuant",
+  "information content entity",
+  "knowledge organization system",
+  "vocabulary"
+ ],
+ "inferred:skos:narrower": [
+  "thesaurus"
+ ]
+}

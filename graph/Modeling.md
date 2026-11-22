@@ -3,10 +3,11 @@ partOf: "[[CRISP-DM Process]]"
 sameAs: "[[modélisation]]"
 broader: "[[CRISP-DM Process]]"
 different from: "[[conceptual modeling]]"
-skos:altLabel: ["ML modeling", "machine learning modeling", "modélisation (CRISP-DM)"]
+skos:altLabel:
+  - "ML modeling"
+  - "machine learning modeling"
+  - "modélisation (CRISP-DM)"
 skos:scopeNote: "Machine-learning sense only: the CRISP-DM phase where a model is fitted to data. Building a representation of a domain out of concepts is [[conceptual modeling]]."
-inferred:skos:ancestor:
-  - "[[CRISP-DM Process]]"
 ---
 We collect past [[Observations]], and associate [[feature]], and define a [[[hyperparameters]]l relate the 3. When we train, we identify the optimal parameters in the equation or set of equations. 
 

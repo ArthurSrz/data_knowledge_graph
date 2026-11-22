@@ -1,5 +1,5 @@
 ---
-wikidata entity id: Q60195
+wikidata entity id: "Q60195"
 is the study of:
   - "[[symbol]]"
   - "[[semiosis]]"
@@ -20,10 +20,9 @@ subclass of: "[[interdisciplinary program]]"
 partially coincident with: "[[linguistics]]"
 OmegaWiki Defined Meaning: "803684"
 Dewey Decimal Classification: "302.2"
-image: http://commons.wikimedia.org/wiki/Special:FilePath/Evolution2glyph.png
-Wikimedia import URL: https://en.wikipedia.org/wiki/Semiotics
-Provenio UUID: 116a111b-bdb2-471e-8c7f-62ef198e5286
-Krugosvet article (archived): gumanitarnye_nauki/lingvistika/SEMIOTIKA.html
-Commons category: Semiotics
-inferred:skos:narrower: "[[connotation]]"
+image: "http://commons.wikimedia.org/wiki/Special:FilePath/Evolution2glyph.png"
+Wikimedia import URL: "https://en.wikipedia.org/wiki/Semiotics"
+Provenio UUID: "116a111b-bdb2-471e-8c7f-62ef198e5286"
+Krugosvet article (archived): "gumanitarnye_nauki/lingvistika/SEMIOTIKA.html"
+Commons category: "Semiotics"
 ---

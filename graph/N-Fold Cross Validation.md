@@ -1,4 +1,0 @@
----
-inferred:skos:related:
-  - "[[Group K-Fold Cross Validation]]"
----

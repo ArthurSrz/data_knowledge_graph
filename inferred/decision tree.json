@@ -1,0 +1,11 @@
+{
+ "inferred:skos:ancestor": [
+  "machine learning",
+  "supervised learning"
+ ],
+ "inferred:skos:narrower": [
+  "Regression trees",
+  "recursive tree building",
+  "tree depth"
+ ]
+}

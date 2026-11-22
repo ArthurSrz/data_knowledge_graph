@@ -16,16 +16,6 @@ related to:
   - "[[term sheet]]"
   - "[[negotiation]]"
 broader: "[[clause]]"
-inferred:skos:ancestor:
-  - "[[Documentation]]"
-  - "[[Provenance]]"
-  - "[[chronology]]"
-  - "[[clause]]"
-  - "[[continuant]]"
-  - "[[generically dependent continuant]]"
-  - "[[information content entity]]"
-inferred:skos:broader:
-  - "[[Provenance]]"
 ---
 The decision process a legal practitioner applies to assign a clause to a [[provenance]] type. It is a [[heuristic]] — not an algorithm — because it relies on experience and tacit market knowledge rather than a computable rule.
 ## Two axes

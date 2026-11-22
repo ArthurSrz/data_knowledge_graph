@@ -1,0 +1,9 @@
+{
+ "inferred:skos:ancestor": [
+  "continuant",
+  "independent continuant"
+ ],
+ "inferred:skos:narrower": [
+  "process owner"
+ ]
+}

@@ -15,9 +15,7 @@ instance of:
 subclass of: "[[graph/good_s]]"
 IAB code: "81"
 OmegaWiki Defined Meaning: "955643"
-Commons category: Commodities
-wikidata entity id: Q317088
-inferred:skos:narrower:
-  - "[[primary commodity]]"
+Commons category: "Commodities"
+wikidata entity id: "Q317088"
 ---
 fungible item produced to satisfy wants or needs

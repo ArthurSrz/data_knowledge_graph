@@ -1,13 +1,11 @@
 ---
-rdf:type: Concept
+rdf:type: "Concept"
 broader: "[[Pull request]]"
-description: A reviewer's "Approve" verdict on a pull request, as recorded by GitHub.
+description: "A reviewer's \"Approve\" verdict on a pull request, as recorded by GitHub."
 tags:
-  - github
-  - code-review
-timestamp: 2026-11-16T00:00:00Z
-inferred:skos:ancestor:
-  - "[[Pull request]]"
+  - "github"
+  - "code-review"
+timestamp: 2026-11-16T00:00:00+00:00
 ---
 Each review has a state: APPROVED, CHANGES_REQUESTED, COMMENTED or DISMISSED. GitHub keeps only the **latest non-comment review per person**: a later comment does not cancel an approval, a later "Request changes" does, a dismissal removes it.
 

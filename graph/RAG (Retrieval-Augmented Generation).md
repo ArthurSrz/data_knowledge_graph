@@ -1,19 +1,13 @@
 ---
-wikidata entity id: Q121362277
+wikidata entity id: "Q121362277"
 subclass of:
   - "[[information retrieval]]"
   - "[[generative artificial intelligence]]"
 skos:altLabel:
-  - retrieval-augmented generation
-  - RAG
+  - "retrieval-augmented generation"
+  - "RAG"
 facet of:
   - "[[large language model]]"
-inferred:skos:ancestor:
-  - "[[information retrieval]]"
-  - "[[search]]"
-inferred:skos:narrower:
-  - "[[hypothetical document embeddings (HyDE)]]"
-  - "[[vanilla RAG design]]"
 ---
 **Retrieval-augmented generation**: type of information retrieval using LLMs.
 

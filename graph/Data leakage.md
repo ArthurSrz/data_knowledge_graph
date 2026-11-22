@@ -1,8 +1,8 @@
 ---
-rdf:type: skos:Concept
+rdf:type: "skos:Concept"
 skos:altLabel:
-  - target leakage
-  - fuite de cible
+  - "target leakage"
+  - "fuite de cible"
 skos:broader:
   - "[[feature selection]]"
   - "[[Overfitting]]"
@@ -10,12 +10,6 @@ skos:related:
   - "[[Target]]"
   - "[[measurement bias]]"
   - "[[feedback loop bias]]"
-inferred:skos:ancestor:
-  - "[[Overfitting]]"
-  - "[[feature selection]]"
-inferred:skos:related:
-  - "[[Group K-Fold Cross Validation]]"
-  - "[[Time-shifted scoring]]"
 ---
 A [[feature]] leaks when it already "knows" the [[Target]]: it was recorded during or after the event the model must predict. The model then looks excellent on past data and is worthless on the next case, where that information does not exist yet.
 

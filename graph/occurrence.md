@@ -43,18 +43,14 @@ subclass of:
   - "[[graph/event]]"
 instance of: "[[graph/form of event]]"
 properties for this type:
-  - location
-  - duration
-related Wikidata property: incidence
+  - "location"
+  - "duration"
+related Wikidata property: "incidence"
 OmegaWiki Defined Meaning: "352392"
 equivalent class:
-  - http://purl.org/dc/dcmitype/Event
-  - http://purl.org/NET/c4dm/event.owl#Event
-  - http://www.popoloproject.com/specs/event.html
-Commons category: Occurrence
-wikidata entity id: Q1190554
-inferred:skos:ancestor:
-  - "[[occurrent]]"
-inferred:skos:narrower:
-  - "[[action]]"
+  - "http://purl.org/dc/dcmitype/Event"
+  - "http://purl.org/NET/c4dm/event.owl#Event"
+  - "http://www.popoloproject.com/specs/event.html"
+Commons category: "Occurrence"
+wikidata entity id: "Q1190554"
 ---

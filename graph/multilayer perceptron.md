@@ -1,5 +1,5 @@
 ---
-foundationalPaper: Learning Internal Representations by Error Propagation (Rumelhart, Hinton & Williams, 1986)
+foundationalPaper: "Learning Internal Representations by Error Propagation (Rumelhart, Hinton & Williams, 1986)"
 keyPapers:
   - "Perceptrons: An Introduction to Computational Geometry (Minsky & Papert, 1969)"
   - "Beyond Regression: New Tools for Prediction and Analysis in the Behavioral Sciences (Werbos, 1974)"
@@ -14,11 +14,6 @@ enables:
   - "[[Feature learning]]"
 trainedBy: "[[backpropagation]]"
 broader: "[[artificial neural network]]"
-inferred:skos:ancestor:
-  - "[[Neural network models]]"
-  - "[[artificial neural network]]"
-  - "[[deep learning]]"
-  - "[[machine learning]]"
 ---
 The Multilayer Perceptron resolved the limitations of single-[[layer]] perceptrons identified by Minsky and Papert, becoming the foundation of modern neural networks.
 

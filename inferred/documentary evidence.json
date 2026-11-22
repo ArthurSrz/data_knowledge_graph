@@ -1,0 +1,12 @@
+{
+ "inferred:skos:ancestor": [
+  "continuant",
+  "evidence",
+  "generically dependent continuant",
+  "information content entity"
+ ],
+ "inferred:skos:narrower": [
+  "activity log",
+  "audit trail"
+ ]
+}

@@ -35,24 +35,10 @@ union of: "[[graph/list of values as qualifiers]]"
 subclass of: "[[graph/occurrent]]"
 instance of: "[[graph/BFO class]]"
 properties for this type:
-  - inception
-  - duration
-Commons category: Processes
-equivalent class: http://biomodels.net/SBO/SBO_0000375
-exact match: http://purl.obolibrary.org/obo/BFO_0000015
-wikidata entity id: Q3249551
-inferred:skos:ancestor:
-  - "[[occurrent]]"
-inferred:skos:narrower:
-  - "[[Deployment]]"
-  - "[[Inference]]"
-  - "[[business process]]"
-  - "[[conceptual modeling]]"
-  - "[[context]]"
-  - "[[crawl-walk-run]]"
-  - "[[learning]]"
-  - "[[management]]"
-  - "[[onboarding]]"
-  - "[[problem solving]]"
-  - "[[record linkage]]"
+  - "inception"
+  - "duration"
+Commons category: "Processes"
+equivalent class: "http://biomodels.net/SBO/SBO_0000375"
+exact match: "http://purl.obolibrary.org/obo/BFO_0000015"
+wikidata entity id: "Q3249551"
 ---

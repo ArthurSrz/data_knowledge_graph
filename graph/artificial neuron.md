@@ -1,5 +1,5 @@
 ---
-foundationalPaper: A Logical Calculus of Ideas Immanent in Nervous Activity (McCulloch & Pitts, 1943)
+foundationalPaper: "A Logical Calculus of Ideas Immanent in Nervous Activity (McCulloch & Pitts, 1943)"
 keyPapers:
   - "The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain (Rosenblatt, 1958)"
   - "Perceptrons: An Introduction to Computational Geometry (Minsky & Papert, 1969)"
@@ -17,10 +17,6 @@ usedIn:
   - "[[Perceptron]]"
   - "[[multilayer perceptron]]"
 broader: "[[artificial neural network]]"
-inferred:skos:ancestor:
-  - "[[artificial neural network]]"
-  - "[[deep learning]]"
-  - "[[machine learning]]"
 ---
 
 # Artificial Neuron

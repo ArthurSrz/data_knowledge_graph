@@ -1,12 +1,10 @@
 ---
-rdf:type: Concept
+rdf:type: "Concept"
 broader: "[[Test]]"
-description: A test that exercises the real system along the full path a user takes, with no mocks.
+description: "A test that exercises the real system along the full path a user takes, with no mocks."
 tags:
-  - testing
-timestamp: 2026-11-16T00:00:00Z
-inferred:skos:ancestor:
-  - "[[Test]]"
+  - "testing"
+timestamp: 2026-11-16T00:00:00+00:00
 ---
 Where [[Unit tests]] check one function in isolation and [[Integration tests]] check a few parts wired together, an end-to-end (E2E) test runs the real chain: real platform, real events, real permissions.
 

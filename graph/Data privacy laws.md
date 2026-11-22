@@ -1,4 +1,0 @@
----
-inferred:skos:narrower:
-  - "[[gramm-leach-bliley act (GLBA)]]"
----

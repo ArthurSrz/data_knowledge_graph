@@ -1,8 +1,6 @@
 ---
-wikidata entity id: Q907375
+wikidata entity id: "Q907375"
 broader: "[[Test]]"
-inferred:skos:ancestor:
-  - "[[Test]]"
 ---
 Test of one unit of code (a function, a rule) in isolation, with small hand-made inputs: fast, run on every change. The lowest level of the three described in [[end-to-end test]], below [[Integration tests]].
 

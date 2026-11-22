@@ -103,23 +103,21 @@ native language: "[[French]]"
 languages spoken, written or signed: "[[French]]"
 writing language: "[[French]]"
 number of children: 2
-Europeana entity: agent/base/145321
-Wolfram Language entity code: Entity["Person", "GillesDeleuze::qkkk8"]
-Libris-URI: fcrttrzz0xmxvk5
-Krugosvet article (archived): gumanitarnye_nauki/filosofiya/DELEZ_ZHIL.html
-name in native language: Gilles Deleuze
-date of death: 1995-11-04T00:00:00Z
-date of birth: 1925-01-18T00:00:00Z
-Commons category: Gilles Deleuze
-BHCL UUID: dccca267-5539-4210-a59f-df05a56c291c
-PhilPapers topic: gilles-deleuze
-subreddit: Deleuze
-image: http://commons.wikimedia.org/wiki/Special:FilePath/AVT%20Gilles-Deleuze%206342.webp
-signature: http://commons.wikimedia.org/wiki/Special:FilePath/Gilles%20Deleuze%20signature.svg
-Stack Exchange tag: https://philosophy.stackexchange.com/tags/deleuze
-ISNI: 000000012277323X
-wikidata entity id: Q184226
+Europeana entity: "agent/base/145321"
+Wolfram Language entity code: "Entity[\"Person\", \"GillesDeleuze::qkkk8\"]"
+Libris-URI: "fcrttrzz0xmxvk5"
+Krugosvet article (archived): "gumanitarnye_nauki/filosofiya/DELEZ_ZHIL.html"
+name in native language: "Gilles Deleuze"
+date of death: 1995-11-04T00:00:00+00:00
+date of birth: 1925-01-18T00:00:00+00:00
+Commons category: "Gilles Deleuze"
+BHCL UUID: "dccca267-5539-4210-a59f-df05a56c291c"
+PhilPapers topic: "gilles-deleuze"
+subreddit: "Deleuze"
+image: "http://commons.wikimedia.org/wiki/Special:FilePath/AVT%20Gilles-Deleuze%206342.webp"
+signature: "http://commons.wikimedia.org/wiki/Special:FilePath/Gilles%20Deleuze%20signature.svg"
+Stack Exchange tag: "https://philosophy.stackexchange.com/tags/deleuze"
+ISNI: "000000012277323X"
+wikidata entity id: "Q184226"
 broader: "[[dividual]]"
-inferred:skos:ancestor:
-  - "[[dividual]]"
 ---

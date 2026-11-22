@@ -8,26 +8,21 @@ dependencies:
   - "[[Tools]]"
   - "[[Chat History]]"
 components:
-  - User Goal
-  - Instruction
-  - Input Query
-  - Context Doc
-  - Few-shot Example
-  - Output Format
-  - Tools
-  - Chat History
-category: Prompt Management
+  - "User Goal"
+  - "Instruction"
+  - "Input Query"
+  - "Context Doc"
+  - "Few-shot Example"
+  - "Output Format"
+  - "Tools"
+  - "Chat History"
+category: "Prompt Management"
 tags:
-  - Templates_Prompt
-  - Contexte
-  - Exemples
-  - Format_Sortie
+  - "Templates_Prompt"
+  - "Contexte"
+  - "Exemples"
+  - "Format_Sortie"
 broader: "[[AI prompt]]"
-inferred:skos:ancestor:
-  - "[[AI prompt]]"
-  - "[[large language model]]"
-inferred:skos:related:
-  - "[[prompt templates]]"
 ---
 
 # Prompt Template Info

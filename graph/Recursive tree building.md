@@ -1,9 +1,5 @@
 ---
 broader: "[[decision tree]]"
-inferred:skos:ancestor:
-  - "[[decision tree]]"
-  - "[[machine learning]]"
-  - "[[supervised learning]]"
 ---
 Method to build the best possible [[decision tree]]. 
 

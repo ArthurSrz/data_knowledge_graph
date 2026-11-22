@@ -1,10 +1,5 @@
 ---
 broader: "[[data]]"
-inferred:skos:ancestor:
-  - "[[continuant]]"
-  - "[[data]]"
-  - "[[generically dependent continuant]]"
-  - "[[information content entity]]"
 ---
 To break data silos, it requires : 
 

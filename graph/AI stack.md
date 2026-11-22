@@ -4,6 +4,4 @@ madeOf:
   - "[[Model development]]"
   - "[[infrastructure]]"
 broader: "[[AI]]"
-inferred:skos:ancestor:
-  - "[[AI]]"
 ---

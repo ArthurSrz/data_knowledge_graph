@@ -1,10 +1,10 @@
 ---
-wikidata entity id: Q18395344
-foundationalPaper: Efficient Estimation of Word Representations in Vector Space (Mikolov et al., 2013)
+wikidata entity id: "Q18395344"
+foundationalPaper: "Efficient Estimation of Word Representations in Vector Space (Mikolov et al., 2013)"
 keyPapers:
-  - Distributed Representations of Words and Phrases (Mikolov et al., 2013)
+  - "Distributed Representations of Words and Phrases (Mikolov et al., 2013)"
   - "GloVe: Global Vectors for Word Representation (Pennington et al., 2014)"
-  - A Neural Probabilistic Language Model (Bengio et al., 2003)
+  - "A Neural Probabilistic Language Model (Bengio et al., 2003)"
 subclass of: "[[Distributed representation]]"
 usedIn:
   - "[[Natural Language Processing]]"
@@ -20,13 +20,6 @@ properties:
 broader: "[[Embeddings]]"
 uses:
   - "[[Vector]]"
-inferred:skos:ancestor:
-  - "[[Artificial Intelligence (AI)]]"
-  - "[[Embeddings]]"
-  - "[[Natural Language Processing]]"
-inferred:skos:related:
-  - "[[Tokenizer]]"
-  - "[[sentence embedding]]"
 ---
 
 # Word Embeddings

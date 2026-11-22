@@ -1,16 +1,9 @@
 ---
-wikidata entity id: Q384093
+wikidata entity id: "Q384093"
 subclass of: "[[data]]"
 skos:related:
   - "[[data quality]]"
   - "[[record linkage]]"
-inferred:skos:ancestor:
-  - "[[continuant]]"
-  - "[[data]]"
-  - "[[generically dependent continuant]]"
-  - "[[information content entity]]"
-inferred:skos:related:
-  - "[[checklist]]"
 ---
 **Master data**: stable or slowly changing reference data in an information system, such as a customer's addresses, category or billing entities.
 

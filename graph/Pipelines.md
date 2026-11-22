@@ -3,7 +3,7 @@ foundationalPaper: "Pipeline Decomposition: A Machine Learning Approach (Nilsson
 keyPapers:
   - "MLlib: Machine Learning in Apache Spark (Meng et al., 2016)"
   - "Scikit-learn: Machine Learning in Python (Pedregosa et al., 2011)"
-  - Data Science Pipelines (Smith & Johnson, 2015)
+  - "Data Science Pipelines (Smith & Johnson, 2015)"
 enables:
   - "[[Workflow automation]]"
   - "[[reproducibility]]"
@@ -24,7 +24,6 @@ skos:narrower:
   - "[[inference pipeline]]"
   - "[[Data pipeline]]"
   - "[[ML pipeline]]"
-inferred:skos:narrower: "[[feature pipeline]]"
 ---
 
 # Pipelines

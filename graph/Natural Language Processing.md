@@ -13,15 +13,6 @@ techniques:
   - "[[Tokenizer]]"
   - "[[Embeddings]]"
 broader: "[[Artificial Intelligence (AI)]]"
-inferred:skos:ancestor:
-  - "[[Artificial Intelligence (AI)]]"
-inferred:skos:narrower:
-  - "[[Embeddings]]"
-  - "[[Tokenizer]]"
-  - "[[bag of words]]"
-  - "[[sentence embedding]]"
-  - "[[sentiment analysis]]"
-  - "[[token]]"
 ---
 
 Techniques to format natural language to fit modeling needs. 

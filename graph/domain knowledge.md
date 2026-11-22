@@ -4,9 +4,5 @@ facet of:
   - "[[graph/specialized terminology]]"
 subclass of: "[[graph/knowledge]]"
 instance of: "[[graph/knowledge type]]"
-wikidata entity id: Q2088941
-inferred:skos:ancestor:
-  - "[[knowledge]]"
-inferred:skos:related:
-  - "[[tacit knowledge]]"
+wikidata entity id: "Q2088941"
 ---

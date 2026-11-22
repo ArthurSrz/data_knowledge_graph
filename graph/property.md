@@ -9,7 +9,4 @@ said to be the same as:
 partially coincident with: "[[graph/quality]]"
 subclass of: "[[abstract entity]]"
 broader: "[[knowledge graph]]"
-inferred:skos:ancestor:
-  - "[[abstract entity]]"
-  - "[[knowledge graph]]"
 ---

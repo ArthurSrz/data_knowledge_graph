@@ -1,5 +1,5 @@
 ---
-wikidata entity id: Q192060
+wikidata entity id: "Q192060"
 subclass of: "[[strategic management]]"
 instance of: "[[type of management]]"
 facet of: "[[management cybernetics]]"
@@ -10,8 +10,5 @@ skos:related:
   - "[[knowledge organization system]]"
   - "[[knowledge base]]"
   - "[[feedback loops]]"
-inferred:skos:related:
-  - "[[SECI model of knowledge dimensions]]"
-  - "[[knowledge transfer]]"
 ---
 the [[process]] of creating, sharing, using and managing an organization's [[knowledge]].

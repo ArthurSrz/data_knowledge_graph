@@ -1,0 +1,18 @@
+{
+ "inferred:skos:ancestor": [
+  "occurrent"
+ ],
+ "inferred:skos:narrower": [
+  "Deployment",
+  "Inference",
+  "business process",
+  "conceptual modeling",
+  "context",
+  "crawl-walk-run",
+  "learning",
+  "management",
+  "onboarding",
+  "problem solving",
+  "record linkage"
+ ]
+}

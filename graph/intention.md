@@ -17,14 +17,13 @@ facet of:
 different from:
   - "[[graph/declaration of will]]"
   - "[[graph/Intention]]"
-Commons category: Intention
-IMDb keyword: determination
-pronunciation audio: http://commons.wikimedia.org/wiki/Special:FilePath/De-Absicht.ogg
-UMLS CUI: C0162425
+Commons category: "Intention"
+IMDb keyword: "determination"
+pronunciation audio: "http://commons.wikimedia.org/wiki/Special:FilePath/De-Absicht.ogg"
+UMLS CUI: "C0162425"
 MeSH tree code:
-  - F01.658.650
-  - F02.463.306
-Krugosvet article (archived): gumanitarnye_nauki/lingvistika/INTENTSIYA.html
-wikidata entity id: Q706622
-inferred:skos:narrower: "[[intentional human activity]]"
+  - "F01.658.650"
+  - "F02.463.306"
+Krugosvet article (archived): "gumanitarnye_nauki/lingvistika/INTENTSIYA.html"
+wikidata entity id: "Q706622"
 ---

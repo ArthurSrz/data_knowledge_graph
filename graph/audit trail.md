@@ -1,19 +1,13 @@
 ---
-wikidata entity id: Q1047174
+wikidata entity id: "Q1047174"
 subclass of:
   - "[[documentary evidence]]"
   - "[[activity log]]"
 facet of:
   - "[[audit]]"
   - "[[risk management]]"
-skos:altLabel: ["audit log"]
-inferred:skos:ancestor:
-  - "[[activity log]]"
-  - "[[continuant]]"
-  - "[[documentary evidence]]"
-  - "[[evidence]]"
-  - "[[generically dependent continuant]]"
-  - "[[information content entity]]"
+skos:altLabel:
+  - "audit log"
 ---
 **Audit trail**: chronological record of a sequence of activities, kept for security purposes.
 

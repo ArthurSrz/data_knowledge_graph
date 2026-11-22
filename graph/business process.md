@@ -1,5 +1,5 @@
 ---
-wikidata entity id: Q851587
+wikidata entity id: "Q851587"
 instance of: "[[type of process]]"
 subclass of: "[[process]]"
 manifestation of: "[[procedure]]"
@@ -8,13 +8,10 @@ uses: "[[visualization]]"
 used by: "[[business]]"
 different from: "[[strategic management]]"
 broader: "[[process]]"
-skos:altLabel: ["business practice", "business function", "business method"]
-inferred:skos:ancestor:
-  - "[[occurrent]]"
-  - "[[process]]"
-inferred:skos:narrower:
-  - "[[business process mapping]]"
-  - "[[mergers and acquisitions]]"
+skos:altLabel:
+  - "business practice"
+  - "business function"
+  - "business method"
 ---
 A collection of related, structured activities that produce a service or [[product]] for a customer. 
 

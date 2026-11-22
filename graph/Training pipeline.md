@@ -1,6 +1,0 @@
----
-inferred:skos:ancestor:
-  - "[[Pipelines]]"
-inferred:skos:broader:
-  - "[[Pipelines]]"
----

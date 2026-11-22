@@ -1,0 +1,19 @@
+{
+ "inferred:skos:ancestor": [
+  "large language model"
+ ],
+ "inferred:skos:narrower": [
+  "Prompt Identity",
+  "Prompt Optimization Techniques",
+  "Prompt Template Info",
+  "Prompt Template Types",
+  "chain-of-thought",
+  "prompt templates",
+  "prompt-based techniques",
+  "prompts",
+  "system prompt"
+ ],
+ "inferred:skos:related": [
+  "prompt engineering"
+ ]
+}

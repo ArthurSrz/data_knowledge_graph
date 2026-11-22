@@ -1,7 +1,5 @@
 ---
 subclass of: "[[causality]]"
 facet of: "[[Physics]]"
-wikidata entity id: Q1149766
-inferred:skos:narrower:
-  - "[[causality 2]]"
+wikidata entity id: "Q1149766"
 ---

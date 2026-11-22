@@ -1,13 +1,11 @@
 ---
-rdf:type: Concept
+rdf:type: "Concept"
 broader: "[[github]]"
-description: Set of rules GitHub enforces on a branch (e.g. main) before anything can land on it.
+description: "Set of rules GitHub enforces on a branch (e.g. main) before anything can land on it."
 tags:
-  - github
-  - governance
-timestamp: 2026-11-16T00:00:00Z
-inferred:skos:ancestor:
-  - "[[github]]"
+  - "github"
+  - "governance"
+timestamp: 2026-11-16T00:00:00+00:00
 ---
 A ruleset is the "law" of a [[branch]]: no deletion, no force-push, merge only through a [[Pull request]], and a list of [[required status check]]s and/or a minimum number of [[pull request approval]]s.
 

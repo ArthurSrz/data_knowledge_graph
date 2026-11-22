@@ -1,5 +1,5 @@
 ---
-foundationalPaper: Induction of Decision Trees (Quinlan, 1986)
+foundationalPaper: "Induction of Decision Trees (Quinlan, 1986)"
 subclass of: "[[supervised learning algorithm]]"
 usedFor:
   - "[[classification]]"
@@ -18,13 +18,6 @@ extendedBy:
   - "[[Random forest]]"
   - "[[Gradient boosting trees]]"
 broader: "[[supervised learning]]"
-inferred:skos:ancestor:
-  - "[[machine learning]]"
-  - "[[supervised learning]]"
-inferred:skos:narrower:
-  - "[[Regression trees]]"
-  - "[[recursive tree building]]"
-  - "[[tree depth]]"
 ---
 
 # Decision Tree

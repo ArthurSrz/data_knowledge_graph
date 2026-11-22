@@ -1,0 +1,9 @@
+{
+ "inferred:skos:ancestor": [
+  "agentic System"
+ ],
+ "inferred:skos:related": [
+  "checklist",
+  "crawl-walk-run"
+ ]
+}

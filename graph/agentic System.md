@@ -1,8 +1,0 @@
----
-inferred:skos:narrower:
-  - "[[ReAct data agent]]"
-  - "[[Toolkits]]"
-  - "[[agent Role Type]]"
-  - "[[comparag agent]]"
-  - "[[human-in-the-loop]]"
----

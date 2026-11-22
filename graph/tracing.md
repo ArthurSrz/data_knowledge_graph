@@ -1,5 +1,5 @@
 ---
-wikidata entity id: Q322229
+wikidata entity id: "Q322229"
 subclass of:
   - "[[debugging]]"
   - "[[logging]]"
@@ -7,8 +7,6 @@ facet of: "[[software engineering]]"
 skos:related:
   - "[[LLM Observability]]"
   - "[[langfuse]]"
-inferred:skos:related:
-  - "[[software observability]]"
 ---
 a specialized form of [[logging]] that records a program's execution step by step. Each trace is a tree of [[observations]] (spans, generations, tool calls).
 

@@ -1,0 +1,10 @@
+{
+ "inferred:skos:ancestor": [
+  "AI prompt",
+  "large language model"
+ ],
+ "inferred:skos:related": [
+  "Prompt Template Info",
+  "Prompt Template Types"
+ ]
+}

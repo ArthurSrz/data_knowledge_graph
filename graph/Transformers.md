@@ -8,13 +8,6 @@ foundationFor:
   - "[[GPT2]]"
   - "[[Natural Language Processing]]"
 broader: "[[deep learning]]"
-inferred:skos:ancestor:
-  - "[[deep learning]]"
-  - "[[machine learning]]"
-inferred:skos:narrower:
-  - "[[Decoder-only]]"
-  - "[[Encoder-only]]"
-  - "[[attention weights]]"
 ---
 
 # Transformers

@@ -4,17 +4,15 @@ related_to:
   - "[[Agent orchestration]]"
 dependencies: []
 components:
-  - Worker
-  - Coordinator
-  - Supervisor
-category: Agent Creation Registry
+  - "Worker"
+  - "Coordinator"
+  - "Supervisor"
+category: "Agent Creation Registry"
 tags:
-  - Rôles_Agent
-  - Hiérarchie
-  - Multi_Agent
+  - "Rôles_Agent"
+  - "Hiérarchie"
+  - "Multi_Agent"
 broader: "[[agentic System]]"
-inferred:skos:ancestor:
-  - "[[agentic System]]"
 ---
 **Définition** : [[classification]] des agents selon leur fonction et position dans la hiérarchie du système multi-[[agent]].
 

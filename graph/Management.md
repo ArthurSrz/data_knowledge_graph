@@ -38,17 +38,10 @@ said to be the same as:
 topic's main template: "[[Template_Management]]"
 instance of:
   - "[[type of process]]"
-Commons category: Management
-image: http://commons.wikimedia.org/wiki/Special:FilePath/New%20Board%20Room%20at%202%20Broadway%20%2816458634290%29.jpg
-WordLift URL: http://data.thenextweb.com/tnw/entity/management
+Commons category: "Management"
+image: "http://commons.wikimedia.org/wiki/Special:FilePath/New%20Board%20Room%20at%202%20Broadway%20%2816458634290%29.jpg"
+WordLift URL: "http://data.thenextweb.com/tnw/entity/management"
 involves: "[[feedback]]"
 broader: "[[process]]"
-inferred:skos:ancestor:
-  - "[[control]]"
-  - "[[occurrent]]"
-  - "[[process]]"
-inferred:skos:narrower:
-  - "[[delegation]]"
-  - "[[gouvernance]]"
 ---
 ![](https://upload.wikimedia.org/wikipedia/commons/9/98/New_Board_Room_at_2_Broadway_%2816458634290%29.jpg)

@@ -6,21 +6,17 @@ related_to:
   - "[[Agent Environment]]"
 dependencies: []
 components:
-  - Coding
-  - Email
-  - File
-  - Github
-  - Specialized Tools
-category: Agent Creation Registry
+  - "Coding"
+  - "Email"
+  - "File"
+  - "Github"
+  - "Specialized Tools"
+category: "Agent Creation Registry"
 tags:
-  - Outils
-  - Capacités_Agent
-  - Intégrations
+  - "Outils"
+  - "Capacités_Agent"
+  - "Intégrations"
 broader: "[[agentic System]]"
-inferred:skos:ancestor:
-  - "[[agentic System]]"
-inferred:skos:related:
-  - "[[tools]]"
 ---
 
 # Toolkits

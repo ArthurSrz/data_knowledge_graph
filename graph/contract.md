@@ -33,10 +33,5 @@ subclass of:
   - "[[graph/promise]]"
   - "[[graph/legal transaction]]"
   - "[[graph/agreement]]"
-wikidata entity id: Q93288
-inferred:skos:ancestor:
-  - "[[intellectual work]]"
-inferred:skos:narrower:
-  - "[[articles of association]]"
-  - "[[model contract]]"
+wikidata entity id: "Q93288"
 ---
