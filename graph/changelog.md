@@ -1,6 +1,6 @@
 ---
 wikidata entity id: "Q255135"
-subclass of: "[[logbook]]"
+iso-thes:broaderGeneric: "[[logbook]]"
 skos:altLabel:
   - "change log"
   - "knowledge changelog"

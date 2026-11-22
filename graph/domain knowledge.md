@@ -1,8 +1,8 @@
 ---
-facet of:
+skos:broader:
   - "[[graph/expertise]]"
   - "[[graph/specialized terminology]]"
-subclass of: "[[graph/knowledge]]"
-instance of: "[[graph/knowledge type]]"
+iso-thes:broaderGeneric: "[[graph/knowledge]]"
+iso-thes:broaderInstantial: "[[graph/knowledge type]]"
 wikidata entity id: "Q2088941"
 ---

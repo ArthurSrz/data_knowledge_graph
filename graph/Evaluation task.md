@@ -1,3 +1,3 @@
 ---
-partOf: "[[LLM output evaluation]]"
+iso-thes:broaderPartitive: "[[LLM output evaluation]]"
 ---

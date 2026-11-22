@@ -1,12 +1,12 @@
 ---
 wikidata entity id: "Q121362277"
-subclass of:
+iso-thes:broaderGeneric:
   - "[[information retrieval]]"
   - "[[generative artificial intelligence]]"
 skos:altLabel:
   - "retrieval-augmented generation"
   - "RAG"
-facet of:
+skos:broader:
   - "[[large language model]]"
 ---
 **Retrieval-augmented generation**: type of information retrieval using LLMs.

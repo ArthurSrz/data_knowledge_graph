@@ -1,5 +1,5 @@
 ---
-instanceOf:
+iso-thes:broaderInstantial:
   - "[[message-oriented middleware]]"
-broader: "[[backend]]"
+skos:broader: "[[backend]]"
 ---

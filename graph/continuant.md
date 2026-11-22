@@ -1,5 +1,5 @@
 ---
-disjoint with: "[[occurrent]]"
+kg:disjointWith: "[[occurrent]]"
 skos:altLabel:
   - "endurant"
 ---

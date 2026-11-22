@@ -1,3 +1,3 @@
 ---
-broader: "[[AI prompt]]"
+skos:broader: "[[AI prompt]]"
 ---

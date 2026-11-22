@@ -1,16 +1,16 @@
 ---
-has part(s):
+has part:
   - "[[concept]]"
   - "[[graph/rule]]"
   - "[[graph/classification scheme]]"
 based on: "[[graph/mental model]]"
 studied by: "[[graph/knowledge organization]]"
 subject has role: "[[graph/knowledge organization]]"
-subclass of:
+iso-thes:broaderGeneric:
   - "[[graph/conceptual system]]"
   - "[[information content entity]]"
 maintained by WikiProject: "[[graph/WikiProject KOS]]"
-instance of: "[[graph/type of system]]"
+iso-thes:broaderInstantial: "[[graph/type of system]]"
 properties for this type: "BARTOC ID"
 exact match:
   - "http://www.w3.org/2004/02/skos/core#ConceptScheme"

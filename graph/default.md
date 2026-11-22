@@ -1,12 +1,12 @@
 ---
-subclass of: "[[condition]]"
+iso-thes:broaderGeneric: "[[condition]]"
 has characteristic:
   - "[[explicitness]]"
   - "[[implicitness]]"
 different from: "[[default]]"
-instance of:
+iso-thes:broaderInstantial:
   - "[[Wikibase reason for preferred rank]]"
   - "[[condition type]]"
 wikidata entity id: "Q67151552"
-broader: "[[application development]]"
+skos:broader: "[[application development]]"
 ---

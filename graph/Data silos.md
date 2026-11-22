@@ -1,5 +1,5 @@
 ---
-broader: "[[data]]"
+skos:broader: "[[data]]"
 ---
 To break data silos, it requires : 
 

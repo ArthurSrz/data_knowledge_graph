@@ -1,5 +1,5 @@
 ---
-broader: "[[machine learning]]"
+skos:broader: "[[machine learning]]"
 ---
 
 Important design decisions : 

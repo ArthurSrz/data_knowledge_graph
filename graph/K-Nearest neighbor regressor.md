@@ -1,3 +1,3 @@
 ---
-broader: "[[K-Nearest Neighbor algorithm]]"
+skos:broader: "[[K-Nearest Neighbor algorithm]]"
 ---

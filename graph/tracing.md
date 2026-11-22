@@ -1,9 +1,9 @@
 ---
 wikidata entity id: "Q322229"
-subclass of:
+iso-thes:broaderGeneric:
   - "[[debugging]]"
   - "[[logging]]"
-facet of: "[[software engineering]]"
+skos:broader: "[[software engineering]]"
 skos:related:
   - "[[LLM Observability]]"
   - "[[langfuse]]"

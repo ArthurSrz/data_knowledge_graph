@@ -1,4 +1,4 @@
 ---
-broader: "[[ML system]]"
+skos:broader: "[[ML system]]"
 ---
 One of [[ML System failures]].

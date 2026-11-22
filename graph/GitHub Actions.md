@@ -1,8 +1,8 @@
 ---
 dcterms:type: "Concept"
-broader: "[[github]]"
-partOf: "[[automation framework]]"
-description: "GitHub's built-in CI/automation runner — YAML workflows launched by repository events."
+skos:broader: "[[github]]"
+iso-thes:broaderPartitive: "[[automation framework]]"
+skos:definition: "GitHub's built-in CI/automation runner — YAML workflows launched by repository events."
 tags:
   - "github"
   - "ci"

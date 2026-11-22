@@ -1,6 +1,6 @@
 ---
-wikidata entity id: Q92824
-instance of: "[[person]]"
+wikidata entity id: "Q92824"
+iso-thes:broaderInstantial: "[[person]]"
 field of work:
   - "[[computer science]]"
   - "[[philosophy of science]]"

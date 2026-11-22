@@ -1,14 +1,14 @@
 ---
 wikidata entity id: "Q1651672"
-subclass of:
+iso-thes:broaderGeneric:
   - "[[provenance]]"
-opposite of:
+kg:oppositeOf:
   - "[[bespoke]]"
 different from:
   - "[[model contract]]"
 example in:
   - "[[term sheet]]"
-broader: "[[application development]]"
+skos:broader: "[[application development]]"
 ---
 
 Standard reusable text reproduced verbatim across contracts, without negotiation. The term originates from 19th-century printing: metal plates used to reproduce standard text blocks were called boilerplates.

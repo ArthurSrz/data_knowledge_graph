@@ -3,7 +3,7 @@ fabrication method:
   - "[[planning]]"
   - "[[social control]]"
   - "[[public administration]]"
-subclass of:
+iso-thes:broaderGeneric:
   - "[[control]]"
   - "[[coordination]]"
   - "[[control]]"
@@ -18,9 +18,10 @@ class of object(s) of occurrence:
   - "[[business]]"
   - "[[society]]"
   - "[[human]]"
-facet of:
+skos:broader:
   - "[[business administration]]"
   - "[[organization]]"
+  - "[[process]]"
 studied by:
   - "[[management science]]"
   - "[[management studies]]"
@@ -36,12 +37,11 @@ said to be the same as:
   - "[[administration]]"
   - "[[administration]]"
 topic's main template: "[[Template_Management]]"
-instance of:
+iso-thes:broaderInstantial:
   - "[[type of process]]"
 Commons category: "Management"
 image: "http://commons.wikimedia.org/wiki/Special:FilePath/New%20Board%20Room%20at%202%20Broadway%20%2816458634290%29.jpg"
 WordLift URL: "http://data.thenextweb.com/tnw/entity/management"
 involves: "[[feedback]]"
-broader: "[[process]]"
 ---
 ![](https://upload.wikimedia.org/wikipedia/commons/9/98/New_Board_Room_at_2_Broadway_%2816458634290%29.jpg)

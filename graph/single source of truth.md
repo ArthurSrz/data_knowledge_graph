@@ -1,9 +1,9 @@
 ---
 wikidata entity id: "Q7523885"
-instance of: "[[best practice]]"
-facet of: "[[data management]]"
-subclass of: "[[source of information]]"
-uses:
+iso-thes:broaderInstantial: "[[best practice]]"
+skos:broader: "[[data management]]"
+iso-thes:broaderGeneric: "[[source of information]]"
+kg:uses:
   - "[[data deduplication]]"
   - "[[canonicalization]]"
 skos:altLabel:

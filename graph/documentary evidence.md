@@ -1,6 +1,6 @@
 ---
 wikidata entity id: "Q5287668"
-subclass of: "[[evidence]]"
+iso-thes:broaderGeneric: "[[evidence]]"
 skos:altLabel:
   - "recorded evidence"
 ---

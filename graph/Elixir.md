@@ -12,14 +12,14 @@ typing discipline:
   - "[[graph/duck typing]]"
   - "[[graph/strong typing]]"
   - "[[graph/dynamic typing]]"
-instance of:
+iso-thes:broaderInstantial:
   - "[[graph/open-source software]]"
   - "[[graph/functional programming language]]"
   - "[[graph/off-side rule language]]"
   - "[[programming language]]"
-programmed in: "[[graph/Elixir]]"
+kg:programmedIn: "[[graph/Elixir]]"
 copyright license: "[[graph/Apache Software License 2.0]]"
-depends on software: "[[graph/BEAM]]"
+kg:dependsOn: "[[graph/BEAM]]"
 platform: "[[graph/BEAM]]"
 developer: "[[graph/José Valim]]"
 creator: "[[graph/José Valim]]"
@@ -67,5 +67,5 @@ FreeBSD port: "lang/elixir"
 Docker Hub repository: "library/elixir"
 publication date: 2012-05-25T00:00:00+00:00
 wikidata entity id: "Q5362035"
-broader: "[[programming language]]"
+skos:broader: "[[programming language]]"
 ---

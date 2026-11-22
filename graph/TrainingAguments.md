@@ -1,5 +1,5 @@
 ---
-broader: "[[hugging face]]"
+skos:broader: "[[hugging face]]"
 ---
 # TrainingArguments
 

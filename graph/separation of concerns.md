@@ -1,7 +1,7 @@
 ---
 wikidata entity id: "Q2465506"
-instance of: "[[programming principle]]"
-subclass of: "[[programming paradigm]]"
+iso-thes:broaderInstantial: "[[programming principle]]"
+iso-thes:broaderGeneric: "[[programming paradigm]]"
 skos:definition: "solution approach where the problem is broken down into parts that can be solved independently of each other, by separating the what from the how"
 skos:scopeNote: "My usage: applied to knowledge-store artifacts rather than code. Each kind of knowledge has one home."
 ---

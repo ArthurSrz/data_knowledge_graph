@@ -1,6 +1,6 @@
 ---
-wikidata entity id: Q1477475
-subclass of:
+wikidata entity id: "Q1477475"
+iso-thes:broaderGeneric:
   - "[[research interview]]"
 skos:related:
   - "[[elicitation interview]]"

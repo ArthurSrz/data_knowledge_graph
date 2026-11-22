@@ -1,5 +1,5 @@
 ---
-broader: "[[process]]"
+skos:broader: "[[process]]"
 skos:related:
   - "[[Deployment]]"
   - "[[human-in-the-loop]]"

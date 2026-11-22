@@ -1,3 +1,3 @@
 ---
-broader: "[[Embeddings]]"
+skos:broader: "[[Embeddings]]"
 ---

@@ -1,7 +1,7 @@
 ---
 needs: "[[explore the data]]"
-partOf: "[[continuum data]]"
+iso-thes:broaderPartitive: "[[continuum data]]"
 product or material produced:
   - "[[data catalog]]"
-broader: "[[management]]"
+skos:broader: "[[management]]"
 ---

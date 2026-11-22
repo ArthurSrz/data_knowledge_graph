@@ -1,6 +1,6 @@
 ---
 wikidata entity id: "Q317955"
-subclass of: "[[financial record]]"
+iso-thes:broaderGeneric: "[[financial record]]"
 skos:altLabel:
   - "credit memo"
   - "avoir"

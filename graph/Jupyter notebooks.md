@@ -1,3 +1,3 @@
 ---
-broader: "[[Python]]"
+skos:broader: "[[Python]]"
 ---

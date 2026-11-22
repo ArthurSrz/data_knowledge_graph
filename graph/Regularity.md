@@ -1,4 +1,4 @@
 ---
-subFieldOf: "[[abstract entity]]"
+iso-thes:broaderGeneric: "[[abstract entity]]"
 ---
 

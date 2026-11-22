@@ -1,6 +1,6 @@
 ---
-foundationalPaper: "Pipeline Decomposition: A Machine Learning Approach (Nilsson, 1970)"
-keyPapers:
+dcterms:isReferencedBy:
+  - "Pipeline Decomposition: A Machine Learning Approach (Nilsson, 1970)"
   - "MLlib: Machine Learning in Apache Spark (Meng et al., 2016)"
   - "Scikit-learn: Machine Learning in Python (Pedregosa et al., 2011)"
   - "Data Science Pipelines (Smith & Johnson, 2015)"
@@ -8,7 +8,7 @@ enables:
   - "[[Workflow automation]]"
   - "[[reproducibility]]"
   - "[[Modular design]]"
-components:
+has part:
   - "[[Data ingestion]]"
   - "[[Data preprocessing]]"
   - "[[feature engineering]]"

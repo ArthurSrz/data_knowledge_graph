@@ -1,6 +1,6 @@
 ---
 wikidata entity id: "Q1518244"
-subclass of: "[[rule]]"
+iso-thes:broaderGeneric: "[[rule]]"
 characteristic of: "[[business activity]]"
 ---
 **Business rule**: rule that defines or constrains an aspect of the business, applying to people, processes, corporate behaviour or computing systems.

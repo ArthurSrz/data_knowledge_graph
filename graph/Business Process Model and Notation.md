@@ -1,10 +1,10 @@
 ---
 wikidata entity id: "Q1017605"
-instance of: "[[notation]]"
-subclass of: "[[diagram]]"
+iso-thes:broaderInstantial: "[[notation]]"
+iso-thes:broaderGeneric: "[[diagram]]"
 depicts: "[[business rule]]"
 publisher: "[[Object Management Group]]"
-broader: "[[diagram]]"
+skos:broader: "[[diagram]]"
 skos:altLabel:
   - "BPMN"
   - "Business Process Modeling Notation"

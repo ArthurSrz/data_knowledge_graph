@@ -1,19 +1,20 @@
 ---
-subclass of:
+iso-thes:broaderGeneric:
   - "[[graph/task]]"
   - "[[graph/instruction]]"
   - "[[graph/command]]"
-facet of: "[[graph/query]]"
+skos:broader:
+  - "[[graph/query]]"
+  - "[[large language model]]"
 fabrication method: "[[graph/prompt engineering]]"
 on focus list of Wikimedia project: "[[graph/WikiProject Artificial Intelligence]]"
-used by:
+kg:usedBy:
   - "[[graph/generative artificial intelligence]]"
   - "[[graph/artificial intelligence model]]"
   - "[[graph/prompt engineer]]"
   - "[[graph/AI prompter]]"
   - "[[large language model]]"
-has part(s): "[[graph/negative prompt]]"
+has part: "[[graph/negative prompt]]"
 main Wikidata property: "AI-generation prompt"
 wikidata entity id: "Q117217619"
-broader: "[[large language model]]"
 ---

@@ -2,13 +2,13 @@
 different from: "[[graph/investor]]"
 has characteristic: "[[graph/ownership]]"
 has goal: "[[graph/profit maximization]]"
-instance of:
+iso-thes:broaderInstantial:
   - "[[graph/occupation]]"
   - "[[graph/position]]"
   - "[[graph/role]]"
 owner of: "[[graph/share]]"
 partially coincident with: "[[graph/investor]]"
-subclass of:
+iso-thes:broaderGeneric:
   - "[[graph/proprietor]]"
   - "[[graph/stakeholder]]"
 wikidata entity id: "Q381136"

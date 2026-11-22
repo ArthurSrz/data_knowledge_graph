@@ -1,7 +1,7 @@
 ---
 different from: "[[graph/joint venture (Q21697695)]]"
-instance of: "[[graph/legal form]]"
-subclass of:
+iso-thes:broaderInstantial: "[[graph/legal form]]"
+iso-thes:broaderGeneric:
   - "[[graph/business]]"
   - "[[graph/collaboration]]"
 wikidata entity id: "Q489209"

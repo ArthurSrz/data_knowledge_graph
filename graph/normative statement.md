@@ -1,7 +1,7 @@
 ---
 wikidata entity id: "Q7053129"
-subclass of: "[[declarative sentence]]"
-opposite of: "[[positive statement]]"
+iso-thes:broaderGeneric: "[[declarative sentence]]"
+kg:oppositeOf: "[[positive statement]]"
 has part: "[[value judgment]]"
 skos:definition: "expresses a value judgement about whether a situation is subjectively desirable or undesirable"
 skos:scopeNote: "My usage: a governance rule or proposed rule (who validates, what depth, who gets alerted). Wikidata stresses the value judgement; I use it for the prescriptive 'should' that a [[business rule]] carries."

@@ -1,4 +1,4 @@
 ---
-partOf: "[[hugging face]]"
-broader: "[[hugging face]]"
+iso-thes:broaderPartitive: "[[hugging face]]"
+skos:broader: "[[hugging face]]"
 ---

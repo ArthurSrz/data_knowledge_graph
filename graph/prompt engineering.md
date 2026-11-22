@@ -1,6 +1,6 @@
 ---
 wikidata entity id: "Q108941486"
-subclass of:
+iso-thes:broaderGeneric:
   - "[[computer programming]]"
   - "[[writing]]"
 skos:related:
@@ -8,7 +8,7 @@ skos:related:
   - "[[context engineering]]"
 product or material produced:
   - "[[AI prompt]]"
-facet of:
+skos:broader:
   - "[[artificial intelligence]]"
 ---
 creation or optimization of a prompt to be given to an [[artificial intelligence]] [[model]].

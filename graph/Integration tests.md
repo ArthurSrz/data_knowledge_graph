@@ -1,6 +1,6 @@
 ---
 wikidata entity id: "Q782466"
-broader: "[[Test]]"
+skos:broader: "[[Test]]"
 ---
 Test of a few real parts wired together, after [[Unit tests]] and before the [[end-to-end test]]: real data, but not yet the real platform.
 

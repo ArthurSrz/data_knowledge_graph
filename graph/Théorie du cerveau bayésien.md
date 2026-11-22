@@ -1,6 +1,6 @@
 ---
 builtOnTopOf: "[[bayesian epistemology]]"
-broader: "[[bayesian inference]]"
+skos:broader: "[[bayesian inference]]"
 ---
 
 La théorie du cerveau bayésien est une conception innovante en neurosciences et en philosophie proposant des hypothèses pour comprendre le fonctionnement de l’esprit. Selon cette théorie, le cerveau utilise des croyances (définies comme des estimations de probabilité) pour traiter les informations sensorielles et décider les actions à réaliser.

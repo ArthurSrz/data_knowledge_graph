@@ -1,9 +1,9 @@
 ---
 wikidata entity id: "Q192060"
-subclass of: "[[strategic management]]"
-instance of: "[[type of management]]"
-facet of: "[[management cybernetics]]"
-uses: "[[knowledge]]"
+iso-thes:broaderGeneric: "[[strategic management]]"
+iso-thes:broaderInstantial: "[[type of management]]"
+skos:broader: "[[management cybernetics]]"
+kg:uses: "[[knowledge]]"
 practiced by: "[[knowledge manager]]"
 different from: "[[content management]]"
 skos:related:

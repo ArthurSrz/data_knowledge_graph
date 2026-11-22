@@ -1,10 +1,10 @@
 ---
-subclass of: "[[graph/creative work]]"
+iso-thes:broaderGeneric: "[[graph/creative work]]"
 has characteristic: "[[graph/not completed]]"
 has cause:
   - "[[graph/project cancellation]]"
   - "[[graph/death]]"
-instance of: "[[graph/type of work]]"
+iso-thes:broaderInstantial: "[[graph/type of work]]"
 Commons category: "Unfinished art works"
 wikidata entity id: "Q2910675"
 ---

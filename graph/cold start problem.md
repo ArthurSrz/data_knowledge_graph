@@ -1,4 +1,4 @@
 ---
-broader: "[[ML system]]"
+skos:broader: "[[ML system]]"
 ---
 Problem is [[ML system]] relies on [[user inputs]] : initially, we may not have enough data to build a quality model.

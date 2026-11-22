@@ -1,4 +1,4 @@
 ---
-sameAs:
-partOf: "[[layer]]"
+skos:exactMatch:
+iso-thes:broaderPartitive: "[[layer]]"
 ---

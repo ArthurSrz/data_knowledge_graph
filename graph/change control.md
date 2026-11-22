@@ -1,9 +1,9 @@
 ---
-wikidata entity id: Q3625347
-part of:
+wikidata entity id: "Q3625347"
+iso-thes:broaderPartitive:
   - "[[quality management]]"
   - "[[change management]]"
-instance of: "[[engineering concept]]"
+iso-thes:broaderInstantial: "[[engineering concept]]"
 ---
 **Change control**: process that brings changes to a product or system in a controlled, coordinated way, avoiding unplanned changes and the faults they introduce.
 

@@ -1,11 +1,11 @@
 ---
 wikidata entity id: "Q29043221"
-subclass of:
+iso-thes:broaderGeneric:
   - "[[embedding]]"
   - "[[natural language processing]]"
 skos:related:
   - "[[Word embeddings]]"
-uses:
+kg:uses:
   - "[[Natural Language Processing]]"
   - "[[artificial neural network]]"
   - "[[cosine similarity]]"

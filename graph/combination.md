@@ -4,8 +4,8 @@ different from:
   - "[[graph/Permutation]]"
   - "[[graph/Connection]]"
   - "[[graph/Union]]"
-instance of:
+iso-thes:broaderInstantial:
   - "[[graph/Binary function]]"
-subclass of: "[[selection]]"
-broader: "[[combinatorics]]"
+iso-thes:broaderGeneric: "[[selection]]"
+skos:broader: "[[combinatorics]]"
 ---

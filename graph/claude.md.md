@@ -1,5 +1,5 @@
 ---
-partOf:
+iso-thes:broaderPartitive:
   - "[[claude code]]"
 ---
 A rulebook for your [[claude code]]. It lives at 4 levels : 

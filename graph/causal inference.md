@@ -1,6 +1,6 @@
 ---
-instance of: "[[inference]]"
-subclass of: "[[causal reasoning]]"
+iso-thes:broaderInstantial: "[[inference]]"
+iso-thes:broaderGeneric: "[[causal reasoning]]"
 Commons category: "Causal inference"
 GitHub topic: "causal-inference"
 wikidata entity id: "Q5054566"

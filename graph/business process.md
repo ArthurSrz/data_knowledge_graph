@@ -1,13 +1,13 @@
 ---
 wikidata entity id: "Q851587"
-instance of: "[[type of process]]"
-subclass of: "[[process]]"
+iso-thes:broaderInstantial: "[[type of process]]"
+iso-thes:broaderGeneric: "[[process]]"
 manifestation of: "[[procedure]]"
 has part: "[[business activity]]"
-uses: "[[visualization]]"
-used by: "[[business]]"
+kg:uses: "[[visualization]]"
+kg:usedBy: "[[business]]"
 different from: "[[strategic management]]"
-broader: "[[process]]"
+skos:broader: "[[process]]"
 skos:altLabel:
   - "business practice"
   - "business function"

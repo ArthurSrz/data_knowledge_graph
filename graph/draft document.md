@@ -1,5 +1,5 @@
 ---
-subclass of:
+iso-thes:broaderGeneric:
   - "[[graph/unfinished creative work]]"
   - "[[graph/document]]"
   - "[[graph/edition]]"
@@ -8,7 +8,7 @@ different from: "[[graph/Brulion]]"
 partially coincident with: "[[graph/unpublished work]]"
 has characteristic: "[[graph/date of the first concept]]"
 wikidata entity id: "Q560361"
-aliases:
+skos:altLabel:
   - "ébauche"
   - "brouillon"
   - "premier jet"

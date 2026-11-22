@@ -1,6 +1,6 @@
 ---
-foundationalPaper: "Neural Text Generation with Unlikelihood Training (Welleck et al., 2020)"
-keyPapers:
+dcterms:isReferencedBy:
+  - "Neural Text Generation with Unlikelihood Training (Welleck et al., 2020)"
   - "Hallucinations in Neural Machine Translation (Lee et al., 2018)"
   - "On Faithfulness and Factuality in Abstractive Summarization (Maynez et al., 2020)"
   - "Survey of Hallucination in Natural Language Generation (Ji et al., 2023)"
@@ -16,7 +16,7 @@ mitigated_by:
 skos:narrower:
   - "[[Intrinsic hallucination]]"
   - "[[Extrinsic hallucination]]"
-broader: "[[large language model]]"
+skos:broader: "[[large language model]]"
 ---
 
 # Hallucination

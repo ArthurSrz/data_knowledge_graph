@@ -1,8 +1,8 @@
 ---
 creator: "[[Lawrence Journal-World]]"
-programmed in: "[[Python]]"
+kg:programmedIn: "[[Python]]"
 named after: "[[Django Reinhardt]]"
 wikidata entity id: "Q842014"
-broader: "[[backend]]"
+skos:broader: "[[backend]]"
 ---
 Python web framework.

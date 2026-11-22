@@ -1,4 +1,4 @@
 ---
-subclass of: "[[Model architecture]]"
-broader: "[[Transformers]]"
+iso-thes:broaderGeneric: "[[Model architecture]]"
+skos:broader: "[[Transformers]]"
 ---

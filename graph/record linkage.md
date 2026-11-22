@@ -1,8 +1,8 @@
 ---
 wikidata entity id: "Q1266546"
-subclass of: "[[process]]"
-uses: "[[algorithm]]"
-facet of: "[[data processing]]"
+iso-thes:broaderGeneric: "[[process]]"
+kg:uses: "[[algorithm]]"
+skos:broader: "[[data processing]]"
 skos:altLabel:
   - "reconciliation"
   - "data matching"

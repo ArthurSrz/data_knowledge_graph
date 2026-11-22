@@ -1,5 +1,5 @@
 ---
-dependencies:
+kg:dependsOn:
   - "[[large language model]]"
 tags:
   - "AI_Agents"

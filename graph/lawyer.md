@@ -11,94 +11,95 @@ different from:
   - "[[graph/attorney at law]]"
   - "[[graph/legal advocate in France]]"
   - "[[graph/avocado]]"
-subclass of: "[[graph/jurist]]"
+iso-thes:broaderGeneric: "[[graph/jurist]]"
 said to be the same as:
   - "[[graph/advocate]]"
   - "[[graph/Anwalt]]"
   - "[[graph/Mecenas]]"
-described by source: "[[graph/Otto's encyclopedia]]"
+dcterms:isReferencedBy: "[[graph/Otto's encyclopedia]]"
 field of this occupation:
   - "[[graph/practice of law]]"
   - "[[graph/legal engineering]]"
   - "[[graph/law]]"
-instance of: "[[graph/legal profession]]"
+iso-thes:broaderInstantial: "[[graph/legal profession]]"
 topic has template: "[[graph/Template_Lawyer]]"
 category for eponymous categories: "[[graph/Q59521970]]"
 ROME Occupation Code: "11469"
 SSYK 2012 The Swedish Standard Classification of Occupations: "2611"
 ISCO-08 occupation class: "2611"
 ISCO-88 occupation class: "2421"
-Commons gallery: Lawyer
+Commons gallery: "Lawyer"
 male form of label:
-  - avocat
-  - avvocato
-  - abogado
-  - advogado
-  - עורך דין
-  - advokát
-  - Affekot
-  - avogado
-  - advogado
-  - advokatas
-  - avogau
-  - advokatulo
-  - адвокат
-  - hilavogan
+  - "avocat"
+  - "avvocato"
+  - "abogado"
+  - "advogado"
+  - "עורך דין"
+  - "advokát"
+  - "Affekot"
+  - "avogado"
+  - "advogado"
+  - "advokatas"
+  - "avogau"
+  - "advokatulo"
+  - "адвокат"
+  - "hilavogan"
 female form of label:
-  - abogada
-  - Rechtsanwältin
-  - advogada
-  - avocate
-  - محامية
-  - עורכת דין
-  - advocate
-  - advocada
-  - avogada
-  - advogada
-  - advokatino
-  - avvocata
-  - advokátka
-  - abogada
-  - advokatė
-  - odvetnica
-  - адвокатка
-  - адвакатка
-  - avogá
-  - abbekate
-  - advokatino
-  - Affekotin
-  - advokāte
-  - adwokatka
-  - avocată
-  - практикующая юристка
-  - адвокатица
-  - jilavogan
-image: http://commons.wikimedia.org/wiki/Special:FilePath/Diana%20Ellis%20-%2019%20Oct%202011.jpg
+  - "abogada"
+  - "Rechtsanwältin"
+  - "advogada"
+  - "avocate"
+  - "محامية"
+  - "עורכת דין"
+  - "advocate"
+  - "advocada"
+  - "avogada"
+  - "advogada"
+  - "advokatino"
+  - "avvocata"
+  - "advokátka"
+  - "abogada"
+  - "advokatė"
+  - "odvetnica"
+  - "адвокатка"
+  - "адвакатка"
+  - "avogá"
+  - "abbekate"
+  - "advokatino"
+  - "Affekotin"
+  - "advokāte"
+  - "adwokatka"
+  - "avocată"
+  - "практикующая юристка"
+  - "адвокатица"
+  - "jilavogan"
+image: "http://commons.wikimedia.org/wiki/Special:FilePath/Diana%20Ellis%20-%2019%20Oct%202011.jpg"
 IMDb keyword:
-  - attorney
-  - lawyer
-OpenStreetMap key: lawyer
-Unicode character: ⚖️
-short name: Atty
-Dewey Decimal Classification: "340.092"
-Commons category: Lawyers
-pronunciation audio: http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q1571%20%28mar%29-Neelima64-%E0%A4%B5%E0%A4%95%E0%A5%80%E0%A4%B2.wav
+  - "attorney"
+  - "lawyer"
+OpenStreetMap key: "lawyer"
+Unicode character: "⚖️"
+skos:altLabel: "Atty"
+dcterms:subject:
+  - "340.092"
+  - "M01.526.520"
+Commons category: "Lawyers"
+pronunciation audio: "http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q1571%20%28mar%29-Neelima64-%E0%A4%B5%E0%A4%95%E0%A5%80%E0%A4%B2.wav"
 label in sign language:
-  - http://commons.wikimedia.org/wiki/Special:FilePath/LSF%20Vocab%20avocat.ogv
-  - http://commons.wikimedia.org/wiki/Special:FilePath/Armenian%20Sign%20Language%20%28ArSL%29%20-%20%D5%AB%D6%80%D5%A1%D5%BE%D5%A1%D5%A2%D5%A1%D5%B6%20-%20lawyer.webm
+  - "http://commons.wikimedia.org/wiki/Special:FilePath/LSF%20Vocab%20avocat.ogv"
+  - "http://commons.wikimedia.org/wiki/Special:FilePath/Armenian%20Sign%20Language%20%28ArSL%29%20-%20%D5%AB%D6%80%D5%A1%D5%BE%D5%A1%D5%A2%D5%A1%D5%B6%20-%20lawyer.webm"
 equivalent class:
-  - http://dbpedia.org/ontology/Lawyer
-  - https://schema.org/Attorney
+  - "http://dbpedia.org/ontology/Lawyer"
+  - "https://schema.org/Attorney"
 U.S. National Archives Identifier: "10637317"
-SOC Code (2010): 23-1011
-O*NET OnLine code: 23-1011.00
-Provenio UUID: 7f0d00bb-3f4f-49f6-aa39-69cea8a3d205
+SOC Code (2010): "23-1011"
+O*NET OnLine code: "23-1011.00"
+Provenio UUID: "7f0d00bb-3f4f-49f6-aa39-69cea8a3d205"
 UMLS CUI:
-  - C0086530
-  - C0682240
-MeSH tree code: M01.526.520
-Baidu Tieba name: 律师
-OpenStreetMap tag: office=lawyer
-wikidata entity id: Q40348
+  - "C0086530"
+  - "C0682240"
+Baidu Tieba name: "律师"
+OpenStreetMap tag: "office=lawyer"
+wikidata entity id: "Q40348"
 ---
 A **lawyer** is a person who is qualified to offer advice about the law, draft legal documents, or represent individuals in legal matters.

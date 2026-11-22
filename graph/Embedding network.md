@@ -1,3 +1,3 @@
 ---
-broader: "[[artificial neural network]]"
+skos:broader: "[[artificial neural network]]"
 ---

@@ -1,6 +1,6 @@
 ---
-wikidata entity id: Q922625
-subclass of: "[[list]]"
+wikidata entity id: "Q922625"
+iso-thes:broaderGeneric: "[[list]]"
 skos:related:
   - "[[human-in-the-loop]]"
   - "[[master data]]"

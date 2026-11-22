@@ -1,4 +1,4 @@
 ---
 Changes: "[[chainrings]]"
-broader: "[[combination]]"
+skos:broader: "[[combination]]"
 ---

@@ -1,5 +1,5 @@
 ---
-described by source:
+dcterms:isReferencedBy:
   - "[[graph/Armenian Soviet Encyclopedia, vol. 9]]"
   - "[[graph/Integrated Encyclopedia of the Qur'an]]"
   - "[[lean logic]]"
@@ -16,19 +16,19 @@ described by source:
 different from:
   - "[[graph/written contract]]"
   - "[[graph/memorandum of understanding]]"
-facet of: "[[graph/contract law]]"
+skos:broader: "[[graph/contract law]]"
 has characteristic: "[[graph/type of contract]]"
 has contributing factor: "[[graph/agreement]]"
 has effect: "[[graph/obligation]]"
-has part(s): "[[graph/contracting party]]"
+has part: "[[graph/contracting party]]"
 has part(s) of the class:
   - "[[graph/contractual term]]"
   - "[[graph/clause]]"
-instance of: "[[graph/legal term or legal concept]]"
-part of: "[[graph/document]]"
+iso-thes:broaderInstantial: "[[graph/legal term or legal concept]]"
+iso-thes:broaderPartitive: "[[graph/document]]"
 participant: "[[graph/legal person]]"
 said to be the same as: "[[graph/Q141239420]]"
-subclass of:
+iso-thes:broaderGeneric:
   - "[[graph/intellectual work]]"
   - "[[graph/promise]]"
   - "[[graph/legal transaction]]"

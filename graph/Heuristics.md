@@ -1,5 +1,5 @@
 ---
-broader: "[[heuristic]]"
+skos:broader: "[[heuristic]]"
 ---
 A simple and quickly implemented solution to a problem. Methods of solving problems using a simplified set of rules based on past experience. 
 

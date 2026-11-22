@@ -1,5 +1,5 @@
 ---
-subclass of: "[[generically dependent continuant]]"
+iso-thes:broaderGeneric: "[[generically dependent continuant]]"
 skos:altLabel:
   - "ICE"
   - "information artifact"

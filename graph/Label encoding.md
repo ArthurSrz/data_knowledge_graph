@@ -1,5 +1,5 @@
 ---
 same:
-broader: "[[data preparation]]"
+skos:broader: "[[data preparation]]"
 ---
 Techniques used to maps categories ([[categorical data]]) to numbers ([[numerical data]]) directly. 

@@ -1,9 +1,9 @@
 ---
-subFieldOf: "[[Artificial Intelligence (AI)]]"
+iso-thes:broaderGeneric: "[[Artificial Intelligence (AI)]]"
 useTechniques:
   - "[[Bag of words]]"
   - "[[Word embeddings]]"
-relatedTo: "[[computer vision]]"
+skos:related: "[[computer vision]]"
 applications:
   - "[[Large Language Model]]"
   - "[[BERT]]"
@@ -12,7 +12,7 @@ techniques:
   - "[[Transformers]]"
   - "[[Tokenizer]]"
   - "[[Embeddings]]"
-broader: "[[Artificial Intelligence (AI)]]"
+skos:broader: "[[Artificial Intelligence (AI)]]"
 ---
 
 Techniques to format natural language to fit modeling needs. 

@@ -3,26 +3,27 @@ field of work:
   - "[[computer programming]]"
   - "[[software development]]"
   - "[[computer science]]"
-facet of:
+skos:broader:
   - "[[software engineering]]"
   - "[[big data]]"
   - "[[computer science]]"
-subclass of:
+  - "[[application development]]"
+iso-thes:broaderGeneric:
   - "[[communication protocol]]"
   - "[[computing platform]]"
   - "[[computer interface]]"
-instance of:
+iso-thes:broaderInstantial:
   - "[[field of study]]"
   - "[[field of study (education)]]"
   - "[[academic discipline]]"
   - "[[computer science term]]"
-has use: "[[encapsulation]]"
-used by: "[[programmer]]"
-described by source: "[[Open Science Thesaurus]]"
+kg:hasUse: "[[encapsulation]]"
+kg:usedBy: "[[programmer]]"
+dcterms:isReferencedBy: "[[Open Science Thesaurus]]"
 OmegaWiki Defined Meaning: "1220063"
 subreddit: "api"
 GitHub topic: "api"
-short name: "API"
+skos:altLabel: "API"
 related image: "http://commons.wikimedia.org/wiki/Special:FilePath/Database%20management%20system%20diagram%20from%201978%20workshop.png"
 exact match: "http://purl.org/spar/fabio/ApplicationProgrammingInterface"
 Stack Exchange tag:
@@ -31,5 +32,4 @@ Stack Exchange tag:
 Commons category: "Application programming interfaces"
 name: "Application Programming Interface"
 wikidata entity id: "Q165194"
-broader: "[[application development]]"
 ---

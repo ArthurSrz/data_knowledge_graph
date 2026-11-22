@@ -1,6 +1,6 @@
 ---
 wikidata entity id: "Q384093"
-subclass of: "[[data]]"
+iso-thes:broaderGeneric: "[[data]]"
 skos:related:
   - "[[data quality]]"
   - "[[record linkage]]"

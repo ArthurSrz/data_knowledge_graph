@@ -1,6 +1,6 @@
 ---
-foundationalPaper: "Communication-Efficient Learning of Deep Networks from Decentralized Data (McMahan et al., 2017)"
-keyPapers:
+dcterms:isReferencedBy:
+  - "Communication-Efficient Learning of Deep Networks from Decentralized Data (McMahan et al., 2017)"
   - "Federated Optimization: Distributed Machine Learning for On-Device Intelligence (Konečný et al., 2016)"
   - "Federated Learning: Challenges, Methods, and Future Directions (Li et al., 2020)"
   - "Advances and Open Problems in Federated Learning (Kairouz et al., 2019)"
@@ -17,7 +17,7 @@ algorithms:
   - "[[FedAvg]]"
   - "[[FedProx]]"
   - "[[FedSGD]]"
-broader: "[[machine learning]]"
+skos:broader: "[[machine learning]]"
 ---
 
 # Federated Learning

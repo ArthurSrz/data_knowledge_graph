@@ -1,5 +1,5 @@
 ---
-instanceOf: "[[Data modeling technique]]"
+iso-thes:broaderInstantial: "[[Data modeling technique]]"
 ---
 Modeling technique involves structuring data into the shape of a star, aptly named the [star schema](https://en.wikipedia.org/wiki/Star_schema), which is simple to visualise and easily understood by non-data technical business users.
 

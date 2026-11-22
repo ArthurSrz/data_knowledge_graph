@@ -1,8 +1,8 @@
 ---
 dcterms:type: "Concept"
-broader: "[[github]]"
-partOf: "[[github ruleset]]"
-description: "A named green/red light on a commit that a ruleset demands before merge."
+skos:broader: "[[github]]"
+iso-thes:broaderPartitive: "[[github ruleset]]"
+skos:definition: "A named green/red light on a commit that a ruleset demands before merge."
 tags:
   - "github"
   - "ci"

@@ -1,6 +1,6 @@
 ---
-wikidata entity id: Q1585098
-instance of: "[[technical standard]]"
+wikidata entity id: "Q1585098"
+iso-thes:broaderInstantial: "[[technical standard]]"
 skos:altLabel: "Pan-European Public Procurement Online"
 skos:related: "[[credit note]]"
 ---

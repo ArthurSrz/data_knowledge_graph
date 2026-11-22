@@ -1,5 +1,5 @@
 ---
-instance of: "[[deep learning framework]]"
+iso-thes:broaderInstantial: "[[deep learning framework]]"
 usedFor: "[[Neural network models]]"
 alternativeTo: "[[TensorFlow]]"
 operatesOn: "[[Tensors]]"
@@ -8,7 +8,7 @@ supports:
   - "[[Gradient]] calculation"
   - "[[Automatic differentiation]]"
 integratesWith: "[[Python]]"
-broader: "[[Python]]"
+skos:broader: "[[Python]]"
 ---
 
 [[R&D/Recherche/docs/Science behind the Design/Human-Data Interactions/Book/HDI Culture/Liberating HDI/Python|Python]] ecosystem library for [[deep learning]]. 

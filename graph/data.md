@@ -1,3 +1,3 @@
 ---
-subclass of: "[[information content entity]]"
+iso-thes:broaderGeneric: "[[information content entity]]"
 ---

@@ -1,11 +1,11 @@
 ---
-foundationalPaper: "Discriminability-Based Transfer between Neural Networks (Pratt, 1993)"
-keyPapers:
+dcterms:isReferencedBy:
+  - "Discriminability-Based Transfer between Neural Networks (Pratt, 1993)"
   - "A Survey on Transfer Learning (Pan & Yang, 2010)"
   - "How transferable are features in deep neural networks? (Yosinski et al., 2014)"
   - "Deep Learning of Representations for Unsupervised and Transfer Learning (Bengio, 2012)"
 implements: "[[fine-tuning]]"
-usedIn:
+kg:usedBy:
   - "[[deep learning]]"
   - "[[Neural network models]]"
   - "[[computer vision]]"
@@ -13,7 +13,7 @@ usedIn:
 benefitFrom: "[[Pre-trained models]]"
 reducesNeedFor: "[[Large datasets]]"
 accelerates: "[[Model training]]"
-broader: "[[deep learning]]"
+skos:broader: "[[deep learning]]"
 ---
 
 # Transfer Learning

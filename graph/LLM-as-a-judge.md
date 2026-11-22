@@ -1,6 +1,6 @@
 ---
-instance of: "[[graph/technique]]"
-uses: "[[large language model]]"
+iso-thes:broaderInstantial: "[[graph/technique]]"
+kg:uses: "[[large language model]]"
 studied by: "[[artificial intelligence]]"
-wikidata entity id: Q134468621
+wikidata entity id: "Q134468621"
 ---

@@ -1,3 +1,3 @@
 ---
-instanceOf: "[[newsletter]]"
+iso-thes:broaderInstantial: "[[newsletter]]"
 ---

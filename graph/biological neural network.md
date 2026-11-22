@@ -1,5 +1,5 @@
 ---
-broader: "[[artificial neural network]]"
+skos:broader: "[[artificial neural network]]"
 ---
 ![Neural network (biology) Thumbnail](https://upload.wikimedia.org/wikipedia/commons/0/05/Projections_of_Gpr101_TomatoMSNsinSTR.gif)
 [Neural network (biology)](https://en.wikipedia.org/wiki/Neural_network_(biology))

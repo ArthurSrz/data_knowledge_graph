@@ -1,9 +1,9 @@
 ---
-has part(s):
+has part:
   - "[[graph/takeover]]"
   - "[[graph/amalgamation]]"
-opposite of: "[[graph/demerger]]"
-subclass of:
+kg:oppositeOf: "[[graph/demerger]]"
+iso-thes:broaderGeneric:
   - "[[graph/redistribution of property]]"
   - "[[graph/business process]]"
 wikidata entity id: "Q731112"

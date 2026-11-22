@@ -1,10 +1,10 @@
 ---
 wikidata entity id: "Q370502"
-instance of: "[[informal mathematical concept]]"
+iso-thes:broaderInstantial: "[[informal mathematical concept]]"
 has characteristic:
   - "[[left-totality]]"
   - "[[right-uniqueness]]"
-uses: "[[assignment]]"
+kg:uses: "[[assignment]]"
 different from:
   - "[[assignment]]"
   - "[[morphism]]"

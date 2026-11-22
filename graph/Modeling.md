@@ -1,7 +1,7 @@
 ---
-partOf: "[[CRISP-DM Process]]"
-sameAs: "[[modélisation]]"
-broader: "[[CRISP-DM Process]]"
+iso-thes:broaderPartitive: "[[CRISP-DM Process]]"
+skos:exactMatch: "[[modélisation]]"
+skos:broader: "[[CRISP-DM Process]]"
 different from: "[[conceptual modeling]]"
 skos:altLabel:
   - "ML modeling"

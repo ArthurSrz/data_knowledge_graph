@@ -1,3 +1,3 @@
 ---
-broader: "[[data privacy laws]]"
+skos:broader: "[[data privacy laws]]"
 ---

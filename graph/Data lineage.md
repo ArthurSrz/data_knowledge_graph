@@ -1,5 +1,5 @@
 ---
-subclass of: "[[Metadata management]]"
+iso-thes:broaderGeneric: "[[Metadata management]]"
 wikidata entity id: "Q1172162"
 skos:broader: "[[data]]"
 ---

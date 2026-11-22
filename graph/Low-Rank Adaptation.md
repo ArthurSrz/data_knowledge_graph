@@ -1,3 +1,3 @@
 ---
-broader: "[[fine-tuning]]"
+skos:broader: "[[fine-tuning]]"
 ---

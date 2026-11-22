@@ -1,11 +1,11 @@
 ---
 originatesFrom: "[[graph theory]]"
-facet of: "[[graph/discrete mathematics]]"
+skos:broader: "[[graph/discrete mathematics]]"
 studied by: "[[graph theory]]"
-subclass of:
+iso-thes:broaderGeneric:
   - "[[graph/Hypergraph]]"
   - "[[graph/Relational structure]]"
-has part(s):
+has part:
   - "[[node]]"
   - "[[Edges]]"
 ---

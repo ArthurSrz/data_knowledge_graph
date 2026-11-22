@@ -12,7 +12,7 @@ has effect:
   - "[[graph/occurrence]]"
   - "[[graph/result]]"
   - "[[graph/state]]"
-facet of: "[[graph/object]]"
+skos:broader: "[[graph/object]]"
 has characteristic:
   - "[[graph/intensity]]"
   - "[[graph/rate]]"
@@ -25,15 +25,15 @@ has cause:
   - "[[graph/occurrence]]"
   - "[[graph/cause]]"
   - "[[graph/state]]"
-has part(s): "[[graph/occurrence]]"
+has part: "[[graph/occurrence]]"
 studied by:
   - "[[graph/process philosophy]]"
   - "[[graph/process ontology]]"
-part of: "[[graph/Systems Biology Ontology]]"
+iso-thes:broaderPartitive: "[[graph/Systems Biology Ontology]]"
 said to be the same as: "[[process]]"
 union of: "[[graph/list of values as qualifiers]]"
-subclass of: "[[graph/occurrent]]"
-instance of: "[[graph/BFO class]]"
+iso-thes:broaderGeneric: "[[graph/occurrent]]"
+iso-thes:broaderInstantial: "[[graph/BFO class]]"
 properties for this type:
   - "inception"
   - "duration"

@@ -1,14 +1,14 @@
 ---
-described by source:
+dcterms:isReferencedBy:
   - "[[graph/Armenian Soviet Encyclopedia, vol. 5]]"
   - "[[graph/Small Brockhaus and Efron Encyclopedic Dictionary]]"
   - "[[graph/Encyclopædia Britannica 11th edition]]"
 different from:
   - "[[graph/articles of incorporation]]"
   - "[[graph/memorandum of association]]"
-facet of: "[[graph/incorporation]]"
+skos:broader: "[[graph/incorporation]]"
 named after: "[[graph/Ustav]]"
-subclass of:
+iso-thes:broaderGeneric:
   - "[[graph/constitutional document]]"
   - "[[graph/by-law]]"
   - "[[graph/contract]]"

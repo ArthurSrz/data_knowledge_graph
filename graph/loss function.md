@@ -1,6 +1,6 @@
 ---
-foundationalPaper: "Method of Least Squares (Legendre, 1805)"
-keyPapers:
+dcterms:isReferencedBy:
+  - "Method of Least Squares (Legendre, 1805)"
   - "Theory of Errors of Observations (Gauss, 1809)"
   - "A General Theory of Discriminant Analysis (Fisher, 1936)"
   - "Theory of Games and Economic Behavior (von Neumann & Morgenstern, 1944)"
@@ -16,11 +16,11 @@ properties:
   - "[[Convexity]]"
   - "[[Differentiability]]"
   - "[[Continuity]]"
-usedIn:
+kg:usedBy:
   - "[[Supervised learning]]"
   - "[[Optimization]]"
   - "[[Neural network training]]"
-broader: "[[machine learning]]"
+skos:broader: "[[machine learning]]"
 ---
 
 # Loss Function

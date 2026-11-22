@@ -1,6 +1,6 @@
 ---
 wikidata entity id: "Q1469824"
-subclass of:
+iso-thes:broaderGeneric:
   - "[[knowledge organization system]]"
   - "[[vocabulary]]"
   - "[[data set]]"

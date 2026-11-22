@@ -1,8 +1,8 @@
 ---
 wikidata entity id: "Q1341685"
 inspiredBy: "[[bayesian inference]]"
-subclass of: "[[computer program]]"
-has use: "[[inference]]"
+iso-thes:broaderGeneric: "[[computer program]]"
+kg:hasUse: "[[inference]]"
 skos:scopeNote: "A software component that performs inference, not a kind of inference: `subclass of` program (Wikidata Q1341685) and `has use` inference, instead of the former `broader` inference."
 ---
 

@@ -1,8 +1,8 @@
 ---
 wikidata entity id: "Q115305900"
-uses:
+kg:uses:
   - "[[AI prompt]]"
-facet of:
+skos:broader:
   - "[[artificial intelligence]]"
 ---
 **Large language model**: language model built with very large amounts of texts.

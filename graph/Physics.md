@@ -1,17 +1,17 @@
 ---
-has part(s): "[[graph/interference]]"
+has part: "[[graph/interference]]"
 practiced by:
   - "[[graph/physicist]]"
   - "[[graph/Doctor of Sciences in Physics and Mathematics]]"
   - "[[graph/professor of physics]]"
   - "[[graph/physics student]]"
 history of topic: "[[graph/history of physics]]"
-instance of:
+iso-thes:broaderInstantial:
   - "[[graph/exact science]]"
   - "[[graph/branch of science]]"
   - "[[graph/academic discipline]]"
 different from: "[[graph/physical science]]"
-subclass of:
+iso-thes:broaderGeneric:
   - "[[graph/physical science]]"
   - "[[graph/natural science]]"
 is the study of:
@@ -20,5 +20,5 @@ is the study of:
 model item:
   - "[[graph/experimental physics]]"
   - "[[graph/astrophysics]]"
-wikidata entity id: Q413
+wikidata entity id: "Q413"
 ---

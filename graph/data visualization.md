@@ -5,16 +5,16 @@ significant person:
   - "[[Charles Joseph Minard]]"
   - "[[Edward Tufte]]"
   - "[[Florence Nightingale]]"
-subclass of:
+iso-thes:broaderGeneric:
   - "[[visualization]]"
   - "[[representation of data]]"
 product or material produced: "[[infographics]]"
-part of:
+iso-thes:broaderPartitive:
   - "[[data science]]"
   - "[[data visualisation and computational design]]"
   - "[[data and information visualization]]"
 said to be the same as: "[[statistical graphics]]"
-uses: "[[data visualization software]]"
+kg:uses: "[[data visualization software]]"
 partially coincident with: "[[information visualization]]"
 wikidata entity id: "Q6504956"
 ---

@@ -1,5 +1,5 @@
 ---
-broader: "[[CRISP-DM Process]]"
+skos:broader: "[[CRISP-DM Process]]"
 ---
 Step of the [[CRISP-DM Process]]. 
 

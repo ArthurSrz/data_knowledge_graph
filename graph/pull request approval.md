@@ -1,7 +1,7 @@
 ---
 dcterms:type: "Concept"
-broader: "[[Pull request]]"
-description: "A reviewer's \"Approve\" verdict on a pull request, as recorded by GitHub."
+skos:broader: "[[Pull request]]"
+skos:definition: "A reviewer's \"Approve\" verdict on a pull request, as recorded by GitHub."
 tags:
   - "github"
   - "code-review"

@@ -1,7 +1,9 @@
 ---
-wikidata entity id: Q7512866
-instance of: "[[business]]"
-skos:altLabel: ["SAP Signavio", "SAP Signavio Process Manager"]
+wikidata entity id: "Q7512866"
+iso-thes:broaderInstantial: "[[business]]"
+skos:altLabel:
+  - "SAP Signavio"
+  - "SAP Signavio Process Manager"
 skos:definition: "Vendor of BPM software"
 skos:scopeNote: "My usage: the tool (SAP Signavio) where BPOs publish [[Business Process Model and Notation]] models, rather than the vendor."
 ---

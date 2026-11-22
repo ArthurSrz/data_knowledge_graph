@@ -1,8 +1,8 @@
 ---
 wikidata entity id: "Q743861"
-subclass of: "[[knowledge]]"
-instance of: "[[knowledge type]]"
-opposite of: "[[explicit knowledge]]"
+iso-thes:broaderGeneric: "[[knowledge]]"
+iso-thes:broaderInstantial: "[[knowledge type]]"
+kg:oppositeOf: "[[explicit knowledge]]"
 discoverer or inventor: "[[Michael Polanyi]]"
 skos:altLabel:
   - "implicit knowledge"

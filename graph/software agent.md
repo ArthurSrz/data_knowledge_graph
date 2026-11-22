@@ -1,6 +1,6 @@
 ---
 wikidata entity id: "Q2297769"
-subclass of:
+iso-thes:broaderGeneric:
   - "[[computer program]]"
   - "[[agency]]"
 skos:related:

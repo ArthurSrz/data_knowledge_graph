@@ -1,13 +1,12 @@
 ---
-facet of:
+skos:broader:
   - "[[administrative law]]"
   - "[[contract law]]"
   - "[[management]]"
 has effect:
   - "[[Iron law of oligarchy]]"
-subclass of:
+iso-thes:broaderGeneric:
   - "[[legal act]]"
-broader: "[[management]]"
 ---
 ## Frein 
 

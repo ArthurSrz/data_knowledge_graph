@@ -1,8 +1,8 @@
 ---
 wikidata entity id: "Q5071951"
-subclass of: "[[data set]]"
-has use: "[[Version control]]"
-used by: "[[git]]"
+iso-thes:broaderGeneric: "[[data set]]"
+kg:hasUse: "[[Version control]]"
+kg:usedBy: "[[git]]"
 has part: "[[commit message]]"
 skos:altLabel:
   - "commit"

@@ -1,3 +1,3 @@
 ---
-broader: "[[machine learning]]"
+skos:broader: "[[machine learning]]"
 ---

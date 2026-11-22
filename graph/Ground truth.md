@@ -1,8 +1,8 @@
 ---
-facet of: "[[empirical evidence]]"
-subclass of:
+skos:broader: "[[empirical evidence]]"
+iso-thes:broaderGeneric:
   - "[[truth]]"
-instance of:
+iso-thes:broaderInstantial:
   - "[[scientific method]]"
 ---
 

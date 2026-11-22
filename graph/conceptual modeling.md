@@ -1,5 +1,5 @@
 ---
-broader: "[[Process]]"
+skos:broader: "[[Process]]"
 different from: "[[Modeling]]"
 skos:altLabel:
   - "conceptual modelling"

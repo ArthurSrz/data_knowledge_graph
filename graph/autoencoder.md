@@ -1,18 +1,18 @@
 ---
-subclass of:
+iso-thes:broaderGeneric:
   - "[[Artificial neural network]]"
-facet of:
+skos:broader:
   - "[[deep learning]]"
   - "[[unsupervised learning]]"
-foundationalPaper: "Reducing the Dimensionality of Data with Neural Networks (Hinton & Salakhutdinov, 2006)"
-keyPapers:
+  - "[[artificial neural network]]"
+dcterms:isReferencedBy:
+  - "Reducing the Dimensionality of Data with Neural Networks (Hinton & Salakhutdinov, 2006)"
   - "Learning Internal Representations by Error Propagation (Rumelhart, Hinton & Williams, 1986)"
   - "Auto-Association by Multilayer Perceptrons (Bourlard & Kamp, 1988)"
-relatedTo:
+skos:related:
   - "[[Dimensionality reduction]]"
   - "[[Feature learning]]"
   - "[[Representation learning]]"
-broader: "[[artificial neural network]]"
 ---
 
 ![Autoencoder Thumbnail](https://upload.wikimedia.org/wikipedia/commons/3/37/Autoencoder_schema.png)

@@ -1,6 +1,6 @@
 ---
-part of: "[[graph/information system]]"
-has part(s):
+iso-thes:broaderPartitive: "[[graph/information system]]"
+has part:
   - "[[concept]]"
   - "[[graph/relation]]"
   - "[[graph/quasi-synonym]]"
@@ -24,20 +24,20 @@ model item:
   - "[[graph/EuroVoc]]"
   - "[[graph/Education Resources Information Center Thesaurus]]"
   - "[[graph/Thesaurus of Psychological Index Terms]]"
-has use:
+kg:hasUse:
   - "[[graph/information retrieval]]"
   - "[[graph/document retrieval]]"
 studied by: "[[graph/documentation science]]"
-subclass of:
+iso-thes:broaderGeneric:
   - "[[graph/controlled vocabulary]]"
   - "[[graph/network]]"
 has goal: "[[graph/prop]]"
-described by source: "[[graph/ISO 25964-1_2011]]"
+dcterms:isReferencedBy: "[[graph/ISO 25964-1_2011]]"
 described at URL: "https://books.infotoday.com/asist/Powering-Search/Sample-Chapter.pdf"
-Dewey Decimal Classification: "025.431"
+dcterms:subject: "025.431"
 name:
   - "information retrieval thesaurus"
   - "IR thesaurus"
 wikidata entity id: "Q17152639"
-broader: "[[knowledge organization system]]"
+skos:broader: "[[knowledge organization system]]"
 ---

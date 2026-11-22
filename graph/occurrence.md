@@ -33,15 +33,15 @@ said to be the same as:
   - "[[graph/event]]"
   - "[[graph/occurrent]]"
 topic has template: "[[graph/Template_Infobox event]]"
-described by source:
+dcterms:isReferencedBy:
   - "[[graph/Encyclopedia of Political Theory]]"
   - "[[graph/Basque Literature Terms Dictionary]]"
   - "[[graph/Literatura Terminoen Hiztegia]]"
 maintained by WikiProject: "[[graph/WikiProject Events]]"
-subclass of:
+iso-thes:broaderGeneric:
   - "[[graph/occurrent]]"
   - "[[graph/event]]"
-instance of: "[[graph/form of event]]"
+iso-thes:broaderInstantial: "[[graph/form of event]]"
 properties for this type:
   - "location"
   - "duration"

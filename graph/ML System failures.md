@@ -1,7 +1,7 @@
 ---
 studied by:
   - "[[study of complex systems]]"
-broader: "[[ML system]]"
+skos:broader: "[[ML system]]"
 ---
 
 Failures that are hard to detect. 

@@ -1,4 +1,4 @@
 ---
-broader: "[[data preparation]]"
+skos:broader: "[[data preparation]]"
 ---
 Technique for [[Normalization]] that avoids outlier issue. 

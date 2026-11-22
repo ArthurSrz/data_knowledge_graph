@@ -1,6 +1,6 @@
 ---
-wikidata entity id: Q228502
-subclass of:
+wikidata entity id: "Q228502"
+iso-thes:broaderGeneric:
   - "[[security control]]"
 has goal:
   - "[[control]]"

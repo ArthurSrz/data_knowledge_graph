@@ -1,3 +1,3 @@
 ---
-subclass of: "[[computer program]]"
+iso-thes:broaderGeneric: "[[computer program]]"
 ---

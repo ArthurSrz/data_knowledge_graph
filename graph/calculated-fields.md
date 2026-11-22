@@ -1,7 +1,7 @@
 ---
 dcterms:type: "Concept"
-title: "Pivot Tables"
-description: "Calculated fields produce different numerical results on each platform due to order-of-operations differences. Power Pivot has no Sheets equivalent."
+skos:prefLabel: "Pivot Tables"
+skos:definition: "Calculated fields produce different numerical results on each platform due to order-of-operations differences. Power Pivot has no Sheets equivalent."
 tags:
   - "pivot-tables"
   - "calculated-fields"
@@ -9,8 +9,8 @@ tags:
   - "excel"
   - "google-sheets"
 timestamp: 2026-06-28T00:00:00+00:00
-instanceOf: "[[excel vs. gsheet problem]]"
-broader: "[[spreadsheet]]"
+iso-thes:broaderInstantial: "[[excel vs. gsheet problem]]"
+skos:broader: "[[spreadsheet]]"
 ---
 
 ## Critical: Calculated Fields Produce Different Results

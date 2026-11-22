@@ -1,7 +1,7 @@
 ---
 dcterms:type: "Concept"
-title: "Round-Trip Fidelity — State of the Art"
-description: "No academic literature or existing tool achieves full-fidelity Excel ↔ Google Sheets sync. The bijectivity project's approach."
+skos:prefLabel: "Round-Trip Fidelity — State of the Art"
+skos:definition: "No academic literature or existing tool achieves full-fidelity Excel ↔ Google Sheets sync. The bijectivity project's approach."
 tags:
   - "round-trip"
   - "fidelity"

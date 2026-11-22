@@ -1,7 +1,7 @@
 ---
 wikidata entity id: "Q7091744"
-instance of: "[[employment]]"
-subclass of: "[[process]]"
+iso-thes:broaderInstantial: "[[employment]]"
+iso-thes:broaderGeneric: "[[process]]"
 has part:
   - "[[training]]"
   - "[[learning]]"
@@ -9,7 +9,7 @@ has part:
   - "[[role model]]"
   - "[[interpersonal relationship]]"
 said to be the same as: "[[induction training]]"
-broader: "[[process]]"
+skos:broader: "[[process]]"
 skos:altLabel:
   - "organizational socialization"
   - "employment induction"

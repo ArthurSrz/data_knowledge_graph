@@ -1,7 +1,7 @@
 ---
-part of: "[[graph/spreadsheet]]"
+iso-thes:broaderPartitive: "[[graph/spreadsheet]]"
 has characteristic: "[[graph/focus]]"
-subclass of: "[[graph/table cell]]"
+iso-thes:broaderGeneric: "[[graph/table cell]]"
 wikidata entity id: "Q59154568"
-broader: "[[spreadsheet]]"
+skos:broader: "[[spreadsheet]]"
 ---

@@ -1,9 +1,9 @@
 ---
-foundationalPaper: "Perceptrons: An Introduction to Computational Geometry (Minsky & Papert, 1969)"
-keyPapers:
-  - Learning Internal Representations by Error Propagation (Rumelhart, Hinton & Williams, 1986)
-  - Deep Learning (LeCun, Bengio & Hinton, 2015)
-composedOf:
+dcterms:isReferencedBy:
+  - "Perceptrons: An Introduction to Computational Geometry (Minsky & Papert, 1969)"
+  - "Learning Internal Representations by Error Propagation (Rumelhart, Hinton & Williams, 1986)"
+  - "Deep Learning (LeCun, Bengio & Hinton, 2015)"
+has part:
   - "[[Artificial neuron]]"
   - "[[Weights]]"
   - "[[Activation function]]"
@@ -16,7 +16,7 @@ skos:narrower:
 connectsThrough:
   - "[[forward propagation]]"
   - "[[backpropagation]]"
-formsPartOf: "[[Neural network models]]"
+iso-thes:broaderPartitive: "[[Neural network models]]"
 ---
 
 # Layer

@@ -1,7 +1,7 @@
 ---
 dcterms:type: "Concept"
-broader: "[[github]]"
-description: "Set of rules GitHub enforces on a branch (e.g. main) before anything can land on it."
+skos:broader: "[[github]]"
+skos:definition: "Set of rules GitHub enforces on a branch (e.g. main) before anything can land on it."
 tags:
   - "github"
   - "governance"

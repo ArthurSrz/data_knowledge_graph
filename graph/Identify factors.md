@@ -1,5 +1,5 @@
 ---
-partOf: "[[business understanding]]"
+iso-thes:broaderPartitive: "[[business understanding]]"
 importPartOf: "[[gouvernance]]"
-broader: "[[CRISP-DM Process]]"
+skos:broader: "[[CRISP-DM Process]]"
 ---

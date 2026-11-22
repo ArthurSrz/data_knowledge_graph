@@ -1,8 +1,8 @@
 ---
 wikidata entity id: "Q1323686"
-subclass of: "[[knowledge]]"
-instance of: "[[knowledge type]]"
-opposite of: "[[tacit knowledge]]"
+iso-thes:broaderGeneric: "[[knowledge]]"
+iso-thes:broaderInstantial: "[[knowledge type]]"
+kg:oppositeOf: "[[tacit knowledge]]"
 has cause: "[[knowledge extraction]]"
 skos:altLabel:
   - "codified knowledge"

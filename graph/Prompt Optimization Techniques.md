@@ -1,11 +1,11 @@
 ---
-related_to:
+skos:related:
   - "[[Prompt Engineering]]"
   - "[[Reasoning Enhancement]]"
   - "[[Performance Optimization]]"
-dependencies:
+kg:dependsOn:
   - "[[Prompt Templates]]"
-components:
+has part:
   - "Chain-of-Thought"
   - "Few-Shot Learning"
   - "Zero-Shot Learning"
@@ -13,13 +13,13 @@ components:
   - "Self-Consistency"
   - "Plan-and-Solve"
   - "Iterative Prompting"
-category: "Prompt Management"
+dcterms:subject: "Prompt Management"
 tags:
   - "Optimisation_Prompts"
   - "Techniques_Prompting"
   - "Raisonnement"
   - "CoT"
-broader: "[[AI prompt]]"
+skos:broader: "[[AI prompt]]"
 ---
 
 # Prompt Optimization Techniques

@@ -1,5 +1,5 @@
 ---
-broader: "[[decision tree]]"
+skos:broader: "[[decision tree]]"
 ---
 Method to build the best possible [[decision tree]]. 
 

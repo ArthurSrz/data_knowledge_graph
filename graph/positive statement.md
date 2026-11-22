@@ -1,7 +1,7 @@
 ---
 wikidata entity id: "Q7233295"
-subclass of: "[[declarative sentence]]"
-opposite of: "[[normative statement]]"
+iso-thes:broaderGeneric: "[[declarative sentence]]"
+kg:oppositeOf: "[[normative statement]]"
 skos:altLabel:
   - "descriptive statement"
   - "current-state evidence"

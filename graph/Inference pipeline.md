@@ -1,4 +1,4 @@
 ---
-partOf: "[[Vanilla RAG design]]"
-broader: "[[inference]]"
+iso-thes:broaderPartitive: "[[Vanilla RAG design]]"
+skos:broader: "[[inference]]"
 ---

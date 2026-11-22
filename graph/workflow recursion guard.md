@@ -1,7 +1,7 @@
 ---
 dcterms:type: "Concept"
-broader: "[[gitHub actions]]"
-description: "GitHub's rule that actions performed with GITHUB_TOKEN do not trigger other workflows."
+skos:broader: "[[gitHub actions]]"
+skos:definition: "GitHub's rule that actions performed with GITHUB_TOKEN do not trigger other workflows."
 tags:
   - "github"
   - "ci"

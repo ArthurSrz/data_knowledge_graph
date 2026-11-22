@@ -1,4 +1,4 @@
 ---
-broader: "[[fine-tuning]]"
+skos:broader: "[[fine-tuning]]"
 ---
 Tool to use [[VRAM]] optimally

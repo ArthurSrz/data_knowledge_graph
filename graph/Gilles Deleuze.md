@@ -67,7 +67,7 @@ student of:
   - "[[Jean Hyppolite]]"
 academic degree: "[[doctorate]]"
 time period: "[[contemporary philosophy]]"
-described by source: "[[UbuWeb]]"
+dcterms:isReferencedBy: "[[UbuWeb]]"
 notable work:
   - "[[Anti-Oedipus]]"
   - "[[Difference and Repetition]]"
@@ -82,7 +82,7 @@ doctoral student:
   - "[[Éric Alliez]]"
   - "[[Yvonne Toros]]"
 child: "[[Émilie Deleuze]]"
-part of: "[[Deleuze and Guattari]]"
+iso-thes:broaderPartitive: "[[Deleuze and Guattari]]"
 sex or gender: "[[male]]"
 maintained by WikiProject: "[[WikiProject Mathematics]]"
 family name: "[[Deleuze]]"
@@ -97,7 +97,7 @@ field of work:
   - "[[ontology]]"
 religion or worldview: "[[atheism]]"
 manner of death: "[[suicide]]"
-instance of: "[[human]]"
+iso-thes:broaderInstantial: "[[human]]"
 country of citizenship: "[[France]]"
 native language: "[[French]]"
 languages spoken, written or signed: "[[French]]"
@@ -119,5 +119,5 @@ signature: "http://commons.wikimedia.org/wiki/Special:FilePath/Gilles%20Deleuze%
 Stack Exchange tag: "https://philosophy.stackexchange.com/tags/deleuze"
 ISNI: "000000012277323X"
 wikidata entity id: "Q184226"
-broader: "[[dividual]]"
+skos:broader: "[[dividual]]"
 ---

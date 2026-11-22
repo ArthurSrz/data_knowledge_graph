@@ -1,13 +1,13 @@
 ---
-related_to:
+skos:related:
   - "[[Prompt Templates]]"
   - "[[Context Management]]"
   - "[[Output Formatting]]"
-dependencies:
+kg:dependsOn:
   - "[[User Goal]]"
   - "[[Tools]]"
   - "[[Chat History]]"
-components:
+has part:
   - "User Goal"
   - "Instruction"
   - "Input Query"
@@ -16,13 +16,13 @@ components:
   - "Output Format"
   - "Tools"
   - "Chat History"
-category: "Prompt Management"
+dcterms:subject: "Prompt Management"
 tags:
   - "Templates_Prompt"
   - "Contexte"
   - "Exemples"
   - "Format_Sortie"
-broader: "[[AI prompt]]"
+skos:broader: "[[AI prompt]]"
 ---
 
 # Prompt Template Info

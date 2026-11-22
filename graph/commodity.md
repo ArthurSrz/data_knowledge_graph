@@ -9,10 +9,10 @@ has cause:
   - "[[graph/commoditization]]"
 has list: "[[graph/list of traded commodities]]"
 topic has template: "[[graph/Template_Commodity]]"
-instance of:
+iso-thes:broaderInstantial:
   - "[[graph/economic concept]]"
   - "[[graph/type of object]]"
-subclass of: "[[graph/good_s]]"
+iso-thes:broaderGeneric: "[[graph/good_s]]"
 IAB code: "81"
 OmegaWiki Defined Meaning: "955643"
 Commons category: "Commodities"

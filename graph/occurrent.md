@@ -1,5 +1,5 @@
 ---
-disjoint with: "[[continuant]]"
+kg:disjointWith: "[[continuant]]"
 skos:altLabel:
   - "perdurant"
   - "occurrent entity"

@@ -1,5 +1,5 @@
 ---
-wikidata entity id: Q135001051
-part of: "[[changeset]]"
+wikidata entity id: "Q135001051"
+iso-thes:broaderPartitive: "[[changeset]]"
 ---
 

@@ -1,4 +1,4 @@
 ---
 shouldPayAttentionTo: "[[feedback loop bias]]"
-broader: "[[ML system]]"
+skos:broader: "[[ML system]]"
 ---

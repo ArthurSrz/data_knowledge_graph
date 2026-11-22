@@ -1,9 +1,9 @@
 ---
 wikidata entity id: "Q1047174"
-subclass of:
+iso-thes:broaderGeneric:
   - "[[documentary evidence]]"
   - "[[activity log]]"
-facet of:
+skos:broader:
   - "[[audit]]"
   - "[[risk management]]"
 skos:altLabel:

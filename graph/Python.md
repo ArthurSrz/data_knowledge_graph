@@ -1,5 +1,5 @@
 ---
-broader: "[[programming language]]"
+skos:broader: "[[programming language]]"
 ---
 ![Python (programming language)](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg)
 

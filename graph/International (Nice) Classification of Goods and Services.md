@@ -1,11 +1,11 @@
 ---
-wikidata entity id: Q193988
-instance of:
+wikidata entity id: "Q193988"
+iso-thes:broaderInstantial:
   - "[[economic taxonomy]]"
-main subject:
+dcterms:subject:
   - "[[graph/trademark]]"
   - "[[graph/goods and services]]"
-subclass of: "[[graph/agreement]]"
+iso-thes:broaderGeneric: "[[graph/agreement]]"
 language of work or name:
   - "[[graph/English]]"
   - "[[graph/Russian]]"

@@ -1,3 +1,3 @@
 ---
-broader: "[[Agile approach]]"
+skos:broader: "[[Agile approach]]"
 ---

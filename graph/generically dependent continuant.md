@@ -1,5 +1,5 @@
 ---
-subclass of: "[[continuant]]"
+iso-thes:broaderGeneric: "[[continuant]]"
 skos:altLabel:
   - "GDC"
 ---

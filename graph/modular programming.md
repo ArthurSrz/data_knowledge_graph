@@ -1,14 +1,14 @@
 ---
-subclass of:
+iso-thes:broaderGeneric:
   - "[[graph/computer programming]]"
   - "[[graph/programming paradigm]]"
   - "[[graph/structured programming]]"
-part of: "[[graph/computer programming]]"
-uses:
+iso-thes:broaderPartitive: "[[graph/computer programming]]"
+kg:uses:
   - "[[graph/subroutine]]"
   - "[[graph/public interface]]"
   - "[[graph/module]]"
-instance of:
+iso-thes:broaderInstantial:
   - "[[graph/software development methodology]]"
   - "[[graph/computer science term]]"
   - "[[graph/engineering]]"

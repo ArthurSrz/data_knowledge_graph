@@ -1,5 +1,5 @@
 ---
-partOf: "[[data preparation]]"
+iso-thes:broaderPartitive: "[[data preparation]]"
 skos:broader: "[[data preparation]]"
 ---
 

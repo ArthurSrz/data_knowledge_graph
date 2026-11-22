@@ -1,14 +1,14 @@
 ---
-facet of: "[[rotation]]"
+skos:broader: "[[rotation]]"
 different from:
   - "[[orientation]]"
   - "[[relative direction]]"
   - "[[direction]]"
-has part(s):
+has part:
   - "[[direction]]"
   - "[[sense]]"
-subclass of: "[[free vector]]"
-main Wikidata property: orientation
-part of: "[[Euclidean vector]]"
-wikidata entity id: Q2235286
+iso-thes:broaderGeneric: "[[free vector]]"
+main Wikidata property: "orientation"
+iso-thes:broaderPartitive: "[[Euclidean vector]]"
+wikidata entity id: "Q2235286"
 ---
