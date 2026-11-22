@@ -1,286 +1,112 @@
 <div align="center">
 
-# 🧠 [[Data]] [[knowledge graph]]
+# 🧠 Data knowledge graph
 
-**A living [[ontology]] of [[data]] science, ML, and AI built as an Obsidian vault with typed semantic relationships.**
+**A personal ontology of data science, ML and AI, kept as an Obsidian vault and checked by a logic reasoner.**
 
 [![Concepts](https://img.shields.io/badge/concepts-1028-blue?style=flat-square)](#)
-[![Wikilinks](https://img.shields.io/badge/wikilinks-7%2C800%2B-green?style=flat-square)](#)
-[![SKOS Coverage](https://img.shields.io/badge/SKOS_coverage-80.9%25-orange?style=flat-square)](#)
-[![Datalog Rules](https://img.shields.io/badge/datalog_rules-24-purple?style=flat-square)](#formal-reasoning)
+[![Typed edges](https://img.shields.io/badge/typed_edges-1%2C500%2B-green?style=flat-square)](#-structure)
+[![Schema](https://img.shields.io/badge/schema-SKOS_·_ISO_25964_·_Dublin_Core_·_PROV--O-orange?style=flat-square)](schema.yml)
+[![Logic gate](https://img.shields.io/badge/logic_gate-blocking-purple?style=flat-square)](#-logic-gate)
 
 </div>
 
 ---
 
-<br>
+> **Not a glossary, a graph.** Each concept is a Markdown note whose YAML frontmatter holds typed relations to other concepts. A Datalog reasoner derives what follows from them, and refuses any edit that would make the graph contradict itself.
 
-> **Not a glossary, a graph.** Each concept carries typed relationships in YAML frontmatter (`broader`, `uses`, `subclass of`, …), forming a navigable semantic network. 73 root concepts branch into 8 nesting levels, connected by 7,800+ wikilinks.
+## ✨ November 2026 upgrade: from thesaurus to ontology
 
-<br>
+The vault moved from a loose thesaurus (325 ad-hoc keys, `broader` meaning anything) to a declared ontology.
+
+| | Before | Now |
+|---|---|---|
+| **Schema** | none: keys invented on the fly | [`schema.yml`](schema.yml): 42 properties, 5 classes, each with its standard, inverse, transitivity, domain/range and Wikidata mapping |
+| **Hierarchy** | `broader`, `subclass of`, `part of` all read as "is a kind of" | ISO 25964 split: `iso-thes:broaderGeneric` (kind of), `iso-thes:broaderInstantial` (instance of), `iso-thes:broaderPartitive` (part of), `skos:broader` (thematic shelving only) |
+| **Wikidata** | property labels copied into notes | an input translated to `skos:exactMatch wd:Q…`, `skos:closeMatch`, `dcterms:subject`…; world facts in `cache/wikidata.jsonl` |
+| **Inferences** | written back into the notes, never cleaned | `inferred/<note>.json`, rewritten on every pass |
+| **Consistency** | checked by hand | a logic gate refuses incoherent writes from Claude Code, the MCP server and pull requests |
+| **Validation** | none | `scripts/validate.py`: keys outside the schema, domain/range, duplicates, SKOS S13/S14/S27 |
+
+The migration ran in one commit per type of change ([PR #13](https://github.com/ArthurSrz/data_knowledge_graph/pull/13)), with the gate checking every step. Plan and status: phases 0–2 done; next are the review of the remaining `skos:broader` edges, provenance (PROV-O from git history), a schema-driven reasoner, the situational layer (which concepts to combine, in which situation, for which goal) and an OWL export.
 
 ## 📈 Growth
 
-![Knowledge Graph Growth](stats/chart.png)
+![Knowledge graph growth](stats/chart.png)
 
-|  | Count |
-|---|---:|
-| **Rich** (200+ words) | 109 |
-| **Medium** (50–199 words) | 112 |
-| **Stubs** (< 50 words) | 359 |
-| **Empty** (link targets) | 292 |
-
-<br>
+Updated daily by [`daily-stats.yml`](.github/workflows/daily-stats.yml).
 
 ## 🏗️ Structure
 
-Each concept is a markdown file with YAML frontmatter defining typed relationships and wiki-links connecting to related terms:
+A note, as stored in `graph/process owner.md`:
 
 ```yaml
-# Knowledge graph.md
 ---
-uses:
-  - "[[Ontology]]"
-  - "[[Taxonomy]]"
-subclass of:
-  - "[[knowledge base]]"
-  - "[[labeled directed graph]]"
-studied in:
-  - "[[Ontology engineering]]"
+skos:exactMatch: "wd:Q1418701"
+iso-thes:broaderGeneric: "[[person]]"
+kg:accountableFor: "[[business process]]"
 ---
-A knowledge graph represents structured domain knowledge
-as entities connected by typed relationships...
+The person accountable for a business process, its design and its performance…
 ```
 
-<br>
+A process owner *is a* person (a continuant) who is *accountable for* a business process (an occurrent). It is not a kind of process, so there is no hierarchical link to it: the gate would refuse one, since continuant and occurrent are disjoint.
 
-## 🗺️ Topics
+Main relations in use:
 
-<table>
-<tr>
-<td width="33%">
+| Key | Meaning | Edges |
+|---|---|---:|
+| `skos:broader` | thematic shelving (navigation only) | 247 |
+| `iso-thes:broaderGeneric` | is a kind of (Wikidata P279), inherited | 231 |
+| `iso-thes:broaderInstantial` | is an instance of (P31) | 141 |
+| `has part` / `iso-thes:broaderPartitive` | part–whole (P527 / P361) | 169 |
+| `skos:related` and sub-properties (`kg:uses`, `kg:oppositeOf`, `kg:accountableFor`…) | associative links | 140+ |
+| `kg:disjointWith` | disjoint classes (e.g. continuant / occurrent) | 2 |
 
-**🤖 AI & LLMs**
-<br><sub>Agents, RAG, transformers, prompt engineering, LLM evaluation</sub>
+## 🔬 Reasoning
 
-</td>
-<td width="33%">
-
-**📊 Machine Learning**
-<br><sub>Algorithms, training, evaluation metrics, feature engineering</sub>
-
-</td>
-<td width="33%">
-
-**🔧 Data Engineering**
-<br><sub>Pipelines, data lineage, ETL, data quality</sub>
-
-</td>
-</tr>
-<tr>
-<td>
-
-**🧬 Deep Learning**
-<br><sub>Neural networks, CNNs, transformers, attention, backpropagation</sub>
-
-</td>
-<td>
-
-**🔗 Knowledge Representation**
-<br><sub>Ontologies, taxonomies, knowledge graphs, SKOS</sub>
-
-</td>
-<td>
-
-**⚖️ Fairness & Privacy**
-<br><sub>Bias, FERPA, PII management, interpretability</sub>
-
-</td>
-</tr>
-<tr>
-<td>
-
-**🏛️ Infrastructure**
-<br><sub>Cloud, containers, HTTP, authentication, databases</sub>
-
-</td>
-<td>
-
-**📐 Math & Statistics**
-<br><sub>Probability, graph theory, vector spaces, combinatorics</sub>
-
-</td>
-<td>
-
-**💼 Process & Product**
-<br><sub>Design thinking, CRISP-DM, agile, management</sub>
-
-</td>
-</tr>
-</table>
-
-<br>
-
-## 🎯 Use as a Data Ontology
-
-| Use case | How |
-|---|---|
-| **GraphRAG** | Navigate concepts through semantic connections instead of keyword matching |
-| **Data catalog enrichment** | Import as standardized terminology for hierarchical classification |
-| **LLM grounding** | Reduce hallucination through explicit relationship constraints |
-| **Onboarding** | Interactive learning with concept definitions and relationship paths |
-| **Metadata schema design** | Use `partOf`, `uses`, `subclass of` as schema blueprints |
-| **Knowledge graph construction** | Export to Neo4j / RDF by parsing frontmatter into typed edges |
-| **Concept disambiguation** | Canonical definitions that resolve cross-team terminology drift |
-
-<br>
-
-## 🔬 Formal Reasoning
-
-`scripts/reason.py` uses [Semantica](https://github.com/semantica-agi/semantica)'s Datalog engine for purely logical inference — no LLM involved.
+[`scripts/reason.py`](scripts/reason.py) runs 24 Datalog rules on [Semantica](https://github.com/semantica-agi/semantica): transitive hierarchy, inverses, symmetry, instance typing, part–whole closure, and the integrity checks (cycles, SKOS S27, opposites, disjointness, instance/subclass crossing, part–whole cycles). No LLM involved.
 
 ```bash
-pip install -r requirements.txt
+python3 -m venv .venv-gate && .venv-gate/bin/pip install --no-deps -r requirements-gate.txt   # ~10 s, no torch
 
-python scripts/reason.py infer          # derived ancestor chains, symmetric related, inverses
-python scripts/reason.py check          # cycles, broken links, S27 violations, orphans
-python scripts/reason.py query "ancestor(AI agent, ?X)"   # query with real note titles
-python scripts/reason.py report         # write stats/reasoning_report.md
+.venv-gate/bin/python scripts/reason.py check                       # integrity report
+.venv-gate/bin/python scripts/reason.py query "ancestor(process owner, ?X)"
+.venv-gate/bin/python scripts/reason.py write                       # refresh inferred/
+.venv-gate/bin/python scripts/validate.py                           # conformance to schema.yml
 ```
 
-9 Datalog rules encode SKOS semantics: transitive `broader` closure, `broader`↔`narrower` inverses, `related` symmetry, cycle detection, and [SKOS S27](https://www.w3.org/TR/skos-reference/#L2422) disjointness.
+## 🛡️ Logic gate
 
-<br>
+`reason.py gate` is the single judge of "coherent": it reasons on the graph before and after a change and refuses only **new** logical violations, with the proof chains on both sides.
 
-## 🌳 Taxonomy — SKOS Broader/Narrower Hierarchy
-
-The graph encodes [SKOS](https://www.w3.org/2004/02/skos/)-style hierarchical relationships via `broader:` in YAML frontmatter. **701 of 866 concepts** (80.9%) are classified — 73 root concepts, up to 8 nesting levels.
-
-<details>
-<summary><strong>Browse full taxonomy</strong> (73 root concepts → 701 classified concepts)</summary>
-
-<br>
-
-- [agent observability](graph/agent%20observability.md)
-  - [agentOps](agentOps.md)
-  - [LLM Observability](graph/LLM%20Observability.md)
-    - [langfuse](langfuse.md)
-- [Agile approach](graph/Agile%20approach.md)
-  - [daily stand-ups](daily%20stand-ups.md)
-  - [demo sessions](demo%20sessions.md)
-  - [Product owner](graph/Product%20owner.md)
-  - [sprint planning](sprint%20planning.md)
-- [AI](graph/AI.md)
-  - [AI engineering](graph/AI%20engineering.md)
-  - [AI Hierarchy of needs](graph/AI%20Hierarchy%20of%20needs.md)
-  - [AI Proof detection model](graph/AI%20Proof%20detection%20model.md)
-  - [AI stack](graph/AI%20stack.md)
-  - [Artificial Intelligence (AI)](graph/Artificial%20Intelligence%20%28AI%29.md)
-    - [agentic System](agentic%20System.md)
-      - [action module](graph/action%20module.md) · [agency](graph/agency.md) · [agent harness](graph/agent%20harness.md) · [agent identity](graph/agent%20identity.md) · [agent role type](graph/agent%20role%20type.md) · [autonomy](autonomy.md) · [claude code](graph/claude%20code.md) · [claude managed agents](graph/claude%20managed%20agents.md) · [comparag agent](graph/comparag%20agent.md) · [context mode](graph/context%20mode.md) · [human-in-the-loop](human-in-the-loop.md) · [ReAct data agent](graph/ReAct%20data%20agent.md) · [ReAct mode](graph/ReAct%20mode.md) · [search module](graph/search%20module.md) · [subagent](subagent.md) · [Tool arena](graph/Tool%20arena.md) · [Tool Assignment Gate](graph/Tool%20Assignment%20Gate.md) · [Toolkits](graph/Toolkits.md) · [tools](tools.md)
-      - [Model Context Protocol (MCP)](graph/Model%20Context%20Protocol%20%28MCP%29.md) → [MCP host](graph/MCP%20host.md) · [MCP server](graph/MCP%20server.md)
-    - [compound AI system](compound%20AI%20system.md)
-    - [computer vision](computer%20vision.md) → [facial recognition](facial%20recognition.md)
-    - [connexionism](graph/connexionism.md) · [expert systems](expert%20systems.md) · [Narrow AI](graph/Narrow%20AI.md) · [symbolism](symbolism.md)
-    - [Natural Language Processing](graph/Natural%20Language%20Processing.md)
-      - [bag of words](bag%20of%20words.md) · [sentiment analysis](sentiment%20analysis.md) · [token](graph/token.md) · [Tokenizer](graph/Tokenizer.md)
-      - [Embeddings](graph/Embeddings.md) → [embedding](graph/embedding.md) · [Embeddings models](graph/Embeddings%20models.md) · [latent space](graph/latent%20space.md) · [vectorization](graph/vectorization.md) · [Word embeddings](graph/Word%20embeddings.md)
-      - [language modeling](language%20modeling.md)
-        - [autoregressive language models](graph/autoregressive%20language%20models.md) → [GPT2](graph/GPT2.md)
-        - [large language model](large%20language%20model.md)
-          - [AI prompt](graph/AI%20prompt.md) → [chain-of-thought](graph/chain-of-thought.md) · [prompt identity](prompt%20identity.md) · [prompt optimization techniques](prompt%20optimization%20techniques.md) · [prompt templates](prompt%20templates.md) · [system prompt](graph/system%20prompt.md) · …
-          - [RAG (Retrieval-Augmented Generation)](graph/RAG%20%28Retrieval-Augmented%20Generation%29.md) → [retriever](retriever.md) · [HyDE](hypothetical%20document%20embeddings%20(HyDE).md) · …
-          - [chat engines](graph/chat%20engines.md) · [hallucination](hallucination.md) · [in-context learning](in-context%20learning.md) · [LLaMA](graph/LLaMA.md) · [Ollama](graph/Ollama.md) · …
-        - [masked language models](graph/masked%20language%20models.md) → [BERT](graph/BERT.md) → [camemBERT](graph/camemBERT.md)
-  - [claude cowork](graph/claude%20cowork.md) · [man-Computer Symbiosis](man-Computer%20Symbiosis.md) · [The Shift from Models to Compound AI Systems](graph/The%20Shift%20from%20Models%20to%20Compound%20AI%20Systems.md) · …
-- [algorithm](algorithm.md)
-  - [algorithm selection](algorithm%20selection.md) · [greediness](greediness.md) · [non-parametric algorithms](non-parametric%20algorithms.md) · [selection](selection.md)
-- [automation](automation.md)
-  - [automation framework](automation%20framework.md) · [office automation](graph/office%20automation.md)
-- [Business understanding](graph/Business%20understanding.md)
-  - [define success](graph/define%20success.md) · [problem framing](problem%20framing.md)
-- [Centrality](graph/Centrality.md)
-  - [betweenness centrality](graph/betweenness%20centrality.md) · [closeness centrality](graph/closeness%20centrality.md) · [degree centrality](degree%20centrality.md) · [Eigenvector centrality](graph/Eigenvector%20centrality.md)
-- [clause](graph/clause.md)
-  - [clause classification heuristic](graph/clause%20classification%20heuristic.md) · [exclusion clause](graph/exclusion%20clause.md) · [force majeure](graph/force%20majeure.md) · [non-compete clause](graph/non-compete%20clause.md)
-- [Clustering](graph/Clustering.md)
-  - [Elbow method](graph/Elbow%20method.md) · [K-Means Clustering](graph/K-Means%20Clustering.md)
-- [combinatorics](combinatorics.md) · [combinatorics](combinatorics.md)
-  - [graph theory](graph/graph%20theory.md) · [probability](graph/probability.md) · [combination](graph/combination.md) · [Unary operation](graph/Unary%20operation.md)
-- [Confusion Matrix](graph/Confusion%20Matrix.md)
-  - [false negative (FN)](false%20negative%20(FN).md) · [false positive (FP)](false%20positive%20(FP).md) · [True Negative (TN)](graph/True%20Negative%20%28TN%29.md) · [True Positive (TP)](graph/True%20Positive%20%28TP%29.md)
-- [Containerization (computing)](graph/Containerization%20%28computing%29.md)
-  - [container](graph/container.md) · [Docker](graph/Docker.md) → [Docker images](graph/Docker%20images.md)
-- [contract](graph/contract.md)
-  - [compliant privacy policy](graph/compliant%20privacy%20policy.md) · [liability](graph/liability.md) · [model contract](graph/model%20contract.md) · [rider](rider.md)
-- [control theory](graph/control%20theory.md)
-  - [damping](damping.md) · [inertia](inertia.md) · [James Clerk Maxwell](graph/James%20Clerk%20Maxwell.md) · [state observer](graph/state%20observer.md)
-- [deep learning](deep%20learning.md)
-  - [artificial neural network](graph/artificial%20neural%20network.md) → [artificial neuron](graph/artificial%20neuron.md) · [autoencoder](graph/autoencoder.md) · [backpropagation](backpropagation.md) · [CNN](convolutional%20neural%20networks.md) · [multilayer perceptron](graph/multilayer%20perceptron.md) · [ReLU](graph/ReLU%20activation%20function.md) · [Sigmoid](graph/Sigmoid%20function.md) · [Weights](graph/Weights.md) · …
-  - [foundation model](graph/foundation%20model.md) → [multimodal model](graph/multimodal%20model.md) · [tabular foundation model](graph/tabular%20foundation%20model.md) → [TabPFN](graph/TabPFN.md)
-  - [Keras](graph/Keras.md) · [Transfer learning](graph/Transfer%20learning.md)
-  - [Transformers](graph/Transformers.md) → [attention weights](graph/attention%20weights.md) · [Decoder-only](graph/Decoder-only.md) · [Encoder-only](graph/Encoder-only.md)
-- [elicitation](graph/elicitation.md)
-  - [dialogue](dialogue.md) · [elicitation interview](graph/elicitation%20interview.md) · [Socratic](graph/Socratic.md) → [Socrates](graph/Socrates.md)
-- [evaluation](graph/evaluation.md)
-  - [cross validation](cross%20validation.md) · [evaluation metrics](evaluation%20metrics.md) → [accuracy](graph/accuracy.md) · [F1 Score](graph/F1%20Score.md) · [Precision](graph/Precision.md) · [Recall](graph/Recall.md) · [ROC](graph/Receiver%20Operating%20Characteristic%20curve.md) · [Regression Error Metrics](graph/Regression%20Error%20Metrics.md) · …
-- [fairness](fairness.md)
-  - [bias](graph/bias.md) → [feedback loop bias](feedback%20loop%20bias.md) · [historical bias](historical%20bias.md)
-  - [data privacy](data%20privacy.md) → [data privacy laws](data%20privacy%20laws.md) · [privacy by design](privacy%20by%20design.md) · [Sensitive Information](graph/Sensitive%20Information.md) · …
-  - [Transparency](graph/Transparency.md) → [Interpretability](graph/Interpretability.md) → [LIME](graph/Local%20Interpretable%20Model-Agnostic%20Explanations%20%28LIME%29.md) · [SHAP](graph/Shapley%20Additive%20Explanations%20%28SHAP%29.md)
-- [Graph theory](graph/Graph%20theory.md)
-  - [adjacency matrix](graph/adjacency%20matrix.md) · [Edges](graph/Edges.md) · [node](graph/node.md) · [heterogeneous graph](heterogeneous%20graph.md) · [Network graph](graph/Network%20graph.md) · …
-- [infrastructure](infrastructure.md)
-  - [authentication protocol](graph/authentication%20protocol.md) → [OAuth](graph/OAuth.md) · [SSH Key](graph/SSH%20Key.md)
-  - [cloud computing](graph/cloud%20computing.md) · [datawarehouse](datawarehouse.md) · [deploy](deploy.md) · [Docker](graph/Docker.md) · [HTTP](graph/HTTP.md) · [NoSQL database](graph/NoSQL%20database.md) · [Virtualization](graph/Virtualization.md) · …
-- [knowledge graph](knowledge%20graph.md)
-  - [CYPHER](graph/CYPHER.md) · [context graph](graph/context%20graph.md) · [graph hop](graph/graph%20hop.md) · [properties](properties.md) · [Text2Cypher](graph/Text2Cypher.md) · …
-- [knowledge organization system](graph/knowledge%20organization%20system.md)
-  - [concept](graph/concept.md) · [controlled vocabulary](graph/controlled%20vocabulary.md) · [Ontology](graph/Ontology.md) · [taxonomy](graph/taxonomy.md) · [thesaurus](graph/thesaurus.md) · …
-- [machine learning](graph/machine%20learning.md)
-  - [supervised learning](graph/supervised%20learning.md) → [decision tree](decision%20tree.md) · [KNN](graph/K-Nearest%20Neighbor%20algorithm.md) · [Naive Bayes](graph/Naive%20Bayes%20Classifier.md) · [SVM](support%20vector%20machine.md)
-  - [Unsupervised Learning](graph/Unsupervised%20Learning.md) · [Reinforcement Learning](graph/Reinforcement%20Learning.md) · [federated learning](federated%20learning.md)
-  - [hyperparameters](hyperparameters.md) · [loss function](graph/loss%20function.md) · [Regularization](graph/Regularization.md)
-  - [Optimizer algorithm](graph/Optimizer%20algorithm.md) → [gradient descent](gradient%20descent.md)
-  - [ML system](graph/ML%20system.md) → [cold start problem](graph/cold%20start%20problem.md) · [reproducibility](reproducibility.md) · …
-- [machine learning projects](graph/machine%20learning%20projects.md)
-  - [CRISP-DM Process](graph/CRISP-DM%20Process.md) → [data preparation](data%20preparation.md) · [Deployment](graph/Deployment.md) · [modeling](modeling.md) · [problem definition](problem%20definition.md) · …
-- [ML models](graph/ML%20models.md)
-  - [Linear models](graph/Linear%20models.md) · [Neural network models](graph/Neural%20network%20models.md) · [feature](graph/feature.md) · [prediction](prediction.md) · …
-- [Model fit](graph/Model%20fit.md) → [Overfitting](graph/Overfitting.md) · [Underfitting](graph/Underfitting.md)
-- [model maintenance](model%20maintenance.md) → [concept drift](graph/concept%20drift.md) · [data drift](data%20drift.md) · [model registry](model%20registry.md) · [retraining](retraining.md) · …
-- [Model tuning](graph/Model%20tuning.md) → [fine-tuning](fine-tuning.md) · [LoRA](graph/Low-Rank%20Adaptation.md) · [pruning](pruning.md) · [Quantization](graph/Quantization.md)
-- [Probability](graph/Probability.md) → [bayes' theorem](bayes'%20theorem.md) · [confidence interval](graph/confidence%20interval.md) · [variance](graph/variance.md) · …
-- [process](process.md)
-  - [application development](application%20development.md) → [backend](backend.md) · [frontend](frontend.md) · [programming language](programming%20language.md) · [DevOps](graph/DevOps.md) · …
-  - [data](graph/data.md) → [data quality](data%20quality.md) · [data type](graph/data%20type.md) · [metadata](graph/metadata.md) · …
-  - [Design thinking](graph/Design%20thinking.md) · [knowledge](graph/knowledge.md) · [management](management.md) · …
-- [Shareholders agreement](graph/Shareholders%20agreement.md) · [contract](graph/contract.md) · [negotiation](graph/negotiation.md)
-- [spreadsheet](graph/spreadsheet.md) → [excel](graph/excel.md) · [google sheet](graph/google%20sheet.md) · [named-ranges](graph/named-ranges.md) · …
-- [Vector space](graph/Vector%20space.md) → [Distance](graph/Distance.md) · [cosine similarity](cosine%20similarity.md) · [Tensors](graph/Tensors.md) · [vector](graph/vector.md) · …
-- [version control](graph/version%20control.md) → [git](git.md) · [repository](repository.md) · …
-- *+ 20 more root concepts: [data augmentation](data%20augmentation.md), [data science team](data%20science%20team.md), [Decision support](graph/Decision%20support.md), [dividual](dividual.md), [araph algorithm](araph%20algorithm.md), [heuristic](graph/heuristic.md), [Kernel](graph/Kernel.md), [metric](metric.md), [modeling](modeling.md), [pattern](graph/pattern.md), [Pipelines](graph/Pipelines.md), [Product](graph/Product.md), [prototyping](prototyping.md), [regression](graph/regression.md), [risk](graph/risk.md), [schema design](schema%20design.md), [search](search.md), [semantics](graph/semantics.md), [stochastic processes](stochastic%20processes.md), [systems theory](graph/systems%20theory.md), …*
-
-</details>
-
-<br>
-
-## 🚀 Getting Started
-
-**Explore** — Open the `graph/` folder in [Obsidian](https://obsidian.md/) and use Graph View to navigate visually.
-
-**Export** — Convert to other formats:
-
-| Target | Method |
+| Where | How |
 |---|---|
-| **Neo4j** | Parse frontmatter into Cypher `CREATE` statements |
-| **RDF/OWL** | Map `broader:` → `skos:broader`, relationship types → predicates |
-| **JSON-LD** | Export as linked data for web interoperability |
+| Claude Code, every session | user-level hooks: `PreToolUse` on Write/Edit, `Stop` on the session's whole changeset ([`scripts/hooks/kg-gate.py`](scripts/hooks/kg-gate.py)) |
+| Agents | MCP tool `kg_upsert_concept` in [`scripts/kg_mcp.py`](scripts/kg_mcp.py): validate, then write |
+| Pull requests | required status check `kg-gate` ([`kg-gate.yml`](.github/workflows/kg-gate.yml)) |
 
-<br>
+Mode: `KG_GATE=warn|block|off` (off is logged). Every decision goes to `stats/gate-log.md`; current violations are in `stats/violations.md`.
+
+## 🗂️ Repository
+
+| Path | Content |
+|---|---|
+| `graph/` | concept notes (one file per concept) |
+| `daily/` | daily notes |
+| `inferred/` | facts derived by the reasoner, one JSON per note |
+| `schema.yml` | the ontology schema |
+| `cache/` | Wikidata world facts and values removed by the migration |
+| `scripts/` | reasoner, validator, migration, GraphRAG (`kg_rag.py`), MCP server, hooks |
+| `stats/` | growth data, gate log, reports |
+
+## 🚀 Use
+
+- **Explore**: open the vault in [Obsidian](https://obsidian.md/) and use Graph View.
+- **Ground an LLM**: the `pkg` MCP server (`kg_retrieve`, `kg_concept`, `kg_neighbors`, `kg_search`) returns a concept with its typed relations and neighbourhood.
+- **Export**: the keys map directly to SKOS / ISO 25964 / Dublin Core IRIs (namespaces in `schema.yml`); an OWL export is planned.
 
 ---
 
 <div align="center">
-<sub>Built with <a href="https://obsidian.md/">Obsidian</a> · Reasoned with <a href="https://github.com/semantica-agi/semantica">Semantica</a> · Stats updated daily via [[GitHub]] Actions</sub>
+<sub>Built with <a href="https://obsidian.md/">Obsidian</a> · Reasoned with <a href="https://github.com/semantica-agi/semantica">Semantica</a> · Stats updated daily via GitHub Actions</sub>
 </div>
