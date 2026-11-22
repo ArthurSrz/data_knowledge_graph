@@ -12,7 +12,7 @@ inferred:skos:ancestor:
   - "[[information retrieval]]"
   - "[[search]]"
 inferred:skos:narrower:
-  - "[[Hypothetical Document Embeddings (HyDE)]]"
+  - "[[hypothetical document embeddings (HyDE)]]"
   - "[[vanilla RAG design]]"
 ---
 **Retrieval-augmented generation**: type of information retrieval using LLMs.

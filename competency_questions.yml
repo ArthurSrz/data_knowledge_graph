@@ -62,21 +62,57 @@ questions:
     priority: 2
     requires: [constructed_with]
 
-  # ── Application & impact ──────────────────────────────────────────
-  - question: "What are the practical applications of a given concept?"
-    category: application
+  # ── Applicability, combination, success (ontology-plan §4) ─────────
+  # `requires` names schema.yml properties and classes (phase 1). Most are
+  # absent until phases 1-5, so these start unanswerable by design.
+  - id: CQ1
+    question: "Which concepts are applicable in situation S (inherited by sub-situations)?"
+    category: applicability
     priority: 1
-    requires: [has_use]
+    requires: [appliesIn, broaderGeneric, Situation, Pattern]
 
-  - question: "What does a given concept contribute to?"
-    category: application
-    priority: 2
-    requires: [contributing_factor]
+  - id: CQ2
+    question: "Under which conditions should C be used, and when should it be avoided?"
+    category: applicability
+    priority: 1
+    requires: [hasCondition, hasLimitation]
 
-  - question: "In what field is a given concept studied?"
-    category: application
+  - id: CQ3
+    question: "Which concepts does C combine with, and in which role?"
+    category: combination
+    priority: 1
+    requires: [role, Pattern]
+
+  - id: CQ4
+    question: "Which combinations succeeded in S, and by which measure?"
+    category: success
+    priority: 1
+    requires: [applied, inSituation, outcome, measuredBy, Case]
+
+  - id: CQ5
+    question: "What is the evidence, and how much trust does it deserve?"
+    category: provenance
+    priority: 1
+    requires: [wasAttributedTo, wasGeneratedBy]
+    note: "Answered from prov/prov.jsonl (PROV-O), not from note frontmatter."
+
+  - id: CQ6
+    question: "What can replace C in a role (any kindOf the concept filling it)?"
+    category: combination
     priority: 2
-    requires: [studied_in]
+    requires: [role, broaderGeneric]
+
+  - id: CQ7
+    question: "What is missing to reach goal G (required role left unfilled)?"
+    category: success
+    priority: 2
+    requires: [achieves, requiresRole, Goal]
+
+  - id: CQ8
+    question: "Which combinations failed, and why?"
+    category: success
+    priority: 2
+    requires: [applied, outcome, hasLimitation, Case]
 
   # ── Cross-cutting (require multiple relations) ────────────────────
   - question: "Given an ML technique, what tools does it use and what domain is it part of?"
@@ -99,13 +135,3 @@ questions:
     category: provenance
     priority: 3
     requires: [first_described]
-
-  - question: "What are real-world examples or case studies of a given concept?"
-    category: evidence
-    priority: 2
-    requires: [has_example]
-
-  - question: "What are the limitations or failure modes of a given technique?"
-    category: evaluation
-    priority: 2
-    requires: [has_limitation]

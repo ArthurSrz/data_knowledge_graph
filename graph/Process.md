@@ -44,10 +44,12 @@ wikidata entity id: Q3249551
 inferred:skos:ancestor:
   - "[[occurrent]]"
 inferred:skos:narrower:
+  - "[[Deployment]]"
   - "[[Inference]]"
   - "[[business process]]"
   - "[[conceptual modeling]]"
   - "[[context]]"
+  - "[[crawl-walk-run]]"
   - "[[learning]]"
   - "[[management]]"
   - "[[onboarding]]"

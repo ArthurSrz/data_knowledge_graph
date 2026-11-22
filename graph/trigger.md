@@ -1,5 +1,6 @@
 ---
 partOf: "[[automation framework]]"
-inferred:skos:narrower: "[[activatesShifter]]"
+inferred:skos:related:
+  - "[[hook]]"
 ---
 First action that launches [[automation]]

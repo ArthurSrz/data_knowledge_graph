@@ -34,3 +34,11 @@ Décisions du garde-fou logique (`reason.py gate`) : acceptée, avertie, refusé
       → Supprimer la relation entre deux concepts disjoints (un concept ne peut pas être lié à un concept qu'il exclut).
 - 2026-11-22 20:33:27 · `mcp` · upsert · **acceptée** · [[zz mcp gate test]]
 - 2026-11-22 20:33:38 · `d251c4ed` · block · **acceptée (Stop)** · changeset depuis 105e702
+- 2026-11-22 20:37:48 · `mcp` · upsert · **acceptée** · [[Unit tests]]
+- 2026-11-22 20:37:52 · `mcp` · upsert · **acceptée** · [[Integration tests]]
+- 2026-11-22 20:37:56 · `mcp` · upsert · **acceptée** · [[Deployment]]
+- 2026-11-22 20:38:13 · `mcp` · upsert · **acceptée** · [[crawl-walk-run]]
+- 2026-11-22 20:38:17 · `mcp` · upsert · **acceptée** · [[claude code]]
+- 2026-11-22 20:38:22 · `mcp` · upsert · **acceptée** · [[hook]]
+- 2026-11-22 20:38:59 · `d251c4ed` · block · **acceptée (Stop)** · changeset depuis 105e702
+- 2026-11-22 20:43:58 · `d251c4ed` · block · **acceptée (Stop)** · changeset depuis 105e702

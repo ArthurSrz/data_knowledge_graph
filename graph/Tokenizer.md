@@ -6,4 +6,4 @@ inferred:skos:ancestor:
   - "[[Natural Language Processing]]"
 ---
 
-Pre-processes [[Inputs]] for [[large language model]] to use [[data]]. 
+Pre-processes [[inputs]] for [[large language model]] to use [[data]]. 

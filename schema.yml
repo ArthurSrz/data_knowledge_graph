@@ -1,0 +1,243 @@
+# schema.yml — ontology schema of the knowledge glossary (ontology-plan, phase 1)
+#
+# DRAFT for review. Nothing in graph/ uses these keys yet: the migration
+# (phase 2) runs as a dry run first and needs explicit approval.
+#
+# Decisions (2026-11-22):
+#   - Keys are PREFIXED with their namespace (skos:broader, iso-thes:broaderGeneric…).
+#   - Part-whole: canonical iso-thes:narrowerPartitive; `has part` stays an accepted alias.
+#   - World facts from Wikidata (inventor, dates, causes…) live in cache/wikidata.jsonl,
+#     never in notes. Wikidata is an INPUT, translated to dcterms / skos / prov.
+#   - Rare keys are kept only if a competency question needs them; the others are
+#     reported by the phase 2 dry run, never dropped silently.
+#   - Still to confirm: provenance as JSON Lines + Turtle export; Obsidian Git
+#     committing more often with explicit messages.
+#
+# Field reference (properties):
+#   standard       dcterms | skos | iso-thes | prov | kg
+#   subPropertyOf  parent property (rules generated in phase 4 follow it)
+#   transitive / symmetric   booleans
+#   inverse        inverse property (the reasoner derives it, never written by hand)
+#   inherits       true = transmitted down iso-thes:broaderGeneric (inheritance)
+#   domain / range class names (Concept, Situation, Goal, Pattern, Case) or literal type
+#   cardinality    "1" (exactly one), "0..1", "*" (default)
+#   fromWikidata   Pxxx this property translates
+#   aliases        spellings found in notes, rewritten by the migration
+
+namespaces:
+  dcterms: http://purl.org/dc/terms/
+  skos: http://www.w3.org/2004/02/skos/core#
+  iso-thes: http://purl.org/iso25964/skos-thes#
+  prov: http://www.w3.org/ns/prov#
+  kg: https://github.com/ArthurSrz/data_knowledge_graph/schema#
+  wd: http://www.wikidata.org/entity/
+
+reserved_prefixes:
+  inferred: written by reason.py only (moves to inferred/<note>.json in phase 4)
+  role: "Pattern/Case → Concept, e.g. role:retriever: \"[[Retriever]]\""
+
+# ── Classes (pairwise disjoint in OWL) ────────────────────────────────
+classes:
+  Concept:   {alignment: skos:Concept, description: "the existing notes"}
+  Situation: {description: "a type of context and its constraints"}
+  Goal:      {alignment: "IAO objective specification", description: "an intended result and its success criterion"}
+  Pattern:   {alignment: "IAO plan specification", description: "a reusable combination: concepts in roles, for a situation, towards a goal"}
+  Case:      {alignment: "BFO process; prov:Activity", description: "a real application with its observed outcome"}
+disjoint_classes: [Concept, Situation, Goal, Pattern, Case]
+
+# ── Properties ────────────────────────────────────────────────────────
+properties:
+
+  # Descriptive layer (Dublin Core). created/modified/creator come from PROV, never written.
+  dcterms:type:
+    standard: dcterms
+    range: class
+    cardinality: "0..1"
+    aliases: [rdf:type]
+    note: "Concept by default; values skos:Concept / Concept / Research Note map to Concept."
+  dcterms:language:   {standard: dcterms, range: literal, cardinality: "0..1"}
+  dcterms:source:     {standard: dcterms, range: literal}
+  dcterms:subject:
+    standard: dcterms
+    range: literal
+    aliases: [category]
+    fromWikidata: [P1036, P1149, P672, P921]   # Dewey, LCC, MeSH tree code, main subject
+  dcterms:isReferencedBy:
+    standard: dcterms
+    range: literal
+    aliases: [foundationalPaper, keyPapers]
+    fromWikidata: [P1343]                      # described by source
+
+  # Semantic layer (SKOS) — labels and documentation
+  skos:prefLabel:  {standard: skos, range: literal, cardinality: "0..1", aliases: [title]}
+  skos:altLabel:   {standard: skos, range: literal, aliases: [aliases], fromWikidata: [P1813]}   # short name
+  skos:definition: {standard: skos, range: literal, cardinality: "0..1", aliases: [description]}
+  skos:scopeNote:  {standard: skos, range: literal, fromWikidata: [P1889]}                       # different from
+  skos:exactMatch: {standard: skos, range: iri, aliases: [wikidata entity id, exact match, sameAs], note: "wikidata entity id Qn → wd:Qn"}
+  skos:closeMatch: {standard: skos, range: iri, aliases: [said to be the same as, equivalent class], note: "also every Wikidata external identifier (Stack Exchange tag, GitHub topic…)"}
+
+  # Semantic layer — hierarchy (SKOS + ISO 25964 sub-properties of skos:broader)
+  skos:broader:
+    standard: skos
+    domain: Concept
+    range: Concept
+    inverse: skos:narrower
+    fromWikidata: [P1269]                      # facet of
+    aliases: [broader]
+    note: "thematic shelving: navigation only, NEVER read as 'is a kind of'. The 171 bare `broader` edges land here by default, then go through the phase 2 review queue (generic / partitive / instantial)."
+  skos:narrower:
+    standard: skos
+    inverse: skos:broader
+    note: "derived only; existing values are migrated to the target's skos:broader"
+  iso-thes:broaderGeneric:
+    standard: iso-thes
+    subPropertyOf: skos:broader
+    transitive: true
+    inverse: iso-thes:narrowerGeneric
+    fromWikidata: [P279]
+    aliases: [subclass of, subclassOf, subFieldOf]
+    note: "is a kind of: transitive, transmits every `inherits: true` property"
+  iso-thes:broaderPartitive:
+    standard: iso-thes
+    subPropertyOf: skos:broader
+    transitive: true
+    inverse: iso-thes:narrowerPartitive
+    fromWikidata: [P361]
+    aliases: [part of, partOf, formsPartOf]
+    note: "transitive with itself only, no inheritance"
+  iso-thes:narrowerPartitive:
+    standard: iso-thes
+    subPropertyOf: skos:narrower
+    inverse: iso-thes:broaderPartitive
+    fromWikidata: [P527]
+    aliases: [has part, has part(s), components, composedOf, consists_of]
+    note: "`has part` remains the accepted spelling in notes"
+  iso-thes:broaderInstantial:
+    standard: iso-thes
+    subPropertyOf: skos:broader
+    transitive: false
+    inverse: iso-thes:narrowerInstantial
+    fromWikidata: [P31]
+    aliases: [instance of, instanceOf, instanceof]
+    note: "one step, then up through broaderGeneric (typeOf)"
+  kg:disjointWith:
+    standard: kg
+    symmetric: true
+    inherits: true
+    aliases: [disjoint with, owl:disjointWith]
+    note: "exported as owl:disjointWith; used by the logic gate"
+
+  # Semantic layer — associative (sub-properties of skos:related)
+  skos:related:
+    standard: skos
+    symmetric: true
+    aliases: [related_to, relatedTo, related to]
+  kg:oppositeOf:  {standard: kg, subPropertyOf: skos:related, symmetric: true, fromWikidata: [P461], aliases: [opposite of]}
+  kg:uses:        {standard: kg, subPropertyOf: skos:related, inverse: kg:usedBy, inherits: true, fromWikidata: [P2283]}
+  kg:usedBy:      {standard: kg, subPropertyOf: skos:related, inverse: kg:uses, fromWikidata: [P1535], aliases: [used by, usedIn]}
+  kg:hasUse:      {standard: kg, subPropertyOf: skos:related, fromWikidata: [P366], aliases: [has use]}
+  kg:dependsOn:   {standard: kg, subPropertyOf: skos:related, aliases: [dependencies, depends on software]}
+  kg:methodFor:   {standard: kg, subPropertyOf: skos:related, note: "verdict: Recursive tree building → Decision tree"}
+  kg:programmedIn: {standard: kg, subPropertyOf: skos:related, fromWikidata: [P277], aliases: [programmed in]}
+  kg:accountableFor: {standard: kg, subPropertyOf: skos:related, aliases: [accountable for], note: "role → process, e.g. process owner"}
+
+  # Situational layer (§4)
+  kg:appliesIn:
+    standard: kg
+    subPropertyOf: skos:related
+    domain: Pattern
+    range: Situation
+    note: "inherited by sub-situations: if S' broaderGeneric S, appliesIn S holds in S' (CQ1)"
+  kg:achieves:      {standard: kg, subPropertyOf: skos:related, domain: Pattern, range: Goal}
+  kg:requiresRole:  {standard: kg, domain: Pattern, range: literal, note: "role name, e.g. retriever (CQ7)"}
+  kg:hasCondition:  {standard: kg, subPropertyOf: skos:related, inherits: true, domain: Pattern, range: Concept}
+  kg:hasLimitation: {standard: kg, subPropertyOf: skos:related, inherits: true, domain: Pattern, range: Concept}
+  kg:applied:       {standard: kg, domain: Case, range: Pattern, cardinality: "1"}
+  kg:inSituation:   {standard: kg, domain: Case, range: Situation, cardinality: "1"}
+  kg:outcome:       {standard: kg, domain: Case, range: [success, partial, failure], cardinality: "1"}
+  kg:measuredBy:    {standard: kg, domain: Case, range: Concept}
+  kg:value:         {standard: kg, domain: Case, range: literal, cardinality: "0..1"}
+
+  # Provenance (PROV-O) — lives in prov/prov.jsonl, one entity per EDGE, never in notes
+  prov:wasAttributedTo: {standard: prov, domain: edge, range: Agent}
+  prov:wasGeneratedBy:  {standard: prov, domain: edge, range: Activity}
+  prov:wasRevisionOf:   {standard: prov, domain: edge, range: edge}
+  prov:wasInvalidatedBy: {standard: prov, domain: edge, range: Activity}
+  prov:used:            {standard: prov, domain: Activity, range: edge, note: "premises of an inferred fact"}
+
+# ── PROV agents and activities ────────────────────────────────────────
+prov_agents:
+  me: {type: prov:Person, git_identities: [Arthur Sarazin, ArthurSrZ, ArthurSrz]}
+  claude: {type: prov:SoftwareAgent, note: "commits co-signed by Claude"}
+  wikidata-importer: {type: prov:SoftwareAgent}
+  github-action: {type: prov:SoftwareAgent, git_identities: [GitHub Action]}
+prov_activities: [manual-edit, wikidata-import, llm-session, reasoner-run, stats-bot, schema-migration]
+
+# ── Wikidata → schema translation (importer + migration) ──────────────
+# Keys are Wikidata property labels as they appear in imported notes.
+wikidata:
+  translate:
+    subclass of: iso-thes:broaderGeneric
+    instance of: iso-thes:broaderInstantial
+    part of: iso-thes:broaderPartitive
+    has part(s): iso-thes:narrowerPartitive
+    has part: iso-thes:narrowerPartitive
+    facet of: skos:broader
+    wikidata entity id: skos:exactMatch
+    exact match: skos:exactMatch
+    said to be the same as: skos:closeMatch
+    equivalent class: skos:closeMatch
+    different from: skos:scopeNote
+    short name: skos:altLabel
+    described by source: dcterms:isReferencedBy
+    Dewey Decimal Classification: dcterms:subject
+    Library of Congress Classification: dcterms:subject
+    MeSH tree code: dcterms:subject
+    main subject: dcterms:subject
+    opposite of: kg:oppositeOf
+    uses: kg:uses
+    used by: kg:usedBy
+    has use: kg:hasUse
+    programmed in: kg:programmedIn
+  to_close_match:   # external identifiers → skos:closeMatch (as IRIs when a formatter URL exists)
+    - Stack Exchange tag
+    - GitHub topic
+    - OmegaWiki Defined Meaning
+    - Krugosvet article (archived)
+    - IMDb keyword
+    - Freebase ID
+  to_cache:         # world facts → cache/wikidata.jsonl, read by the reasoner
+    - has characteristic
+    - characteristic of
+    - has cause
+    - has effect
+    - studied by
+    - partially coincident with
+    - discoverer or inventor
+    - named after
+    - publication date
+    - inception
+    - field of work
+    - is the study of
+    - manifestation of
+    - product or material produced
+    - practiced by
+    - has part(s) of the class
+  drop:             # Wikidata maintenance and media
+    - Commons category
+    - image
+    - pronunciation audio
+    - topic has template
+    - maintained by WikiProject
+    - model item
+    - main Wikidata property
+    - logo image
+    - video
+    - spoken text audio
+    - Wikimedia import URL
+
+# ── Keys outside the schema ───────────────────────────────────────────
+# Any other key is reported by scripts/validate.py and listed in the phase 2
+# dry-run report with its notes, for a per-key decision (map, cache, or drop).
+passthrough: [tags]   # Obsidian-native; kept as is
+derived_not_written: [timestamp, created, modified, creator]
