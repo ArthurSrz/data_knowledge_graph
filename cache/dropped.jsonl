@@ -1,0 +1,19 @@
+{"note": "Group K-Fold Cross Validation", "key": "rdf:type", "value": "skos:Concept"}
+{"note": "Quantile binning", "key": "rdf:type", "value": "skos:Concept"}
+{"note": "Time-shifted scoring", "key": "rdf:type", "value": "skos:Concept"}
+{"note": "agent", "key": "rdf:type", "value": "skos:Concept"}
+{"note": "audit-notes", "key": "rdf:type", "value": "Research Note"}
+{"note": "calculated-fields", "key": "type", "value": "Research Note"}
+{"note": "calibration", "key": "rdf:type", "value": "skos:Concept"}
+{"note": "compatibility", "key": "rdf:type", "value": "Research Note"}
+{"note": "data leakage", "key": "rdf:type", "value": "skos:Concept"}
+{"note": "differences", "key": "rdf:type", "value": "Research Note"}
+{"note": "end-to-end test", "key": "rdf:type", "value": "Concept"}
+{"note": "gitHub actions", "key": "rdf:type", "value": "Concept"}
+{"note": "github ruleset", "key": "rdf:type", "value": "Concept"}
+{"note": "openpyxl", "key": "rdf:type", "value": "Research Note"}
+{"note": "pull request approval", "key": "rdf:type", "value": "Concept"}
+{"note": "required status check", "key": "rdf:type", "value": "Concept"}
+{"note": "rules", "key": "rdf:type", "value": "Research Note"}
+{"note": "state-of-the-art", "key": "rdf:type", "value": "Research Note"}
+{"note": "workflow recursion guard", "key": "rdf:type", "value": "Concept"}

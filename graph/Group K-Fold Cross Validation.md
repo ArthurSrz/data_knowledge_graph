@@ -1,5 +1,5 @@
 ---
-rdf:type: "skos:Concept"
+dcterms:type: "Concept"
 skos:altLabel:
   - "grouped cross validation"
   - "validation croisée par groupes"

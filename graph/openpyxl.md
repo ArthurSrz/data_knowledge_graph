@@ -1,5 +1,5 @@
 ---
-rdf:type: "Research Note"
+dcterms:type: "Concept"
 title: "openpyxl Limitations"
 description: "Features silently lost when round-tripping xlsx files through openpyxl — shapes, slicers, macros, sparklines, comments."
 tags:

@@ -1,5 +1,5 @@
 ---
-rdf:type: "Concept"
+dcterms:type: "Concept"
 broader: "[[Pull request]]"
 description: "A reviewer's \"Approve\" verdict on a pull request, as recorded by GitHub."
 tags:

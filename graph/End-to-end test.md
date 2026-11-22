@@ -1,5 +1,5 @@
 ---
-rdf:type: "Concept"
+dcterms:type: "Concept"
 broader: "[[Test]]"
 description: "A test that exercises the real system along the full path a user takes, with no mocks."
 tags:

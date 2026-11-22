@@ -53,7 +53,7 @@ properties:
     standard: dcterms
     range: class
     cardinality: "0..1"
-    aliases: [rdf:type]
+    aliases: [rdf:type, type]
     note: "Concept by default; values skos:Concept / Concept / Research Note map to Concept."
   dcterms:language:   {standard: dcterms, range: literal, cardinality: "0..1"}
   dcterms:source:     {standard: dcterms, range: literal}

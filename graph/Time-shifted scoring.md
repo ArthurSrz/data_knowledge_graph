@@ -1,5 +1,5 @@
 ---
-rdf:type: "skos:Concept"
+dcterms:type: "Concept"
 skos:altLabel:
   - "lagged scoring"
   - "notation décalée"

@@ -1,5 +1,5 @@
 ---
-rdf:type: "Concept"
+dcterms:type: "Concept"
 broader: "[[github]]"
 description: "Set of rules GitHub enforces on a branch (e.g. main) before anything can land on it."
 tags:

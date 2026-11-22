@@ -1,5 +1,5 @@
 ---
-rdf:type: "Concept"
+dcterms:type: "Concept"
 broader: "[[gitHub actions]]"
 description: "GitHub's rule that actions performed with GITHUB_TOKEN do not trigger other workflows."
 tags:

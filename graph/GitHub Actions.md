@@ -1,5 +1,5 @@
 ---
-rdf:type: "Concept"
+dcterms:type: "Concept"
 broader: "[[github]]"
 partOf: "[[automation framework]]"
 description: "GitHub's built-in CI/automation runner — YAML workflows launched by repository events."

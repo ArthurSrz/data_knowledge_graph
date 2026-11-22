@@ -1,15 +1,15 @@
 ---
-rdf:type: Research Note
-title: Round-Trip Fidelity — State of the Art
-description: No academic literature or existing tool achieves full-fidelity Excel ↔ Google Sheets sync. The bijectivity project's approach.
+dcterms:type: "Concept"
+title: "Round-Trip Fidelity — State of the Art"
+description: "No academic literature or existing tool achieves full-fidelity Excel ↔ Google Sheets sync. The bijectivity project's approach."
 tags:
-  - round-trip
-  - fidelity
-  - bijectivity
-  - sync
-  - excel
-  - google-sheets
-timestamp: 2026-06-28T00:00:00Z
+  - "round-trip"
+  - "fidelity"
+  - "bijectivity"
+  - "sync"
+  - "excel"
+  - "google-sheets"
+timestamp: 2026-06-28T00:00:00+00:00
 ---
 
 ## No Academic Literature Exists

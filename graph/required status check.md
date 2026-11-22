@@ -1,5 +1,5 @@
 ---
-rdf:type: "Concept"
+dcterms:type: "Concept"
 broader: "[[github]]"
 partOf: "[[github ruleset]]"
 description: "A named green/red light on a commit that a ruleset demands before merge."
