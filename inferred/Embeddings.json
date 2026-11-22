@@ -5,6 +5,7 @@
  ],
  "inferred:skos:narrower": [
   "Embeddings models",
+  "Word embeddings",
   "latent space",
   "vectorization"
  ]

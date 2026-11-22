@@ -1,6 +1,8 @@
 {
  "inferred:skos:ancestor": [
+  "artificial intelligence",
   "information retrieval",
+  "large language model",
   "search"
  ],
  "inferred:skos:narrower": [

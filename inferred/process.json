@@ -1,6 +1,10 @@
 {
  "inferred:skos:ancestor": [
+  "Object",
   "occurrent"
+ ],
+ "inferred:skos:broader": [
+  "Object"
  ],
  "inferred:skos:narrower": [
   "Deployment",

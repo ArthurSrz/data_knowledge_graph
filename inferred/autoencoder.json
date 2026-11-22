@@ -1,7 +1,11 @@
 {
  "inferred:skos:ancestor": [
+  "Unsupervised Learning",
   "artificial neural network",
   "deep learning",
   "machine learning"
+ ],
+ "inferred:skos:broader": [
+  "Unsupervised Learning"
  ]
 }

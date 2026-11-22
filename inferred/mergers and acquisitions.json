@@ -1,5 +1,6 @@
 {
  "inferred:skos:ancestor": [
+  "Object",
   "business process",
   "occurrent",
   "process"

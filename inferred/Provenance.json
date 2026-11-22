@@ -1,6 +1,7 @@
 {
  "inferred:skos:ancestor": [
   "Documentation",
+  "authentication",
   "chronology",
   "continuant",
   "generically dependent continuant",

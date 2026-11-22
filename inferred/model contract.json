@@ -2,6 +2,7 @@
  "inferred:skos:ancestor": [
   "Documentation",
   "Provenance",
+  "authentication",
   "chronology",
   "continuant",
   "contract",

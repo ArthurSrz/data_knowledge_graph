@@ -2,9 +2,6 @@
  "inferred:skos:ancestor": [
   "model fit"
  ],
- "inferred:skos:broader": [
-  "model fit"
- ],
  "inferred:skos:narrower": [
   "data leakage"
  ],

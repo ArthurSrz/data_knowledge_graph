@@ -100,8 +100,8 @@ class Integration(unittest.TestCase):
 
     def test_process_owner(self):
         good = (reason.GRAPH_DIR / "process owner.md").read_text()
-        bad = good.replace('subclass of: "[[person]]"\naccountable for: "[[business process]]"',
-                           'subclass of:\n  - "[[person]]"\n  - "[[business process]]"')
+        bad = good.replace('iso-thes:broaderGeneric: "[[person]]"\nkg:accountableFor: "[[business process]]"',
+                           'iso-thes:broaderGeneric:\n  - "[[person]]"\n  - "[[business process]]"')
         self.assertNotEqual(good, bad)
         self.assertIn("disjoint_violation", kinds({"process owner": bad}))
         self.assertEqual(set(), kinds({"process owner": good}))

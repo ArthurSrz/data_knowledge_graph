@@ -1,4 +1,7 @@
 {
+ "inferred:skos:ancestor": [
+  "artificial intelligence"
+ ],
  "inferred:skos:related": [
   "Prompt Optimization Techniques"
  ]

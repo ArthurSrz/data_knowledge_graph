@@ -1,4 +1,7 @@
 {
+ "inferred:skos:narrower": [
+  "fair information practices"
+ ],
  "inferred:skos:related": [
   "accountability"
  ]

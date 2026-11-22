@@ -1,6 +1,10 @@
 {
+ "inferred:skos:ancestor": [
+  "artificial intelligence"
+ ],
  "inferred:skos:narrower": [
   "AI prompt",
-  "Hallucination"
+  "Hallucination",
+  "RAG (Retrieval-Augmented Generation)"
  ]
 }

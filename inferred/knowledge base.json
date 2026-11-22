@@ -1,6 +1,7 @@
 {
  "inferred:skos:ancestor": [
   "Documentation",
+  "Ontology",
   "conceptual model",
   "continuant",
   "generically dependent continuant",
