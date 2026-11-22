@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Data science team]]"
+inferred:skos:ancestor: "[[data science team]]"
 ---

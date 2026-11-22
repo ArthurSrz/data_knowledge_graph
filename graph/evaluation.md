@@ -1,6 +1,6 @@
 ---
 inferred:skos:narrower:
-  - "[[Cross validation]]"
+  - "[[cross validation]]"
   - "[[evaluation dataset]]"
 ---
 Step of the [[CRISP-DM Process]]. Feed the [[Glossary/Business understanding]] process. 

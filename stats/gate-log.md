@@ -42,3 +42,4 @@ Décisions du garde-fou logique (`reason.py gate`) : acceptée, avertie, refusé
 - 2026-11-22 20:38:22 · `mcp` · upsert · **acceptée** · [[hook]]
 - 2026-11-22 20:38:59 · `d251c4ed` · block · **acceptée (Stop)** · changeset depuis 105e702
 - 2026-11-22 20:43:58 · `d251c4ed` · block · **acceptée (Stop)** · changeset depuis 105e702
+- 2026-11-22 20:51:31 · `d251c4ed` · block · **acceptée (Stop)** · changeset depuis 105e702

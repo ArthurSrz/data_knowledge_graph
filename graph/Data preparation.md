@@ -19,24 +19,24 @@ Breaks down into 3 steps : [[Split data 1]], [[Determine feature set 1]], [[Prep
 ## Related concepts
 
 - [[Data collection]] - Gathering raw data
-- [[Data quality]] - Ensuring data is reliable
-- [[Data augmentation]] - Expanding dataset size
-- [[Data mapping]] - Transforming data structure
-- [[Data lineage]] - Tracking data origins
-- [[Data catalog]] - Documenting data assets
+- [[data quality]] - Ensuring data is reliable
+- [[data augmentation]] - Expanding dataset size
+- [[data mapping]] - Transforming data structure
+- [[data lineage]] - Tracking data origins
+- [[data catalog]] - Documenting data assets
 - [[data understanding]] - Analyzing data characteristics
 - [[structured data]] - Formatted data
 - [[unstructured data]] - Raw, unformatted data
 - [[Tidy Data]] - Organized data format
-- [[Data silos]] - Isolated data sources
+- [[data silos]] - Isolated data sources
 - [[Raw data]] - Unprocessed data
 
 
 
 ## Related concepts (Adamic-Adar connections)
 
-- [[Data lineage]] - Tracking data origins (Adamic-Adar: 0.721)
-- [[Data catalog]] - Documenting data assets (Adamic-Adar: 0.721)
+- [[data lineage]] - Tracking data origins (Adamic-Adar: 0.721)
+- [[data catalog]] - Documenting data assets (Adamic-Adar: 0.721)
 - [[Data collection]] - Initial data gathering (Adamic-Adar: 0.721)
-- [[Data augmentation]] - Expanding dataset (Adamic-Adar: 0.721)
-- [[Data quality]] - Ensuring reliable data
+- [[data augmentation]] - Expanding dataset (Adamic-Adar: 0.721)
+- [[data quality]] - Ensuring reliable data

@@ -7,11 +7,11 @@ inferred:skos:ancestor:
   - "[[generically dependent continuant]]"
   - "[[information content entity]]"
 inferred:skos:narrower:
-  - "[[DatasetDict]]"
-  - "[[Datasets]]"
   - "[[TrainingAguments]]"
   - "[[autoModel]]"
   - "[[autotokenizer]]"
+  - "[[datasetDict]]"
+  - "[[datasets]]"
   - "[[trainer]]"
 ---
 

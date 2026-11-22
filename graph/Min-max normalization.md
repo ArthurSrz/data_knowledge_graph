@@ -1,7 +1,7 @@
 ---
-broader: "[[Data preparation]]"
+broader: "[[data preparation]]"
 inferred:skos:ancestor:
   - "[[CRISP-DM Process]]"
-  - "[[Data preparation]]"
+  - "[[data preparation]]"
 ---
 Technique for [[Normalization]]

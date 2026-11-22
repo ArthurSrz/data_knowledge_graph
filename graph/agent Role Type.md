@@ -43,7 +43,7 @@ Agents sous lesquels opèrent plusieurs agents workers, suivant les [[instructio
 **Architecture multi-[[agent]]** :
 - Hiérarchie claire des rôles
 - Communication inter-agents
-- [[Delegation]] et supervision
+- [[delegation]] et supervision
 - Orchestration des workflows
 
 **Bénéfices** :

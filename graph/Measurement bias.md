@@ -1,4 +1,4 @@
 ---
 inferred:skos:related:
-  - "[[Data leakage]]"
+  - "[[data leakage]]"
 ---

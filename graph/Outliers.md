@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Data quality]]"
+inferred:skos:ancestor: "[[data quality]]"
 ---

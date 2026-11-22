@@ -216,7 +216,7 @@ Rosenblatt's work:
 - [[computer vision]]
 - [[Pattern recognition]]
 - [[Neural networks]]
-- [[Data augmentation]]
+- [[data augmentation]]
 - [[Image processing]]
 
 ## References

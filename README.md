@@ -166,8 +166,8 @@ The graph encodes [SKOS](https://www.w3.org/2004/02/skos/)-style hierarchical re
   - [LLM Observability](graph/LLM%20Observability.md)
     - [langfuse](langfuse.md)
 - [Agile approach](graph/Agile%20approach.md)
-  - [Daily stand-ups](graph/Daily%20stand-ups.md)
-  - [Demo sessions](graph/Demo%20sessions.md)
+  - [daily stand-ups](daily%20stand-ups.md)
+  - [demo sessions](demo%20sessions.md)
   - [Product owner](graph/Product%20owner.md)
   - [sprint planning](sprint%20planning.md)
 - [AI](graph/AI.md)
@@ -180,7 +180,7 @@ The graph encodes [SKOS](https://www.w3.org/2004/02/skos/)-style hierarchical re
       - [action module](graph/action%20module.md) · [agency](graph/agency.md) · [agent harness](graph/agent%20harness.md) · [agent identity](graph/agent%20identity.md) · [agent role type](graph/agent%20role%20type.md) · [autonomy](autonomy.md) · [claude code](graph/claude%20code.md) · [claude managed agents](graph/claude%20managed%20agents.md) · [comparag agent](graph/comparag%20agent.md) · [context mode](graph/context%20mode.md) · [human-in-the-loop](human-in-the-loop.md) · [ReAct data agent](graph/ReAct%20data%20agent.md) · [ReAct mode](graph/ReAct%20mode.md) · [search module](graph/search%20module.md) · [subagent](subagent.md) · [Tool arena](graph/Tool%20arena.md) · [Tool Assignment Gate](graph/Tool%20Assignment%20Gate.md) · [Toolkits](graph/Toolkits.md) · [tools](tools.md)
       - [Model Context Protocol (MCP)](graph/Model%20Context%20Protocol%20%28MCP%29.md) → [MCP host](graph/MCP%20host.md) · [MCP server](graph/MCP%20server.md)
     - [compound AI system](compound%20AI%20system.md)
-    - [computer vision](graph/computer%20vision.md) → [facial recognition](facial%20recognition.md)
+    - [computer vision](computer%20vision.md) → [facial recognition](facial%20recognition.md)
     - [connexionism](graph/connexionism.md) · [expert systems](expert%20systems.md) · [Narrow AI](graph/Narrow%20AI.md) · [symbolism](symbolism.md)
     - [Natural Language Processing](graph/Natural%20Language%20Processing.md)
       - [bag of words](bag%20of%20words.md) · [sentiment analysis](sentiment%20analysis.md) · [token](graph/token.md) · [Tokenizer](graph/Tokenizer.md)
@@ -200,12 +200,12 @@ The graph encodes [SKOS](https://www.w3.org/2004/02/skos/)-style hierarchical re
 - [Business understanding](graph/Business%20understanding.md)
   - [define success](graph/define%20success.md) · [problem framing](problem%20framing.md)
 - [Centrality](graph/Centrality.md)
-  - [betweenness centrality](graph/betweenness%20centrality.md) · [closeness centrality](graph/closeness%20centrality.md) · [Degree centrality](graph/Degree%20centrality.md) · [Eigenvector centrality](graph/Eigenvector%20centrality.md)
+  - [betweenness centrality](graph/betweenness%20centrality.md) · [closeness centrality](graph/closeness%20centrality.md) · [degree centrality](degree%20centrality.md) · [Eigenvector centrality](graph/Eigenvector%20centrality.md)
 - [clause](graph/clause.md)
   - [clause classification heuristic](graph/clause%20classification%20heuristic.md) · [exclusion clause](graph/exclusion%20clause.md) · [force majeure](graph/force%20majeure.md) · [non-compete clause](graph/non-compete%20clause.md)
 - [Clustering](graph/Clustering.md)
   - [Elbow method](graph/Elbow%20method.md) · [K-Means Clustering](graph/K-Means%20Clustering.md)
-- [Combinatorics](graph/Combinatorics.md) · [combinatorics](graph/combinatorics.md)
+- [combinatorics](combinatorics.md) · [combinatorics](combinatorics.md)
   - [graph theory](graph/graph%20theory.md) · [probability](graph/probability.md) · [combination](graph/combination.md) · [Unary operation](graph/Unary%20operation.md)
 - [Confusion Matrix](graph/Confusion%20Matrix.md)
   - [false negative (FN)](false%20negative%20(FN).md) · [false positive (FP)](false%20positive%20(FP).md) · [True Negative (TN)](graph/True%20Negative%20%28TN%29.md) · [True Positive (TP)](graph/True%20Positive%20%28TP%29.md)
@@ -214,7 +214,7 @@ The graph encodes [SKOS](https://www.w3.org/2004/02/skos/)-style hierarchical re
 - [contract](graph/contract.md)
   - [compliant privacy policy](graph/compliant%20privacy%20policy.md) · [liability](graph/liability.md) · [model contract](graph/model%20contract.md) · [rider](rider.md)
 - [control theory](graph/control%20theory.md)
-  - [Damping](graph/Damping.md) · [inertia](inertia.md) · [James Clerk Maxwell](graph/James%20Clerk%20Maxwell.md) · [state observer](graph/state%20observer.md)
+  - [damping](damping.md) · [inertia](inertia.md) · [James Clerk Maxwell](graph/James%20Clerk%20Maxwell.md) · [state observer](graph/state%20observer.md)
 - [deep learning](deep%20learning.md)
   - [artificial neural network](graph/artificial%20neural%20network.md) → [artificial neuron](graph/artificial%20neuron.md) · [autoencoder](graph/autoencoder.md) · [backpropagation](backpropagation.md) · [CNN](convolutional%20neural%20networks.md) · [multilayer perceptron](graph/multilayer%20perceptron.md) · [ReLU](graph/ReLU%20activation%20function.md) · [Sigmoid](graph/Sigmoid%20function.md) · [Weights](graph/Weights.md) · …
   - [foundation model](graph/foundation%20model.md) → [multimodal model](graph/multimodal%20model.md) · [tabular foundation model](graph/tabular%20foundation%20model.md) → [TabPFN](graph/TabPFN.md)
@@ -223,16 +223,16 @@ The graph encodes [SKOS](https://www.w3.org/2004/02/skos/)-style hierarchical re
 - [elicitation](graph/elicitation.md)
   - [dialogue](dialogue.md) · [elicitation interview](graph/elicitation%20interview.md) · [Socratic](graph/Socratic.md) → [Socrates](graph/Socrates.md)
 - [evaluation](graph/evaluation.md)
-  - [Cross validation](graph/Cross%20validation.md) · [evaluation metrics](evaluation%20metrics.md) → [accuracy](graph/accuracy.md) · [F1 Score](graph/F1%20Score.md) · [Precision](graph/Precision.md) · [Recall](graph/Recall.md) · [ROC](graph/Receiver%20Operating%20Characteristic%20curve.md) · [Regression Error Metrics](graph/Regression%20Error%20Metrics.md) · …
+  - [cross validation](cross%20validation.md) · [evaluation metrics](evaluation%20metrics.md) → [accuracy](graph/accuracy.md) · [F1 Score](graph/F1%20Score.md) · [Precision](graph/Precision.md) · [Recall](graph/Recall.md) · [ROC](graph/Receiver%20Operating%20Characteristic%20curve.md) · [Regression Error Metrics](graph/Regression%20Error%20Metrics.md) · …
 - [fairness](fairness.md)
   - [bias](graph/bias.md) → [feedback loop bias](feedback%20loop%20bias.md) · [historical bias](historical%20bias.md)
-  - [Data privacy](graph/Data%20privacy.md) → [Data privacy laws](graph/Data%20privacy%20laws.md) · [privacy by design](privacy%20by%20design.md) · [Sensitive Information](graph/Sensitive%20Information.md) · …
+  - [data privacy](data%20privacy.md) → [data privacy laws](data%20privacy%20laws.md) · [privacy by design](privacy%20by%20design.md) · [Sensitive Information](graph/Sensitive%20Information.md) · …
   - [Transparency](graph/Transparency.md) → [Interpretability](graph/Interpretability.md) → [LIME](graph/Local%20Interpretable%20Model-Agnostic%20Explanations%20%28LIME%29.md) · [SHAP](graph/Shapley%20Additive%20Explanations%20%28SHAP%29.md)
 - [Graph theory](graph/Graph%20theory.md)
   - [adjacency matrix](graph/adjacency%20matrix.md) · [Edges](graph/Edges.md) · [node](graph/node.md) · [heterogeneous graph](heterogeneous%20graph.md) · [Network graph](graph/Network%20graph.md) · …
 - [infrastructure](infrastructure.md)
   - [authentication protocol](graph/authentication%20protocol.md) → [OAuth](graph/OAuth.md) · [SSH Key](graph/SSH%20Key.md)
-  - [cloud computing](graph/cloud%20computing.md) · [Datawarehouse](graph/Datawarehouse.md) · [deploy](deploy.md) · [Docker](graph/Docker.md) · [HTTP](graph/HTTP.md) · [NoSQL database](graph/NoSQL%20database.md) · [Virtualization](graph/Virtualization.md) · …
+  - [cloud computing](graph/cloud%20computing.md) · [datawarehouse](datawarehouse.md) · [deploy](deploy.md) · [Docker](graph/Docker.md) · [HTTP](graph/HTTP.md) · [NoSQL database](graph/NoSQL%20database.md) · [Virtualization](graph/Virtualization.md) · …
 - [knowledge graph](knowledge%20graph.md)
   - [CYPHER](graph/CYPHER.md) · [context graph](graph/context%20graph.md) · [graph hop](graph/graph%20hop.md) · [properties](properties.md) · [Text2Cypher](graph/Text2Cypher.md) · …
 - [knowledge organization system](graph/knowledge%20organization%20system.md)
@@ -244,22 +244,22 @@ The graph encodes [SKOS](https://www.w3.org/2004/02/skos/)-style hierarchical re
   - [Optimizer algorithm](graph/Optimizer%20algorithm.md) → [gradient descent](gradient%20descent.md)
   - [ML system](graph/ML%20system.md) → [cold start problem](graph/cold%20start%20problem.md) · [reproducibility](reproducibility.md) · …
 - [machine learning projects](graph/machine%20learning%20projects.md)
-  - [CRISP-DM Process](graph/CRISP-DM%20Process.md) → [Data preparation](graph/Data%20preparation.md) · [Deployment](graph/Deployment.md) · [modeling](modeling.md) · [problem definition](problem%20definition.md) · …
+  - [CRISP-DM Process](graph/CRISP-DM%20Process.md) → [data preparation](data%20preparation.md) · [Deployment](graph/Deployment.md) · [modeling](modeling.md) · [problem definition](problem%20definition.md) · …
 - [ML models](graph/ML%20models.md)
   - [Linear models](graph/Linear%20models.md) · [Neural network models](graph/Neural%20network%20models.md) · [feature](graph/feature.md) · [prediction](prediction.md) · …
 - [Model fit](graph/Model%20fit.md) → [Overfitting](graph/Overfitting.md) · [Underfitting](graph/Underfitting.md)
-- [model maintenance](model%20maintenance.md) → [concept drift](graph/concept%20drift.md) · [Data drift](graph/Data%20drift.md) · [model registry](model%20registry.md) · [retraining](retraining.md) · …
+- [model maintenance](model%20maintenance.md) → [concept drift](graph/concept%20drift.md) · [data drift](data%20drift.md) · [model registry](model%20registry.md) · [retraining](retraining.md) · …
 - [Model tuning](graph/Model%20tuning.md) → [fine-tuning](fine-tuning.md) · [LoRA](graph/Low-Rank%20Adaptation.md) · [pruning](pruning.md) · [Quantization](graph/Quantization.md)
 - [Probability](graph/Probability.md) → [bayes' theorem](bayes'%20theorem.md) · [confidence interval](graph/confidence%20interval.md) · [variance](graph/variance.md) · …
 - [process](process.md)
   - [application development](application%20development.md) → [backend](backend.md) · [frontend](frontend.md) · [programming language](programming%20language.md) · [DevOps](graph/DevOps.md) · …
-  - [data](graph/data.md) → [Data quality](graph/Data%20quality.md) · [data type](graph/data%20type.md) · [metadata](graph/metadata.md) · …
+  - [data](graph/data.md) → [data quality](data%20quality.md) · [data type](graph/data%20type.md) · [metadata](graph/metadata.md) · …
   - [Design thinking](graph/Design%20thinking.md) · [knowledge](graph/knowledge.md) · [management](management.md) · …
 - [Shareholders agreement](graph/Shareholders%20agreement.md) · [contract](graph/contract.md) · [negotiation](graph/negotiation.md)
 - [spreadsheet](graph/spreadsheet.md) → [excel](graph/excel.md) · [google sheet](graph/google%20sheet.md) · [named-ranges](graph/named-ranges.md) · …
 - [Vector space](graph/Vector%20space.md) → [Distance](graph/Distance.md) · [cosine similarity](cosine%20similarity.md) · [Tensors](graph/Tensors.md) · [vector](graph/vector.md) · …
 - [version control](graph/version%20control.md) → [git](git.md) · [repository](repository.md) · …
-- *+ 20 more root concepts: [Data augmentation](graph/Data%20augmentation.md), [Data science team](graph/Data%20science%20team.md), [Decision support](graph/Decision%20support.md), [dividual](dividual.md), [araph algorithm](araph%20algorithm.md), [heuristic](graph/heuristic.md), [Kernel](graph/Kernel.md), [metric](metric.md), [modeling](modeling.md), [pattern](graph/pattern.md), [Pipelines](graph/Pipelines.md), [Product](graph/Product.md), [prototyping](prototyping.md), [regression](graph/regression.md), [risk](graph/risk.md), [schema design](schema%20design.md), [search](search.md), [semantics](graph/semantics.md), [stochastic processes](stochastic%20processes.md), [systems theory](graph/systems%20theory.md), …*
+- *+ 20 more root concepts: [data augmentation](data%20augmentation.md), [data science team](data%20science%20team.md), [Decision support](graph/Decision%20support.md), [dividual](dividual.md), [araph algorithm](araph%20algorithm.md), [heuristic](graph/heuristic.md), [Kernel](graph/Kernel.md), [metric](metric.md), [modeling](modeling.md), [pattern](graph/pattern.md), [Pipelines](graph/Pipelines.md), [Product](graph/Product.md), [prototyping](prototyping.md), [regression](graph/regression.md), [risk](graph/risk.md), [schema design](schema%20design.md), [search](search.md), [semantics](graph/semantics.md), [stochastic processes](stochastic%20processes.md), [systems theory](graph/systems%20theory.md), …*
 
 </details>
 

@@ -48,7 +48,7 @@ inferred:skos:ancestor:
   - "[[occurrent]]"
   - "[[process]]"
 inferred:skos:narrower:
-  - "[[Delegation]]"
+  - "[[delegation]]"
   - "[[gouvernance]]"
 ---
 ![](https://upload.wikimedia.org/wikipedia/commons/9/98/New_Board_Room_at_2_Broadway_%2816458634290%29.jpg)

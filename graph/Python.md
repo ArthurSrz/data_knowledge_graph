@@ -8,13 +8,13 @@ inferred:skos:ancestor:
 inferred:skos:broader:
   - "[[Programming language]]"
 inferred:skos:narrower:
-  - "[[CountVectorizer]]"
   - "[[Jupyter notebooks]]"
   - "[[Numpy]]"
   - "[[Pandas]]"
   - "[[PyTorch]]"
   - "[[SpaCy]]"
   - "[[Virtual Environment]]"
+  - "[[countVectorizer]]"
   - "[[hugging face]]"
   - "[[matplotlib]]"
   - "[[openpyxl]]"

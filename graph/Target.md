@@ -1,5 +1,5 @@
 ---
 inferred:skos:related:
-  - "[[Data leakage]]"
   - "[[Time-shifted scoring]]"
+  - "[[data leakage]]"
 ---

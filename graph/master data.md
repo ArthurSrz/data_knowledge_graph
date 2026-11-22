@@ -2,7 +2,7 @@
 wikidata entity id: Q384093
 subclass of: "[[data]]"
 skos:related:
-  - "[[Data quality]]"
+  - "[[data quality]]"
   - "[[record linkage]]"
 inferred:skos:ancestor:
   - "[[continuant]]"

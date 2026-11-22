@@ -1,7 +1,7 @@
 ---
-broader: "[[Data privacy]]"
+broader: "[[data privacy]]"
 inferred:skos:ancestor:
-  - "[[Data privacy]]"
+  - "[[data privacy]]"
 ---
 Fourth [[fair information practices]]. 
 

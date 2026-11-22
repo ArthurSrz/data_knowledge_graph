@@ -44,7 +44,7 @@ These are mathematically different operations. A pivot table that shows "Average
 | Conditional formatting tied to pivot fields | ✗ |
 | [[Power]] Pivot (DAX, multi-table models) | ✗ No equivalent |
 
-## [[Power]] Pivot / [[Data Model]] Gap
+## [[Power]] Pivot / [[data model]] Gap
 
 [[Excel]] supports [[Power]] Pivot — multi-table joins via relationships, DAX formulas, and millions-of-rows [[data]] models. Google Sheets has **zero equivalent**. Pivot tables in Sheets operate on a single flat range only.
 

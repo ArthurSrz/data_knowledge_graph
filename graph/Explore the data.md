@@ -1,7 +1,7 @@
 ---
 inferred:skos:ancestor:
   - "[[CRISP-DM Process]]"
-  - "[[Data understanding]]"
+  - "[[data understanding]]"
 inferred:skos:broader:
-  - "[[Data understanding]]"
+  - "[[data understanding]]"
 ---

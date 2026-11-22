@@ -3,7 +3,7 @@ has cause:
   - "[[bureaucracy]]"
   - "[[centralisation]]"
   - "[[political apathy]]"
-  - "[[Delegation]]"
+  - "[[delegation]]"
   - "[[departmentalizacion]]"
   - "[[Power]]"
 facet of:

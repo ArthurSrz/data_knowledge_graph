@@ -1,9 +1,9 @@
 ---
-partOf: "[[Data preparation]]"
-skos:broader: "[[Data preparation]]"
+partOf: "[[data preparation]]"
+skos:broader: "[[data preparation]]"
 inferred:skos:ancestor:
   - "[[CRISP-DM Process]]"
-  - "[[Data preparation]]"
+  - "[[data preparation]]"
 ---
 
 [[Data]] cleaning step. 

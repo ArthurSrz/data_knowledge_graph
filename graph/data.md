@@ -5,7 +5,7 @@ inferred:skos:ancestor:
   - "[[generically dependent continuant]]"
   - "[[information content entity]]"
 inferred:skos:narrower:
-  - "[[Data lineage]]"
-  - "[[Data silos]]"
+  - "[[data lineage]]"
+  - "[[data silos]]"
   - "[[master data]]"
 ---

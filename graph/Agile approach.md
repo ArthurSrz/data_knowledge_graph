@@ -1,4 +1,4 @@
 ---
 inferred:skos:narrower:
-  - "[[Daily stand-ups]]"
+  - "[[daily stand-ups]]"
 ---

@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[Data privacy]]"
+inferred:skos:ancestor: "[[data privacy]]"
 ---

@@ -1,9 +1,11 @@
 ---
 rdf:type: skos:Concept
-skos:altLabel: [lagged scoring, notation décalée]
+skos:altLabel:
+  - lagged scoring
+  - notation décalée
 skos:broader: "[[feature engineering]]"
 skos:related:
-  - "[[Data leakage]]"
+  - "[[data leakage]]"
   - "[[Target]]"
   - "[[concept drift]]"
   - "[[Machine Leaning Baseline]]"

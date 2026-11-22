@@ -2,7 +2,7 @@
 needs: "[[explore the data]]"
 partOf: "[[continuum data]]"
 product or material produced:
-  - "[[Data catalog]]"
+  - "[[data catalog]]"
 broader: "[[management]]"
 inferred:skos:ancestor:
   - "[[control]]"

@@ -1,3 +1,3 @@
 ---
-inferred:skos:narrower: "[[Data drift]]"
+inferred:skos:narrower: "[[data drift]]"
 ---

@@ -1,5 +1,5 @@
 ---
-broader: "[[Data privacy laws]]"
+broader: "[[data privacy laws]]"
 inferred:skos:ancestor:
-  - "[[Data privacy laws]]"
+  - "[[data privacy laws]]"
 ---
