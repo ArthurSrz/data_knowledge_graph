@@ -10,8 +10,9 @@ from pathlib import Path
 
 import yaml
 
-GRAPH_DIR = Path("graph")
-STATS_DIR = Path("stats")
+VAULT = Path(__file__).resolve().parent.parent  # hooks run from any cwd
+GRAPH_DIR = VAULT / "graph"
+STATS_DIR = VAULT / "stats"
 REPORT_FILE = STATS_DIR / "reasoning_report.md"
 
 RELATION_MAP = {
@@ -136,18 +137,23 @@ def parse_targets(value):
     return targets
 
 
-def load_notes(graph_dir):
+def load_notes(graph_dir, overlay=None):
+    """overlay: {note name: text, or None to drop the note}, applied in memory."""
     notes = {}
     filenames = {}
     parse_errors = []
     unmapped_keys = set()
 
-    for p in sorted(graph_dir.glob("*.md")):
-        name = p.stem
+    texts = {p.stem: p for p in graph_dir.glob("*.md")}
+    texts.update(overlay or {})
+    for name in sorted(n for n, t in texts.items() if t is not None):
+        text = texts[name]
+        if isinstance(text, Path):
+            text = text.read_text(encoding="utf-8")
         filenames[name.lower()] = name
-        fm = extract_frontmatter(p.read_text(encoding="utf-8"))
+        fm = extract_frontmatter(text)
         if fm is None:
-            if p.read_text(encoding="utf-8").startswith("---"):
+            if text.startswith("---"):
                 parse_errors.append(name)
             notes[name] = {}
             continue
@@ -278,6 +284,148 @@ def individual_cross_violations(engine):
             continue
         out.add((x, row["Y"]))
     return sorted(out)
+
+
+# ── Gate: the single judge of "coherent" (hooks, MCP, CI all call this) ──
+
+LOGIC_KINDS = {
+    "in_cycle": "cycle dans la hiérarchie",
+    "conflict": "opposés liés",
+    "s27_violation": "SKOS S27 (related + hiérarchique)",
+    "disjoint_violation": "disjonction",
+    "part_cycle": "cycle partie–tout",
+    "cross_violation": "croisement des niveaux (instance/sous-classe)",
+}
+
+
+def logic_violations(overlay=None):
+    """Set of (kind, X, Y) note-name triples, plus the loaded notes for proofs."""
+    notes, filenames, _, _ = load_notes(GRAPH_DIR, overlay)
+    atom_of, name_of = build_atom_maps(notes, filenames)
+    engine, _, _ = load_reasoner(notes, filenames, atom_of)
+    n = lambda a: name_of.get(a, a)
+    out = {("in_cycle", n(r["X"]), n(r["X"])) for r in engine.query("in_cycle(?X)") or []}
+    for kind in ("conflict", "s27_violation", "disjoint_violation", "part_cycle"):
+        out |= {(kind, n(r["X"]), n(r["Y"])) for r in engine.query(f"{kind}(?X, ?Y)") or []}
+    out |= {("cross_violation", n(x), n(y)) for x, y in individual_cross_violations(engine)}
+    return out, notes, filenames
+
+
+def _edges(notes, filenames, rels):
+    """Adjacency {src: [(rel, tgt)]} over asserted edges, inverses flipped."""
+    inverse = {"narrower": "broader", "has_part": "part_of"}
+    adj = {}
+    for src, rr in notes.items():
+        for rel, targets in rr.items():
+            for t in targets:
+                t = resolve_target(t, filenames)
+                if rel in rels:
+                    adj.setdefault(src, []).append((rel, t))
+                elif inverse.get(rel) in rels:
+                    adj.setdefault(t, []).append((rel + "⁻¹", src))
+    return adj
+
+
+def _path(adj, src, dst):
+    """Shortest chain src → dst (at least one step), as 'A —rel→ B …' or None."""
+    from collections import deque
+    prev, queue = {}, deque([src])
+    while queue:
+        cur = queue.popleft()
+        for rel, nxt in adj.get(cur, []):
+            if nxt in prev:
+                continue
+            prev[nxt] = (cur, rel)
+            if nxt == dst:
+                steps, node = [], dst
+                while True:
+                    p, r = prev[node]
+                    steps.append(f" —{r}→ {node}")
+                    node = p
+                    if node == src:
+                        return src + "".join(reversed(steps))
+            queue.append(nxt)
+    return None
+
+
+def proof(kind, x, y, notes, filenames):
+    """Proof chains for one violation: list of human-readable lines."""
+    hier = _edges(notes, filenames, {"broader"})
+    typ = _edges(notes, filenames, {"broader", "instance_of"})
+    part = _edges(notes, filenames, {"part_of"})
+    sym = lambda rel: {(a, b) for a, r in _edges(notes, filenames, {rel}).items() for _, b in r}
+    disj = sym("disjoint_with")
+    disj |= {(b, a) for a, b in disj}
+    opp = sym("opposite_of")
+    rel = sym("related")
+    if kind == "in_cycle":
+        return [_path(hier, x, x)]
+    if kind == "part_cycle":
+        return [_path(part, x, y), _path(part, y, x)]
+    if kind in ("s27_violation", "conflict"):
+        side = f"{x} —related— {y}" if {(x, y), (y, x)} & rel else _path(hier, x, y)
+        first = f"{x} —opposite of— {y}" if kind == "conflict" else _path(hier, x, y)
+        return [first, side]
+    # disjoint / cross: x reaches y and some z disjoint with y
+    lines = [_path(typ, x, y)]
+    for a, z in sorted(disj):
+        if a == y and (z == x or _path(typ, x, z)):
+            lines += [_path(typ, x, z) if z != x else x, f"{y} —disjoint with— {z}"]
+            break
+    return lines
+
+
+def hint(kind):
+    # TODO(arthur): tes règles de modélisation, une phrase par type de violation.
+    return "Remplacer le lien hiérarchique fautif par une relation transversale."
+
+
+def gate(overlay=None, base_overlay=None):
+    """Violations present with `overlay` but absent from the base state."""
+    before, _, _ = logic_violations(base_overlay)
+    after, notes, filenames = logic_violations(overlay)
+    # ponytail: reasons twice (~2 s each); cache `before` keyed on graph mtimes if hooks feel slow
+    return sorted(after - before), notes, filenames
+
+
+def git_base_overlay(rev):
+    """Overlay restoring graph/ to `rev` for every note changed since (incl. untracked)."""
+    import subprocess
+    git = lambda *a: subprocess.run(["git", "-C", str(VAULT), *a], capture_output=True, text=True)
+    changed = git("diff", "--name-only", rev, "--", "graph/").stdout.split()
+    changed += git("ls-files", "--others", "--exclude-standard", "graph/").stdout.split()
+    overlay = {}
+    for path in changed:
+        old = git("show", f"{rev}:{path}")
+        overlay[Path(path).stem] = old.stdout if old.returncode == 0 else None
+    return overlay
+
+
+def cmd_gate(args):
+    overlay = {}
+    for item in args.overlay:
+        name, _, content = item.partition("=")
+        overlay[name] = content
+    base = git_base_overlay(args.base) if args.base else None
+    import contextlib
+    with contextlib.redirect_stdout(sys.stderr):  # semantica's progress bar → stderr
+        new, notes, filenames = gate(overlay, base)
+    if not new:
+        print("✓ gate: cohérent (aucune nouvelle violation logique).")
+        return
+    print(f"✗ gate: {len(new)} nouvelle(s) violation(s) logique(s).")
+    shown = set()
+    for kind, x, y in new:
+        key = (kind, x) if kind in ("disjoint_violation", "cross_violation") else (kind, x, y)
+        if key in shown:  # disjointness fires once per side
+            continue
+        shown.add(key)
+        lines = proof(kind, x, y, notes, filenames)
+        print(f"\n• {LOGIC_KINDS[kind]} : {x} ↔ {y}")
+        for line in lines:
+            print(f"    {line}")
+        print(f"  → {hint(kind)}")
+    sys.exit(2)
 
 
 def compute_inferred_facts(engine, notes, filenames, name_of):
@@ -894,6 +1042,11 @@ def main():
 
     sub.add_parser("competency", help="Validate competency questions against the vault")
 
+    p_gate = sub.add_parser("gate", help="Refuse (exit 2) new logical violations")
+    p_gate.add_argument("--overlay", action="append", default=[], metavar="NOTE=CONTENT",
+                        help="virtual note content, in memory (repeatable)")
+    p_gate.add_argument("--base", metavar="REV", help="compare the working tree against a git rev")
+
     args = parser.parse_args()
     if args.command is None:
         parser.print_help()
@@ -902,7 +1055,7 @@ def main():
     cmds = {
         "infer": cmd_infer, "check": cmd_check, "query": cmd_query,
         "report": cmd_report, "write": cmd_write, "watch": cmd_watch,
-        "competency": cmd_competency,
+        "competency": cmd_competency, "gate": cmd_gate,
     }
     cmds[args.command](args)
 

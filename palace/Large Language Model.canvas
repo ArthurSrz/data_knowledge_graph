@@ -22,7 +22,7 @@
 		{"id":"n0011","type":"file","file":"graph/Computer vision.md","x":5640,"y":0,"width":260,"height":80},
 		{"id":"n0012","type":"file","file":"graph/Decoder-only.md","x":6060,"y":300,"width":260,"height":80},
 		{"id":"n0013","type":"group","label":"Deep learning","x":5980,"y":0,"width":720,"height":580},
-		{"id":"n0013f","type":"file","file":"graph/Deep learning.md","x":6020,"y":20,"width":260,"height":50},
+		{"id":"n0013f","type":"file","file":"graph/deep learning.md","x":6020,"y":20,"width":260,"height":50},
 		{"id":"n0014","type":"file","file":"graph/Distance.md","x":6780,"y":0,"width":260,"height":80},
 		{"id":"n0015","type":"group","label":"Embeddings","x":4500,"y":180,"width":340,"height":330},
 		{"id":"n0015f","type":"file","file":"graph/Embeddings.md","x":4540,"y":200,"width":260,"height":50},

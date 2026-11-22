@@ -190,7 +190,7 @@ NPUs have:
 
 ## Related Concepts
 - [[artificial intelligence]]
-- [[Deep learning]]
+- [[deep learning]]
 - [[Hardware acceleration]]
 - [[ASIC]]
 - [[Computer architecture]]

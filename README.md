@@ -215,7 +215,7 @@ The graph encodes [SKOS](https://www.w3.org/2004/02/skos/)-style hierarchical re
   - [compliant privacy policy](graph/compliant%20privacy%20policy.md) · [liability](graph/liability.md) · [model contract](graph/model%20contract.md) · [rider](rider.md)
 - [control theory](graph/control%20theory.md)
   - [Damping](graph/Damping.md) · [inertia](inertia.md) · [James Clerk Maxwell](graph/James%20Clerk%20Maxwell.md) · [state observer](graph/state%20observer.md)
-- [Deep learning](graph/Deep%20learning.md)
+- [deep learning](deep%20learning.md)
   - [artificial neural network](graph/artificial%20neural%20network.md) → [artificial neuron](graph/artificial%20neuron.md) · [autoencoder](graph/autoencoder.md) · [backpropagation](backpropagation.md) · [CNN](convolutional%20neural%20networks.md) · [multilayer perceptron](graph/multilayer%20perceptron.md) · [ReLU](graph/ReLU%20activation%20function.md) · [Sigmoid](graph/Sigmoid%20function.md) · [Weights](graph/Weights.md) · …
   - [foundation model](graph/foundation%20model.md) → [multimodal model](graph/multimodal%20model.md) · [tabular foundation model](graph/tabular%20foundation%20model.md) → [TabPFN](graph/TabPFN.md)
   - [Keras](graph/Keras.md) · [Transfer learning](graph/Transfer%20learning.md)
@@ -238,7 +238,7 @@ The graph encodes [SKOS](https://www.w3.org/2004/02/skos/)-style hierarchical re
 - [knowledge organization system](graph/knowledge%20organization%20system.md)
   - [concept](graph/concept.md) · [controlled vocabulary](graph/controlled%20vocabulary.md) · [Ontology](graph/Ontology.md) · [taxonomy](graph/taxonomy.md) · [thesaurus](graph/thesaurus.md) · …
 - [machine learning](graph/machine%20learning.md)
-  - [supervised learning](graph/supervised%20learning.md) → [Decision tree](graph/Decision%20tree.md) · [KNN](graph/K-Nearest%20Neighbor%20algorithm.md) · [Naive Bayes](graph/Naive%20Bayes%20Classifier.md) · [SVM](support%20vector%20machine.md)
+  - [supervised learning](graph/supervised%20learning.md) → [decision tree](decision%20tree.md) · [KNN](graph/K-Nearest%20Neighbor%20algorithm.md) · [Naive Bayes](graph/Naive%20Bayes%20Classifier.md) · [SVM](support%20vector%20machine.md)
   - [Unsupervised Learning](graph/Unsupervised%20Learning.md) · [Reinforcement Learning](graph/Reinforcement%20Learning.md) · [federated learning](federated%20learning.md)
   - [hyperparameters](hyperparameters.md) · [loss function](graph/loss%20function.md) · [Regularization](graph/Regularization.md)
   - [Optimizer algorithm](graph/Optimizer%20algorithm.md) → [gradient descent](gradient%20descent.md)

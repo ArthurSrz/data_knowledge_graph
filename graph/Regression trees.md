@@ -1,7 +1,7 @@
 ---
-broader: "[[Decision tree]]"
+broader: "[[decision tree]]"
 inferred:skos:ancestor:
-  - "[[Decision tree]]"
+  - "[[decision tree]]"
   - "[[machine learning]]"
   - "[[supervised learning]]"
 ---

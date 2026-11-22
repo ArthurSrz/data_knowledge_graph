@@ -9,10 +9,10 @@ inferred:skos:ancestor:
 inferred:skos:narrower:
   - "[[DatasetDict]]"
   - "[[Datasets]]"
-  - "[[Trainer]]"
   - "[[TrainingAguments]]"
   - "[[autoModel]]"
   - "[[autotokenizer]]"
+  - "[[trainer]]"
 ---
 
 

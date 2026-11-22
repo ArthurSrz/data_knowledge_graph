@@ -1,8 +1,8 @@
 ---
-broader: "[[Decision tree]]"
+broader: "[[decision tree]]"
 inferred:skos:ancestor:
-  - "[[Decision tree]]"
+  - "[[decision tree]]"
   - "[[machine learning]]"
   - "[[supervised learning]]"
 ---
-Maximum number of splits inside a [[Decision tree]]
+Maximum number of splits inside a [[decision tree]]

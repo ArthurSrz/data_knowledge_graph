@@ -3,7 +3,7 @@ foundationalPaper: Learning Internal Representations by Error Propagation (Rumel
 keyPapers:
   - "Perceptrons: An Introduction to Computational Geometry (Minsky & Papert, 1969)"
   - Neural Networks and Deep Learning (Nielsen, 2015)
-trainingTechnique: "[[Deep learning]]"
+trainingTechnique: "[[deep learning]]"
 partOf: "[[Neural network models]]"
 complementedBy: "[[backpropagation]]"
 consists_of:
@@ -13,8 +13,8 @@ consists_of:
 produces: "[[output]]"
 broader: "[[artificial neural network]]"
 inferred:skos:ancestor:
-  - "[[Deep learning]]"
   - "[[artificial neural network]]"
+  - "[[deep learning]]"
   - "[[machine learning]]"
 ---
 

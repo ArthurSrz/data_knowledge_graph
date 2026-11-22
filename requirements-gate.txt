@@ -1,0 +1,10 @@
+# Lightweight env for the logic gate (reason.py gate). No torch/CUDA.
+# Install with --no-deps (semantica's own deps pull several GB):
+#   python3 -m venv .venv-gate && .venv-gate/bin/pip install --no-deps -r requirements-gate.txt
+semantica==0.6.0
+networkx==3.7
+numpy==2.5.5
+python-dateutil==4.0.0
+PyYAML==6.0.4
+scipy==1.18.1
+tzdata==2026.6

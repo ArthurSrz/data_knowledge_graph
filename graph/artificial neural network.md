@@ -8,9 +8,9 @@ has part(s):
 instance of:
   - "[[Artificial Intelligence (AI)]]"
 different from: "[[biological neural network]]"
-broader: "[[Deep learning]]"
+broader: "[[deep learning]]"
 inferred:skos:ancestor:
-  - "[[Deep learning]]"
+  - "[[deep learning]]"
   - "[[machine learning]]"
 inferred:skos:narrower:
   - "[[Embedding network]]"
@@ -21,7 +21,6 @@ inferred:skos:narrower:
   - "[[autoencoder]]"
   - "[[biological neural network]]"
   - "[[forward propagation]]"
-  - "[[hidden states]]"
   - "[[multilayer perceptron]]"
   - "[[neuron layer]]"
 ---

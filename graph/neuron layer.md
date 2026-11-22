@@ -1,8 +1,8 @@
 ---
 broader: "[[artificial neural network]]"
 inferred:skos:ancestor:
-  - "[[Deep learning]]"
   - "[[artificial neural network]]"
+  - "[[deep learning]]"
   - "[[machine learning]]"
 ---
 
@@ -214,7 +214,7 @@ Rumelhart et al.'s work:
 - [[Artificial neuron]]
 - [[backpropagation]]
 - [[Neural network models]]
-- [[Deep learning]]
+- [[deep learning]]
 - [[Activation functions]]
 
 ## References

@@ -1,9 +1,8 @@
 ---
 sameAs:
 partOf: "[[layer]]"
-broader: "[[artificial neural network]]"
 inferred:skos:ancestor:
-  - "[[Deep learning]]"
+  - "[[deep learning]]"
   - "[[artificial neural network]]"
   - "[[machine learning]]"
 ---

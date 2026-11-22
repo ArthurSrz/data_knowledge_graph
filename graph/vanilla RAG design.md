@@ -6,5 +6,4 @@ inferred:skos:ancestor:
   - "[[information retrieval]]"
   - "[[search]]"
 ---
-
-The blueprint for [[retrieval augmented generation]] 
+the [[blueprint]] for [[retrieval augmented generation]] 

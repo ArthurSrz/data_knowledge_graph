@@ -7,9 +7,9 @@ foundationFor:
   - "[[BERT]]"
   - "[[GPT2]]"
   - "[[Natural Language Processing]]"
-broader: "[[Deep learning]]"
+broader: "[[deep learning]]"
 inferred:skos:ancestor:
-  - "[[Deep learning]]"
+  - "[[deep learning]]"
   - "[[machine learning]]"
 inferred:skos:narrower:
   - "[[Decoder-only]]"
@@ -102,4 +102,4 @@ Transformers can work using:
 - [[large language model]] - Built on transformer architecture
 - [[Embeddings]] - Input representation for transformers
 
-See also: [[Natural Language Processing]], [[Deep learning]], [[Self-attention]], [[Multi-head attention]]
+See also: [[Natural Language Processing]], [[deep learning]], [[Self-attention]], [[Multi-head attention]]

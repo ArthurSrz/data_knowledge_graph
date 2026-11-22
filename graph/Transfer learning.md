@@ -6,16 +6,16 @@ keyPapers:
   - Deep Learning of Representations for Unsupervised and Transfer Learning (Bengio, 2012)
 implements: "[[fine-tuning]]"
 usedIn:
-  - "[[Deep learning]]"
+  - "[[deep learning]]"
   - "[[Neural network models]]"
   - "[[computer vision]]"
   - "[[Natural Language Processing]]"
 benefitFrom: "[[Pre-trained models]]"
 reducesNeedFor: "[[Large datasets]]"
 accelerates: "[[Model training]]"
-broader: "[[Deep learning]]"
+broader: "[[deep learning]]"
 inferred:skos:ancestor:
-  - "[[Deep learning]]"
+  - "[[deep learning]]"
   - "[[machine learning]]"
 ---
 

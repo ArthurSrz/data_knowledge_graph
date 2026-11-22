@@ -4,13 +4,18 @@ subclass of:
 facet of:
   - "[[deep learning]]"
   - "[[unsupervised learning]]"
-foundationalPaper: "Reducing the Dimensionality of Data with Neural Networks (Hinton & Salakhutdinov, 2006)"
-keyPapers: ["Learning Internal Representations by Error Propagation (Rumelhart, Hinton & Williams, 1986)", "Auto-Association by Multilayer Perceptrons (Bourlard & Kamp, 1988)"]
-relatedTo: ["[[Dimensionality reduction]]", "[[Feature learning]]", "[[Representation learning]]"]
+foundationalPaper: Reducing the Dimensionality of Data with Neural Networks (Hinton & Salakhutdinov, 2006)
+keyPapers:
+  - Learning Internal Representations by Error Propagation (Rumelhart, Hinton & Williams, 1986)
+  - Auto-Association by Multilayer Perceptrons (Bourlard & Kamp, 1988)
+relatedTo:
+  - "[[Dimensionality reduction]]"
+  - "[[Feature learning]]"
+  - "[[Representation learning]]"
 broader: "[[artificial neural network]]"
 inferred:skos:ancestor:
-  - "[[Deep learning]]"
   - "[[artificial neural network]]"
+  - "[[deep learning]]"
   - "[[machine learning]]"
 ---
 

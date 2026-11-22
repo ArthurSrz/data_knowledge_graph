@@ -1,3 +1,3 @@
 ---
-inferred:skos:ancestor: "[[User research]]"
+inferred:skos:ancestor: "[[user research]]"
 ---

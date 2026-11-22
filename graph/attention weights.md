@@ -14,8 +14,8 @@ relatedTo:
   - "[[Scaled dot-product attention]]"
 broader: "[[Transformers]]"
 inferred:skos:ancestor:
-  - "[[Deep learning]]"
   - "[[Transformers]]"
+  - "[[deep learning]]"
   - "[[machine learning]]"
 ---
 

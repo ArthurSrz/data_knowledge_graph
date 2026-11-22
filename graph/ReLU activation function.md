@@ -18,8 +18,8 @@ usedIn:
   - "[[convolutional neural networks]]"
 broader: "[[artificial neural network]]"
 inferred:skos:ancestor:
-  - "[[Deep learning]]"
   - "[[artificial neural network]]"
+  - "[[deep learning]]"
   - "[[machine learning]]"
 ---
 
