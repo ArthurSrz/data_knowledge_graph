@@ -1,3 +1,3 @@
 ---
-inferred:skos:narrower: "[[User inputs]]"
+inferred:skos:narrower: "[[user inputs]]"
 ---
