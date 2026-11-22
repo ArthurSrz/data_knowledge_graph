@@ -16,7 +16,6 @@ properties:
   - "[[Dense representation]]"
   - "[[Continuous space]]"
 skos:narrower:
-  - "[[Word embeddings]]"
   - "[[Sentence embeddings]]"
   - "[[Document embeddings]]"
   - "[[Graph embeddings]]"

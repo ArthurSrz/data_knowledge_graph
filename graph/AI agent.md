@@ -1,0 +1,4 @@
+---
+skos:broader:
+  - "[[agent]]"
+---

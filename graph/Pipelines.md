@@ -20,8 +20,6 @@ implementations:
   - "[[Kubeflow]]"
   - "[[MLflow]]"
 skos:narrower:
-  - "[[Training pipeline]]"
-  - "[[inference pipeline]]"
   - "[[Data pipeline]]"
   - "[[ML pipeline]]"
 ---

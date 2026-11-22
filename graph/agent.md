@@ -6,9 +6,6 @@ tags:
   - "Autonomie"
   - "LLM"
 dcterms:type: "Concept"
-skos:narrower:
-  - "[[agent harness]]"
-  - "[[AI agent]]"
 skos:broader:
 ---
 An agent is an entity that perceives its [[environment]] through sensors and acts upon that [[environment]] through effectors, as conceptualized by Marvin Minsky in "The Society of Mind" (1986)

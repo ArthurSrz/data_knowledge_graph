@@ -273,6 +273,8 @@ def transform(name, fm, step, notes_fm, lower):
                 if target is None:
                     kept.append(f"[[{t}]]")  # no note to carry the inverse: keep as is
                     continue
+                if notes_fm[target] is None:  # target had no frontmatter: give it one
+                    notes_fm[target] = {}
                 merge(notes_fm[target], "skos:broader", [f"[[{name}]]"])
             if kept:
                 out[k] = kept

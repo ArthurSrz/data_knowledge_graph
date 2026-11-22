@@ -17,7 +17,8 @@ properties:
   - "[[Semantic similarity]]"
   - "[[Analogy completion]]"
   - "[[Vector arithmetic]]"
-skos:broader: "[[Embeddings]]"
+skos:broader:
+  - "[[Embeddings]]"
 kg:uses:
   - "[[Vector]]"
 ---
