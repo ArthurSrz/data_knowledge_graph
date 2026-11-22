@@ -110,8 +110,9 @@ properties:
     subPropertyOf: skos:narrower
     inverse: iso-thes:broaderPartitive
     fromWikidata: [P527]
-    aliases: [has part, has part(s), components, composedOf, consists_of]
-    note: "`has part` remains the accepted spelling in notes"
+    aliases: [has part(s), components, composedOf, consists_of]
+    noteKey: has part          # spelling written in notes instead of the prefixed name
+    note: "`has part` remains the spelling in notes; variants are rewritten to it"
   iso-thes:broaderInstantial:
     standard: iso-thes
     subPropertyOf: skos:broader
