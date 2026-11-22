@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧠 Data knowledge graph
+# 🧠 Personal knowledge graph
 
 **A personal ontology of data science, ML and AI, kept as an Obsidian vault and checked by a logic reasoner.**
 
