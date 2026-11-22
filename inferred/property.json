@@ -1,7 +1,7 @@
 {
  "inferred:skos:ancestor": [
+  "Knowledge graph",
   "Object",
-  "abstract entity",
-  "knowledge graph"
+  "abstract entity"
  ]
 }

@@ -5,9 +5,9 @@
   "information content entity"
  ],
  "inferred:skos:narrower": [
+  "Knowledge base",
   "Provenance",
   "agents.md",
-  "knowledge base",
   "standard operating procedure"
  ]
 }

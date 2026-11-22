@@ -1,13 +1,13 @@
 {
  "inferred:skos:narrower": [
+  "AutoML",
+  "Deep learning",
+  "Federated learning",
   "ML system",
   "Regularization",
   "Reinforcement Learning",
   "Training algorithm",
   "Unsupervised Learning",
-  "autoML",
-  "deep learning",
-  "federated learning",
   "latent space",
   "loss function",
   "supervised learning"

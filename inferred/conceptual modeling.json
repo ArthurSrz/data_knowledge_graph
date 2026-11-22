@@ -1,10 +1,7 @@
 {
  "inferred:skos:ancestor": [
   "Object",
-  "occurrent",
-  "process"
- ],
- "inferred:skos:broader": [
-  "process"
+  "Process",
+  "occurrent"
  ]
 }

@@ -1,9 +1,9 @@
 {
  "inferred:skos:ancestor": [
+  "Management",
   "Object",
+  "Process",
   "control",
-  "management",
-  "occurrent",
-  "process"
+  "occurrent"
  ]
 }

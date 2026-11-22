@@ -474,14 +474,15 @@ def compute_inferred_facts(engine, notes, filenames, name_of):
                 continue
             if tgt_name not in note_names:
                 continue
-            asserted = notes.get(src_name, {})
-            if skos_name in asserted and tgt_name in asserted[skos_name]:
+            asserted = {r: [t.lower() for t in ts] for r, ts in notes.get(src_name, {}).items()}
+            tgt_name_l = tgt_name.lower()  # links resolve case-insensitively
+            if skos_name in asserted and tgt_name_l in asserted[skos_name]:
                 continue
-            if pred == "broader" and "broader" in asserted and tgt_name in asserted["broader"]:
+            if pred == "broader" and "broader" in asserted and tgt_name_l in asserted["broader"]:
                 continue
-            if pred == "narrower" and "narrower" in asserted and tgt_name in asserted["narrower"]:
+            if pred == "narrower" and "narrower" in asserted and tgt_name_l in asserted["narrower"]:
                 continue
-            if pred == "related_s" and "related" in asserted and tgt_name in asserted["related"]:
+            if pred == "related_s" and "related" in asserted and tgt_name_l in asserted["related"]:
                 continue
             entry = inferred.setdefault(src_name, {})
             entry.setdefault(skos_name, []).append(tgt_name)
@@ -505,14 +506,14 @@ def write_inferred_to_notes(inferred, graph_dir):
         if not (graph_dir / f"{concept}.md").exists():
             continue
         path = INFERRED_DIR / f"{concept}.json"
-        keep.add(path.name)
+        keep.add(path.name.lower())  # case-insensitive filesystems (macOS): process.json == Process.json
         text = json.dumps({f"{INFERRED_PREFIX}{r}": t for r, t in sorted(rels.items())},
                           ensure_ascii=False, indent=1) + "\n"
         if not path.exists() or path.read_text(encoding="utf-8") != text:
             path.write_text(text, encoding="utf-8")
             changed += 1
     for path in INFERRED_DIR.glob("*.json"):
-        if path.name not in keep:
+        if path.name.lower() not in keep:
             path.unlink()
             changed += 1
     return changed

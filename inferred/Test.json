@@ -1,8 +1,8 @@
 {
  "inferred:skos:narrower": [
+  "End-to-end test",
   "Integration tests",
   "Unit tests",
-  "end-to-end test",
   "functional requirement"
  ]
 }

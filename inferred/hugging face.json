@@ -7,11 +7,11 @@
   "information content entity"
  ],
  "inferred:skos:narrower": [
+  "DatasetDict",
+  "Datasets",
+  "Trainer",
   "TrainingAguments",
   "autoModel",
-  "autotokenizer",
-  "datasetDict",
-  "datasets",
-  "trainer"
+  "autotokenizer"
  ]
 }

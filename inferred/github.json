@@ -1,7 +1,7 @@
 {
  "inferred:skos:narrower": [
-  "gitHub actions",
-  "github ruleset",
+  "GitHub Actions",
+  "GitHub ruleset",
   "required status check"
  ]
 }

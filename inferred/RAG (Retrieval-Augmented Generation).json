@@ -1,12 +1,12 @@
 {
  "inferred:skos:ancestor": [
+  "Large Language Model",
+  "Search",
   "artificial intelligence",
-  "information retrieval",
-  "large language model",
-  "search"
+  "information retrieval"
  ],
  "inferred:skos:narrower": [
-  "hypothetical document embeddings (HyDE)",
+  "Hypothetical Document Embeddings (HyDE)",
   "vanilla RAG design"
  ]
 }

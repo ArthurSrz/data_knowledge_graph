@@ -4,8 +4,8 @@
   "supervised learning"
  ],
  "inferred:skos:narrower": [
+  "Recursive tree building",
   "Regression trees",
-  "recursive tree building",
-  "tree depth"
+  "Tree depth"
  ]
 }

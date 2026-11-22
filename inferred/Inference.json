@@ -1,13 +1,13 @@
 {
  "inferred:skos:ancestor": [
   "Object",
-  "occurrent",
-  "process"
+  "Process",
+  "occurrent"
  ],
  "inferred:skos:narrower": [
+  "Inference pipeline",
   "Online prediction",
   "backward chaining",
-  "batch prediction",
-  "inference pipeline"
+  "batch prediction"
  ]
 }

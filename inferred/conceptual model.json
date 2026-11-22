@@ -6,10 +6,7 @@
   "information content entity",
   "knowledge organization system"
  ],
- "inferred:skos:broader": [
-  "knowledge organization system"
- ],
  "inferred:skos:narrower": [
-  "knowledge base"
+  "Knowledge base"
  ]
 }

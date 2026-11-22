@@ -3,11 +3,11 @@
   "CRISP-DM Process"
  ],
  "inferred:skos:narrower": [
+  "Label encoding",
   "Min-max normalization",
   "One-hot encoding",
   "Tidy Data",
   "Z-Score normalization",
-  "label encoding",
   "truncation"
  ]
 }

@@ -3,10 +3,7 @@
   "Inference",
   "Object",
   "Pipelines",
-  "occurrent",
-  "process"
- ],
- "inferred:skos:broader": [
-  "Inference"
+  "Process",
+  "occurrent"
  ]
 }

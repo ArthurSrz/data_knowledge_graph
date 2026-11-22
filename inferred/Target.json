@@ -1,6 +1,6 @@
 {
  "inferred:skos:related": [
-  "Time-shifted scoring",
-  "data leakage"
+  "Data leakage",
+  "Time-shifted scoring"
  ]
 }

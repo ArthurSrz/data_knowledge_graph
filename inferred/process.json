@@ -3,18 +3,15 @@
   "Object",
   "occurrent"
  ],
- "inferred:skos:broader": [
-  "Object"
- ],
  "inferred:skos:narrower": [
   "Deployment",
   "Inference",
+  "Management",
   "business process",
   "conceptual modeling",
   "context",
   "crawl-walk-run",
   "learning",
-  "management",
   "onboarding",
   "problem solving",
   "record linkage"

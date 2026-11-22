@@ -1,9 +1,9 @@
 {
  "inferred:skos:ancestor": [
+  "Large Language Model",
   "RAG (Retrieval-Augmented Generation)",
+  "Search",
   "artificial intelligence",
-  "information retrieval",
-  "large language model",
-  "search"
+  "information retrieval"
  ]
 }

@@ -1,8 +1,8 @@
 {
  "inferred:skos:ancestor": [
   "Object",
-  "occurrent",
-  "process",
-  "situation"
+  "Process",
+  "Situation",
+  "occurrent"
  ]
 }

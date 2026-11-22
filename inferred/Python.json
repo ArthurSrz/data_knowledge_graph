@@ -5,22 +5,19 @@
   "generically dependent continuant",
   "information content entity"
  ],
- "inferred:skos:broader": [
-  "Programming language"
- ],
  "inferred:skos:narrower": [
+  "CountVectorizer",
+  "Hugging Face",
   "Jupyter notebooks",
+  "Matplotlib",
   "Numpy",
   "Pandas",
   "PyTorch",
+  "Pydantic",
+  "Sci-kit Learn",
   "SpaCy",
   "Virtual Environment",
-  "countVectorizer",
-  "hugging face",
-  "matplotlib",
   "openpyxl",
-  "pydantic",
-  "pypi",
-  "sci-kit Learn"
+  "pypi"
  ]
 }

@@ -1,8 +1,8 @@
 {
  "inferred:skos:ancestor": [
   "Object",
-  "occurrent",
-  "process"
+  "Process",
+  "occurrent"
  ],
  "inferred:skos:narrower": [
   "use case"
