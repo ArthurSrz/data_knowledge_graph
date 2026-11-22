@@ -1,8 +1,5 @@
 ---
-inferred:skos:narrower:
-  - "[[calibration]]"
----
-rower: "[[Overfitting]]"
+skos:narrower: "[[Overfitting]]"
 ---
 
 Right balance of simplicity and complexity, nor [[underfitting]] nor [[overfitting]]. 
