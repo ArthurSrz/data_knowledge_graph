@@ -1,8 +1,8 @@
 {
  "inferred:skos:ancestor": [
   "Object",
-  "Process",
-  "occurrent"
+  "occurrent",
+  "process"
  ],
  "inferred:skos:related": [
   "master data"

@@ -1,9 +1,9 @@
 {
  "inferred:skos:narrower": [
-  "Data preparation",
-  "Evaluate results",
   "Identify factors",
   "Modeling",
-  "Prepare for modeling"
+  "data preparation",
+  "evaluate results",
+  "prepare for modeling"
  ]
 }

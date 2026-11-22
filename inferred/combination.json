@@ -1,7 +1,7 @@
 {
  "inferred:skos:ancestor": [
-  "Combinatorics",
-  "Selection"
+  "combinatorics",
+  "selection"
  ],
  "inferred:skos:narrower": [
   "Shifter",

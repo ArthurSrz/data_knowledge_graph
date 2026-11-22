@@ -1,7 +1,7 @@
 {
  "inferred:skos:ancestor": [
-  "Combinatorics",
-  "Selection",
-  "combination"
+  "combination",
+  "combinatorics",
+  "selection"
  ]
 }

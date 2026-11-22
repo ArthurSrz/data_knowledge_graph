@@ -1,6 +1,6 @@
 {
  "inferred:skos:ancestor": [
-  "Search"
+  "search"
  ],
  "inferred:skos:narrower": [
   "RAG (Retrieval-Augmented Generation)"

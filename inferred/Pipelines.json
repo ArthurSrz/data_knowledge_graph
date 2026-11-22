@@ -1,6 +1,6 @@
 {
  "inferred:skos:narrower": [
-  "Inference pipeline",
-  "Training pipeline"
+  "Training pipeline",
+  "inference pipeline"
  ]
 }

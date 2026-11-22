@@ -2,8 +2,8 @@
  "inferred:skos:ancestor": [
   "Memory",
   "Object",
-  "Process",
-  "occurrent"
+  "occurrent",
+  "process"
  ],
  "inferred:skos:narrower": [
   "training"

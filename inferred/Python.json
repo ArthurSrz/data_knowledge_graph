@@ -6,18 +6,18 @@
   "information content entity"
  ],
  "inferred:skos:narrower": [
-  "CountVectorizer",
-  "Hugging Face",
   "Jupyter notebooks",
-  "Matplotlib",
   "Numpy",
   "Pandas",
   "PyTorch",
-  "Pydantic",
-  "Sci-kit Learn",
   "SpaCy",
   "Virtual Environment",
+  "countVectorizer",
+  "hugging face",
+  "matplotlib",
   "openpyxl",
-  "pypi"
+  "pydantic",
+  "pypi",
+  "sci-kit Learn"
  ]
 }

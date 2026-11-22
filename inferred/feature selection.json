@@ -1,6 +1,6 @@
 {
  "inferred:skos:narrower": [
-  "Data leakage",
-  "Embedded methods"
+  "Embedded methods",
+  "data leakage"
  ]
 }

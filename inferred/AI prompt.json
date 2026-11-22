@@ -1,7 +1,7 @@
 {
  "inferred:skos:ancestor": [
-  "Large Language Model",
   "artificial intelligence",
+  "large language model",
   "query"
  ],
  "inferred:skos:narrower": [
@@ -9,9 +9,9 @@
   "Prompt Optimization Techniques",
   "Prompt Template Info",
   "Prompt Template Types",
-  "Prompt templates",
-  "Prompt-based techniques",
   "chain-of-thought",
+  "prompt templates",
+  "prompt-based techniques",
   "prompts",
   "system prompt"
  ],

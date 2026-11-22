@@ -2,7 +2,7 @@
  "inferred:skos:ancestor": [
   "Inference",
   "Object",
-  "Process",
-  "occurrent"
+  "occurrent",
+  "process"
  ]
 }

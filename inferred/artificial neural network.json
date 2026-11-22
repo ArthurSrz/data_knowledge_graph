@@ -1,17 +1,17 @@
 {
  "inferred:skos:ancestor": [
-  "Deep learning",
+  "deep learning",
   "machine learning"
  ],
  "inferred:skos:narrower": [
   "Embedding network",
-  "Forward propagation",
   "ReLU activation function",
   "Sigmoid function",
   "Weights",
   "artificial neuron",
   "autoencoder",
   "biological neural network",
+  "forward propagation",
   "multilayer perceptron",
   "neuron layer"
  ]

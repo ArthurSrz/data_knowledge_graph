@@ -2,8 +2,8 @@
  "inferred:skos:ancestor": [
   "Memory",
   "Object",
-  "Process",
   "learning",
-  "occurrent"
+  "occurrent",
+  "process"
  ]
 }

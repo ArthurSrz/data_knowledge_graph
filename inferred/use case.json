@@ -1,10 +1,10 @@
 {
  "inferred:skos:ancestor": [
   "Object",
-  "Process",
   "Test",
   "functional requirement",
   "occurrent",
-  "problem solving"
+  "problem solving",
+  "process"
  ]
 }

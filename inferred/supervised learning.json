@@ -3,8 +3,8 @@
   "machine learning"
  ],
  "inferred:skos:narrower": [
-  "Decision tree",
   "Naive Bayes Classifier",
-  "Support Vector Machine"
+  "Support Vector Machine",
+  "decision tree"
  ]
 }

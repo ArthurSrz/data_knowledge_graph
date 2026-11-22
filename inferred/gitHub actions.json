@@ -1,6 +1,6 @@
 {
  "inferred:skos:ancestor": [
-  "Github"
+  "github"
  ],
  "inferred:skos:narrower": [
   "workflow recursion guard"
