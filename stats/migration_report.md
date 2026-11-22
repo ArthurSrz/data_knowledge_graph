@@ -1,6 +1,6 @@
 # Rapport de migration (à blanc)
 
-Produit par `scripts/migrate.py --dry-run`. **Aucune note n'a été modifiée.** La migration réelle attend ta validation, puis tourne sur une branche, un commit par type de changement.
+Produit par `scripts/migrate.py --dry-run`. **Aucune note n'a été modifiée.** La migration réelle attend ta validation, puis tourne sur une branche, un [[commit]] par type de changement.
 
 ## Synthèse
 
@@ -212,244 +212,244 @@ Par défaut chaque arête devient `skos:broader` (rangement thématique). Pré-c
 
 Décision par clé : la projeter sur une propriété, la mettre en cache, ou la supprimer. Règle validée : une clé rare n'entre au schéma que si une question de compétence en a besoin.
 
-| Clé | Notes |
-|---|---|
-| `inspiredBy` | 4 : [[Inference engine]], [[Reinforcement Learning]], [[Support Vector Machine]], [[artificial neuron]] |
-| `algorithms` | 3 : [[Reinforcement Learning]], [[decision tree]], [[federated learning]] |
-| `applies to jurisdiction` | 3 : [[french commercial code]], [[société anonyme]], [[société par actions simplifiée]] |
-| `Commons gallery` | 3 : [[control theory]], [[lawyer]], [[periodic table]] |
-| `country` | 3 : [[action de préférence]], [[cease and desist]], [[french commercial code]] |
-| `enables` | 3 : [[Pipelines]], [[federated learning]], [[multilayer perceptron]] |
-| `has goal` | 3 : [[access control]], [[shareholder]], [[thesaurus]] |
-| `influenced by` | 3 : [[Elixir]], [[Gilles Deleuze]], [[Markdown]] |
-| `official website` | 3 : [[Elixir]], [[Ollama]], [[pypi]] |
-| `originatesFrom` | 3 : [[Expert systems]], [[deep learning]], [[graph]] |
-| `PhilPapers topic` | 3 : [[Gilles Deleuze]], [[Inference]], [[semantics]] |
-| `properties` | 3 : [[Embeddings]], [[Word embeddings]], [[loss function]] |
-| `properties for this type` | 3 : [[knowledge organization system]], [[occurrence]], [[process]] |
-| `UMLS CUI` | 3 : [[intention]], [[lawyer]], [[problem solving]] |
-| `usedFor` | 3 : [[PyTorch]], [[Support Vector Machine]], [[decision tree]] |
-| `Wolfram Language entity code` | 3 : [[Gilles Deleuze]], [[bipartite graph]], [[classification scheme]] |
-| `author` | 2 : [[Domain-Driven Design]], [[The Book of Why]] |
-| `based on` | 2 : [[knowledge organization system]], [[periodic table]] |
-| `builtOnTopOf` | 2 : [[Query engine]], [[Théorie du cerveau bayésien]] |
-| `copyright license` | 2 : [[Elixir]], [[Ollama]] |
-| `copyright status` | 2 : [[Elixir]], [[Ollama]] |
-| `depicts` | 2 : [[Business Process Model and Notation]], [[periodic table]] |
-| `described at URL` | 2 : [[classification scheme]], [[thesaurus]] |
-| `does not have part` | 2 : [[bipartite graph]], [[periodic table]] |
-| `entity` | 2 : [[Embeddings]], [[push_to_comet]] |
-| `fabrication method` | 2 : [[AI prompt]], [[management]] |
-| `female form of label` | 2 : [[business analyst]], [[lawyer]] |
-| `field of this occupation` | 2 : [[lawyer]], [[statutory auditor]] |
-| `followed by` | 2 : [[control theory]], [[draft document]] |
-| `GitHub account` | 2 : [[Elixir]], [[Ollama]] |
-| `handled, mitigated, or managed by` | 2 : [[conflict of interest]], [[problem]] |
-| `history of topic` | 2 : [[Physics]], [[periodic table]] |
-| `ISCO-08 occupation class` | 2 : [[business analyst]], [[lawyer]] |
-| `language of work or name` | 2 : [[Domain-Driven Design]], [[International (Nice) Classification of Goods and Services]] |
-| `literal translation` | 2 : [[backward chaining]], [[share purchase agreement]] |
-| `MacPorts port` | 2 : [[Elixir]], [[Ollama]] |
-| `male form of label` | 2 : [[business analyst]], [[lawyer]] |
-| `name` | 2 : [[application programming interface]], [[thesaurus]] |
-| `platform` | 2 : [[Elixir]], [[Ollama]] |
-| `Provenio UUID` | 2 : [[lawyer]], [[semiotics]] |
-| `same` | 2 : [[One-hot encoding]], [[label encoding]] |
-| `software version identifier` | 2 : [[Elixir]], [[Ollama]] |
-| `source code repository URL` | 2 : [[Elixir]], [[Ollama]] |
-| `subreddit` | 2 : [[Gilles Deleuze]], [[application programming interface]] |
-| `techniques` | 2 : [[Natural Language Processing]], [[Word embeddings]] |
-| `topic's main template` | 2 : [[control theory]], [[management]] |
-| `3D model` | 1 : [[periodic table]] |
-| `academic degree` | 1 : [[Gilles Deleuze]] |
-| `accelerates` | 1 : [[Transfer learning]] |
-| `ACM Classification Code (2012)` | 1 : [[use case]] |
-| `advantages` | 1 : [[ReLU activation function]] |
-| `affecte` | 1 : [[Hallucination]] |
-| `alternativeTo` | 1 : [[PyTorch]] |
-| `applications` | 1 : [[Natural Language Processing]] |
-| `Arch Linux package` | 1 : [[Elixir]] |
-| `ArchWiki article` | 1 : [[Elixir]] |
-| `articulates` | 1 : [[vanilla RAG design]] |
-| `assessment` | 1 : [[Gilles Deleuze]] |
-| `atWorkWithin` | 1 : [[empirical evidence]] |
-| `AUR package` | 1 : [[Elixir]] |
-| `Baidu Tieba name` | 1 : [[lawyer]] |
-| `benefitFrom` | 1 : [[Transfer learning]] |
-| `BHCL UUID` | 1 : [[Gilles Deleuze]] |
-| `calculationUnder` | 1 : [[cosine similarity]] |
-| `category for eponymous categories` | 1 : [[lawyer]] |
-| `challenges` | 1 : [[federated learning]] |
-| `Changes` | 1 : [[Shifter]] |
-| `child` | 1 : [[Gilles Deleuze]] |
-| `class of object(s) of occurrence` | 1 : [[management]] |
-| `Colon Classification` | 1 : [[periodic table]] |
-| `communicatesWith` | 1 : [[Observations]] |
-| `compatible with` | 1 : [[Model Context Protocol (MCP)]] |
-| `ComplementaryWith` | 1 : [[training data set]] |
-| `complementedBy` | 1 : [[forward propagation]] |
-| `computedBy` | 1 : [[attention weights]] |
-| `concepts` | 1 : [[accountability]] |
-| `connectsFrom` | 1 : [[prompt templates]] |
-| `connectsThrough` | 1 : [[Layer]] |
-| `connectsTo` | 1 : [[prompt templates]] |
-| `country of citizenship` | 1 : [[Gilles Deleuze]] |
-| `country of origin` | 1 : [[periodic table]] |
-| `creates` | 1 : [[vectorization]] |
-| `date of birth` | 1 : [[Gilles Deleuze]] |
-| `date of death` | 1 : [[Gilles Deleuze]] |
-| `Debian stable package` | 1 : [[Elixir]] |
-| `depicted by` | 1 : [[periodic table]] |
-| `developer` | 1 : [[Elixir]] |
-| `disjoint union of` | 1 : [[change]] |
-| `Docker Hub repository` | 1 : [[Elixir]] |
-| `doctoral student` | 1 : [[Gilles Deleuze]] |
-| `does not have characteristic` | 1 : [[primary commodity]] |
-| `does not use` | 1 : [[modular programming]] |
-| `educated at` | 1 : [[Gilles Deleuze]] |
-| `EmbodiementOf` | 1 : [[latent space]] |
-| `employer` | 1 : [[Gilles Deleuze]] |
-| `enablesArchitecture` | 1 : [[Transformers]] |
-| `Europeana entity` | 1 : [[Gilles Deleuze]] |
-| `example` | 1 : [[model contract]] |
-| `example in` | 1 : [[boilerplate]] |
-| `exampleOf` | 1 : [[Best]] |
-| `examples` | 1 : [[loss function]] |
-| `extendedBy` | 1 : [[decision tree]] |
-| `family name` | 1 : [[Gilles Deleuze]] |
-| `featureOf` | 1 : [[model lineage]] |
-| `Fedora package` | 1 : [[Elixir]] |
-| `file extension` | 1 : [[Elixir]] |
-| `firstDescribedby` | 1 : [[control theory]] |
-| `firstStepOf` | 1 : [[Virtual Environment]] |
-| `foundationFor` | 1 : [[Transformers]] |
-| `FreeBSD port` | 1 : [[Elixir]] |
-| `fundamentalTo` | 1 : [[accountability]] |
-| `Gentoo package` | 1 : [[Elixir]] |
-| `Gentoo Wiki article` | 1 : [[Elixir]] |
-| `given name` | 1 : [[Gilles Deleuze]] |
-| `goesOnInside` | 1 : [[attention weights]] |
-| `Gujarati Vishwakosh entry` | 1 : [[periodic table]] |
-| `Harper's tag` | 1 : [[logical contradiction]] |
-| `has contributing factor` | 1 : [[contract]] |
-| `has list` | 1 : [[commodity]] |
-| `has version, edition or translation` | 1 : [[Domain-Driven Design]] |
-| `hasUse` | 1 : [[PostgreSQL]] |
-| `HeuristicFor` | 1 : [[Tidy Data]] |
-| `Homebrew formula name` | 1 : [[Elixir]] |
-| `IAB code` | 1 : [[commodity]] |
-| `IdenticalTo` | 1 : [[chainrings]] |
-| `IEV number` | 1 : [[discrimination threshold]] |
-| `implementations` | 1 : [[Pipelines]] |
-| `implements` | 1 : [[Transfer learning]] |
-| `importPartOf` | 1 : [[Identify factors]] |
-| `integratesWith` | 1 : [[PyTorch]] |
-| `InterlockWith` | 1 : [[Tooth]] |
-| `introducedin` | 1 : [[Transformers]] |
-| `inventedBy` | 1 : [[artificial neuron]] |
-| `involves` | 1 : [[management]] |
-| `IRC channel URL` | 1 : [[Elixir]] |
-| `ISCO-88 occupation class` | 1 : [[lawyer]] |
-| `ISNI` | 1 : [[Gilles Deleuze]] |
-| `items classified` | 1 : [[periodic table]] |
-| `keyComponents` | 1 : [[Reinforcement Learning]] |
-| `label in sign language` | 1 : [[lawyer]] |
-| `languages spoken, written or signed` | 1 : [[Gilles Deleuze]] |
-| `Libris-URI` | 1 : [[Gilles Deleuze]] |
-| `location of creation` | 1 : [[periodic table]] |
-| `made from material` | 1 : [[blueprint]] |
-| `madeOf` | 1 : [[AI stack]] |
-| `main regulatory text` | 1 : [[preferred stock]] |
-| `maintained by` | 1 : [[pypi]] |
-| `manner of death` | 1 : [[Gilles Deleuze]] |
-| `media type` | 1 : [[Elixir]] |
-| `MethodInside` | 1 : [[push_to_comet]] |
-| `minimizedBy` | 1 : [[loss function]] |
-| `mitigated_by` | 1 : [[Hallucination]] |
-| `MountedInParallel` | 1 : [[chainrings]] |
-| `movement` | 1 : [[Gilles Deleuze]] |
-| `name in native language` | 1 : [[Gilles Deleuze]] |
-| `native language` | 1 : [[Gilles Deleuze]] |
-| `needs` | 1 : [[gouvernance]] |
-| `Nomenclature for Museum Cataloging` | 1 : [[spreadsheet]] |
-| `notable work` | 1 : [[Gilles Deleuze]] |
-| `notation` | 1 : [[tautology]] |
-| `number of children` | 1 : [[Gilles Deleuze]] |
-| `O*NET OnLine code` | 1 : [[lawyer]] |
-| `occupation` | 1 : [[Gilles Deleuze]] |
-| `official blog URL` | 1 : [[Elixir]] |
-| `on focus list of Wikimedia project` | 1 : [[AI prompt]] |
-| `OpenBSD port` | 1 : [[Elixir]] |
-| `OpenStreetMap key` | 1 : [[lawyer]] |
-| `OpenStreetMap tag` | 1 : [[lawyer]] |
-| `openSUSE package` | 1 : [[Elixir]] |
-| `operatesOn` | 1 : [[PyTorch]] |
-| `operating system` | 1 : [[Elixir]] |
-| `outputs` | 1 : [[clause classification heuristic]] |
-| `owner of` | 1 : [[shareholder]] |
-| `participant` | 1 : [[contract]] |
-| `partner in business or sport` | 1 : [[Gilles Deleuze]] |
-| `patron saint` | 1 : [[lawyer]] |
-| `permanent duplicated item` | 1 : [[periodic table]] |
-| `place of birth` | 1 : [[Gilles Deleuze]] |
-| `place of burial` | 1 : [[Gilles Deleuze]] |
-| `place of death` | 1 : [[Gilles Deleuze]] |
-| `position held by head of the organization` | 1 : [[board of directors]] |
-| `prevents` | 1 : [[Regularization]] |
-| `processes` | 1 : [[Transformers]] |
-| `produces` | 1 : [[forward propagation]] |
-| `product of` | 1 : [[conceptual model]] |
-| `programming paradigm` | 1 : [[Elixir]] |
-| `protects` | 1 : [[federated learning]] |
-| `publicationDate` | 1 : [[PostgreSQL]] |
-| `publisher` | 1 : [[Business Process Model and Notation]] |
-| `readable file format` | 1 : [[Elixir]] |
-| `reduces` | 1 : [[Regularization]] |
-| `reducesNeedFor` | 1 : [[Transfer learning]] |
-| `related image` | 1 : [[application programming interface]] |
-| `related Wikidata property` | 1 : [[occurrence]] |
-| `relative` | 1 : [[Gilles Deleuze]] |
-| `relevant qualification` | 1 : [[business analyst]] |
-| `religion or worldview` | 1 : [[Gilles Deleuze]] |
-| `reliéA` | 1 : [[Hallucination]] |
-| `Repology project name` | 1 : [[Elixir]] |
-| `represents` | 1 : [[Embeddings]] |
-| `resultsIn` | 1 : [[AI]] |
-| `ROME Occupation Code` | 1 : [[lawyer]] |
-| `sex or gender` | 1 : [[Gilles Deleuze]] |
-| `shouldPayAttentionTo` | 1 : [[ML system design process]] |
-| `shouldTakeIntoAccount` | 1 : [[false positives and false negatives]] |
-| `signature` | 1 : [[Gilles Deleuze]] |
-| `significant person` | 1 : [[data visualization]] |
-| `SlackBuilds package` | 1 : [[Elixir]] |
-| `SOC Code (2010)` | 1 : [[lawyer]] |
-| `social media followers` | 1 : [[Elixir]] |
-| `software engine` | 1 : [[pypi]] |
-| `specificInstanceOf` | 1 : [[ReAct data agent]] |
-| `spouse` | 1 : [[Gilles Deleuze]] |
-| `SSYK 2012 The Swedish Standard Classification of Occupations` | 1 : [[lawyer]] |
-| `storedInto` | 1 : [[Embeddings]] |
-| `student of` | 1 : [[Gilles Deleuze]] |
-| `subject has role` | 1 : [[knowledge organization system]] |
-| `subtitle` | 1 : [[Domain-Driven Design]] |
-| `supports` | 1 : [[PyTorch]] |
-| `time period` | 1 : [[Gilles Deleuze]] |
-| `trainedBy` | 1 : [[multilayer perceptron]] |
-| `trainingTechnique` | 1 : [[forward propagation]] |
-| `typing discipline` | 1 : [[Elixir]] |
-| `U.S. National Archives Identifier` | 1 : [[lawyer]] |
-| `Ubuntu package` | 1 : [[Elixir]] |
-| `Unicode character` | 1 : [[lawyer]] |
-| `union of` | 1 : [[process]] |
-| `usedBy` | 1 : [[pydantic]] |
-| `useTechniques` | 1 : [[Natural Language Processing]] |
-| `variants` | 1 : [[ReLU activation function]] |
-| `wears` | 1 : [[lawyer]] |
-| `Wikimedia outline` | 1 : [[semiotics]] |
-| `WordLift URL` | 1 : [[management]] |
-| `writable file format` | 1 : [[Elixir]] |
-| `writing language` | 1 : [[Gilles Deleuze]] |
-| `X (Twitter) username` | 1 : [[Elixir]] |
+| Clé                                                            | Notes                                                                                                   |
+| -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| `inspiredBy`                                                   | 4 : [[Inference engine]], [[Reinforcement Learning]], [[Support Vector Machine]], [[artificial neuron]] |
+| `algorithms`                                                   | 3 : [[Reinforcement Learning]], [[decision tree]], [[federated learning]]                               |
+| `applies to jurisdiction`                                      | 3 : [[french commercial code]], [[société anonyme]], [[société par actions simplifiée]]                 |
+| `Commons gallery`                                              | 3 : [[control theory]], [[lawyer]], [[periodic table]]                                                  |
+| `country`                                                      | 3 : [[action de préférence]], [[cease and desist]], [[french commercial code]]                          |
+| `enables`                                                      | 3 : [[Pipelines]], [[federated learning]], [[multilayer perceptron]]                                    |
+| `has goal`                                                     | 3 : [[access control]], [[shareholder]], [[thesaurus]]                                                  |
+| `influenced by`                                                | 3 : [[Elixir]], [[Gilles Deleuze]], [[Markdown]]                                                        |
+| `official website`                                             | 3 : [[Elixir]], [[Ollama]], [[pypi]]                                                                    |
+| `originatesFrom`                                               | 3 : [[Expert systems]], [[deep learning]], [[graph]]                                                    |
+| `PhilPapers topic`                                             | 3 : [[Gilles Deleuze]], [[Inference]], [[semantics]]                                                    |
+| `properties`                                                   | 3 : [[Embeddings]], [[Word embeddings]], [[loss function]]                                              |
+| `properties for this type`                                     | 3 : [[knowledge organization system]], [[occurrence]], [[process]]                                      |
+| `UMLS CUI`                                                     | 3 : [[intention]], [[lawyer]], [[problem solving]]                                                      |
+| `usedFor`                                                      | 3 : [[PyTorch]], [[Support Vector Machine]], [[decision tree]]                                          |
+| `Wolfram Language entity code`                                 | 3 : [[Gilles Deleuze]], [[bipartite graph]], [[classification scheme]]                                  |
+| `author`                                                       | 2 : [[Domain-Driven Design]], [[The Book of Why]]                                                       |
+| `based on`                                                     | 2 : [[knowledge organization system]], [[periodic table]]                                               |
+| `builtOnTopOf`                                                 | 2 : [[Query engine]], [[Théorie du cerveau bayésien]]                                                   |
+| `copyright license`                                            | 2 : [[Elixir]], [[Ollama]]                                                                              |
+| `copyright status`                                             | 2 : [[Elixir]], [[Ollama]]                                                                              |
+| `depicts`                                                      | 2 : [[Business Process Model and Notation]], [[periodic table]]                                         |
+| `described at URL`                                             | 2 : [[classification scheme]], [[thesaurus]]                                                            |
+| `does not have part`                                           | 2 : [[bipartite graph]], [[periodic table]]                                                             |
+| `entity`                                                       | 2 : [[Embeddings]], [[push_to_comet]]                                                                   |
+| `fabrication method`                                           | 2 : [[AI prompt]], [[management]]                                                                       |
+| `female form of label`                                         | 2 : [[business analyst]], [[lawyer]]                                                                    |
+| `field of this occupation`                                     | 2 : [[lawyer]], [[statutory auditor]]                                                                   |
+| `followed by`                                                  | 2 : [[control theory]], [[draft document]]                                                              |
+| `GitHub account`                                               | 2 : [[Elixir]], [[Ollama]]                                                                              |
+| `handled, mitigated, or managed by`                            | 2 : [[conflict of interest]], [[problem]]                                                               |
+| `history of topic`                                             | 2 : [[Physics]], [[periodic table]]                                                                     |
+| `ISCO-08 occupation class`                                     | 2 : [[business analyst]], [[lawyer]]                                                                    |
+| `language of work or name`                                     | 2 : [[Domain-Driven Design]], [[International (Nice) Classification of Goods and Services]]             |
+| `literal translation`                                          | 2 : [[backward chaining]], [[share purchase agreement]]                                                 |
+| `MacPorts port`                                                | 2 : [[Elixir]], [[Ollama]]                                                                              |
+| `male form of label`                                           | 2 : [[business analyst]], [[lawyer]]                                                                    |
+| `name`                                                         | 2 : [[application programming interface]], [[thesaurus]]                                                |
+| `platform`                                                     | 2 : [[Elixir]], [[Ollama]]                                                                              |
+| `Provenio UUID`                                                | 2 : [[lawyer]], [[semiotics]]                                                                           |
+| `same`                                                         | 2 : [[One-hot encoding]], [[label encoding]]                                                            |
+| `software version identifier`                                  | 2 : [[Elixir]], [[Ollama]]                                                                              |
+| `source code repository URL`                                   | 2 : [[Elixir]], [[Ollama]]                                                                              |
+| `subreddit`                                                    | 2 : [[Gilles Deleuze]], [[application programming interface]]                                           |
+| `techniques`                                                   | 2 : [[Natural Language Processing]], [[Word embeddings]]                                                |
+| `topic's main template`                                        | 2 : [[control theory]], [[management]]                                                                  |
+| `3D model`                                                     | 1 : [[periodic table]]                                                                                  |
+| `academic degree`                                              | 1 : [[Gilles Deleuze]]                                                                                  |
+| `accelerates`                                                  | 1 : [[Transfer learning]]                                                                               |
+| `ACM Classification Code (2012)`                               | 1 : [[use case]]                                                                                        |
+| `advantages`                                                   | 1 : [[ReLU activation function]]                                                                        |
+| `affecte`                                                      | 1 : [[Hallucination]]                                                                                   |
+| `alternativeTo`                                                | 1 : [[PyTorch]]                                                                                         |
+| `applications`                                                 | 1 : [[Natural Language Processing]]                                                                     |
+| `Arch Linux package`                                           | 1 : [[Elixir]]                                                                                          |
+| `ArchWiki article`                                             | 1 : [[Elixir]]                                                                                          |
+| `articulates`                                                  | 1 : [[vanilla RAG design]]                                                                              |
+| `assessment`                                                   | 1 : [[Gilles Deleuze]]                                                                                  |
+| `atWorkWithin`                                                 | 1 : [[empirical evidence]]                                                                              |
+| `AUR package`                                                  | 1 : [[Elixir]]                                                                                          |
+| `Baidu Tieba name`                                             | 1 : [[lawyer]]                                                                                          |
+| `benefitFrom`                                                  | 1 : [[Transfer learning]]                                                                               |
+| `BHCL UUID`                                                    | 1 : [[Gilles Deleuze]]                                                                                  |
+| `calculationUnder`                                             | 1 : [[cosine similarity]]                                                                               |
+| `category for eponymous categories`                            | 1 : [[lawyer]]                                                                                          |
+| `challenges`                                                   | 1 : [[federated learning]]                                                                              |
+| `Changes`                                                      | 1 : [[Shifter]]                                                                                         |
+| `child`                                                        | 1 : [[Gilles Deleuze]]                                                                                  |
+| `class of object(s) of occurrence`                             | 1 : [[management]]                                                                                      |
+| `Colon Classification`                                         | 1 : [[periodic table]]                                                                                  |
+| `communicatesWith`                                             | 1 : [[Observations]]                                                                                    |
+| `compatible with`                                              | 1 : [[Model Context Protocol (MCP)]]                                                                    |
+| `ComplementaryWith`                                            | 1 : [[training data set]]                                                                               |
+| `complementedBy`                                               | 1 : [[forward propagation]]                                                                             |
+| `computedBy`                                                   | 1 : [[attention weights]]                                                                               |
+| `concepts`                                                     | 1 : [[accountability]]                                                                                  |
+| `connectsFrom`                                                 | 1 : [[prompt templates]]                                                                                |
+| `connectsThrough`                                              | 1 : [[Layer]]                                                                                           |
+| `connectsTo`                                                   | 1 : [[prompt templates]]                                                                                |
+| `country of citizenship`                                       | 1 : [[Gilles Deleuze]]                                                                                  |
+| `country of origin`                                            | 1 : [[periodic table]]                                                                                  |
+| `creates`                                                      | 1 : [[vectorization]]                                                                                   |
+| `date of birth`                                                | 1 : [[Gilles Deleuze]]                                                                                  |
+| `date of death`                                                | 1 : [[Gilles Deleuze]]                                                                                  |
+| `Debian stable package`                                        | 1 : [[Elixir]]                                                                                          |
+| `depicted by`                                                  | 1 : [[periodic table]]                                                                                  |
+| `developer`                                                    | 1 : [[Elixir]]                                                                                          |
+| `disjoint union of`                                            | 1 : [[change]]                                                                                          |
+| `Docker Hub repository`                                        | 1 : [[Elixir]]                                                                                          |
+| `doctoral student`                                             | 1 : [[Gilles Deleuze]]                                                                                  |
+| `does not have characteristic`                                 | 1 : [[primary commodity]]                                                                               |
+| `does not use`                                                 | 1 : [[modular programming]]                                                                             |
+| `educated at`                                                  | 1 : [[Gilles Deleuze]]                                                                                  |
+| `EmbodiementOf`                                                | 1 : [[latent space]]                                                                                    |
+| `employer`                                                     | 1 : [[Gilles Deleuze]]                                                                                  |
+| `enablesArchitecture`                                          | 1 : [[Transformers]]                                                                                    |
+| `Europeana entity`                                             | 1 : [[Gilles Deleuze]]                                                                                  |
+| `example`                                                      | 1 : [[model contract]]                                                                                  |
+| `example in`                                                   | 1 : [[boilerplate]]                                                                                     |
+| `exampleOf`                                                    | 1 : [[Best]]                                                                                            |
+| `examples`                                                     | 1 : [[loss function]]                                                                                   |
+| `extendedBy`                                                   | 1 : [[decision tree]]                                                                                   |
+| `family name`                                                  | 1 : [[Gilles Deleuze]]                                                                                  |
+| `featureOf`                                                    | 1 : [[model lineage]]                                                                                   |
+| `Fedora package`                                               | 1 : [[Elixir]]                                                                                          |
+| `file extension`                                               | 1 : [[Elixir]]                                                                                          |
+| `firstDescribedby`                                             | 1 : [[control theory]]                                                                                  |
+| `firstStepOf`                                                  | 1 : [[Virtual Environment]]                                                                             |
+| `foundationFor`                                                | 1 : [[Transformers]]                                                                                    |
+| `FreeBSD port`                                                 | 1 : [[Elixir]]                                                                                          |
+| `fundamentalTo`                                                | 1 : [[accountability]]                                                                                  |
+| `Gentoo package`                                               | 1 : [[Elixir]]                                                                                          |
+| `Gentoo Wiki article`                                          | 1 : [[Elixir]]                                                                                          |
+| `given name`                                                   | 1 : [[Gilles Deleuze]]                                                                                  |
+| `goesOnInside`                                                 | 1 : [[attention weights]]                                                                               |
+| `Gujarati Vishwakosh entry`                                    | 1 : [[periodic table]]                                                                                  |
+| `Harper's tag`                                                 | 1 : [[logical contradiction]]                                                                           |
+| `has contributing factor`                                      | 1 : [[contract]]                                                                                        |
+| `has list`                                                     | 1 : [[commodity]]                                                                                       |
+| `has version, edition or translation`                          | 1 : [[Domain-Driven Design]]                                                                            |
+| `hasUse`                                                       | 1 : [[PostgreSQL]]                                                                                      |
+| `HeuristicFor`                                                 | 1 : [[Tidy Data]]                                                                                       |
+| `Homebrew formula name`                                        | 1 : [[Elixir]]                                                                                          |
+| `IAB code`                                                     | 1 : [[commodity]]                                                                                       |
+| `IdenticalTo`                                                  | 1 : [[chainrings]]                                                                                      |
+| `IEV number`                                                   | 1 : [[discrimination threshold]]                                                                        |
+| `implementations`                                              | 1 : [[Pipelines]]                                                                                       |
+| `implements`                                                   | 1 : [[Transfer learning]]                                                                               |
+| `importPartOf`                                                 | 1 : [[Identify factors]]                                                                                |
+| `integratesWith`                                               | 1 : [[PyTorch]]                                                                                         |
+| `InterlockWith`                                                | 1 : [[Tooth]]                                                                                           |
+| `introducedin`                                                 | 1 : [[Transformers]]                                                                                    |
+| `inventedBy`                                                   | 1 : [[artificial neuron]]                                                                               |
+| `involves`                                                     | 1 : [[management]]                                                                                      |
+| `IRC channel URL`                                              | 1 : [[Elixir]]                                                                                          |
+| `ISCO-88 occupation class`                                     | 1 : [[lawyer]]                                                                                          |
+| `ISNI`                                                         | 1 : [[Gilles Deleuze]]                                                                                  |
+| `items classified`                                             | 1 : [[periodic table]]                                                                                  |
+| `keyComponents`                                                | 1 : [[Reinforcement Learning]]                                                                          |
+| `label in sign language`                                       | 1 : [[lawyer]]                                                                                          |
+| `languages spoken, written or signed`                          | 1 : [[Gilles Deleuze]]                                                                                  |
+| `Libris-URI`                                                   | 1 : [[Gilles Deleuze]]                                                                                  |
+| `location of creation`                                         | 1 : [[periodic table]]                                                                                  |
+| `made from material`                                           | 1 : [[blueprint]]                                                                                       |
+| `madeOf`                                                       | 1 : [[AI stack]]                                                                                        |
+| `main regulatory text`                                         | 1 : [[preferred stock]]                                                                                 |
+| `maintained by`                                                | 1 : [[pypi]]                                                                                            |
+| `manner of death`                                              | 1 : [[Gilles Deleuze]]                                                                                  |
+| `media type`                                                   | 1 : [[Elixir]]                                                                                          |
+| `MethodInside`                                                 | 1 : [[push_to_comet]]                                                                                   |
+| `minimizedBy`                                                  | 1 : [[loss function]]                                                                                   |
+| `mitigated_by`                                                 | 1 : [[Hallucination]]                                                                                   |
+| `MountedInParallel`                                            | 1 : [[chainrings]]                                                                                      |
+| `movement`                                                     | 1 : [[Gilles Deleuze]]                                                                                  |
+| `name in native language`                                      | 1 : [[Gilles Deleuze]]                                                                                  |
+| `native language`                                              | 1 : [[Gilles Deleuze]]                                                                                  |
+| `needs`                                                        | 1 : [[gouvernance]]                                                                                     |
+| `Nomenclature for Museum Cataloging`                           | 1 : [[spreadsheet]]                                                                                     |
+| `notable work`                                                 | 1 : [[Gilles Deleuze]]                                                                                  |
+| `notation`                                                     | 1 : [[tautology]]                                                                                       |
+| `number of children`                                           | 1 : [[Gilles Deleuze]]                                                                                  |
+| `O*NET OnLine code`                                            | 1 : [[lawyer]]                                                                                          |
+| `occupation`                                                   | 1 : [[Gilles Deleuze]]                                                                                  |
+| `official blog URL`                                            | 1 : [[Elixir]]                                                                                          |
+| `on focus list of Wikimedia project`                           | 1 : [[AI prompt]]                                                                                       |
+| `OpenBSD port`                                                 | 1 : [[Elixir]]                                                                                          |
+| `OpenStreetMap key`                                            | 1 : [[lawyer]]                                                                                          |
+| `OpenStreetMap tag`                                            | 1 : [[lawyer]]                                                                                          |
+| `openSUSE package`                                             | 1 : [[Elixir]]                                                                                          |
+| `operatesOn`                                                   | 1 : [[PyTorch]]                                                                                         |
+| `operating system`                                             | 1 : [[Elixir]]                                                                                          |
+| `outputs`                                                      | 1 : [[clause classification heuristic]]                                                                 |
+| `owner of`                                                     | 1 : [[shareholder]]                                                                                     |
+| `participant`                                                  | 1 : [[contract]]                                                                                        |
+| `partner in business or sport`                                 | 1 : [[Gilles Deleuze]]                                                                                  |
+| `patron saint`                                                 | 1 : [[lawyer]]                                                                                          |
+| `permanent duplicated item`                                    | 1 : [[periodic table]]                                                                                  |
+| `place of birth`                                               | 1 : [[Gilles Deleuze]]                                                                                  |
+| `place of burial`                                              | 1 : [[Gilles Deleuze]]                                                                                  |
+| `place of death`                                               | 1 : [[Gilles Deleuze]]                                                                                  |
+| `position held by head of the organization`                    | 1 : [[board of directors]]                                                                              |
+| `prevents`                                                     | 1 : [[Regularization]]                                                                                  |
+| `processes`                                                    | 1 : [[Transformers]]                                                                                    |
+| `produces`                                                     | 1 : [[forward propagation]]                                                                             |
+| `product of`                                                   | 1 : [[conceptual model]]                                                                                |
+| `programming paradigm`                                         | 1 : [[Elixir]]                                                                                          |
+| `protects`                                                     | 1 : [[federated learning]]                                                                              |
+| `publicationDate`                                              | 1 : [[PostgreSQL]]                                                                                      |
+| `publisher`                                                    | 1 : [[Business Process Model and Notation]]                                                             |
+| `readable file format`                                         | 1 : [[Elixir]]                                                                                          |
+| `reduces`                                                      | 1 : [[Regularization]]                                                                                  |
+| `reducesNeedFor`                                               | 1 : [[Transfer learning]]                                                                               |
+| `related image`                                                | 1 : [[application programming interface]]                                                               |
+| `related Wikidata property`                                    | 1 : [[occurrence]]                                                                                      |
+| `relative`                                                     | 1 : [[Gilles Deleuze]]                                                                                  |
+| `relevant qualification`                                       | 1 : [[business analyst]]                                                                                |
+| `religion or worldview`                                        | 1 : [[Gilles Deleuze]]                                                                                  |
+| `reliéA`                                                       | 1 : [[Hallucination]]                                                                                   |
+| `Repology project name`                                        | 1 : [[Elixir]]                                                                                          |
+| `represents`                                                   | 1 : [[Embeddings]]                                                                                      |
+| `resultsIn`                                                    | 1 : [[AI]]                                                                                              |
+| `ROME Occupation Code`                                         | 1 : [[lawyer]]                                                                                          |
+| `sex or gender`                                                | 1 : [[Gilles Deleuze]]                                                                                  |
+| `shouldPayAttentionTo`                                         | 1 : [[ML system design process]]                                                                        |
+| `shouldTakeIntoAccount`                                        | 1 : [[false positives and false negatives]]                                                             |
+| `signature`                                                    | 1 : [[Gilles Deleuze]]                                                                                  |
+| `significant person`                                           | 1 : [[data visualization]]                                                                              |
+| `SlackBuilds package`                                          | 1 : [[Elixir]]                                                                                          |
+| `SOC Code (2010)`                                              | 1 : [[lawyer]]                                                                                          |
+| `social media followers`                                       | 1 : [[Elixir]]                                                                                          |
+| `software engine`                                              | 1 : [[pypi]]                                                                                            |
+| `specificInstanceOf`                                           | 1 : [[ReAct data agent]]                                                                                |
+| `spouse`                                                       | 1 : [[Gilles Deleuze]]                                                                                  |
+| `SSYK 2012 The Swedish Standard Classification of Occupations` | 1 : [[lawyer]]                                                                                          |
+| `storedInto`                                                   | 1 : [[Embeddings]]                                                                                      |
+| `student of`                                                   | 1 : [[Gilles Deleuze]]                                                                                  |
+| `subject has role`                                             | 1 : [[knowledge organization system]]                                                                   |
+| `subtitle`                                                     | 1 : [[Domain-Driven Design]]                                                                            |
+| `supports`                                                     | 1 : [[PyTorch]]                                                                                         |
+| `time period`                                                  | 1 : [[Gilles Deleuze]]                                                                                  |
+| `trainedBy`                                                    | 1 : [[multilayer perceptron]]                                                                           |
+| `trainingTechnique`                                            | 1 : [[forward propagation]]                                                                             |
+| `typing discipline`                                            | 1 : [[Elixir]]                                                                                          |
+| `U.S. National Archives Identifier`                            | 1 : [[lawyer]]                                                                                          |
+| `Ubuntu package`                                               | 1 : [[Elixir]]                                                                                          |
+| `Unicode character`                                            | 1 : [[lawyer]]                                                                                          |
+| `union of`                                                     | 1 : [[process]]                                                                                         |
+| `usedBy`                                                       | 1 : [[pydantic]]                                                                                        |
+| `useTechniques`                                                | 1 : [[Natural Language Processing]]                                                                     |
+| `variants`                                                     | 1 : [[ReLU activation function]]                                                                        |
+| `wears`                                                        | 1 : [[lawyer]]                                                                                          |
+| `Wikimedia outline`                                            | 1 : [[semiotics]]                                                                                       |
+| `WordLift URL`                                                 | 1 : [[management]]                                                                                      |
+| `writable file format`                                         | 1 : [[Elixir]]                                                                                          |
+| `writing language`                                             | 1 : [[Gilles Deleuze]]                                                                                  |
+| `X (Twitter) username`                                         | 1 : [[Elixir]]                                                                                          |
 
 ## Détail par note
 
