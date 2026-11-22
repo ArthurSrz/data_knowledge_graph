@@ -1,5 +1,6 @@
 ---
 subFieldOf: "[[abstract entity]]"
-inferred:skos:narrower: "[[templates]]"
+inferred:skos:ancestor:
+  - "[[abstract entity]]"
 ---
 

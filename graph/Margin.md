@@ -1,3 +1,4 @@
 ---
-inferred:skos:ancestor: "[[metric]]"
+inferred:skos:related:
+  - "[[Support Vector Machine]]"
 ---

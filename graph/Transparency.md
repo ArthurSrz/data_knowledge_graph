@@ -1,3 +1,4 @@
 ---
-inferred:skos:narrower: "[[Interpretability]]"
+inferred:skos:related:
+  - "[[accountability]]"
 ---

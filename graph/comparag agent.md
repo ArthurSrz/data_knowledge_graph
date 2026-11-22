@@ -9,6 +9,7 @@ aliases:
   - blind_folded_mechanism
 broader: "[[agentic System]]"
 inferred:skos:ancestor:
+  - "[[agent]]"
   - "[[agentic System]]"
 ---
 The entity that selects which RAG [[tools]] to compare and judges the result. In CompaRAG, two agents act: 
