@@ -1,7 +1,10 @@
 ---
 broader: "[[Python]]"
 inferred:skos:ancestor:
+  - "[[Programming language]]"
   - "[[Python]]"
-  - "[[programming language]]"
+  - "[[continuant]]"
+  - "[[generically dependent continuant]]"
+  - "[[information content entity]]"
 ---
 Data format used by [[sci-kit Learn]] to be able to create a [[Naive Bayes Classifier]]. 

@@ -16,6 +16,10 @@ exact match:
   - http://www.w3.org/2004/02/skos/core#ConceptScheme
   - http://purl.org/spar/fabio/ControlledVocabulary
 wikidata entity id: Q6423319
+inferred:skos:ancestor:
+  - "[[continuant]]"
+  - "[[generically dependent continuant]]"
+  - "[[information content entity]]"
 inferred:skos:narrower:
   - "[[conceptual model]]"
   - "[[controlled vocabulary]]"

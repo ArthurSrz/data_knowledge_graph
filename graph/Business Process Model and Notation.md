@@ -7,7 +7,10 @@ publisher: "[[Object Management Group]]"
 broader: "[[diagram]]"
 skos:altLabel: ["BPMN", "Business Process Modeling Notation"]
 inferred:skos:ancestor:
+  - "[[continuant]]"
   - "[[diagram]]"
+  - "[[generically dependent continuant]]"
+  - "[[information content entity]]"
 ---
 Graphical notation (OMG, 2004) for specifying a [[business process]]: pools and lanes for roles, tasks, gateways for decisions, events for triggers and outcomes. BPMN 2.0 XML is the exchange format SAP Signavio imports.
 

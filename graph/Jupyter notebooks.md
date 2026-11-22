@@ -1,6 +1,9 @@
 ---
 broader: "[[Python]]"
 inferred:skos:ancestor:
+  - "[[Programming language]]"
   - "[[Python]]"
-  - "[[programming language]]"
+  - "[[continuant]]"
+  - "[[generically dependent continuant]]"
+  - "[[information content entity]]"
 ---

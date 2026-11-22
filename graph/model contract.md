@@ -17,7 +17,10 @@ inferred:skos:ancestor:
   - "[[Documentation]]"
   - "[[Provenance]]"
   - "[[chronology]]"
+  - "[[continuant]]"
   - "[[contract]]"
+  - "[[generically dependent continuant]]"
+  - "[[information content entity]]"
   - "[[intellectual work]]"
 inferred:skos:broader:
   - "[[Provenance]]"

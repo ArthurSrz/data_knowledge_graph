@@ -10,7 +10,10 @@ skos:altLabel:
   - patch
   - changelist
 inferred:skos:ancestor:
+  - "[[continuant]]"
   - "[[data set]]"
+  - "[[generically dependent continuant]]"
+  - "[[information content entity]]"
 ---
 atomic group of changes between successive revisions in a version-[[control]] [[repository]].
 

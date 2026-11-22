@@ -14,6 +14,9 @@ inferred:skos:ancestor:
   - "[[Provenance]]"
   - "[[application development]]"
   - "[[chronology]]"
+  - "[[continuant]]"
+  - "[[generically dependent continuant]]"
+  - "[[information content entity]]"
 inferred:skos:broader:
   - "[[Provenance]]"
 ---

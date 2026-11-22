@@ -11,6 +11,9 @@ skos:scopeNote: "My usage: the provenance of a *statement* in a knowledge store 
 inferred:skos:ancestor:
   - "[[Documentation]]"
   - "[[chronology]]"
+  - "[[continuant]]"
+  - "[[generically dependent continuant]]"
+  - "[[information content entity]]"
 inferred:skos:broader:
   - "[[Documentation]]"
 inferred:skos:narrower:

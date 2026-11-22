@@ -1,7 +1,12 @@
 ---
 broader: "[[programming language]]"
 inferred:skos:ancestor:
-  - "[[programming language]]"
+  - "[[Programming language]]"
+  - "[[continuant]]"
+  - "[[generically dependent continuant]]"
+  - "[[information content entity]]"
+inferred:skos:broader:
+  - "[[Programming language]]"
 inferred:skos:narrower:
   - "[[CountVectorizer]]"
   - "[[Jupyter notebooks]]"

@@ -1,4 +1,4 @@
 ---
 inferred:skos:narrower:
-  - "[[gilles deleuze]]"
+  - "[[Gilles Deleuze]]"
 ---

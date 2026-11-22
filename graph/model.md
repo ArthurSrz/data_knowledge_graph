@@ -1,4 +1,7 @@
 ---
 subclass of: "[[information content entity]]"
-inferred:skos:narrower: "[[ML models]]"
+inferred:skos:ancestor:
+  - "[[continuant]]"
+  - "[[generically dependent continuant]]"
+  - "[[information content entity]]"
 ---

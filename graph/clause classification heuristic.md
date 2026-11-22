@@ -21,6 +21,9 @@ inferred:skos:ancestor:
   - "[[Provenance]]"
   - "[[chronology]]"
   - "[[clause]]"
+  - "[[continuant]]"
+  - "[[generically dependent continuant]]"
+  - "[[information content entity]]"
 inferred:skos:broader:
   - "[[Provenance]]"
 ---

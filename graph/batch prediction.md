@@ -1,7 +1,10 @@
 ---
 broader: "[[inference]]"
 inferred:skos:ancestor:
-  - "[[Deployment]]"
-  - "[[inference]]"
+  - "[[Inference]]"
+  - "[[occurrent]]"
+  - "[[process]]"
+inferred:skos:broader:
+  - "[[Inference]]"
 ---
 Generate predictions on batch of observations on a recurring schedule. Contrary to [[Online prediction]]

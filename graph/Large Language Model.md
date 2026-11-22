@@ -6,7 +6,6 @@ facet of:
   - "[[artificial intelligence]]"
 inferred:skos:narrower:
   - "[[AI prompt]]"
-  - "[[Ollama]]"
-  - "[[hallucination]]"
+  - "[[Hallucination]]"
 ---
 **Large language model**: language model built with very large amounts of texts.

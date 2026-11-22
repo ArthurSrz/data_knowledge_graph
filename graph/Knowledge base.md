@@ -8,6 +8,9 @@ has part(s):
 inferred:skos:ancestor:
   - "[[Documentation]]"
   - "[[conceptual model]]"
+  - "[[continuant]]"
+  - "[[generically dependent continuant]]"
+  - "[[information content entity]]"
   - "[[knowledge organization system]]"
 inferred:skos:related:
   - "[[knowledge management]]"

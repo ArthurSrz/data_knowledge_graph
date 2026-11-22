@@ -21,6 +21,4 @@ inferred:skos:ancestor:
   - "[[occurrent]]"
   - "[[process]]"
   - "[[situation]]"
-inferred:skos:narrower:
-  - "[[agents.md]]"
 ---

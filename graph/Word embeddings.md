@@ -14,6 +14,7 @@ inferred:skos:ancestor:
   - "[[Embeddings]]"
   - "[[Natural Language Processing]]"
 inferred:skos:related:
+  - "[[Tokenizer]]"
   - "[[sentence embedding]]"
 ---
 

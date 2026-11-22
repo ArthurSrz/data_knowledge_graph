@@ -12,8 +12,11 @@ timestamp: 2026-06-28T00:00:00Z
 instanceOf: "[[excel vs. gsheet problem]]"
 broader: "[[Python]]"
 inferred:skos:ancestor:
+  - "[[Programming language]]"
   - "[[Python]]"
-  - "[[programming language]]"
+  - "[[continuant]]"
+  - "[[generically dependent continuant]]"
+  - "[[information content entity]]"
 ---
 
 ## Features Lost on Round-Trip Through openpyxl

@@ -7,6 +7,9 @@ opposite of: "[[graph/Physical model]]"
 different from: "[[graph/Theoretical framework]]"
 product of: "[[conceptual modeling]]"
 inferred:skos:ancestor:
+  - "[[continuant]]"
+  - "[[generically dependent continuant]]"
+  - "[[information content entity]]"
   - "[[knowledge organization system]]"
 inferred:skos:broader:
   - "[[knowledge organization system]]"

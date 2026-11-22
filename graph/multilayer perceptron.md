@@ -16,6 +16,7 @@ trainedBy: "[[backpropagation]]"
 broader: "[[artificial neural network]]"
 inferred:skos:ancestor:
   - "[[Deep learning]]"
+  - "[[Neural network models]]"
   - "[[artificial neural network]]"
   - "[[machine learning]]"
 ---

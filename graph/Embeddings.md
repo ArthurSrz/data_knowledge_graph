@@ -26,7 +26,6 @@ inferred:skos:ancestor:
   - "[[Natural Language Processing]]"
 inferred:skos:narrower:
   - "[[Embeddings models]]"
-  - "[[Word embeddings]]"
   - "[[latent space]]"
   - "[[vectorization]]"
 ---

@@ -8,6 +8,9 @@ literal translation:
 wikidata entity id: Q1141183
 broader: "[[inference]]"
 inferred:skos:ancestor:
-  - "[[Deployment]]"
-  - "[[inference]]"
+  - "[[Inference]]"
+  - "[[occurrent]]"
+  - "[[process]]"
+inferred:skos:broader:
+  - "[[Inference]]"
 ---

@@ -1,6 +1,10 @@
 ---
 wikidata entity id: Q959962
 subclass of: "[[information content entity]]"
+inferred:skos:ancestor:
+  - "[[continuant]]"
+  - "[[generically dependent continuant]]"
+  - "[[information content entity]]"
 inferred:skos:narrower:
   - "[[Business Process Model and Notation]]"
 ---

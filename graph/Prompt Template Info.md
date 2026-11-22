@@ -26,6 +26,8 @@ broader: "[[AI prompt]]"
 inferred:skos:ancestor:
   - "[[AI prompt]]"
   - "[[large language model]]"
+inferred:skos:related:
+  - "[[prompt templates]]"
 ---
 
 # Prompt Template Info

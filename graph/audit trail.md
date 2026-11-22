@@ -9,8 +9,11 @@ facet of:
 skos:altLabel: ["audit log"]
 inferred:skos:ancestor:
   - "[[activity log]]"
+  - "[[continuant]]"
   - "[[documentary evidence]]"
   - "[[evidence]]"
+  - "[[generically dependent continuant]]"
+  - "[[information content entity]]"
 ---
 **Audit trail**: chronological record of a sequence of activities, kept for security purposes.
 

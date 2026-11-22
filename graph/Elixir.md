@@ -69,5 +69,10 @@ publication date: 2012-05-25T00:00:00Z
 wikidata entity id: Q5362035
 broader: "[[programming language]]"
 inferred:skos:ancestor:
-  - "[[programming language]]"
+  - "[[Programming language]]"
+  - "[[continuant]]"
+  - "[[generically dependent continuant]]"
+  - "[[information content entity]]"
+inferred:skos:broader:
+  - "[[Programming language]]"
 ---

@@ -1,5 +1,7 @@
 ---
 subclass of: "[[information content entity]]"
-inferred:skos:narrower:
-  - "[[record linkage]]"
+inferred:skos:ancestor:
+  - "[[continuant]]"
+  - "[[generically dependent continuant]]"
+  - "[[information content entity]]"
 ---

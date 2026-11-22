@@ -10,6 +10,9 @@ logo image: http://commons.wikimedia.org/wiki/Special:FilePath/PyPI%20logo.svg
 wikidata entity id: Q2984686
 broader: "[[Python]]"
 inferred:skos:ancestor:
+  - "[[Programming language]]"
   - "[[Python]]"
-  - "[[programming language]]"
+  - "[[continuant]]"
+  - "[[generically dependent continuant]]"
+  - "[[information content entity]]"
 ---

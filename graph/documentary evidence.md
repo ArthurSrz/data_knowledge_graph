@@ -3,7 +3,10 @@ wikidata entity id: Q5287668
 subclass of: "[[evidence]]"
 skos:altLabel: ["recorded evidence"]
 inferred:skos:ancestor:
+  - "[[continuant]]"
   - "[[evidence]]"
+  - "[[generically dependent continuant]]"
+  - "[[information content entity]]"
 inferred:skos:narrower:
   - "[[activity log]]"
   - "[[audit trail]]"

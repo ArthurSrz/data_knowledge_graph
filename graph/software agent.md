@@ -7,5 +7,9 @@ skos:related:
   - "[[AI agent]]"
 inferred:skos:ancestor:
   - "[[agency]]"
+  - "[[computer program]]"
+  - "[[continuant]]"
+  - "[[generically dependent continuant]]"
+  - "[[information content entity]]"
 ---
 computer program that acts for a user or other program in a relationship of [[agency]].

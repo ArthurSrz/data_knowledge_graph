@@ -5,7 +5,10 @@ skos:related:
   - "[[Data quality]]"
   - "[[record linkage]]"
 inferred:skos:ancestor:
+  - "[[continuant]]"
   - "[[data]]"
+  - "[[generically dependent continuant]]"
+  - "[[information content entity]]"
 inferred:skos:related:
   - "[[checklist]]"
 ---

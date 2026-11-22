@@ -44,6 +44,7 @@ wikidata entity id: Q3249551
 inferred:skos:ancestor:
   - "[[occurrent]]"
 inferred:skos:narrower:
+  - "[[Inference]]"
   - "[[business process]]"
   - "[[conceptual modeling]]"
   - "[[context]]"

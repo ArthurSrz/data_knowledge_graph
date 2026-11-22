@@ -5,6 +5,6 @@ inferred:skos:ancestor:
 inferred:skos:narrower:
   - "[[Decision tree]]"
   - "[[Naive Bayes Classifier]]"
-  - "[[support vector machine]]"
+  - "[[Support Vector Machine]]"
 ---
 Past observation and associate observations, we know the the X and Y
