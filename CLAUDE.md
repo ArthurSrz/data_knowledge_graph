@@ -12,8 +12,9 @@ Also always disable matplotlib's offset/scientific notation (`ax.ticklabel_forma
 
 Every write to `graph/` goes through `scripts/reason.py gate`: the PreToolUse/Stop hooks (`scripts/hooks/kg-gate.py`), the `kg_upsert_concept` MCP tool, and the `kg-gate` CI workflow all call it. Only *new* logical violations count (cycles, SKOS S27, opposites, disjointness, instance/subclass crossing, part-whole cycles). Decisions are logged in `stats/gate-log.md`; current violations are in `stats/violations.md`. Mode: `KG_GATE=warn|block|off` (off is logged).
 
-- **Occurrent or continuant first.** Before any `subclass of` / `broader` link, decide which BFO branch the concept is on. The two branches are disjoint.
-- **Cross-branch links are transversal relations, not hierarchy.** A role (continuant) linked to a process (occurrent) takes `accountable for`, `uses`, `has use`… never `subclass of` (see `process owner`).
-- **Check Wikidata** (`subclass of` / `instance of`) before asserting a hierarchy, and keep `instance of` apart from `subclass of`.
+- **Keys follow `schema.yml`** (prefixed): `iso-thes:broaderGeneric` (is a kind of, Wikidata P279), `iso-thes:broaderInstantial` (instance of, P31), `iso-thes:broaderPartitive` (part of, P361), `has part`, `skos:broader` (thematic shelving only), `skos:related` and its sub-properties (`kg:uses`, `kg:oppositeOf`, `kg:accountableFor`…), `skos:exactMatch: wd:Q…`. Inferred facts live in `inferred/<note>.json`, never in notes. `scripts/validate.py` flags keys outside the schema.
+- **Occurrent or continuant first.** Before any `iso-thes:broaderGeneric` link, decide which BFO branch the concept is on. The two branches are disjoint.
+- **Cross-branch links are transversal relations, not hierarchy.** A role (continuant) linked to a process (occurrent) takes `kg:accountableFor`, `kg:uses`, `kg:hasUse`… never `iso-thes:broaderGeneric` (see `process owner`).
+- **Check Wikidata** (P279 / P31) before asserting a hierarchy, and keep `iso-thes:broaderInstantial` apart from `iso-thes:broaderGeneric`.
 - **Record deviations in `skos:scopeNote`** whenever a link departs from Wikidata or from a strict reading.
 - When the gate refuses, revise the relations (belief revision): don't force the link through.

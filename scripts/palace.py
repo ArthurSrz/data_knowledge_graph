@@ -31,7 +31,10 @@ SPATIAL_ROLE = {
     "facet of": "inside", "inferred:skos:broader": "inside",
     "subclassOf": "inside", "instanceOf": "inside", "subFieldOf": "inside", "TypeOf": "inside",
     "skos:narrower": "contains", "inferred:skos:narrower": "contains",
-    "has part(s)": "contains",
+    "has part(s)": "contains", "has part": "contains",
+    # schema.yml keys (ontology migration)
+    "iso-thes:broaderGeneric": "inside", "iso-thes:broaderInstantial": "inside",
+    "iso-thes:broaderPartitive": "inside", "kg:oppositeOf": "across",
     "oppositeOf": "across", "opposite of": "across", "different from": "across",
 }
 SKIP = {"inferred:skos:ancestor"}  # redundant with broader chains
