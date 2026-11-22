@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q138457287"
+skos:exactMatch: "wd:Q138457287"
 iso-thes:broaderInstantial: "[[agent harness]]"
 skos:scopeNote: "Wikidata: instance of agent harness (and of command-line interface). An individual tool, so `instance of`, not `subclass of`; the older broader → [[agentic System]] link was dropped for that reason."
 ---

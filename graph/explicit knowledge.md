@@ -1,9 +1,8 @@
 ---
-wikidata entity id: "Q1323686"
+skos:exactMatch: "wd:Q1323686"
 iso-thes:broaderGeneric: "[[knowledge]]"
 iso-thes:broaderInstantial: "[[knowledge type]]"
 kg:oppositeOf: "[[tacit knowledge]]"
-has cause: "[[knowledge extraction]]"
 skos:altLabel:
   - "codified knowledge"
   - "connaissance explicite"

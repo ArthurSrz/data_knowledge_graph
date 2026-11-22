@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q2297740"
+skos:exactMatch: "wd:Q2297740"
 iso-thes:broaderGeneric: "[[process]]"
 skos:scopeNote: "Wikidata: software deployment ⊂ implementation ⊂ planned process. Shortened here to [[process]] (an occurrent), the closest class in the graph."
 ---

@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q1418701"
+skos:exactMatch: "wd:Q1418701"
 iso-thes:broaderGeneric: "[[person]]"
 kg:accountableFor: "[[business process]]"
 ---

@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q7091744"
+skos:exactMatch: "wd:Q7091744"
 iso-thes:broaderInstantial: "[[employment]]"
 iso-thes:broaderGeneric: "[[process]]"
 has part:
@@ -8,7 +8,7 @@ has part:
   - "[[socialization]]"
   - "[[role model]]"
   - "[[interpersonal relationship]]"
-said to be the same as: "[[induction training]]"
+skos:closeMatch: "[[induction training]]"
 skos:broader: "[[process]]"
 skos:altLabel:
   - "organizational socialization"

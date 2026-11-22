@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q631360"
+skos:exactMatch: "wd:Q631360"
 iso-thes:broaderGeneric: "[[economic indicator]]"
 skos:broader: "[[index]]"
 has part:

@@ -7,6 +7,6 @@ dcterms:isReferencedBy:
   - "[[graph/Explanatory Dictionary of the Living Great Russian Language]]"
   - "[[graph/Brockhaus and Efron Encyclopedic Dictionary]]"
 iso-thes:broaderGeneric: "[[graph/security]]"
-wikidata entity id: "Q11692"
+skos:exactMatch: "wd:Q11692"
 ---
 single unit of ownership in a corporation, mutual fund, or any other organization

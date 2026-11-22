@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q56312904"
+skos:exactMatch: "wd:Q56312904"
 iso-thes:broaderInstantial: "[[philosophical concept]]"
 iso-thes:broaderGeneric: "[[union]]"
 ---

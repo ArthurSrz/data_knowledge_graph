@@ -1,9 +1,9 @@
 ---
-Commons category: "Blueprints"
 iso-thes:broaderGeneric:
   - "[[print]]"
   - "[[document]]"
-different from: "[[whiteprint]]"
+skos:scopeNote:
+  - "Different from [[whiteprint]]."
 made from material:
   - "[[tracing cloth]]"
   - "[[paper]]"

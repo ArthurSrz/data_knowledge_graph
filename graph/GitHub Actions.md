@@ -7,7 +7,6 @@ tags:
   - "github"
   - "ci"
   - "automation"
-timestamp: 2026-11-16T00:00:00+00:00
 ---
 A workflow is a YAML file in `.github/workflows/` with an `on:` block listing the [[trigger]]s (push, pull_request, pull_request_review, schedule, manual dispatch…) and jobs that run shell steps on a fresh machine.
 

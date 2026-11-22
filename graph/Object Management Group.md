@@ -1,4 +1,4 @@
 ---
-wikidata entity id: Q252733
+skos:exactMatch: "wd:Q252733"
 ---
 Technology standards consortium

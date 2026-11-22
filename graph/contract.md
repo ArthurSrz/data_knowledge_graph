@@ -13,25 +13,20 @@ dcterms:isReferencedBy:
   - "[[graph/New International Encyclopedia]]"
   - "[[graph/Encyclopædia Britannica 11th edition]]"
   - "[[graph/Brockhaus and Efron Encyclopedic Dictionary]]"
-different from:
-  - "[[graph/written contract]]"
-  - "[[graph/memorandum of understanding]]"
+skos:scopeNote:
+  - "Different from [[written contract]]."
+  - "Different from [[memorandum of understanding]]."
 skos:broader: "[[graph/contract law]]"
-has characteristic: "[[graph/type of contract]]"
 has contributing factor: "[[graph/agreement]]"
-has effect: "[[graph/obligation]]"
 has part: "[[graph/contracting party]]"
-has part(s) of the class:
-  - "[[graph/contractual term]]"
-  - "[[graph/clause]]"
 iso-thes:broaderInstantial: "[[graph/legal term or legal concept]]"
 iso-thes:broaderPartitive: "[[graph/document]]"
 participant: "[[graph/legal person]]"
-said to be the same as: "[[graph/Q141239420]]"
+skos:closeMatch: "[[graph/Q141239420]]"
 iso-thes:broaderGeneric:
   - "[[graph/intellectual work]]"
   - "[[graph/promise]]"
   - "[[graph/legal transaction]]"
   - "[[graph/agreement]]"
-wikidata entity id: "Q93288"
+skos:exactMatch: "wd:Q93288"
 ---

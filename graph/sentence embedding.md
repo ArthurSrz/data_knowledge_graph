@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q29043221"
+skos:exactMatch: "wd:Q29043221"
 iso-thes:broaderGeneric:
   - "[[embedding]]"
   - "[[natural language processing]]"

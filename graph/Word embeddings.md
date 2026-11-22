@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q18395344"
+skos:exactMatch: "wd:Q18395344"
 dcterms:isReferencedBy:
   - "Efficient Estimation of Word Representations in Vector Space (Mikolov et al., 2013)"
   - "Distributed Representations of Words and Phrases (Mikolov et al., 2013)"

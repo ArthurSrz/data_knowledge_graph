@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q1585098"
+skos:exactMatch: "wd:Q1585098"
 iso-thes:broaderInstantial: "[[technical standard]]"
 skos:altLabel: "Pan-European Public Procurement Online"
 skos:related: "[[credit note]]"

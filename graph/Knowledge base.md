@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q593744"
+skos:exactMatch: "wd:Q593744"
 iso-thes:broaderGeneric:
   - "[[conceptual model]]"
   - "[[Documentation]]"

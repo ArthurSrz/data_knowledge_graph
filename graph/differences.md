@@ -8,7 +8,6 @@ tags:
   - "evaluation"
   - "excel"
   - "google-sheets"
-timestamp: 2026-06-28T00:00:00+00:00
 iso-thes:broaderInstantial: "[[excel vs. gsheet problem]]"
 ---
 

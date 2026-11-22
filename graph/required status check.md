@@ -6,7 +6,6 @@ skos:definition: "A named green/red light on a commit that a ruleset demands bef
 tags:
   - "github"
   - "ci"
-timestamp: 2026-11-16T00:00:00+00:00
 ---
 A commit status is a small label (`context`, `state` = success / pending / failure, `description`) attached to one commit SHA through the GitHub API. Anyone with the right token can post it — a [[gitHub actions]] workflow, an external server, a bot.
 

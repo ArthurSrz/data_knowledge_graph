@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q193988"
+skos:exactMatch: "wd:Q193988"
 iso-thes:broaderInstantial:
   - "[[economic taxonomy]]"
 dcterms:subject:

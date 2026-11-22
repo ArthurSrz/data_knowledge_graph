@@ -8,7 +8,6 @@ tags:
   - "library"
   - "xlsx"
   - "limitations"
-timestamp: 2026-06-28T00:00:00+00:00
 iso-thes:broaderInstantial: "[[excel vs. gsheet problem]]"
 skos:broader: "[[Python]]"
 ---

@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q322229"
+skos:exactMatch: "wd:Q322229"
 iso-thes:broaderGeneric:
   - "[[debugging]]"
   - "[[logging]]"

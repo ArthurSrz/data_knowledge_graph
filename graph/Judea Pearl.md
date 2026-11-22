@@ -1,9 +1,6 @@
 ---
-wikidata entity id: "Q92824"
+skos:exactMatch: "wd:Q92824"
 iso-thes:broaderInstantial: "[[person]]"
-field of work:
-  - "[[computer science]]"
-  - "[[philosophy of science]]"
 skos:related: "[[causal inference]]"
 skos:scopeNote: "Wikidata: instance of human (Q5); mapped to [[person]] in this graph. Was wrongly named « Joshua Pearl » and filed `broader` causal inference, which made a person a kind of inference (hence a process)."
 ---

@@ -5,9 +5,8 @@ skos:broader:
 iso-thes:broaderInstantial:
   - "[[graph/category of being]]"
   - "[[graph/metaclass]]"
-said to be the same as:
+skos:closeMatch:
   - "[[graph/attribute]]"
   - "[[graph/quality]]"
-partially coincident with: "[[graph/quality]]"
 iso-thes:broaderGeneric: "[[abstract entity]]"
 ---

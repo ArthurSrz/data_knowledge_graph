@@ -1,11 +1,12 @@
 ---
-wikidata entity id: "Q2586354"
+skos:exactMatch: "wd:Q2586354"
 iso-thes:broaderGeneric: "[[knowledge sharing]]"
 skos:altLabel:
   - "sharing knowledge"
   - "know-how transfer"
   - "transfert de connaissances"
-different from: "[[information transfer]]"
+skos:scopeNote:
+  - "Different from [[information transfer]]."
 skos:related:
   - "[[tacit knowledge]]"
   - "[[knowledge management]]"

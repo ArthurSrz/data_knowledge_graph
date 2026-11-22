@@ -24,6 +24,6 @@ male form of label:
   - "poslovni i organizacijski analitičar"
   - "biznis analytik"
   - "poslovni analitik"
-wikidata entity id: "Q1017553"
+skos:exactMatch: "wd:Q1017553"
 ---
 someone who analyses the existing or ideal organization and [[design]] of systems

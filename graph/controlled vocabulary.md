@@ -1,5 +1,7 @@
 ---
-wikidata entity id: "Q1469824"
+skos:exactMatch:
+  - "wd:Q1469824"
+  - "http://purl.org/spar/fabio/ControlledVocabulary"
 iso-thes:broaderGeneric:
   - "[[knowledge organization system]]"
   - "[[vocabulary]]"
@@ -8,7 +10,6 @@ has part:
   - "[[preferred term]]"
   - "[[non-preferred term]]"
   - "[[subject heading]]"
-exact match: "http://purl.org/spar/fabio/ControlledVocabulary"
 ---
 **Controlled vocabulary**: standardized, organized set of words and phrases for retrieving and disambiguating information, which separates preferred from non-preferred terms.
 

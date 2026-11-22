@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q1266546"
+skos:exactMatch: "wd:Q1266546"
 iso-thes:broaderGeneric: "[[process]]"
 kg:uses: "[[algorithm]]"
 skos:broader: "[[data processing]]"

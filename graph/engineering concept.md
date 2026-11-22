@@ -1,4 +1,4 @@
 ---
-wikidata entity id: Q137430548
+skos:exactMatch: "wd:Q137430548"
 ---
 

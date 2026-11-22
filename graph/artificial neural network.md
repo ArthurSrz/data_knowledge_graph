@@ -7,7 +7,8 @@ has part:
   - "[[Optimizer]]"
 iso-thes:broaderInstantial:
   - "[[Artificial Intelligence (AI)]]"
-different from: "[[biological neural network]]"
+skos:scopeNote:
+  - "Different from [[biological neural network]]."
 skos:broader: "[[deep learning]]"
 ---
 ![Neural network (machine learning) Thumbnail](https://upload.wikimedia.org/wikipedia/commons/4/46/Colored_neural_network.svg)

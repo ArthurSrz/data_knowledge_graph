@@ -1,12 +1,12 @@
 ---
-wikidata entity id: "Q851587"
+skos:exactMatch: "wd:Q851587"
 iso-thes:broaderInstantial: "[[type of process]]"
 iso-thes:broaderGeneric: "[[process]]"
-manifestation of: "[[procedure]]"
 has part: "[[business activity]]"
 kg:uses: "[[visualization]]"
 kg:usedBy: "[[business]]"
-different from: "[[strategic management]]"
+skos:scopeNote:
+  - "Different from [[strategic management]]."
 skos:broader: "[[process]]"
 skos:altLabel:
   - "business practice"

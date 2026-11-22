@@ -1,12 +1,10 @@
 ---
-wikidata entity id: "Q63032908"
+skos:exactMatch: "wd:Q63032908"
 iso-thes:broaderGeneric:
   - "[[provenance]]"
-different from:
-  - "[[boilerplate]]"
-  - "[[standard form contract]]"
-partially coincident with:
-  - "[[term sheet]]"
+skos:scopeNote:
+  - "Different from [[boilerplate]]."
+  - "Different from [[standard form contract]]."
 has part:
   - "[[standard contractual clause]]"
 example:

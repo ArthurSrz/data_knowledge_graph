@@ -1,11 +1,11 @@
 ---
-wikidata entity id: "Q1651672"
+skos:exactMatch: "wd:Q1651672"
 iso-thes:broaderGeneric:
   - "[[provenance]]"
 kg:oppositeOf:
   - "[[bespoke]]"
-different from:
-  - "[[model contract]]"
+skos:scopeNote:
+  - "Different from [[model contract]]."
 example in:
   - "[[term sheet]]"
 skos:broader: "[[application development]]"

@@ -1,4 +1,4 @@
 ---
-wikidata entity id: Q33104279
+skos:exactMatch: "wd:Q33104279"
 ---
 Concept used in philosophy

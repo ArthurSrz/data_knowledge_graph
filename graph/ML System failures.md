@@ -1,6 +1,4 @@
 ---
-studied by:
-  - "[[study of complex systems]]"
 skos:broader: "[[ML system]]"
 ---
 

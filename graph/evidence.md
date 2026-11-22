@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q176763"
+skos:exactMatch: "wd:Q176763"
 iso-thes:broaderGeneric: "[[information content entity]]"
 ---
 Body of facts or information indicating whether a belief or proposition is true or valid in legal or investigative proceedings

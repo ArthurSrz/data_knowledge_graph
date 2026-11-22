@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q7053129"
+skos:exactMatch: "wd:Q7053129"
 iso-thes:broaderGeneric: "[[declarative sentence]]"
 kg:oppositeOf: "[[positive statement]]"
 has part: "[[value judgment]]"

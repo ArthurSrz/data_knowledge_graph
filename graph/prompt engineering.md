@@ -1,13 +1,11 @@
 ---
-wikidata entity id: "Q108941486"
+skos:exactMatch: "wd:Q108941486"
 iso-thes:broaderGeneric:
   - "[[computer programming]]"
   - "[[writing]]"
 skos:related:
   - "[[AI prompt]]"
   - "[[context engineering]]"
-product or material produced:
-  - "[[AI prompt]]"
 skos:broader:
   - "[[artificial intelligence]]"
 ---

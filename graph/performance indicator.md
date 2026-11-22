@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q860554"
+skos:exactMatch: "wd:Q860554"
 iso-thes:broaderGeneric: "[[performance metric]]"
 kg:hasUse: "[[performance measurement]]"
 skos:broader: "[[performance metric]]"

@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q7233295"
+skos:exactMatch: "wd:Q7233295"
 iso-thes:broaderGeneric: "[[declarative sentence]]"
 kg:oppositeOf: "[[normative statement]]"
 skos:altLabel:

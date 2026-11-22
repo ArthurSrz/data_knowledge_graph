@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q2297769"
+skos:exactMatch: "wd:Q2297769"
 iso-thes:broaderGeneric:
   - "[[computer program]]"
   - "[[agency]]"

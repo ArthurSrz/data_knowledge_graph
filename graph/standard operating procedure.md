@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q702761"
+skos:exactMatch: "wd:Q702761"
 iso-thes:broaderGeneric: "[[Documentation]]"
 dcterms:subject: "[[business process]]"
 skos:broader: "[[quality management]]"

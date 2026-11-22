@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q1341685"
+skos:exactMatch: "wd:Q1341685"
 inspiredBy: "[[bayesian inference]]"
 iso-thes:broaderGeneric: "[[computer program]]"
 kg:hasUse: "[[inference]]"

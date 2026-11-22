@@ -1,9 +1,6 @@
 ---
-wikidata entity id: "Q1850420"
+skos:exactMatch: "wd:Q1850420"
 iso-thes:broaderInstantial: "[[model]]"
-field of work:
-  - "[[project management]]"
-  - "[[business process management]]"
 skos:altLabel:
   - "RACI matrix"
   - "RACI chart"

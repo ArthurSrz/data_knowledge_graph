@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q918385"
+skos:exactMatch: "wd:Q918385"
 iso-thes:broaderInstantial:
   - "[[learning approach]]"
   - "[[activity]]"
@@ -8,9 +8,6 @@ iso-thes:broaderPartitive:
   - "[[onboarding]]"
   - "[[education]]"
   - "[[parenting]]"
-practiced by:
-  - "[[trainer]]"
-  - "[[lecturer]]"
 skos:broader: "[[learning]]"
 skos:definition: "Acquisition of knowledge, skills, and competencies as a result of teaching."
 skos:scopeNote: "Human learning only, e.g. training a Business Process Owner or a contributor on Clarifeye. For the machine-learning sense (fitting a model), see [[machine learning]] → [[training data set]], [[Training algorithm]]."

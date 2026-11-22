@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q1477475"
+skos:exactMatch: "wd:Q1477475"
 iso-thes:broaderGeneric:
   - "[[research interview]]"
 skos:related:

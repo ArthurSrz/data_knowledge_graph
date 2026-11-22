@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q133436854"
+skos:exactMatch: "wd:Q133436854"
 skos:altLabel:
   - "MCP"
 compatible with:

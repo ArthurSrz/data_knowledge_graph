@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q121362277"
+skos:exactMatch: "wd:Q121362277"
 iso-thes:broaderGeneric:
   - "[[information retrieval]]"
   - "[[generative artificial intelligence]]"

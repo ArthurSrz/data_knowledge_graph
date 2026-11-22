@@ -1,7 +1,6 @@
 ---
 dcterms:isReferencedBy: "[[graph/ISO 3534-2_2006(en) Statistics — Vocabulary and symbols — Part 2_ Applied statistics]]"
-Commons category: "Operating characteristics"
-wikidata entity id: "Q1517752"
+skos:exactMatch: "wd:Q1517752"
 ---
 Curve showing how a decision rule performs as its threshold is varied. Its [[best]]-known case is the [[receiver operating characteristics|ROC curve]], used to evaluate binary classifiers in [[graph/machine learning]].
 

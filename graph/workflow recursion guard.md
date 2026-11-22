@@ -6,7 +6,6 @@ tags:
   - "github"
   - "ci"
   - "pitfall"
-timestamp: 2026-11-16T00:00:00+00:00
 ---
 To prevent infinite loops, a push, merge or PR event made with the automatic `GITHUB_TOKEN` of [[gitHub actions]] fires **no** new workflow run (except `workflow_dispatch` / `repository_dispatch`).
 

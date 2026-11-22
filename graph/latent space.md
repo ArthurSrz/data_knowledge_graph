@@ -8,7 +8,7 @@ skos:broader:
   - "[[graph/machine learning]]"
   - "[[graph/statistics]]"
   - "[[Embeddings]]"
-wikidata entity id: "Q107154297"
+skos:exactMatch: "wd:Q107154297"
 EmbodiementOf: "[[latent]]"
 ---
 

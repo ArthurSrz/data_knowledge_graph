@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q7512866"
+skos:exactMatch: "wd:Q7512866"
 iso-thes:broaderInstantial: "[[business]]"
 skos:altLabel:
   - "SAP Signavio"

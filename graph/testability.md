@@ -1,5 +1,4 @@
 ---
-partially coincident with: "[[graph/falsifiability]]"
 iso-thes:broaderInstantial: "[[graph/criterion]]"
-wikidata entity id: "Q2149495"
+skos:exactMatch: "wd:Q2149495"
 ---

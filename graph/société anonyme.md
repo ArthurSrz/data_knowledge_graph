@@ -8,6 +8,6 @@ iso-thes:broaderGeneric:
   - "[[graph/commercial company in France]]"
   - "[[graph/S.A.]]"
   - "[[graph/joint-stock company]]"
-wikidata entity id: "Q18195767"
+skos:exactMatch: "wd:Q18195767"
 ---
 type of company in French law

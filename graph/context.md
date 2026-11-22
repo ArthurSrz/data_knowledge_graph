@@ -10,11 +10,6 @@ iso-thes:broaderGeneric: "[[situation]]"
 dcterms:isReferencedBy:
   - "[[graph/National Encyclopedia of Uzbekistan]]"
   - "[[graph/Armenian Soviet Encyclopedia, vol. 5]]"
-studied by:
-  - "[[graph/linguistics]]"
-  - "[[graph/sociology]]"
-  - "[[graph/anthropology]]"
-  - "[[graph/semiotics]]"
 skos:broader:
   - "[[graph/communication]]"
   - "[[process]]"

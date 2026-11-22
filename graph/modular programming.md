@@ -12,8 +12,8 @@ iso-thes:broaderInstantial:
   - "[[graph/software development methodology]]"
   - "[[graph/computer science term]]"
   - "[[graph/engineering]]"
-has characteristic: "[[graph/modularity]]"
 does not use: "[[graph/implementation detail]]"
-Stack Exchange tag: "https://stackoverflow.com/tags/modular-design"
-wikidata entity id: "Q6453666"
+skos:closeMatch:
+  - "https://stackoverflow.com/tags/modular-design"
+skos:exactMatch: "wd:Q6453666"
 ---

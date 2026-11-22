@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q384093"
+skos:exactMatch: "wd:Q384093"
 iso-thes:broaderGeneric: "[[data]]"
 skos:related:
   - "[[data quality]]"

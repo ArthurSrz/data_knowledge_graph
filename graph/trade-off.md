@@ -6,5 +6,5 @@ iso-thes:broaderGeneric:
 skos:broader:
   - "[[graph/decision making]]"
   - "[[graph/Pareto efficiency]]"
-wikidata entity id: "Q638123"
+skos:exactMatch: "wd:Q638123"
 ---

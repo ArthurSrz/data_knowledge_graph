@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q133284072"
+skos:exactMatch: "wd:Q133284072"
 iso-thes:broaderPartitive:
   - "[[machine learning]]"
 ---

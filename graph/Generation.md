@@ -1,7 +1,5 @@
 ---
-wikidata entity id: " Q3123154"
-has characteristic:
-  - "[[implicitness]]"
+skos:exactMatch: "wd: Q3123154"
 ---
 [[Artificial Intelligence (AI)]] can produce images, texte, code due to high [[learning capabilities]]. 
 

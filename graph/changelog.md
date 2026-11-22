@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q255135"
+skos:exactMatch: "wd:Q255135"
 iso-thes:broaderGeneric: "[[logbook]]"
 skos:altLabel:
   - "change log"

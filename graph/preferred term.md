@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q115778090"
+skos:exactMatch: "wd:Q115778090"
 iso-thes:broaderPartitive: "[[controlled vocabulary]]"
 kg:oppositeOf: "[[non-preferred term]]"
 ---

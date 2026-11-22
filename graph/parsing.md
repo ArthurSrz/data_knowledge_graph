@@ -1,6 +1,4 @@
 ---
-studied by:
-  - "[[natural language processing]]"
 iso-thes:broaderGeneric:
   - "[[automation]]"
 iso-thes:broaderPartitive: "[[automation framework]]"

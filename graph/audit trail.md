@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q1047174"
+skos:exactMatch: "wd:Q1047174"
 iso-thes:broaderGeneric:
   - "[[documentary evidence]]"
   - "[[activity log]]"

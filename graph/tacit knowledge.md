@@ -1,9 +1,8 @@
 ---
-wikidata entity id: "Q743861"
+skos:exactMatch: "wd:Q743861"
 iso-thes:broaderGeneric: "[[knowledge]]"
 iso-thes:broaderInstantial: "[[knowledge type]]"
 kg:oppositeOf: "[[explicit knowledge]]"
-discoverer or inventor: "[[Michael Polanyi]]"
 skos:altLabel:
   - "implicit knowledge"
   - "latent knowledge"

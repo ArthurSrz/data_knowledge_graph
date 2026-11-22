@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q6752322"
+skos:exactMatch: "wd:Q6752322"
 kg:oppositeOf: "[[autopilot]]"
 skos:definition: "mechanism wherein control is taken from an automated system and given to the user"
 skos:scopeNote: "My usage: the user reversing or redirecting an AI agent's applied change, as opposed to approving or rejecting a proposal beforehand."

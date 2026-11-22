@@ -15,6 +15,6 @@ iso-thes:broaderGeneric:
   - "[[graph/legal act]]"
   - "[[graph/dunning]]"
   - "[[graph/document]]"
-wikidata entity id: "Q31726"
+skos:exactMatch: "wd:Q31726"
 ---
 Document with the purpose of warning

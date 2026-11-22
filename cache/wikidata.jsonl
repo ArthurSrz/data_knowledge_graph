@@ -1,0 +1,120 @@
+{"note": "Django", "key": "named after", "value": "[[Django Reinhardt]]"}
+{"note": "Domain-Driven Design", "key": "publication date", "value": "2003-08-20 00:00:00+00:00"}
+{"note": "Elixir", "key": "inception", "value": "2011-01-09 00:00:00+00:00"}
+{"note": "Elixir", "key": "publication date", "value": "2012-05-25 00:00:00+00:00"}
+{"note": "Gilles Deleuze", "key": "field of work", "value": ["[[art]]", "[[philosophy]]", "[[film]]", "[[aesthetics]]", "[[ontology]]"]}
+{"note": "Inference", "key": "partially coincident with", "value": "[[reasoning]]"}
+{"note": "Inference", "key": "has characteristic", "value": "[[type of reasoning]]"}
+{"note": "Iron law of oligarchy", "key": "has cause", "value": ["[[bureaucracy]]", "[[centralisation]]", "[[political apathy]]", "[[delegation]]", "[[departmentalizacion]]", "[[Power]]"]}
+{"note": "Judea Pearl", "key": "field of work", "value": ["[[computer science]]", "[[philosophy of science]]"]}
+{"note": "LLM-as-a-judge", "key": "studied by", "value": "[[artificial intelligence]]"}
+{"note": "ML System failures", "key": "studied by", "value": ["[[study of complex systems]]"]}
+{"note": "Ollama", "key": "named after", "value": "[[LLaMA]]"}
+{"note": "Physics", "key": "practiced by", "value": ["[[graph/physicist]]", "[[graph/Doctor of Sciences in Physics and Mathematics]]", "[[graph/professor of physics]]", "[[graph/physics student]]"]}
+{"note": "Physics", "key": "is the study of", "value": ["[[graph/energy]]", "[[graph/matter]]"]}
+{"note": "Provenance", "key": "partially coincident with", "value": "[[chain of custody]]"}
+{"note": "Redis", "key": "publication date", "value": "2009-04-10 00:00:00+00:00"}
+{"note": "The Book of Why", "key": "publication date", "value": "2019-01-01 00:00:00+00:00"}
+{"note": "Version control", "key": "product or material produced", "value": "[[changelog]]"}
+{"note": "action", "key": "studied by", "value": "[[graph/action theory]]"}
+{"note": "action", "key": "has effect", "value": ["[[graph/effect]]", "[[graph/reaction]]"]}
+{"note": "action", "key": "has characteristic", "value": "[[graph/being]]"}
+{"note": "active cell", "key": "has characteristic", "value": "[[graph/focus]]"}
+{"note": "application programming interface", "key": "field of work", "value": ["[[computer programming]]", "[[software development]]", "[[computer science]]"]}
+{"note": "articles of association", "key": "named after", "value": "[[graph/Ustav]]"}
+{"note": "bayesian network", "key": "named after", "value": "[[Thomas Bayes]]"}
+{"note": "bipartite graph", "key": "studied by", "value": "[[graph/graph theory]]"}
+{"note": "bipartite graph", "key": "has part(s) of the class", "value": ["[[graph/disjoint sets]]", "[[graph/edge]]"]}
+{"note": "bipartite graph", "key": "has characteristic", "value": "[[graph/chromatic number]]"}
+{"note": "bundle", "key": "has cause", "value": "[[strapping]]"}
+{"note": "business process", "key": "manifestation of", "value": "[[procedure]]"}
+{"note": "business rule", "key": "characteristic of", "value": "[[business activity]]"}
+{"note": "change", "key": "manifestation of", "value": ["[[graph/system dynamics]]", "[[process]]"]}
+{"note": "change", "key": "has cause", "value": ["[[graph/interactivity]]", "[[graph/converter]]"]}
+{"note": "change", "key": "has characteristic", "value": "[[graph/difference]]"}
+{"note": "change", "key": "has effect", "value": "[[graph/variation]]"}
+{"note": "classification scheme", "key": "studied by", "value": ["[[graph/library science]]", "[[graph/informatics]]"]}
+{"note": "classification scheme", "key": "has part(s) of the class", "value": "[[graph/class]]"}
+{"note": "classification scheme", "key": "has characteristic", "value": "[[graph/type of classification]]"}
+{"note": "clause", "key": "studied by", "value": "[[graph/statutory law]]"}
+{"note": "combination", "key": "studied by", "value": "[[combinatorics]]"}
+{"note": "commodity", "key": "has characteristic", "value": "[[graph/fungibility]]"}
+{"note": "commodity", "key": "manifestation of", "value": "[[graph/fungibility]]"}
+{"note": "commodity", "key": "partially coincident with", "value": "[[graph/primary commodity]]"}
+{"note": "commodity", "key": "has cause", "value": ["[[graph/commodification]]", "[[graph/commoditization]]"]}
+{"note": "conceptual model", "key": "partially coincident with", "value": "[[model]]"}
+{"note": "conflict of interest", "key": "has characteristic", "value": "[[graph/inappropriateness]]"}
+{"note": "consistency", "key": "characteristic of", "value": ["[[graph/formal system]]", "[[graph/theory]]", "[[graph/consistent theory]]"]}
+{"note": "context", "key": "studied by", "value": ["[[graph/linguistics]]", "[[graph/sociology]]", "[[graph/anthropology]]", "[[graph/semiotics]]"]}
+{"note": "contract", "key": "has characteristic", "value": "[[graph/type of contract]]"}
+{"note": "contract", "key": "has effect", "value": "[[graph/obligation]]"}
+{"note": "contract", "key": "has part(s) of the class", "value": ["[[graph/contractual term]]", "[[graph/clause]]"]}
+{"note": "control theory", "key": "is the study of", "value": ["[[feedback]]", "[[dynamical system]]"]}
+{"note": "data visualization", "key": "product or material produced", "value": "[[infographics]]"}
+{"note": "data visualization", "key": "partially coincident with", "value": "[[information visualization]]"}
+{"note": "default", "key": "has characteristic", "value": ["[[explicitness]]", "[[implicitness]]"]}
+{"note": "delegation", "key": "has effect", "value": ["[[Iron law of oligarchy]]"]}
+{"note": "domain driven design", "key": "discoverer or inventor", "value": ["[[graph/Q116698280]]", "[[graph/Eric Evans]]"]}
+{"note": "draft document", "key": "partially coincident with", "value": "[[graph/unpublished work]]"}
+{"note": "draft document", "key": "has characteristic", "value": "[[graph/date of the first concept]]"}
+{"note": "explicit knowledge", "key": "has cause", "value": "[[knowledge extraction]]"}
+{"note": "functional requirement", "key": "has characteristic", "value": "[[graph/testability]]"}
+{"note": "generation", "key": "has characteristic", "value": ["[[implicitness]]"]}
+{"note": "gouvernance", "key": "product or material produced", "value": ["[[data catalog]]"]}
+{"note": "graph", "key": "studied by", "value": "[[graph theory]]"}
+{"note": "intention", "key": "has effect", "value": "[[graph/intentional human activity]]"}
+{"note": "intention", "key": "has cause", "value": "[[graph/goal]]"}
+{"note": "knowledge management", "key": "practiced by", "value": "[[knowledge manager]]"}
+{"note": "knowledge organization system", "key": "studied by", "value": "[[graph/knowledge organization]]"}
+{"note": "learning", "key": "has effect", "value": ["[[knowledge]]", "[[experience]]", "[[understanding]]"]}
+{"note": "learning", "key": "has cause", "value": ["[[teaching]]", "[[curiosity]]", "[[education]]"]}
+{"note": "logical contradiction", "key": "characteristic of", "value": "[[graph/dyad]]"}
+{"note": "management", "key": "has characteristic", "value": ["[[strategic management]]", "[[spreadsheet]]", "[[management style]]", "[[management process]]", "[[type of management]]"]}
+{"note": "management", "key": "studied by", "value": ["[[management science]]", "[[management studies]]", "[[sociology of management]]"]}
+{"note": "management", "key": "practiced by", "value": ["[[manager]]"]}
+{"note": "mapping", "key": "has characteristic", "value": ["[[left-totality]]", "[[right-uniqueness]]"]}
+{"note": "model contract", "key": "partially coincident with", "value": ["[[term sheet]]"]}
+{"note": "modular programming", "key": "has characteristic", "value": "[[graph/modularity]]"}
+{"note": "occurrence", "key": "has characteristic", "value": ["[[graph/point in time]]", "[[graph/physical location]]", "[[graph/location]]"]}
+{"note": "occurrence", "key": "has effect", "value": ["[[graph/effect]]", "[[graph/result]]", "[[process]]", "[[graph/state]]"]}
+{"note": "occurrence", "key": "characteristic of", "value": ["[[graph/planned event]]", "[[graph/activity]]", "[[graph/event sequence]]"]}
+{"note": "occurrence", "key": "has cause", "value": ["[[graph/cause]]", "[[process]]", "[[graph/state]]", "[[graph/happening]]"]}
+{"note": "parsing", "key": "studied by", "value": ["[[natural language processing]]"]}
+{"note": "periodic table", "key": "named after", "value": ["[[graph/period]]", "[[graph/Dmitri Mendeleev]]"]}
+{"note": "periodic table", "key": "inception", "value": "1869-03-06 00:00:00+00:00"}
+{"note": "periodic table", "key": "discoverer or inventor", "value": "[[graph/Dmitri Mendeleev]]"}
+{"note": "problem solving", "key": "has cause", "value": "[[graph/problem]]"}
+{"note": "problem solving", "key": "has characteristic", "value": ["[[graph/decomposition]]", "[[graph/problem-solving approach]]"]}
+{"note": "problem solving", "key": "has effect", "value": "[[graph/solution]]"}
+{"note": "problem", "key": "studied by", "value": ["[[graph/problem shaping]]", "[[graph/diagnosis]]", "[[graph/inquiry]]"]}
+{"note": "problem", "key": "partially coincident with", "value": "[[graph/challenge]]"}
+{"note": "problem", "key": "has characteristic", "value": "[[graph/undesirability]]"}
+{"note": "process", "key": "manifestation of", "value": "[[graph/sequence]]"}
+{"note": "process", "key": "has effect", "value": ["[[graph/consequent]]", "[[graph/effect]]", "[[graph/occurrence]]", "[[graph/result]]", "[[graph/state]]"]}
+{"note": "process", "key": "has characteristic", "value": ["[[graph/intensity]]", "[[graph/rate]]", "[[graph/resource]]", "[[graph/duration]]", "[[graph/result]]", "[[graph/continuity]]", "[[graph/type of process]]"]}
+{"note": "process", "key": "has cause", "value": ["[[graph/occurrence]]", "[[graph/cause]]", "[[graph/state]]"]}
+{"note": "process", "key": "studied by", "value": ["[[graph/process philosophy]]", "[[graph/process ontology]]"]}
+{"note": "prompt engineering", "key": "product or material produced", "value": ["[[AI prompt]]"]}
+{"note": "property", "key": "partially coincident with", "value": "[[graph/quality]]"}
+{"note": "psychological terminology", "key": "partially coincident with", "value": "[[graph/psychology concept]]"}
+{"note": "responsibility assignment matrix", "key": "field of work", "value": ["[[project management]]", "[[business process management]]"]}
+{"note": "semantics", "key": "is the study of", "value": "[[meaning]]"}
+{"note": "semantics", "key": "practiced by", "value": "[[semanticist]]"}
+{"note": "semiotics", "key": "is the study of", "value": ["[[symbol]]", "[[semiosis]]", "[[sign]]"]}
+{"note": "semiotics", "key": "practiced by", "value": "[[semiotician]]"}
+{"note": "semiotics", "key": "partially coincident with", "value": "[[linguistics]]"}
+{"note": "shareholder", "key": "has characteristic", "value": "[[graph/ownership]]"}
+{"note": "shareholder", "key": "partially coincident with", "value": "[[graph/investor]]"}
+{"note": "sparkline", "key": "discoverer or inventor", "value": "[[graph/Edward Tufte]]"}
+{"note": "spreadsheet", "key": "has part(s) of the class", "value": "[[graph/table cell]]"}
+{"note": "spreadsheet", "key": "product or material produced", "value": ["[[graph/workbook]]", "[[graph/chart]]"]}
+{"note": "stateless protocol", "key": "has characteristic", "value": "[[graph/statelessness]]"}
+{"note": "tacit knowledge", "key": "discoverer or inventor", "value": "[[Michael Polanyi]]"}
+{"note": "tautology", "key": "discoverer or inventor", "value": "[[graph/Ludwig Wittgenstein]]"}
+{"note": "testability", "key": "partially coincident with", "value": "[[graph/falsifiability]]"}
+{"note": "thesaurus", "key": "partially coincident with", "value": "[[graph/thesaurus]]"}
+{"note": "thesaurus", "key": "studied by", "value": "[[graph/documentation science]]"}
+{"note": "training", "key": "practiced by", "value": ["[[trainer]]", "[[lecturer]]"]}
+{"note": "unfinished creative work", "key": "has characteristic", "value": "[[graph/not completed]]"}
+{"note": "unfinished creative work", "key": "has cause", "value": ["[[graph/project cancellation]]", "[[graph/death]]"]}
+{"note": "use case", "key": "inception", "value": "1986-01-01 00:00:00+00:00"}

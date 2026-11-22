@@ -1,8 +1,7 @@
 ---
-wikidata entity id: "Q189439"
+skos:exactMatch: "wd:Q189439"
 iso-thes:broaderGeneric:
   - "[[control]]"
-product or material produced: "[[changelog]]"
 skos:scopeNote: "Divergence from Wikidata: Q189439 is also `subclass of` changelog (Q255135), unsourced and inconsistent with its own `instance of` type of practice. Version control is an activity; the changelog is the record it produces, hence `product or material produced` (P1056) rather than `subclass of`."
 ---
 **Version control**: activity of managing the versions of one or more files.

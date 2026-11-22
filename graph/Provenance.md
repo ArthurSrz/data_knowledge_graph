@@ -1,11 +1,11 @@
 ---
-wikidata entity id: "Q1773840"
+skos:exactMatch:
+  - "wd:Q1773840"
+  - "http://purl.org/dc/terms/provenance"
 iso-thes:broaderGeneric:
   - "[[chronology]]"
   - "[[documentation]]"
-partially coincident with: "[[chain of custody]]"
 skos:broader: "[[authentication]]"
-exact match: "http://purl.org/dc/terms/provenance"
 skos:definition: "chronology of the ownership, custody or location of a historical object or economic good"
 skos:scopeNote: "My usage: the provenance of a *statement* in a knowledge store — which interview, document chunk or decision it comes from, and who said it. Wikidata's sense is the custody chain of an object; dcterms:provenance (its exact match) already widens it to any resource. Not [[Data lineage]], which tracks data moving between systems."
 ---

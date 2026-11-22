@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q3298296"
+skos:exactMatch: "wd:Q3298296"
 iso-thes:broaderInstantial: "[[business process]]"
 skos:broader: "[[business process]]"
 ---

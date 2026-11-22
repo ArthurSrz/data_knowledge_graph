@@ -1,3 +1,3 @@
 ---
-wikidata entity id: "Q2404777"
+skos:exactMatch: "wd:Q2404777"
 ---

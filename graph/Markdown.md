@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q1193600"
+skos:exactMatch: "wd:Q1193600"
 influenced by:
   - "[[html]]"
 ---

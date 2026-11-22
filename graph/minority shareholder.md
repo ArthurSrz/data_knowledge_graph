@@ -1,4 +1,4 @@
 ---
 iso-thes:broaderGeneric: "[[graph/shareholder]]"
-wikidata entity id: "Q117049212"
+skos:exactMatch: "wd:Q117049212"
 ---

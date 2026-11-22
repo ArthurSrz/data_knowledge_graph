@@ -15,6 +15,5 @@ kg:usedBy:
   - "[[graph/AI prompter]]"
   - "[[large language model]]"
 has part: "[[graph/negative prompt]]"
-main Wikidata property: "AI-generation prompt"
-wikidata entity id: "Q117217619"
+skos:exactMatch: "wd:Q117217619"
 ---

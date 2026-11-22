@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q115305900"
+skos:exactMatch: "wd:Q115305900"
 kg:uses:
   - "[[AI prompt]]"
 skos:broader:

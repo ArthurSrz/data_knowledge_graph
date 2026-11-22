@@ -22,7 +22,6 @@ copyright license: "[[graph/Apache Software License 2.0]]"
 kg:dependsOn: "[[graph/BEAM]]"
 platform: "[[graph/BEAM]]"
 developer: "[[graph/José Valim]]"
-creator: "[[graph/José Valim]]"
 copyright status: "[[graph/copyrighted]]"
 writable file format:
   - "[[graph/Elixir source code file]]"
@@ -32,7 +31,9 @@ readable file format:
   - "[[graph/Elixir script file]]"
 social media followers: 36498
 MacPorts port: "elixir"
-GitHub topic: "elixir"
+skos:closeMatch:
+  - "GitHub topic: elixir"
+  - "https://stackoverflow.com/tags/elixir"
 Homebrew formula name: "elixir"
 openSUSE package: "elixir"
 Repology project name: "elixir"
@@ -50,22 +51,17 @@ ArchWiki article:
   - "Elixir_(Español)"
 Gentoo Wiki article: "Elixir"
 media type: "text/x-elixir"
-inception: 2011-01-09T00:00:00+00:00
-logo image: "http://commons.wikimedia.org/wiki/Special:FilePath/Official%20Elixir%20logo.png"
 official website: "https://elixir-lang.org/"
 official blog URL: "https://elixir-lang.org/blog/"
-Stack Exchange tag: "https://stackoverflow.com/tags/elixir"
 IRC channel URL: "irc://irc.libera.chat/elixir"
 Gentoo package: "dev-lang/elixir"
 SlackBuilds package: "development/elixir"
-Commons category: "Elixir (programming language)"
 AUR package: "elixir-git"
 GitHub account: "elixir-lang"
 X (Twitter) username: "elixirlang"
 OpenBSD port: "lang/elixir"
 FreeBSD port: "lang/elixir"
 Docker Hub repository: "library/elixir"
-publication date: 2012-05-25T00:00:00+00:00
-wikidata entity id: "Q5362035"
+skos:exactMatch: "wd:Q5362035"
 skos:broader: "[[programming language]]"
 ---

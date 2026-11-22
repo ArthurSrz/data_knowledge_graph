@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q2465506"
+skos:exactMatch: "wd:Q2465506"
 iso-thes:broaderInstantial: "[[programming principle]]"
 iso-thes:broaderGeneric: "[[programming paradigm]]"
 skos:definition: "solution approach where the problem is broken down into parts that can be solved independently of each other, by separating the what from the how"

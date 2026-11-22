@@ -3,8 +3,6 @@ skos:broader:
   - "[[administrative law]]"
   - "[[contract law]]"
   - "[[management]]"
-has effect:
-  - "[[Iron law of oligarchy]]"
 iso-thes:broaderGeneric:
   - "[[legal act]]"
 ---

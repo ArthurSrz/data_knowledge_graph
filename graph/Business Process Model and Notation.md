@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q1017605"
+skos:exactMatch: "wd:Q1017605"
 iso-thes:broaderInstantial: "[[notation]]"
 iso-thes:broaderGeneric: "[[diagram]]"
 depicts: "[[business rule]]"

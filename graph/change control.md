@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q3625347"
+skos:exactMatch: "wd:Q3625347"
 iso-thes:broaderPartitive:
   - "[[quality management]]"
   - "[[change management]]"

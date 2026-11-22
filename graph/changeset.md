@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q5071951"
+skos:exactMatch: "wd:Q5071951"
 iso-thes:broaderGeneric: "[[data set]]"
 kg:hasUse: "[[Version control]]"
 kg:usedBy: "[[git]]"

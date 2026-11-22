@@ -11,7 +11,6 @@ copyright status: "[[copyrighted]]"
 kg:uses:
   - "[[large language model]]"
   - "[[small language model]]"
-named after: "[[LLaMA]]"
 platform:
   - "[[Q388]]"
   - "[[Microsoft Windows]]"
@@ -22,8 +21,6 @@ software version identifier: "0.30.6"
 official website: "https://ollama.com/"
 MacPorts port: "ollama"
 GitHub account: "ollama"
-logo image: "http://commons.wikimedia.org/wiki/Special:FilePath/Ollama-logo.svg"
-Commons category: "Ollama"
-wikidata entity id: "Q124636097"
+skos:exactMatch: "wd:Q124636097"
 ---
 Stands for Omni-Layer Learning Language Acquisition Model.

@@ -9,7 +9,6 @@ tags:
   - "sync"
   - "excel"
   - "google-sheets"
-timestamp: 2026-06-28T00:00:00+00:00
 ---
 
 ## No Academic Literature Exists

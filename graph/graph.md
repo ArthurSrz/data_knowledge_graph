@@ -1,7 +1,6 @@
 ---
 originatesFrom: "[[graph theory]]"
 skos:broader: "[[graph/discrete mathematics]]"
-studied by: "[[graph theory]]"
 iso-thes:broaderGeneric:
   - "[[graph/Hypergraph]]"
   - "[[graph/Relational structure]]"

@@ -17,6 +17,5 @@ skos:prefLabel:
 subtitle:
   - "Tackling Complexity in the Heart of Software"
   - "ソフトウェア開発の実践 : ソフトウェアの核心にある複雑さに立ち向かう"
-publication date: 2003-08-20T00:00:00+00:00
-wikidata entity id: "Q100742558"
+skos:exactMatch: "wd:Q100742558"
 ---

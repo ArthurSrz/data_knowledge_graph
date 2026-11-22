@@ -5,7 +5,6 @@ skos:definition: "A reviewer's \"Approve\" verdict on a pull request, as recorde
 tags:
   - "github"
   - "code-review"
-timestamp: 2026-11-16T00:00:00+00:00
 ---
 Each review has a state: APPROVED, CHANGES_REQUESTED, COMMENTED or DISMISSED. GitHub keeps only the **latest non-comment review per person**: a later comment does not cancel an approval, a later "Request changes" does, a dismissal removes it.
 

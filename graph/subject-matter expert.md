@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q4833645"
+skos:exactMatch: "wd:Q4833645"
 iso-thes:broaderInstantial: "[[profession]]"
 skos:altLabel:
   - "SME"

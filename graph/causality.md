@@ -1,5 +1,5 @@
 ---
 iso-thes:broaderGeneric: "[[causality]]"
 skos:broader: "[[Physics]]"
-wikidata entity id: "Q1149766"
+skos:exactMatch: "wd:Q1149766"
 ---

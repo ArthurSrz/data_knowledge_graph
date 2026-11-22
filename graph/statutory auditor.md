@@ -2,7 +2,8 @@
 dcterms:isReferencedBy:
   - "[[graph/Sytin Military Encyclopedia]]"
   - "[[graph/Brockhaus and Efron Encyclopedic Dictionary]]"
-different from: "[[graph/cash auditor]]"
+skos:scopeNote:
+  - "Different from [[cash auditor]]."
 field of this occupation:
   - "[[graph/accounting, bookkeeping and auditing activities; tax consultancy]]"
   - "[[graph/accounting services]]"
@@ -10,6 +11,6 @@ field of this occupation:
   - "[[graph/financial audit]]"
 iso-thes:broaderInstantial: "[[graph/profession]]"
 iso-thes:broaderGeneric: "[[graph/external auditor]]"
-wikidata entity id: "Q1051798"
+skos:exactMatch: "wd:Q1051798"
 ---
 profession

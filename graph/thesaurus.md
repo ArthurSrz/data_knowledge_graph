@@ -12,22 +12,14 @@ has part:
   - "[[graph/non-preferred term]]"
   - "[[graph/top term]]"
   - "[[graph/synonym]]"
-partially coincident with: "[[graph/thesaurus]]"
-different from:
-  - "[[graph/thesaurus]]"
-  - "[[graph/ontology]]"
-  - "[[graph/taxonomy]]"
-  - "[[graph/authority file]]"
-model item:
-  - "[[graph/Medical Subject Headings]]"
-  - "[[graph/Art & Architecture Thesaurus]]"
-  - "[[graph/EuroVoc]]"
-  - "[[graph/Education Resources Information Center Thesaurus]]"
-  - "[[graph/Thesaurus of Psychological Index Terms]]"
+skos:scopeNote:
+  - "Different from [[thesaurus]]."
+  - "Different from [[ontology]]."
+  - "Different from [[taxonomy]]."
+  - "Different from [[authority file]]."
 kg:hasUse:
   - "[[graph/information retrieval]]"
   - "[[graph/document retrieval]]"
-studied by: "[[graph/documentation science]]"
 iso-thes:broaderGeneric:
   - "[[graph/controlled vocabulary]]"
   - "[[graph/network]]"
@@ -38,6 +30,6 @@ dcterms:subject: "025.431"
 name:
   - "information retrieval thesaurus"
   - "IR thesaurus"
-wikidata entity id: "Q17152639"
+skos:exactMatch: "wd:Q17152639"
 skos:broader: "[[knowledge organization system]]"
 ---

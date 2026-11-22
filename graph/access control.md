@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q228502"
+skos:exactMatch: "wd:Q228502"
 iso-thes:broaderGeneric:
   - "[[security control]]"
 has goal:

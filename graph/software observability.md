@@ -1,5 +1,5 @@
 ---
-wikidata entity id: Q115800581
+skos:exactMatch: "wd:Q115800581"
 skos:related:
   - "[[agent observability]]"
   - "[[tracing]]"

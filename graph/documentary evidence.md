@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q5287668"
+skos:exactMatch: "wd:Q5287668"
 iso-thes:broaderGeneric: "[[evidence]]"
 skos:altLabel:
   - "recorded evidence"

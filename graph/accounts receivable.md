@@ -1,5 +1,5 @@
 ---
-wikidata entity id: "Q328554"
+skos:exactMatch: "wd:Q328554"
 iso-thes:broaderGeneric: "[[claim]]"
 kg:usedBy: "[[financial accounting]]"
 skos:altLabel:
