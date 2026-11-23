@@ -50,7 +50,7 @@ According to Minsky (1986):
 1. **[[Perception]] Module**: Sensing the [[environment]]
 2. **Decision Module**: Choosing actions
 3. **[[Action Module]]**: Executing decisions
-4. **[[Memory]]/State**: Storing information
+4. **[[memory]]/State**: Storing information
 5. **Learning Component**: Adapting behavior
 
 #### [[properties]] of Intelligent Agents

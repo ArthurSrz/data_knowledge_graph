@@ -1,6 +1,6 @@
 ---
-iso-thes:broaderGeneric: "[[Metadata management]]"
-skos:exactMatch: "wd:Q1172162"
+iso-thes:broaderGeneric: "[[metadata management]]"
+skos:exactMatch: wd:Q1172162
 skos:broader: "[[data]]"
 skos:related: "[[single source of truth]]"
 ---

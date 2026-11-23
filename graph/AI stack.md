@@ -1,7 +1,7 @@
 ---
 madeOf:
   - "[[application development]]"
-  - "[[Model development]]"
+  - "[[model development]]"
   - "[[infrastructure]]"
 skos:broader: "[[AI]]"
 ---

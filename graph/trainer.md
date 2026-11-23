@@ -83,11 +83,11 @@ According to Wolf et al. (2019):
    - DeepSpeed integration
    - FSDP [[compatibility]]
 
-1. **[[Memory]] [[Management]]**:
+1. **[[memory]] [[Management]]**:
    - [[Gradient]] accumulation
    - Dynamic batching
    - [[Gradient]] checkpointing
-   - [[Memory]] profiling
+   - [[memory]] profiling
 
 ## Usage Examples
 
