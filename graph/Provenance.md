@@ -21,6 +21,17 @@ Complements the [[audit trail]] (who edited) and rests on [[documentary evidence
 
 When the statement is produced by a model rather than a person, provenance must carry the **assumptions**, not just the source.
 
-**Example (Bom Bom Boom, 2026-11-23).** Every AI price estimate is an event in the append-only log (`cout.estime`, e.g. `evt_12272`). It stores the assumed material and €/kg per lot size, assumed dimensions and mass, tolerances, process per lot size, investment, model, date and a **confidence score** (0.2 here, because the 2D drawing was not read: `plan_lu: false`). The spreadsheet shows only the cost breakdown; querying the event returns every assumption. A correction never overwrites: it emits a new event that points to the old one.
+Pattern: each AI estimate (e.g. a part's cost) is recorded as an event in an append-only log ([[event sourcing]]). The event stores every assumption (material and unit price, dimensions and mass, tolerances, process, investment), the model, the date, and a **confidence score**. The table users see shows only the result and its breakdown; querying the event returns the full reasoning. A correction never overwrites: it adds a new event that points to the old one.
 
-Consequence: an estimate without its event is not a price, it is a number. And a low-confidence estimate is not a [[ground truth]]: the missing input (here, Drive access to the drawings) is what limits it, not the model.
+Consequence: an estimate without its event is not a price, it is a number. A low-confidence estimate is not a [[ground truth]]; when confidence is low because an input was missing (e.g. the technical drawing could not be read), the fix is access to the input, not a better model.
+
+## Training material is not provenance
+
+A training module or onboarding deck shows how a tool or process is *taught*, not how it is *practised today*. In a store it goes in its own collection, described as a lead to confirm with a [[subject-matter expert]], never cited as the source of a step, a [[business rule]] or a RACI assignment. See [[training]].
+
+Audit method, to prove no artifact cites an excluded document:
+1. List the document's chunk ids (document outline) and match every reference link in every artifact against them, plus the document id.
+2. Search the document names and their short forms.
+3. Read the **abbreviation legends**: a legend defining a short form ("Tool = training module 2026") turns every "Tool p.X" in that artifact into a citation. Another artifact reusing the same short form without a legend may mean a different document; check the page numbers against both before flagging it.
+
+When the excluded document was the **only** source, do not leave the statement unsourced: keep it, marked "to confirm with <role>", so it does not read as a [[normative statement]]. A gap phrased as "the training says X, practice says Y" loses one side: rewrite it from the remaining sources.

@@ -31,4 +31,4 @@ Rules:
 - A grade-1 proposal that contradicts a grade-2 fact is not a [[logical contradiction]]: it is the gap between what should be and what is (see [[normative statement]]).
 - A correction from the source itself stays grade 1. Only a reviewer moves it to grade 2.
 
-**Example (equium-wiki, 2026-11-23):** an expert's capture on pressure enclosures, and his own correction "Dalkia is an ECS module, not a POC unit", stay grade 1 until the quality referent validates the PR (grade 2). The decision pages (e.g. the 30-year sealed-enclosure notice) are grade 3.
+**Example:** an expert writes down how a piece of equipment must be handled, then corrects what an agent misunderstood. Both stay grade 1 until a second expert reviews them (grade 2). Only a decision signed by the person in charge turns them into a rule (grade 3).

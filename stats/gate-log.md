@@ -162,3 +162,17 @@ Décisions du garde-fou logique (`reason.py gate`) : acceptée, avertie, refusé
 - 2026-11-23 20:50:14 · `7291ec85` · block · **acceptée** · [[explicit knowledge]]
 - 2026-11-23 20:50:19 · `7291ec85` · block · **acceptée** · [[explicit knowledge]]
 - 2026-11-23 20:50:37 · `7291ec85` · block · **acceptée (Stop)** · changeset depuis 2a88a81
+- 2026-11-23 20:51:29 · `mcp` · upsert · **acceptée** · [[digital identity]]
+- 2026-11-23 20:51:34 · `mcp` · upsert · **acceptée** · [[service account]]
+- 2026-11-23 20:51:39 · `mcp` · upsert · **acceptée** · [[event sourcing]]
+- 2026-11-23 20:51:53 · `e253a35e` · block · **acceptée (Stop)** · changeset depuis 2a88a81
+- 2026-11-23 20:56:18 · `7291ec85` · block · **acceptée** · [[merge conflict]]
+- 2026-11-23 20:56:23 · `7291ec85` · block · **acceptée** · [[explicit knowledge]]
+- 2026-11-23 20:56:36 · `mcp` · upsert · **acceptée** · [[data lineage]]
+- 2026-11-23 20:56:41 · `mcp` · upsert · **acceptée** · [[Provenance]]
+- 2026-11-23 20:56:45 · `7291ec85` · block · **acceptée (Stop)** · changeset depuis 2a88a81
+- 2026-11-23 20:56:46 · `8d7b2774` · block · **acceptée (Stop)** · changeset depuis 2a88a81
+- 2026-11-23 20:56:47 · `mcp` · upsert · **acceptée** · [[single source of truth]]
+- 2026-11-23 20:56:52 · `mcp` · upsert · **acceptée** · [[OAuth]]
+- 2026-11-23 20:57:06 · `e253a35e` · block · **acceptée (Stop)** · changeset depuis 2a88a81
+- 2026-11-23 20:59:10 · `4a333d96` · block · **acceptée (Stop)** · changeset depuis 2a88a81

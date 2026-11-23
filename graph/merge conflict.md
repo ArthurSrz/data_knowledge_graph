@@ -13,4 +13,4 @@ Files where every branch adds a line at the same spot (an index, an append-only 
 
 Resolving a conflict rewrites the branch, so it creates a new commit. Any [[required status check]] posted on the old commit no longer covers it.
 
-**Example (equium-wiki, 2026-11-23):** five captures from the same author (#162–#166) all edit `index.md`, `log.md` and `DESP Categorie IV.md`. The first merge makes the other four conflict. The PRs where the author pushed his own fixes cannot be rebuilt automatically (label `conflit-manuel`).
+**Example:** five pull requests opened the same day all add a line to the same index and the same log file. The first one merges, the other four conflict. A branch that a human also edited by hand cannot simply be regenerated, because that would erase their edits.
