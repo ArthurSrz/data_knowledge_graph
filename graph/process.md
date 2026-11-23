@@ -5,7 +5,8 @@ skos:scopeNote:
   - "Different from [[quality process]]."
   - "Different from [[process]]."
   - "Different from [[verb]]."
-skos:broader: "[[graph/object]]"
+  - "Wikidata: facet of object (Q488383, a cognitive entity). Kept as `skos:related`, not `skos:broader`: the reasoner still reads skos:broader as 'is a kind of', which made every process an object."
+skos:related: "[[graph/object]]"
 has part: "[[graph/occurrence]]"
 iso-thes:broaderPartitive: "[[graph/Systems Biology Ontology]]"
 skos:closeMatch:
