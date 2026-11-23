@@ -1,12 +1,5 @@
 {
  "inferred:skos:ancestor": [
-  "Object",
-  "control",
-  "occurrent",
-  "process"
- ],
- "inferred:skos:narrower": [
-  "delegation",
-  "gouvernance"
+  "control"
  ]
 }

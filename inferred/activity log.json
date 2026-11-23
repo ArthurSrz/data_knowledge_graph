@@ -8,5 +8,8 @@
  ],
  "inferred:skos:narrower": [
   "audit trail"
+ ],
+ "inferred:skos:related": [
+  "event sourcing"
  ]
 }

@@ -1,9 +1,4 @@
 {
- "inferred:skos:ancestor": [
-  "Overfitting",
-  "feature selection",
-  "model fit"
- ],
  "inferred:skos:related": [
   "Group K-Fold Cross Validation",
   "Time-shifted scoring"

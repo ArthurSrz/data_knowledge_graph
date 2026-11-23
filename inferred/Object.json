@@ -1,6 +1,5 @@
 {
- "inferred:skos:narrower": [
-  "process",
-  "property"
+ "inferred:skos:related": [
+  "process"
  ]
 }

@@ -1,8 +1,5 @@
 {
  "inferred:skos:ancestor": [
   "quality management"
- ],
- "inferred:skos:narrower": [
-  "audit trail"
  ]
 }

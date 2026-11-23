@@ -1,7 +1,6 @@
 {
  "inferred:skos:ancestor": [
   "Documentation",
-  "authentication",
   "chronology",
   "continuant",
   "generically dependent continuant",
@@ -11,5 +10,11 @@
   "boilerplate",
   "clause classification heuristic",
   "model contract"
+ ],
+ "inferred:skos:related": [
+  "citation",
+  "event sourcing",
+  "explicit knowledge",
+  "speaker diarisation"
  ]
 }

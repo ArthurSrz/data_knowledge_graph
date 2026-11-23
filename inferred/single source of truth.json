@@ -1,6 +1,8 @@
 {
  "inferred:skos:ancestor": [
-  "data management",
   "source of information"
+ ],
+ "inferred:skos:related": [
+  "data lineage"
  ]
 }

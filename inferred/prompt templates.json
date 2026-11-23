@@ -1,10 +1,4 @@
 {
- "inferred:skos:ancestor": [
-  "AI prompt",
-  "artificial intelligence",
-  "large language model",
-  "query"
- ],
  "inferred:skos:related": [
   "Prompt Template Info",
   "Prompt Template Types"

@@ -6,8 +6,7 @@
  ],
  "inferred:skos:narrower": [
   "conceptual model",
-  "controlled vocabulary",
-  "thesaurus"
+  "controlled vocabulary"
  ],
  "inferred:skos:related": [
   "knowledge management"

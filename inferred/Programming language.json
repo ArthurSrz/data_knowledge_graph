@@ -3,9 +3,5 @@
   "continuant",
   "generically dependent continuant",
   "information content entity"
- ],
- "inferred:skos:narrower": [
-  "Elixir",
-  "Python"
  ]
 }
