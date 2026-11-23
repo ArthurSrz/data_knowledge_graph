@@ -1,5 +1,5 @@
 ---
-skos:broader: "[[Process]]"
+iso-thes:broaderGeneric: "[[process]]"
 skos:scopeNote:
   - "Different from [[Modeling]]."
   - "Representation sense: building a model of a domain out of concepts and their relations. Not the CRISP-DM / machine-learning phase, which is [[Modeling]]."

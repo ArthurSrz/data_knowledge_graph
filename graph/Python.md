@@ -1,5 +1,5 @@
 ---
-skos:broader: "[[programming language]]"
+iso-thes:broaderInstantial: "[[Programming language]]"
 ---
 ![Python (programming language)](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg)
 

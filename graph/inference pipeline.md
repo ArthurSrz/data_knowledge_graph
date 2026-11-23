@@ -1,6 +1,5 @@
 ---
 iso-thes:broaderPartitive: "[[Vanilla RAG design]]"
-skos:broader:
-  - "[[inference]]"
-  - "[[Pipelines]]"
+iso-thes:broaderGeneric: "[[Pipelines]]"
+skos:broader: "[[inference]]"
 ---

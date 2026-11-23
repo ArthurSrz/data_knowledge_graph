@@ -7,6 +7,7 @@ iso-thes:broaderGeneric:
   - "[[control]]"
   - "[[coordination]]"
   - "[[control]]"
+  - "[[process]]"
 class of object(s) of occurrence:
   - "[[employee]]"
   - "[[business]]"
@@ -15,7 +16,6 @@ class of object(s) of occurrence:
 skos:broader:
   - "[[business administration]]"
   - "[[organization]]"
-  - "[[process]]"
 skos:scopeNote:
   - "Different from [[management science]]."
   - "Different from [[management studies]]."

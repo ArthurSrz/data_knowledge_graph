@@ -1,4 +1,5 @@
 ---
+iso-thes:broaderInstantial: "[[Python package]]"
 skos:broader: "[[Python]]"
 ---
 # NumPy

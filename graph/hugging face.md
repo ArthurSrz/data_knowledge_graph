@@ -1,4 +1,5 @@
 ---
+iso-thes:broaderInstantial: "[[business]]"
 skos:broader: "[[Python]]"
 ---
 

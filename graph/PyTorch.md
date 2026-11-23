@@ -1,5 +1,7 @@
 ---
-iso-thes:broaderInstantial: "[[deep learning framework]]"
+iso-thes:broaderInstantial:
+  - "[[deep learning framework]]"
+  - "[[Python package]]"
 usedFor: "[[Neural network models]]"
 alternativeTo: "[[TensorFlow]]"
 operatesOn: "[[Tensors]]"

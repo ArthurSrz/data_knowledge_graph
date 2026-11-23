@@ -1,5 +1,5 @@
 ---
-skos:broader: "[[hugging face]]"
+iso-thes:broaderPartitive: "[[hugging face]]"
 ---
 # TrainingArguments
 
