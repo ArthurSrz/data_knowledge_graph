@@ -1,5 +1,10 @@
 {
  "inferred:skos:ancestor": [
-  "functional requirement"
+  "conceptual model",
+  "continuant",
+  "functional requirement",
+  "generically dependent continuant",
+  "information content entity",
+  "knowledge organization system"
  ]
 }

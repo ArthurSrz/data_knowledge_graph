@@ -5,5 +5,8 @@
  ],
  "inferred:skos:narrower": [
   "backward chaining"
+ ],
+ "inferred:skos:related": [
+  "machine learning inference"
  ]
 }

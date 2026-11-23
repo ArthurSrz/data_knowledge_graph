@@ -2,5 +2,8 @@
  "inferred:skos:ancestor": [
   "occurrence",
   "occurrent"
+ ],
+ "inferred:skos:related": [
+  "use case"
  ]
 }

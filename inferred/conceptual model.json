@@ -6,6 +6,7 @@
   "knowledge organization system"
  ],
  "inferred:skos:narrower": [
-  "knowledge base"
+  "knowledge base",
+  "use case"
  ]
 }

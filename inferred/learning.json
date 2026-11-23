@@ -1,4 +1,8 @@
 {
+ "inferred:skos:ancestor": [
+  "occurrent",
+  "process"
+ ],
  "inferred:skos:narrower": [
   "training"
  ]

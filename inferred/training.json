@@ -1,5 +1,7 @@
 {
  "inferred:skos:ancestor": [
-  "learning"
+  "learning",
+  "occurrent",
+  "process"
  ]
 }
