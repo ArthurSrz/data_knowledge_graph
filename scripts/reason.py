@@ -16,12 +16,14 @@ STATS_DIR = VAULT / "stats"
 REPORT_FILE = STATS_DIR / "reasoning_report.md"
 
 RELATION_MAP = {
-    "broader": "broader",
-    "skos:broader": "broader",
+    # skos:broader is thematic shelving (schema.yml): navigation only, never
+    # "is a kind of". Only iso-thes:broaderGeneric and its aliases are `broader`.
+    "broader": "shelved",
+    "skos:broader": "shelved",
     "subclass of": "broader",
     "subclassOf": "broader",
     "subFieldOf": "broader",
-    "skos:narrower": "narrower",
+    "skos:narrower": "shelved_inv",
     "skos:related": "related",
     "related_to": "related",
     "relatedTo": "related",
@@ -80,12 +82,25 @@ SKOS_RULES = [
     "related_s(X, Y) :- related(X, Y)",
     "related_s(X, Y) :- related(Y, X)",
     "in_cycle(X) :- ancestor(X, X)",
+    # Thematic shelving (skos:broader): not "is a", but its cycles still count.
+    "shelved(X, Y) :- shelved_inv(Y, X)",
+    "shelved_ancestor(X, Y) :- shelved(X, Y)",
+    "shelved_ancestor(X, Y) :- shelved(X, Z), shelved_ancestor(Z, Y)",
+    "in_cycle(X) :- shelved_ancestor(X, X)",
+    # Navigation hierarchy = skos:broaderTransitive: every sub-property of
+    # skos:broader (shelving, generic, partitive, instantial). Used by S27.
+    "nav(X, Y) :- shelved(X, Y)",
+    "nav(X, Y) :- broader(X, Y)",
+    "nav(X, Y) :- part_of(X, Y)",
+    "nav(X, Y) :- instance_of(X, Y)",
+    "nav_ancestor(X, Y) :- nav(X, Y)",
+    "nav_ancestor(X, Y) :- nav(X, Z), nav_ancestor(Z, Y)",
     "opposite_s(X, Y) :- opposite_of(X, Y)",
     "opposite_s(X, Y) :- opposite_of(Y, X)",
     "conflict(X, Y) :- related_s(X, Y), opposite_s(X, Y)",
     # A concept cannot sit under its own opposite in the hierarchy.
     "conflict(X, Y) :- ancestor(X, Y), opposite_s(X, Y)",
-    "s27_violation(X, Y) :- related_s(X, Y), ancestor(X, Y)",
+    "s27_violation(X, Y) :- related_s(X, Y), nav_ancestor(X, Y)",
     # Disjointness (owl:disjointWith): symmetric, and no concept may fall under
     # both sides. disjoint_violation(X, Y): X sits under class Y, which is
     # disjoint with another ancestor (or with X itself).
@@ -332,7 +347,7 @@ def logic_violations(overlay=None):
 
 def _edges(notes, filenames, rels):
     """Adjacency {src: [(rel, tgt)]} over asserted edges, inverses flipped."""
-    inverse = {"narrower": "broader", "has_part": "part_of"}
+    inverse = {"narrower": "broader", "has_part": "part_of", "shelved_inv": "shelved"}
     adj = {}
     for src, rr in notes.items():
         for rel, targets in rr.items():
@@ -377,8 +392,9 @@ def proof(kind, x, y, notes, filenames):
     disj |= {(b, a) for a, b in disj}
     opp = sym("opposite_of")
     rel = sym("related")
+    nav = _edges(notes, filenames, {"broader", "shelved", "part_of", "instance_of"})
     if kind == "in_cycle":
-        return [_path(hier, x, x)]
+        return [_path(hier, x, x) or _path(_edges(notes, filenames, {"shelved"}), x, x)]
     if kind == "part_cycle":
         return [_path(part, x, y), _path(part, y, x)]
     if kind == "part_category_violation":
@@ -390,7 +406,7 @@ def proof(kind, x, y, notes, filenames):
         return lines
     if kind in ("s27_violation", "conflict"):
         side = f"{x} —related— {y}" if {(x, y), (y, x)} & rel else _path(hier, x, y)
-        first = f"{x} —opposite of— {y}" if kind == "conflict" else _path(hier, x, y)
+        first = f"{x} —opposite of— {y}" if kind == "conflict" else _path(nav, x, y)
         return [first, side]
     # disjoint / cross: x reaches y and some z disjoint with y
     lines = [_path(typ, x, y)]

@@ -46,6 +46,18 @@ class Unit(unittest.TestCase):
         self.assertIn("in_cycle", kinds({"a": note(broader="b"), "b": note(broader="a")}))
         self.assertEqual(set(), kinds({"a": note(broader="b"), "b": note(broader="c1")}))
 
+    def test_shelving_is_not_is_a(self):
+        # schema.yml: skos:broader is thematic shelving, never "is a kind of"
+        self.assertEqual(set(), kinds({"x": note(**{"skos:broader": ["c1", "c2"]})}))
+        self.assertIn("disjoint_violation", kinds({"x": note(**{"iso-thes:broaderGeneric": ["c1", "c2"]})}))
+        # shelving cycles are still caught
+        self.assertIn("in_cycle", kinds({"a": note(**{"skos:broader": "b"}), "b": note(**{"skos:broader": "a"})}))
+
+    def test_s27_over_navigation(self):
+        # SKOS S27: related is disjoint with broaderTransitive, i.e. any sub-property of skos:broader
+        self.assertIn("s27_violation", kinds({"a": note(**{"skos:broader": "b", "skos:related": "b"}), "b": ""}))
+        self.assertIn("s27_violation", kinds({"a": note(part_of="b", **{"skos:related": "b"}), "b": ""}))
+
     def test_s27(self):
         self.assertIn("s27_violation", kinds({"a": note(broader="b", **{"skos:related": "b"}), "b": ""}))
         self.assertEqual(set(), kinds({"a": note(broader="b", **{"skos:related": "c2"}), "b": ""}))
