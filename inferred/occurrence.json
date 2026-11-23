@@ -4,5 +4,8 @@
  ],
  "inferred:skos:narrower": [
   "action"
+ ],
+ "inferred:skos:related": [
+  "use case"
  ]
 }

@@ -1,7 +1,9 @@
 ---
 dcterms:type: "Concept"
-skos:broader: "[[git]]"
-skos:related: "[[Pull request]]"
+skos:related:
+  - "[[git]]"
+  - "[[Pull request]]"
+skos:scopeNote: "A situation that arises in git, not a kind of git: related, not broader."
 skos:definition: "Two branches changed the same lines of a file; git cannot pick one version on its own."
 tags:
   - "git"

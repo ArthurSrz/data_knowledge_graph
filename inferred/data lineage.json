@@ -1,9 +1,8 @@
 {
  "inferred:skos:ancestor": [
-  "Metadata management",
-  "continuant",
-  "data",
-  "generically dependent continuant",
-  "information content entity"
+  "Metadata management"
+ ],
+ "inferred:skos:related": [
+  "event sourcing"
  ]
 }

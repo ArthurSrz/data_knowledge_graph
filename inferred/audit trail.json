@@ -1,13 +1,13 @@
 {
  "inferred:skos:ancestor": [
   "activity log",
-  "audit",
   "continuant",
   "documentary evidence",
   "evidence",
   "generically dependent continuant",
-  "information content entity",
-  "quality management",
-  "risk management"
+  "information content entity"
+ ],
+ "inferred:skos:related": [
+  "event sourcing"
  ]
 }

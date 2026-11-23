@@ -1,10 +1,10 @@
 {
  "inferred:skos:ancestor": [
-  "Object",
-  "Test",
+  "conceptual model",
+  "continuant",
   "functional requirement",
-  "occurrent",
-  "problem solving",
-  "process"
+  "generically dependent continuant",
+  "information content entity",
+  "knowledge organization system"
  ]
 }

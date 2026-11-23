@@ -1,16 +1,15 @@
 {
  "inferred:skos:ancestor": [
-  "Object",
   "occurrent"
  ],
  "inferred:skos:narrower": [
   "Deployment",
   "Inference",
+  "algorithm execution",
   "business process",
   "conceptual modeling",
-  "context",
-  "crawl-walk-run",
   "learning",
+  "machine learning inference",
   "management",
   "onboarding",
   "problem solving",

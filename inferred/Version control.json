@@ -1,8 +1,5 @@
 {
  "inferred:skos:ancestor": [
   "control"
- ],
- "inferred:skos:narrower": [
-  "artifact management"
  ]
 }

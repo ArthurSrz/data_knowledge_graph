@@ -1,8 +1,0 @@
-{
- "inferred:skos:ancestor": [
-  "machine learning"
- ],
- "inferred:skos:narrower": [
-  "autoencoder"
- ]
-}

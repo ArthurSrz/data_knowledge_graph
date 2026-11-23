@@ -1,11 +1,9 @@
 {
  "inferred:skos:ancestor": [
-  "Object",
   "occurrent",
   "process"
  ],
  "inferred:skos:narrower": [
-  "business process mapping",
   "mergers and acquisitions"
  ]
 }

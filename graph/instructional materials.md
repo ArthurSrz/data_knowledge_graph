@@ -5,7 +5,9 @@ skos:altLabel:
   - "training material"
   - "training module"
   - "onboarding deck"
-iso-thes:broaderPartitive: "[[training]]"
+iso-thes:broaderGeneric: "[[Documentation]]"
+kg:hasUse: "[[training]]"
+skos:scopeNote: "Divergence from Wikidata: Q1348645 is subclass of document and also part of learning. A document is a continuant; it is used in training (an occurrent), not part of it, hence `kg:hasUse` rather than `iso-thes:broaderPartitive`."
 ---
 Print or other media used to impart knowledge or teach skills.
 

@@ -8,7 +8,9 @@ tags:
   - "library"
   - "xlsx"
   - "limitations"
-iso-thes:broaderInstantial: "[[excel vs. gsheet problem]]"
+iso-thes:broaderInstantial:
+  - "[[excel vs. gsheet problem]]"
+  - "[[Python package]]"
 skos:broader: "[[Python]]"
 ---
 

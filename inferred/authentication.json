@@ -1,5 +1,5 @@
 {
- "inferred:skos:narrower": [
-  "Provenance"
+ "inferred:skos:related": [
+  "OAuth"
  ]
 }

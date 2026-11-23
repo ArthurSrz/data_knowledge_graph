@@ -5,8 +5,10 @@
   "information content entity"
  ],
  "inferred:skos:narrower": [
+  "Jupyter notebooks",
   "Provenance",
   "agents.md",
+  "instructional materials",
   "knowledge base",
   "standard operating procedure"
  ]

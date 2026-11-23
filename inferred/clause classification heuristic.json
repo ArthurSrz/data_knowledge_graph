@@ -2,9 +2,7 @@
  "inferred:skos:ancestor": [
   "Documentation",
   "Provenance",
-  "authentication",
   "chronology",
-  "clause",
   "continuant",
   "generically dependent continuant",
   "information content entity"

@@ -1,12 +1,12 @@
 {
  "inferred:skos:ancestor": [
-  "Ontology",
   "continuant",
   "generically dependent continuant",
   "information content entity",
   "knowledge organization system"
  ],
  "inferred:skos:narrower": [
-  "knowledge base"
+  "knowledge base",
+  "use case"
  ]
 }

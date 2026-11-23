@@ -5,7 +5,6 @@
   "information content entity"
  ],
  "inferred:skos:narrower": [
-  "data lineage",
   "data silos",
   "master data"
  ]

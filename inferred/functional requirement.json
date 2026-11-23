@@ -1,7 +1,4 @@
 {
- "inferred:skos:ancestor": [
-  "Test"
- ],
  "inferred:skos:narrower": [
   "use case"
  ]

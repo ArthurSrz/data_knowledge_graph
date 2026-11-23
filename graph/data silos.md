@@ -1,5 +1,5 @@
 ---
-skos:broader: "[[data]]"
+iso-thes:broaderGeneric: "[[data]]"
 ---
 To break data silos, it requires : 
 

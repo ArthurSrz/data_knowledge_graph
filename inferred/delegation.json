@@ -1,9 +1,6 @@
 {
- "inferred:skos:ancestor": [
-  "Object",
-  "control",
-  "management",
-  "occurrent",
-  "process"
+ "inferred:skos:related": [
+  "OAuth",
+  "service account"
  ]
 }

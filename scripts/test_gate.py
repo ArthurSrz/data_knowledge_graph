@@ -46,6 +46,18 @@ class Unit(unittest.TestCase):
         self.assertIn("in_cycle", kinds({"a": note(broader="b"), "b": note(broader="a")}))
         self.assertEqual(set(), kinds({"a": note(broader="b"), "b": note(broader="c1")}))
 
+    def test_shelving_is_not_is_a(self):
+        # schema.yml: skos:broader is thematic shelving, never "is a kind of"
+        self.assertEqual(set(), kinds({"x": note(**{"skos:broader": ["c1", "c2"]})}))
+        self.assertIn("disjoint_violation", kinds({"x": note(**{"iso-thes:broaderGeneric": ["c1", "c2"]})}))
+        # shelving cycles are still caught
+        self.assertIn("in_cycle", kinds({"a": note(**{"skos:broader": "b"}), "b": note(**{"skos:broader": "a"})}))
+
+    def test_s27_over_navigation(self):
+        # SKOS S27: related is disjoint with broaderTransitive, i.e. any sub-property of skos:broader
+        self.assertIn("s27_violation", kinds({"a": note(**{"skos:broader": "b", "skos:related": "b"}), "b": ""}))
+        self.assertIn("s27_violation", kinds({"a": note(part_of="b", **{"skos:related": "b"}), "b": ""}))
+
     def test_s27(self):
         self.assertIn("s27_violation", kinds({"a": note(broader="b", **{"skos:related": "b"}), "b": ""}))
         self.assertEqual(set(), kinds({"a": note(broader="b", **{"skos:related": "c2"}), "b": ""}))
@@ -70,6 +82,15 @@ class Unit(unittest.TestCase):
     def test_part_cycle(self):
         self.assertIn("part_cycle", kinds({"a": note(part_of="b"), "b": note(part_of="a")}))
         self.assertEqual(set(), kinds({"a": note(part_of="b"), "b": ""}))
+
+    def test_part_category(self):
+        # a part on one side (c1), its whole on the other (c2)
+        self.assertIn("part_category_violation",
+                      kinds({"p": note(subclass_of="c1", part_of="w"), "w": note(subclass_of="c2")}))
+        # same side: no violation
+        self.assertEqual(set(), kinds({"p": note(subclass_of="c1", part_of="w"), "w": note(subclass_of="c1")}))
+        # untyped whole: nothing to compare, no violation
+        self.assertEqual(set(), kinds({"p": note(subclass_of="c1", part_of="w"), "w": ""}))
 
     def test_cross_level(self):
         # an individual: instance of c1, subclass of c2
@@ -105,6 +126,14 @@ class Integration(unittest.TestCase):
         self.assertNotEqual(good, bad)
         self.assertIn("disjoint_violation", kinds({"process owner": bad}))
         self.assertEqual(set(), kinds({"process owner": good}))
+
+    def test_instructional_materials(self):
+        # real case: a document `part of` training (a process) is refused; `kg:hasUse` passes
+        good = (reason.GRAPH_DIR / "instructional materials.md").read_text()
+        bad = good.replace('kg:hasUse: "[[training]]"', 'iso-thes:broaderPartitive: "[[training]]"')
+        self.assertNotEqual(good, bad)
+        self.assertIn("part_category_violation", kinds({"instructional materials": bad}))
+        self.assertEqual(set(), kinds({"instructional materials": good}))
 
 
 if __name__ == "__main__":

@@ -1,7 +1,5 @@
 {
  "inferred:skos:ancestor": [
-  "Memory",
-  "Object",
   "occurrent",
   "process"
  ],

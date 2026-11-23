@@ -1,5 +1,6 @@
 {
  "inferred:skos:narrower": [
+  "OAuth",
   "application programming interface",
   "stateless protocol"
  ]
