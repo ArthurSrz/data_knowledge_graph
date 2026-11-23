@@ -103,6 +103,11 @@ SKOS_RULES = [
     "part_of(X, Y) :- has_part(Y, X)",
     "part_of(X, Z) :- part_of(X, Y), part_of(Y, Z)",
     "part_cycle(X, Y) :- part_of(X, Y), part_of(Y, X)",
+    # A part and its whole sit on the same side of a disjointness: a document
+    # is not part of a process (it participates in it or is used in it).
+    "side(X, C) :- ancestor(X, C)",
+    "side(X, C) :- type_of(X, C)",
+    "part_category_violation(X, Y) :- part_of(X, Y), side(X, A), side(Y, B), disjoint_s(A, B)",
     # Cross-level disjointness: X is an instance on one side and a subclass
     # on the other. Only valid for individuals (Wikidata classes are often
     # also instances of metaclasses), so candidates are filtered in Python
@@ -307,6 +312,7 @@ LOGIC_KINDS = {
     "s27_violation": "SKOS S27 (related + hiérarchique)",
     "disjoint_violation": "disjonction",
     "part_cycle": "cycle partie–tout",
+    "part_category_violation": "partie et tout de catégories disjointes",
     "cross_violation": "croisement des niveaux (instance/sous-classe)",
 }
 
@@ -318,7 +324,7 @@ def logic_violations(overlay=None):
     engine, _, _ = load_reasoner(notes, filenames, atom_of)
     n = lambda a: name_of.get(a, a)
     out = {("in_cycle", n(r["X"]), n(r["X"])) for r in engine.query("in_cycle(?X)") or []}
-    for kind in ("conflict", "s27_violation", "disjoint_violation", "part_cycle"):
+    for kind in ("conflict", "s27_violation", "disjoint_violation", "part_cycle", "part_category_violation"):
         out |= {(kind, n(r["X"]), n(r["Y"])) for r in engine.query(f"{kind}(?X, ?Y)") or []}
     out |= {("cross_violation", n(x), n(y)) for x, y in individual_cross_violations(engine)}
     return out, notes, filenames
@@ -375,6 +381,13 @@ def proof(kind, x, y, notes, filenames):
         return [_path(hier, x, x)]
     if kind == "part_cycle":
         return [_path(part, x, y), _path(part, y, x)]
+    if kind == "part_category_violation":
+        lines = [_path(part, x, y)]
+        for a, b in sorted(disj):
+            px, py = _path(typ, x, a), _path(typ, y, b)
+            if px and py:
+                return lines + [px, py, f"{a} —disjoint with— {b}"]
+        return lines
     if kind in ("s27_violation", "conflict"):
         side = f"{x} —related— {y}" if {(x, y), (y, x)} & rel else _path(hier, x, y)
         first = f"{x} —opposite of— {y}" if kind == "conflict" else _path(hier, x, y)
@@ -401,6 +414,8 @@ def hint(kind):
         return "Supprimer la relation entre deux concepts disjoints (un concept ne peut pas être lié à un concept qu'il exclut)."
     if kind == "s27_violation":
         return "Supprimer la relation entre deux concepts liés hiérarchiquement (un concept ne peut pas être lié à un de ses ancêtres)."
+    if kind == "part_category_violation":
+        return "Une partie et son tout doivent être du même côté (occurrent / continuant) : remplacer « part of » par « has use », « uses » ou une relation de participation."
     if kind == "cross_violation":
         return "Supprimer la relation entre deux concepts croisés (un concept ne peut pas être lié à un concept qu'il traverse)."
     
@@ -634,6 +649,7 @@ def cmd_check(args):
             ("s27_violation", "SKOS S27 violations (related + hierarchical)"),
             ("disjoint_violation", "Disjointness violations (concept under two disjoint classes)"),
             ("part_cycle", "Part-whole cycles (concept is part of its own part)"),
+            ("part_category_violation", "Part and whole on disjoint sides (e.g. a continuant part of an occurrent)"),
         ]:
             results = engine.query(f"{check_name}(?X, ?Y)") if check_name != "in_cycle" else engine.query(f"{check_name}(?X)")
             if results:
@@ -737,6 +753,7 @@ def cmd_report(args):
             ("s27_violation", "SKOS S27 violations"),
             ("disjoint_violation", "Disjointness violations"),
             ("part_cycle", "Part-whole cycles"),
+            ("part_category_violation", "Part and whole on disjoint sides"),
         ]:
             if check_name == "in_cycle":
                 results = engine.query(f"{check_name}(?X)")

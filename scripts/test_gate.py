@@ -71,6 +71,15 @@ class Unit(unittest.TestCase):
         self.assertIn("part_cycle", kinds({"a": note(part_of="b"), "b": note(part_of="a")}))
         self.assertEqual(set(), kinds({"a": note(part_of="b"), "b": ""}))
 
+    def test_part_category(self):
+        # a part on one side (c1), its whole on the other (c2)
+        self.assertIn("part_category_violation",
+                      kinds({"p": note(subclass_of="c1", part_of="w"), "w": note(subclass_of="c2")}))
+        # same side: no violation
+        self.assertEqual(set(), kinds({"p": note(subclass_of="c1", part_of="w"), "w": note(subclass_of="c1")}))
+        # untyped whole: nothing to compare, no violation
+        self.assertEqual(set(), kinds({"p": note(subclass_of="c1", part_of="w"), "w": ""}))
+
     def test_cross_level(self):
         # an individual: instance of c1, subclass of c2
         self.assertIn("cross_violation", kinds({"x": note(instance_of="c1", subclass_of="c2")}))
@@ -105,6 +114,14 @@ class Integration(unittest.TestCase):
         self.assertNotEqual(good, bad)
         self.assertIn("disjoint_violation", kinds({"process owner": bad}))
         self.assertEqual(set(), kinds({"process owner": good}))
+
+    def test_instructional_materials(self):
+        # real case: a document `part of` training (a process) is refused; `kg:hasUse` passes
+        good = (reason.GRAPH_DIR / "instructional materials.md").read_text()
+        bad = good.replace('kg:hasUse: "[[training]]"', 'iso-thes:broaderPartitive: "[[training]]"')
+        self.assertNotEqual(good, bad)
+        self.assertIn("part_category_violation", kinds({"instructional materials": bad}))
+        self.assertEqual(set(), kinds({"instructional materials": good}))
 
 
 if __name__ == "__main__":
