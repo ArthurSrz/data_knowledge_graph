@@ -181,3 +181,30 @@ Décisions du garde-fou logique (`reason.py gate`) : acceptée, avertie, refusé
 - 2026-11-23 21:05:06 · `mcp` · upsert · **acceptée** · [[algorithm execution]]
 - 2026-11-23 21:05:19 · `8d7b2774` · block · **acceptée (Stop)** · changeset depuis 2a88a81
 - 2026-11-23 21:05:48 · `8d7b2774` · block · **acceptée (Stop)** · changeset depuis 2a88a81
+- 2026-11-24 12:02:44 · `cf1765e3` · block · **acceptée (Stop)** · changeset depuis eab27c8
+- 2026-11-24 12:05:53 · `mcp` · upsert · **acceptée** · [[hypothesis]]
+- 2026-11-24 12:05:58 · `mcp` · upsert · **acceptée** · [[falsifiability]]
+- 2026-11-24 12:06:03 · `mcp` · upsert · **acceptée** · [[bias]]
+- 2026-11-24 12:06:07 · `mcp` · upsert · **acceptée** · [[cognitive bias]]
+- 2026-11-24 12:06:12 · `mcp` · upsert · **acceptée** · [[recall bias]]
+- 2026-11-24 12:06:17 · `mcp` · upsert · **acceptée** · [[measurement bias]]
+- 2026-11-24 12:06:22 · `mcp` · upsert · **acceptée** · [[selection bias]]
+- 2026-11-24 12:06:26 · `mcp` · upsert · **acceptée** · [[sampling bias]]
+- 2026-11-24 12:07:12 · `mcp` · upsert · **acceptée** · [[research interview]]
+- 2026-11-24 12:07:17 · `mcp` · upsert · **refusée** · [[elicitation interview]]
+    ✗ gate: 1 nouvelle(s) violation(s) logique(s).
+    
+    • SKOS S27 (related + hiérarchique) : elicitation interview ↔ research interview
+        elicitation interview —broader→ research interview
+        elicitation interview —related— research interview
+      → Supprimer la relation entre deux concepts liés hiérarchiquement (un concept ne peut pas être lié à un de ses ancêtres).
+- 2026-11-24 12:07:22 · `mcp` · upsert · **acceptée** · [[critical incident technique]]
+- 2026-11-24 12:07:26 · `mcp` · upsert · **acceptée** · [[member check]]
+- 2026-11-24 12:07:31 · `mcp` · upsert · **acceptée** · [[qualitative coding]]
+- 2026-11-24 12:07:36 · `mcp` · upsert · **acceptée** · [[codebook]]
+- 2026-11-24 12:07:41 · `mcp` · upsert · **acceptée** · [[triangulation (social science)]]
+- 2026-11-24 12:07:46 · `mcp` · upsert · **acceptée** · [[glossary]]
+- 2026-11-24 12:07:52 · `mcp` · upsert · **acceptée** · [[emic and etic]]
+- 2026-11-24 12:07:57 · `mcp` · upsert · **acceptée** · [[gap analysis]]
+- 2026-11-24 12:08:13 · `mcp` · upsert · **acceptée** · [[elicitation interview]]
+- 2026-11-24 12:08:33 · `cf1765e3` · block · **acceptée (Stop)** · changeset depuis eab27c8
