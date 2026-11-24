@@ -3,7 +3,7 @@
 ## Questions your graph can answer
 
 
-### `broader` — 415 edges across 310 notes (strong)
+### `broader` — 262 edges across 195 notes (strong)
 
 - What is the parent domain of {X}?
 - What are all subtypes of {X}?
@@ -11,57 +11,48 @@
 - Which concepts are root concepts (no broader parent)?
 - What concepts share the same parent domain as {X}?
 
-### `depends_on` — 5 edges across 3 notes (weak)
+### `depends_on` — 6 edges across 4 notes (weak)
 
 - What are the dependencies of {X}?
 
-### `has_use` — 13 edges across 11 notes (strong)
+### `has_use` — 16 edges across 13 notes (strong)
 
 - What are the practical applications of {X}?
-
-### `narrower` — 23 edges across 8 notes (strong)
-
-- What are the direct children of {X}?
 
 ### `opposite_of` — 23 edges across 20 notes (strong)
 
 - What is the opposite of {X}?
 
-### `related` — 84 edges across 37 notes (strong)
+### `related` — 152 edges across 68 notes (strong)
 
 - What concepts are semantically related to {X}?
 
-### `studied_in` — 24 edges across 15 notes (strong)
-
-- In what field is {X} studied?
-
-### `uses` — 28 edges across 18 notes (strong)
+### `uses` — 30 edges across 20 notes (strong)
 
 - What tools or techniques does {X} use?
 - Which concepts use {X}?
 
-### Inferred predicates (via 24 Datalog rules)
+### Inferred predicates (via 37 Datalog rules)
 
 
-**`ancestor`** — 830 derived facts
+**`ancestor`** — 459 derived facts
 
 - Is {X} a (transitive) specialization of {Y}?
 - What are all ancestors of {X} up to the root?
 
-**`related_s`** — 164 derived facts
+**`related_s`** — 288 derived facts
 
 - What concepts are related to {X} (including symmetric)?
 
 ## User-defined competency questions
 
 
-**9/21** answerable
+**8/21** answerable
 
 
-### Answerable (9)
+### Answerable (8)
 
 - [hierarchy] What is the parent domain of a given concept?
-- [hierarchy] What are all the subtypes of a given concept?
 - [hierarchy] What is the full ancestor chain from a concept up to a root?
 - [hierarchy] Which concepts are root concepts (no broader parent)?
 - [association] What concepts are semantically related to a given concept?
@@ -70,10 +61,12 @@
 - [cross-cutting] Given an ML technique, what tools does it use and what domain is it part of?
 - [cross-cutting] What concepts share the same parent domain?
 
-### Not answerable (12)
+### Not answerable (13)
 
+- [hierarchy] What are all the subtypes of a given concept?
+  - **Gap**: narrower (not found)
 - [dependency] What are the dependencies of a given concept?
-  - **Gap**: depends_on (only 3 notes, need 5+)
+  - **Gap**: depends_on (only 4 notes, need 5+)
 - [dependency] What can a given concept be constructed with?
   - **Gap**: constructed_with (not found)
 - [applicability] Which concepts are applicable in situation S (inherited by sub-situations)?
@@ -104,8 +97,9 @@
 
 - `constructed_with`
 - `contributing_factor`
+- `studied_in`
 
 ### Thin coverage (<5 notes)
 
 - `disjoint_with`: 2 edges across 2 notes
-- `depends_on`: 5 edges across 3 notes
+- `depends_on`: 6 edges across 4 notes
