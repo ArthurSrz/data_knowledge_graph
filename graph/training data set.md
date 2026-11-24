@@ -1,5 +1,5 @@
 ---
-ComplementaryWith: "[[Test data set]]"
+ComplementaryWith: "[[test data set]]"
 iso-thes:broaderGeneric: "[[data set]]"
 kg:usedBy: "[[Modeling]]"
 ---

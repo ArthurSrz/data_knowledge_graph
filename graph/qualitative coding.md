@@ -12,6 +12,6 @@ skos:related:
   - "[[documentary evidence]]"
 skos:scopeNote: "Wikidata P279: arranging (not in the graph); shelved under [[process]]."
 ---
-**Qualitative coding**: analytical process in social sciences in which data is categorized to facilitate analysis (Wikidata).
+analytical [[process]] in social sciences in which [[data]] is categorized to facilitate analysis.
 
 Pilot first: code 3–4 documents (e.g. calls for tenders), revise the [[codebook]], then apply it to the whole corpus. Skipping the pilot builds [[measurement bias]] into every count.
