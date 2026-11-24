@@ -7,6 +7,6 @@ skos:altLabel:
   - "cognitive illusion"
 skos:definition: "systematic pattern of deviation from norm or rationality in judgment due to subjective perception of reality"
 ---
-**Cognitive bias**: systematic pattern of deviation from norm or rationality in judgment due to subjective perception of reality (Wikidata).
+systematic [[pattern]] of deviation from norm or rationality in [[judgment]] due to subjective [[perception]] of reality (Wikidata).
 
 In an [[elicitation interview]] it sits with the respondent ([[recall bias]]) as much as with the interviewer: a question that presents a [[hypothesis]] invites agreement.

@@ -11,7 +11,7 @@ skos:related:
   - "[[sampling bias]]"
 skos:scopeNote: "Wikidata P279: interview, qualitative data gathering method, social science methodology — none in the graph yet. Shelved under [[process]] to fix the BFO branch: the interview carried out is an occurrent; its guide (script) is an [[information content entity]]."
 ---
-**Research interview**: research technique (Wikidata) in which a researcher gathers data by questioning a respondent. Narrower: [[semi-structured interview]].
+esearch technique (Wikidata) in which a researcher gathers [[data]] by questioning a respondent. Narrower: [[semi-structured interview]].
 
 Three moves from a market-study campaign:
 1. **Qualify the respondent first** (role, how many and what kind of accounts they handled), to read each answer against its position ([[sampling bias]]).

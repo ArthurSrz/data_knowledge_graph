@@ -9,6 +9,6 @@ skos:related:
   - "[[empirical evidence]]"
 skos:scopeNote: "Wikidata P279: criterion, epistemological values. Neither is in the graph; left without hierarchy rather than invented."
 ---
-**Falsifiability**: property of a theory, hypothesis or statement that can be logically contradicted by an empirical test or a fact (Wikidata; Popper).
+[[property]] of a theory, [[hypothesis]] or statement that can be logically contradicted by an empirical [[test]].
 
-In practice, a "what would disprove it" column next to each [[hypothesis]]: a row nobody can say how to disprove can't be backed by evidence either, only repeated.
+In practice, a "what would disprove it" column next to each [[hypothesis]]: a row nobody can say how to disprove can't be backed by [[evidence]] either, only repeated.
