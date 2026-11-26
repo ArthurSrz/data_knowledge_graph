@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Situation Graph</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+<style>
+/* VOICE everyday: a graph explorer you consult before acting
+   IDEA the ENSSIB semanticrag 3D graph: black space, one colour per class, one colour per predicate, the camera flies to what you click
+   PICTURE the whole PKG pattern graph in 3D; clicking a situation lights its path step by step
+   COLOUR black ground, class colours from Borges Library (situation red, pattern blue, goal amber, concept green, same-shape pink; each role its own edge colour)
+   TYPE Cormorant Garamond for the panel, system sans on node labels as in semanticrag
+   LAYOUT graph fills the screen; legend top-left; discovery panel right on laptop, bottom sheet on phone */
+:root{color-scheme:dark;--bg:#000;--ink:#f2f2f2;--mute:#9a9a9a;--line:#2a2a2a;--sit:#ff6b6b;--step:#45b7d1;--goal:#feca57;--con:#96ceb4;--case:#ff9ff3}
+*{box-sizing:border-box;min-width:0}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font:17px/1.45 'Cormorant Garamond',Georgia,serif;overflow:hidden}
+#g{position:fixed;inset:0}
+.top{position:fixed;top:calc(12px + env(safe-area-inset-top,0px));left:max(16px,env(safe-area-inset-left,0px));right:max(16px,env(safe-area-inset-right,0px));pointer-events:none;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+h1{margin:0;font-size:clamp(28px,4vw,40px);line-height:1.05;letter-spacing:-.02em;font-weight:500}
+.hint{margin:4px 0 0;color:var(--mute);font-style:italic}
+.legend{display:flex;flex-wrap:wrap;gap:4px 14px;font:13px/1.4 system-ui,sans-serif;color:var(--mute);margin-top:8px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+#panel{position:fixed;right:max(16px,env(safe-area-inset-right,0px));top:calc(120px + env(safe-area-inset-top,0px));width:min(380px,calc(100vw - 32px));max-height:calc(100% - 150px);overflow:auto;background:rgba(10,10,10,.88);border:1px solid var(--line);padding:16px 18px}
+#panel[hidden]{display:none}
+#panel h2{margin:0 0 2px;font-size:24px;line-height:1.15;font-weight:500;color:var(--sit)}
+.k{font:13px system-ui,sans-serif;color:var(--mute);margin:12px 0 4px}
+ol{margin:0;padding-left:22px}
+li{margin:4px 0}
+.row{animation:in .6s ease-out both}
+@keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.step{color:var(--step)}.goal{color:var(--goal)}.con{color:var(--con)}.case{color:var(--case)}
+.chips span{display:inline-block;border:1px solid #2f4a3f;color:var(--con);padding:2px 8px;margin:3px 4px 0 0;font:13px system-ui,sans-serif}
+.warn{border-left:2px solid var(--goal);padding-left:10px;color:#e8d9a8}
+.bar{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
+button{font:15px system-ui,sans-serif;color:var(--ink);background:#111;border:1px solid #333;padding:8px 14px;min-height:40px;cursor:pointer}
+button:hover{border-color:var(--step)}
+@media (max-width:640px){#panel{top:auto;bottom:calc(12px + env(safe-area-inset-bottom,0px));max-height:46%}.legend{display:none}}
+@media (prefers-reduced-motion:reduce){.row{animation:none}}
+#ptr{position:fixed;inset:0;width:100%;height:100%;pointer-events:none}
+#ptr[hidden]{display:none}
+#card{position:fixed;width:min(360px,calc(100vw - 32px));background:rgba(8,8,8,.92);border:1px solid #3a3a3a;padding:14px 16px 12px;box-shadow:0 0 0 1px #000}
+#card[hidden]{display:none}
+#card h2{margin:2px 0 6px;font-size:23px;line-height:1.15;font-weight:500}
+#card p{margin:6px 0}
+#card .prog{font:12px system-ui,sans-serif;color:var(--mute);display:flex;justify-content:space-between}
+#card .src a{font:13px system-ui,sans-serif;color:#7dd3fc}
+#card .near{font:13px system-ui,sans-serif;color:#8fb3a3;margin-top:8px}
+#card .bar{justify-content:flex-end}
+.strip{display:flex;gap:4px;margin:8px 0 2px}.strip span{flex:1;height:4px;opacity:.35}.strip span.on{opacity:1;height:6px;margin-top:-1px}
+@media (max-width:640px){#card{left:16px!important;top:auto!important;bottom:calc(12px + env(safe-area-inset-bottom,0px));max-height:52%;overflow:auto}}
+</style>
+</head>
+<body>
+
+<div id="g"></div>
+<div class="top">
+  <div>
+    <h1>Situation Graph</h1>
+    <p class="hint" id="hint">Click a situation. A guided tour shows its whole process from each node's angle, one node at a time.</p>
+    <div class="legend">
+      <span><i style="background:var(--sit)"></i>Situation</span><span><i style="background:var(--step)"></i>Pattern</span><span><i style="background:var(--goal)"></i>Goal</span><span><i style="background:var(--con)"></i>Concept in a role</span><span><i style="background:#5a7a6c"></i>Surrounding note</span><span><i style="background:var(--case)"></i>Same shape</span>
+    </div>
+  </div>
+</div>
+<svg id="ptr" aria-hidden="true"><line id="pl" stroke="#f2f2f2" stroke-width="1" stroke-dasharray="3 3"/><circle id="pc" r="5" fill="none" stroke="#f2f2f2"/></svg>
+<aside id="card" hidden aria-live="polite"></aside>
+
+<script src="https://unpkg.com/three@0.149.0/build/three.min.js"></script>
+<script src="https://unpkg.com/3d-force-graph@1.73.4/dist/3d-force-graph.min.js"></script>
+<script>
+fetch('patterns.json').then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(DATA=>{
+const REPO='https://github.com/'+(DATA.built.repo||'ArthurSrz/personal_knowledge_graph');
+const noteUrl=n=>REPO+'/blob/main/graph/'+encodeURIComponent(n)+'.md';
+const C={Situation:'#ff6b6b',Pattern:'#45b7d1',Goal:'#feca57',Concept:'#96ceb4',Near:'#5a7a6c',Kin:'#ff9ff3'};
+const ROLES=[...new Set(DATA.patterns.flatMap(p=>Object.keys(p.roles)))].sort();
+const RC={};ROLES.forEach((r,i)=>RC[r]=`hsl(${Math.round(i*360/ROLES.length)},70%,62%)`);
+const ec=t=>t.startsWith('role:')?RC[t.slice(5)]:{'kg:appliesIn':'#ff6b6b','kg:achieves':'#feca57','kg:hasCondition':'#cfcfcf','kg:hasLimitation':'#ff8c66'}[t]||'#6f8a99';
+const sig=p=>Object.keys(p.roles).sort();
+const jac=(a,b)=>{const A=new Set(a),i=b.filter(x=>A.has(x)).length;return i/(A.size+b.length-i)};
+// one sentence, cut at a word boundary: a card is a glance, the note holds the rest
+const short=(t,n)=>{t=String(t||'').replace(/\[\[(?:[^\]|]*\|)?([^\]]+)\]\]/g,'$1').split(/(?<=[.!?])\s/)[0];return t.length<=n?t:t.slice(0,t.lastIndexOf(' ',n))+'…'};
+const T=n=>short(DATA.text[n],150);
+
+// ---- graph built from the Pattern notes and their neighbours
+const nodes=[],links=[],N={},seenL=new Set();
+const add=(id,name,cls)=>N[id]||(N[id]={id,name,cls,val:{Situation:7,Pattern:4,Near:.8}[cls]||2},nodes.push(N[id]),N[id]);
+const link=(s,t,type)=>{const k=s+'|'+type+'|'+t;if(seenL.has(k))return;seenL.add(k);links.push({source:s,target:t,type})};
+const SIT={};
+DATA.patterns.forEach((p,i)=>{
+  p.id='p'+i;add('s:'+p.situation,p.situation,'Situation');add(p.id,p.name,'Pattern');add('c:'+p.goal,p.goal,'Goal');
+  (SIT[p.situation]=SIT[p.situation]||[]).push(p);
+  link(p.id,'s:'+p.situation,'kg:appliesIn');link(p.id,'c:'+p.goal,'kg:achieves');
+  Object.entries(p.roles).forEach(([r,c])=>{add('c:'+c,c,'Concept');link(p.id,'c:'+c,'role:'+r)});
+  p.condition.forEach(c=>{add('c:'+c,c,'Concept');link(p.id,'c:'+c,'kg:hasCondition')});
+  p.limitation.forEach(c=>{add('c:'+c,c,'Concept');link(p.id,'c:'+c,'kg:hasLimitation')});
+});
+Object.values(DATA.neighbors).flat().forEach(([a,t,b])=>{add('c:'+a,a,'Near');add('c:'+b,b,'Near');link('c:'+a,'c:'+b,t)});
+const around=c=>(DATA.neighbors[c]||[]).map(([a,t,b])=>({other:a===c?b:a,t,out:a===c}));
+
+// ---- tour
+let cur=null,stops=[],at=-1,lit=new Set(),near=new Set(),kin=new Set();
+const kinOf=ps=>DATA.patterns.filter(q=>!ps.includes(q)).map(q=>({q,j:Math.max(...ps.map(p=>jac(sig(p),sig(q))))})).filter(x=>x.j>0).sort((a,b)=>b.j-a.j).slice(0,3);
+function build(sit){
+  const ps=SIT[sit],S=[{node:'s:'+sit,kick:'The situation',title:sit,text:T(sit)}];
+  ps.forEach(p=>{
+    S.push({node:p.id,kick:ps.length>1?'A pattern that applies here':'The pattern that applies here',title:p.name,list:p.steps});
+    const roles=Object.entries(p.roles).sort(([a],[b])=>p.required.includes(b)-p.required.includes(a));
+    roles.forEach(([r,c])=>S.push({node:'c:'+c,kick:`Role · ${r}${p.required.includes(r)?' · the pattern cannot do without it':''}`,title:c,text:T(c),near:true,color:RC[r]}));
+    p.condition.forEach(c=>S.push({node:'c:'+c,kick:'Condition: it works only if…',title:c,text:p.conditionText?short(p.conditionText,140):T(c),near:true}));
+    p.limitation.forEach(c=>S.push({node:'c:'+c,kick:'Limit: where it stops working',title:c,text:T(c),near:true,color:'#ff8c66'}));
+    S.push({node:'c:'+p.goal,kick:'The goal it reaches',title:p.goal,text:T(p.goal)});
+  });
+  const k=kinOf(ps);
+  S.push({node:null,kick:'The whole method, and its shape',title:'Roles: '+[...new Set(ps.flatMap(sig))].join(' · '),
+    text:k.length?'Same roles elsewhere, in pink:':'No other method fills these roles yet.',
+    kin:k.map(({q})=>q),list:k.map(({q})=>`${q.name} (${sig(q).filter(r=>ps.some(p=>p.roles[r])).join(', ')})`)});
+  return S;
+}
+// while a situation is open, its nodes leave the force layout and sit on a flow, in tour order
+let flow=[],flowLinks=[];const RAD=26;
+// the light radius: two soft additive shells that follow the focused node
+const halo=new THREE.Group();[[RAD+10,.07],[RAD*.65,.1]].forEach(([r,o])=>halo.add(new THREE.Mesh(new THREE.SphereGeometry(r,32,24),new THREE.MeshBasicMaterial({color:0x7dd3fc,transparent:true,opacity:o,blending:THREE.AdditiveBlending,depthWrite:false}))));halo.visible=false;
+function layFlow(){
+  const o=N['s:'+cur],S=42;flow=[...new Set(stops.filter(s=>s.node).map(s=>s.node))];
+  flow.forEach((id,i)=>{const n=N[id];n.fx=o.x+i*S;n.fy=o.y+Math.sin(i*.9)*16;n.fz=(o.z||0)+Math.cos(i*.9)*16-16});
+  flowLinks=flow.slice(1).map((id,i)=>({source:flow[i],target:id,type:'flow'}));
+  G.graphData({nodes,links:links.concat(flowLinks)});
+}
+function unFlow(){near.forEach(id=>{const q=N[id];delete q.fx;delete q.fy;delete q.fz});near=new Set();halo.visible=false;flow.forEach(id=>{const n=N[id];delete n.fx;delete n.fy;delete n.fz});flow=[];flowLinks=[];G.graphData({nodes,links})}
+function start(sit){
+  if(flow.length)unFlow();
+  cur=SIT[sit]?sit:null;lit=new Set();near=new Set();kin=new Set();at=-1;
+  if(!cur){card.hidden=true;ptr.hidden=true;style();G.zoomToFit(900,60,n=>n.cls==='Situation');hint.hidden=false;try{history.replaceState(null,'',location.pathname+location.search)}catch(e){}return}
+  hint.hidden=true;stops=build(cur);layFlow();go(0);try{history.replaceState(null,'','#'+encodeURIComponent(cur))}catch(e){}
+}
+function go(i){
+  if(i<0||i>=stops.length)return;
+  // reveal everything up to stop i, so Previous rewinds cleanly
+  lit=new Set(stops.filter(s=>s.node).map(s=>s.node));near=new Set();kin=new Set();
+  (stops[i].kin||[]).forEach(q=>{kin.add(q.id);kin.add('s:'+q.situation)});
+  const s=stops[i];
+  near.forEach(id=>{if(!flow.includes(id)){const q=N[id];delete q.fx;delete q.fy;delete q.fz}});near=new Set();
+  if(s.node){const f=N[s.node],onFlow=new Set(flow.map(id=>N[id].name)),nb=around(f.name).filter(a=>!onFlow.has(a.other)).map(a=>'c:'+a.other).filter(id=>N[id]).slice(0,6);
+    nb.forEach((id,k)=>{const q=N[id],a=k/nb.length*2*Math.PI+.4;q.fx=f.fx+Math.cos(a)*RAD;q.fy=f.fy+Math.sin(a)*RAD*.8+10;q.fz=f.fz+Math.sin(a*2)*6;near.add(id)});
+    G.d3ReheatSimulation()}
+  seen=new Set(stops.slice(0,i+1).filter(s=>s.node).map(s=>s.node));
+  at=i;style();draw();
+  if(s.node)view(N[s.node]);else G.zoomToFit(1100,70,n=>lit.has(n.id)||kin.has(n.id));
+}
+// camera behind the focused node, looking through it at the centre of the whole process
+// the whole flow stays in frame; the camera leans toward the focused node, so you see the flow from its side
+function view(n){
+  const a=N[flow[0]],b=N[flow[flow.length-1]],c={x:(a.fx+b.fx)/2,y:(a.fy+b.fy)/2,z:(a.fz+b.fz)/2},L=b.fx-a.fx+60;
+  const wide=innerWidth>640,shift=wide?L*.13:0,t=n.fx??n.x;
+  G.cameraPosition({x:c.x+(t-c.x)*.45+shift,y:c.y+L*(wide?.32:.6),z:c.z+L*(wide?.85:1.7)},{x:c.x+(t-c.x)*.15+shift,y:c.y,z:c.z},1300);
+}
+function fly(n,d){const c=G.camera().position;const v={x:c.x-n.x,y:c.y-n.y,z:c.z-n.z},L=Math.hypot(v.x,v.y,v.z)||1;G.cameraPosition({x:n.x+v.x/L*d,y:n.y+v.y/L*d,z:n.z+v.z/L*d},n,1200)}
+
+const sprite=(text,color,small,big)=>{const c=document.createElement('canvas');c.width=640;c.height=72;const x=c.getContext('2d');x.font=`${small?500:600} 30px system-ui,sans-serif`;x.textAlign='center';x.textBaseline='middle';x.lineWidth=6;x.strokeStyle='#000';const t=text.length>38?text.slice(0,37)+'…':text;x.strokeText(t,320,36);x.fillStyle=color;x.fillText(t,320,36);const s=new THREE.Sprite(new THREE.SpriteMaterial({map:new THREE.CanvasTexture(c),transparent:true,depthWrite:false}));const k=big?2.2:small?.85:1;s.scale.set(80*k,9*k,1);s.position.set(0,big?-16:small?-6:-9,0);return s};
+
+const geo=new THREE.SphereGeometry(1,16,12);
+function ball(n,label){
+  const g=new THREE.Group(),col=G.nodeColor()(n),m=String(col).match(/rgba\((\d+),(\d+),(\d+),([\d.]+)\)/);
+  const mat=new THREE.MeshBasicMaterial({color:m?`rgb(${m[1]},${m[2]},${m[3]})`:col,transparent:!!m,opacity:m?+m[4]:1});
+  const r=4*Math.cbrt(G.nodeVal()(n)),b=new THREE.Mesh(geo,mat);b.scale.set(r,r,r);g.add(b);if(label){label.position.y-=r-4;g.add(label)}return g}
+const G=ForceGraph3D()(document.getElementById('g')).backgroundColor('#000').graphData({nodes,links}).showNavInfo(false)
+  .nodeRelSize(4).nodeResolution(12).nodeOpacity(.95).nodeLabel(n=>n.name)
+  .linkDirectionalArrowLength(3.5).linkDirectionalArrowRelPos(1).linkOpacity(.7).linkLabel(l=>l.type==='flow'?'next in the process':l.type)
+  .onNodeClick(n=>{const s=n.cls==='Situation'?n.name:n.cls==='Pattern'?DATA.patterns.find(p=>p.id===n.id).situation:null;if(s)start(s)})
+  .onBackgroundClick(()=>{if(!cur)return});
+G.scene().traverse(o=>{if(o.isLight)o.intensity*=o.isAmbientLight?.5:.35});
+G.d3Force('charge').strength(-60);G.scene().add(halo);G.d3Force('link').distance(l=>l.type.startsWith('role:')?45:30);
+
+const on=id=>lit.has(id)||kin.has(id)||near.has(id);
+let seen=new Set();const focus=n=>cur&&stops[at]&&n.id===stops[at].node;
+const id2=v=>typeof v==='object'?v.id:v;
+function style(){
+  // overview: situations only; tour: this process, plus the focused node's neighbours
+  const vis=n=>!cur?n.cls==='Situation':on(n.id);
+  const fid=cur&&stops[at]&&stops[at].node;
+  G.nodeVisibility(vis).linkVisibility(l=>cur&&vis(N[id2(l.source)])&&vis(N[id2(l.target)])&&(l.type==='flow'||id2(l.source)===fid||id2(l.target)===fid))
+   .nodeColor(n=>!cur?C[n.cls]:kin.has(n.id)?C.Kin:lit.has(n.id)?C[n.cls]:near.has(n.id)?'#8fb3a3':'rgba(110,110,110,.13)')
+   .nodeVal(n=>!cur?n.val:focus(n)?14:near.has(n.id)&&!lit.has(n.id)?.5:seen.has(n.id)||kin.has(n.id)?n.val:.6)
+   .nodeThreeObjectExtend(false)
+   .nodeThreeObject(n=>ball(n,!cur?(n.cls==='Situation'?sprite(n.name,C.Situation,false,true):null):(seen.has(n.id)||kin.has(n.id)||near.has(n.id))?sprite(n.name,kin.has(n.id)?C.Kin:lit.has(n.id)?C[n.cls]:'#8fb3a3',!focus(n)&&!lit.has(n.id)&&!kin.has(n.id),focus(n)):null))
+   .linkColor(l=>{if(l.type==='flow')return seen.has(id2(l.target))?'#f2f2f2':'#555';const a=id2(l.source),b=id2(l.target);return !cur||(on(a)&&on(b))?ec(l.type):'rgba(80,80,80,.05)'})
+   .linkWidth(l=>l.type==='flow'?(seen.has(id2(l.target))?2.8:1.2):cur?(near.has(id2(l.source))||near.has(id2(l.target))?.4:1.4):.4)
+   .linkDirectionalParticles(l=>l.type==='flow'&&seen.has(id2(l.target))?3:0).linkDirectionalParticleSpeed(.012)
+   .linkDirectionalParticleColor(l=>l.type==='flow'?'#ffffff':ec(l.type)).linkDirectionalParticleWidth(2);
+}
+
+const card=document.getElementById('card'),ptr=document.getElementById('ptr'),pl=document.getElementById('pl'),pc=document.getElementById('pc'),hint=document.getElementById('hint');
+const esc=t=>String(t).replace(/[&<>"']/g,c=>'&#'+c.charCodeAt(0)+';');
+function draw(){
+  const s=stops[at],last=at===stops.length-1;
+  const fl=new Set(flow.map(id=>N[id].name)),nb=s.node?around(s.title).filter(a=>!fl.has(a.other)):[];
+  card.innerHTML=`<div class="prog"><span>${esc(cur)}</span><span>${at+1} / ${stops.length}</span></div>
+    <div class="strip">${stops.map((t,j)=>`<span class="${j===at?'on':''}" style="background:${t.node?(t.color||C[N[t.node].cls]):'#f2f2f2'}" title="${esc(t.title)}"></span>`).join('')}</div>
+    <div class="k" style="color:${s.color||'var(--mute)'}">${esc(s.kick)}</div><h2 style="color:${s.node?(s.color||C[N[s.node].cls]):'var(--ink)'}">${esc(s.title)}</h2>
+    ${s.text?`<p>${esc(s.text)}</p>`:''}${s.node?`<p class="src"><a href="${noteUrl(s.title)}" target="_blank" rel="noopener">Open the note in the repo ↗</a></p>`:''}${s.list?`<ol>${s.list.slice(0,4).map(x=>`<li>${esc(short(x,70))}</li>`).join('')}</ol>`:''}
+    ${nb.length?`<div class="near">In its light: ${nb.slice(0,3).map(a=>esc(a.other)).join(' · ')}${nb.length>3?` +${nb.length-3}`:''}</div>`:''}
+    <div class="bar"><button id="cl">Close</button>${at?'<button id="pv">Previous</button>':''}<button id="nx" class="go">${last?'Finish':'Next'}</button></div>`;
+  card.hidden=false;ptr.hidden=!s.node;
+  card.querySelector('#nx').onclick=()=>last?start(null):go(at+1);
+  card.querySelector('#cl').onclick=()=>start(null);
+  const pv=card.querySelector('#pv');if(pv)pv.onclick=()=>go(at-1);
+  card.querySelector('#nx').focus({preventScroll:true});
+}
+// keep the card pinned to its node while the camera moves
+(function pin(){
+  const s=cur&&stops[at];
+  if(s&&s.node){const n=N[s.node];halo.position.set(n.x,n.y,n.z||0);halo.visible=true}else halo.visible=false;
+  if(s&&s.node&&!card.hidden){
+    const n=N[s.node],p=G.graph2ScreenCoords(n.x,n.y,n.z),W=innerWidth,H=innerHeight,r=card.getBoundingClientRect();
+    if(W>640){card.style.left=(W-16-r.width)+'px';card.style.top='110px'}
+    const cx=Math.min(Math.max(p.x,r.left),r.right),cy=Math.min(Math.max(p.y,r.top),r.bottom);
+    pl.setAttribute('x1',p.x);pl.setAttribute('y1',p.y);pl.setAttribute('x2',cx);pl.setAttribute('y2',cy);pc.setAttribute('cx',p.x);pc.setAttribute('cy',p.y);
+  }
+  requestAnimationFrame(pin);
+})();
+document.addEventListener('keydown',e=>{if(!cur)return;if(e.key==='ArrowRight')go(at+1);if(e.key==='ArrowLeft')go(at-1);if(e.key==='Escape')start(null)});
+addEventListener('resize',()=>G.width(innerWidth).height(innerHeight));
+style();
+G.cooldownTime(3500);let first=true;G.onEngineStop(()=>{if(!first)return;first=false;const s=decodeURIComponent(location.hash.slice(1));if(SIT[s])start(s);else G.zoomToFit(900,60,n=>n.cls==='Situation')});
+}).catch(e=>{document.getElementById('hint').textContent='Could not load patterns.json ('+e.message+').'});
+</script>
+</body>
+</html>
