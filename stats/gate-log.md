@@ -271,3 +271,23 @@ Décisions du garde-fou logique (`reason.py gate`) : acceptée, avertie, refusé
 - 2026-11-26 17:07:24 · `6087c610` · block · **acceptée (Stop)** · changeset depuis 4e12c15
 - 2026-11-26 17:07:47 · `064cbe0e` · block · **acceptée (Stop)** · changeset depuis 4e12c15
 - 2026-11-26 17:08:06 · `831be76a` · block · **acceptée (Stop)** · changeset depuis 4e12c15
+- 2026-11-26 17:10:33 · `6087c610` · block · **acceptée (Stop)** · changeset depuis 4e12c15
+- 2026-11-26 17:10:40 · `mcp` · upsert · **acceptée** · [[workshop deck prepared over many exchanges]]
+- 2026-11-26 17:10:46 · `mcp` · upsert · **acceptée** · [[first build against a new deck template]]
+- 2026-11-26 17:10:52 · `mcp` · upsert · **acceptée** · [[workshop deck built in two exchanges]]
+- 2026-11-26 17:10:57 · `mcp` · upsert · **acceptée** · [[compliance audit run before the review workshop]]
+- 2026-11-26 17:11:02 · `831be76a` · block · **acceptée (Stop)** · changeset depuis 4e12c15
+- 2026-11-26 17:11:03 · `mcp` · upsert · **acceptée** · [[vocabulary links proposed from the master store]]
+- 2026-11-26 17:11:09 · `mcp` · upsert · **acceptée** · [[skill reading rules through a store link]]
+- 2026-11-26 17:11:15 · `mcp` · upsert · **acceptée** · [[demo recap rewritten to open on the trigger]]
+- 2026-11-26 17:11:21 · `mcp` · upsert · **acceptée** · [[domain knowledge validated across profiles]]
+- 2026-11-26 17:11:26 · `mcp` · upsert · **acceptée** · [[interview guide that improves after each interview]]
+- 2026-11-26 17:11:32 · `mcp` · upsert · **acceptée** · [[client team using the tool on its own]]
+- 2026-11-26 17:11:32 · `064cbe0e` · block · **acceptée (Stop)** · changeset depuis 4e12c15
+- 2026-11-26 17:11:38 · `mcp` · upsert · **acceptée** · [[access granted without a detour through IT]]
+- 2026-11-26 17:12:02 · `mcp` · upsert · **acceptée** · [[common guide, profile variants, sourced statements]]
+- 2026-11-26 17:12:08 · `mcp` · upsert · **acceptée** · [[validated brief before, guide update after]]
+- 2026-11-26 17:12:14 · `mcp` · upsert · **acceptée** · [[two-page method with links and ready prompts]]
+- 2026-11-26 17:12:20 · `mcp` · upsert · **acceptée** · [[check the invitation before going through IT]]
+- 2026-11-26 17:12:35 · `6087c610` · block · **acceptée (Stop)** · changeset depuis 4e12c15
+- 2026-11-26 17:17:01 · `6087c610` · block · **acceptée (Stop)** · changeset depuis 4e12c15
