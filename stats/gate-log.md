@@ -291,3 +291,9 @@ Décisions du garde-fou logique (`reason.py gate`) : acceptée, avertie, refusé
 - 2026-11-26 17:12:20 · `mcp` · upsert · **acceptée** · [[check the invitation before going through IT]]
 - 2026-11-26 17:12:35 · `6087c610` · block · **acceptée (Stop)** · changeset depuis 4e12c15
 - 2026-11-26 17:17:01 · `6087c610` · block · **acceptée (Stop)** · changeset depuis 4e12c15
+- 2026-11-26 17:18:36 · `6087c610` · block · **acceptée (Stop)** · changeset depuis 4e12c15
+- 2026-11-26 17:23:15 · `33ae2a4f` · block · **acceptée (Stop)** · changeset depuis a309e52
+- 2026-11-26 17:25:22 · `6087c610` · block · **acceptée (Stop)** · changeset depuis 4e12c15
+- 2026-11-26 17:27:04 · `831be76a` · block · **acceptée (Stop)** · changeset depuis 4e12c15
+- 2026-11-26 17:27:29 · `6087c610` · block · **acceptée (Stop)** · changeset depuis 4e12c15
+- 2026-11-26 17:28:10 · `33ae2a4f` · block · **acceptée (Stop)** · changeset depuis a309e52
