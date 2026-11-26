@@ -3,7 +3,7 @@
 ## Questions your graph can answer
 
 
-### `broader` — 269 edges across 202 notes (strong)
+### `broader` — 270 edges across 203 notes (strong)
 
 - What is the parent domain of {X}?
 - What are all subtypes of {X}?
@@ -23,7 +23,7 @@
 
 - What is the opposite of {X}?
 
-### `related` — 184 edges across 85 notes (strong)
+### `related` — 195 edges across 89 notes (strong)
 
 - What concepts are semantically related to {X}?
 
@@ -35,12 +35,12 @@
 ### Inferred predicates (via 37 Datalog rules)
 
 
-**`ancestor`** — 482 derived facts
+**`ancestor`** — 483 derived facts
 
 - Is {X} a (transitive) specialization of {Y}?
 - What are all ancestors of {X} up to the root?
 
-**`related_s`** — 346 derived facts
+**`related_s`** — 368 derived facts
 
 - What concepts are related to {X} (including symmetric)?
 

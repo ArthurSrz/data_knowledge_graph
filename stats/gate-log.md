@@ -239,3 +239,35 @@ Décisions du garde-fou logique (`reason.py gate`) : acceptée, avertie, refusé
 - 2026-11-26 16:54:46 · `6087c610` · block · **acceptée (Stop)** · changeset depuis 4e12c15
 - 2026-11-26 16:54:47 · `064cbe0e` · block · **acceptée (Stop)** · changeset depuis 4e12c15
 - 2026-11-26 16:57:14 · `6087c610` · block · **acceptée (Stop)** · changeset depuis 4e12c15
+- 2026-11-26 17:00:02 · `mcp` · upsert · **acceptée** · [[enterprise architecture]]
+- 2026-11-26 17:00:07 · `mcp` · upsert · **acceptée** · [[cash collection]]
+- 2026-11-26 17:00:13 · `mcp` · upsert · **acceptée** · [[sandbox]]
+- 2026-11-26 17:00:35 · `6087c610` · block · **acceptée (Stop)** · changeset depuis 4e12c15
+- 2026-11-26 17:00:37 · `064cbe0e` · block · **acceptée (Stop)** · changeset depuis 4e12c15
+- 2026-11-26 17:02:07 · `6087c610` · block · **acceptée (Stop)** · changeset depuis 4e12c15
+- 2026-11-26 17:03:04 · `mcp` · upsert · **acceptée** · [[tacit knowledge spread across expert profiles]]
+- 2026-11-26 17:03:09 · `mcp` · upsert · **acceptée** · [[interview campaign run by an AI interviewer]]
+- 2026-11-26 17:03:15 · `mcp` · upsert · **acceptée** · [[onboarding a client team to a knowledge tool]]
+- 2026-11-26 17:03:20 · `mcp` · upsert · **acceptée** · [[new user blocked from a shared workspace]]
+- 2026-11-26 17:03:36 · `mcp` · upsert · **acceptée** · [[process capture for a BPM repository]]
+- 2026-11-26 17:03:41 · `6087c610` · block · **acceptée (Stop)** · changeset depuis 4e12c15
+- 2026-11-26 17:04:00 · `mcp` · upsert · **acceptée** · [[process capture triggered by an automation project]]
+- 2026-11-26 17:04:05 · `mcp` · upsert · **acceptée** · [[review workshop with the process owner]]
+- 2026-11-26 17:04:11 · `mcp` · upsert · **acceptée** · [[shared rules across knowledge stores]]
+- 2026-11-26 17:04:17 · `mcp` · upsert · **acceptée** · [[agent-generated deliverable in an organisation's brand]]
+- 2026-11-26 17:04:35 · `064cbe0e` · block · **acceptée (Stop)** · changeset depuis 4e12c15
+- 2026-11-26 17:05:53 · `mcp` · upsert · **acceptée** · [[process models importable into the BPM repository]]
+- 2026-11-26 17:05:59 · `mcp` · upsert · **acceptée** · [[disagreements settled by the process owner]]
+- 2026-11-26 17:06:04 · `mcp` · upsert · **acceptée** · [[on-brand deliverable in two exchanges]]
+- 2026-11-26 17:06:10 · `mcp` · upsert · **acceptée** · [[one rule set shared by every store]]
+- 2026-11-26 17:06:16 · `mcp` · upsert · **acceptée** · [[capture depth matched to its purpose]]
+- 2026-11-26 17:06:38 · `6087c610` · block · **acceptée (Stop)** · changeset depuis 4e12c15
+- 2026-11-26 17:06:48 · `mcp` · upsert · **acceptée** · [[draft in one turn, build in one run]]
+- 2026-11-26 17:06:53 · `mcp` · upsert · **acceptée** · [[link to the vocabulary by exact entry and id]]
+- 2026-11-26 17:06:59 · `mcp` · upsert · **acceptée** · [[six points with sourced options]]
+- 2026-11-26 17:07:05 · `mcp` · upsert · **acceptée** · [[read rules live from the master store]]
+- 2026-11-26 17:07:10 · `mcp` · upsert · **acceptée** · [[audit the models after the review workshop]]
+- 2026-11-26 17:07:16 · `mcp` · upsert · **acceptée** · [[open on the trigger and the goal]]
+- 2026-11-26 17:07:24 · `6087c610` · block · **acceptée (Stop)** · changeset depuis 4e12c15
+- 2026-11-26 17:07:47 · `064cbe0e` · block · **acceptée (Stop)** · changeset depuis 4e12c15
+- 2026-11-26 17:08:06 · `831be76a` · block · **acceptée (Stop)** · changeset depuis 4e12c15
