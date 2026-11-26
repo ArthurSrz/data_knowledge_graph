@@ -301,3 +301,7 @@ Décisions du garde-fou logique (`reason.py gate`) : acceptée, avertie, refusé
 - 2026-11-26 17:34:45 · `33ae2a4f` · block · **acceptée (Stop)** · changeset depuis a309e52
 - 2026-11-26 17:36:41 · `33ae2a4f` · block · **acceptée (Stop)** · changeset depuis a309e52
 - 2026-11-26 17:37:43 · `33ae2a4f` · block · **acceptée (Stop)** · changeset depuis a309e52
+- 2026-11-26 17:39:59 · `33ae2a4f` · block · **acceptée (Stop)** · changeset depuis a309e52
+- 2026-11-26 17:44:41 · `33ae2a4f` · block · **acceptée (Stop)** · changeset depuis a309e52
+- 2026-11-26 17:46:36 · `831be76a` · block · **acceptée (Stop)** · changeset depuis 4e12c15
+- 2026-11-26 17:47:57 · `6087c610` · block · **acceptée (Stop)** · changeset depuis 4e12c15
