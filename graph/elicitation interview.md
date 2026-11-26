@@ -16,4 +16,4 @@ skos:scopeNote:
 ---
 A [[research interview]] aimed at getting a [[subject-matter expert]] to state what they know but don't write down ([[tacit knowledge]]), so it can be turned into [[explicit knowledge]].
 
-What the expert knows depends on where they stand: a salesperson who wins new accounts and one who keeps existing ones have seen different parts of the same market. The interview guide carries common questions plus profile-specific ones, and each statement keeps its [[Provenance]] (who, which turn).
+What the expert knows depends on where they stand: a salesperson who wins new accounts and one who keeps existing ones have seen different parts of the same market. The [[interview guide]] carries common questions plus profile-specific ones, and each statement keeps its [[Provenance]] (who, which turn).

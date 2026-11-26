@@ -208,3 +208,7 @@ Décisions du garde-fou logique (`reason.py gate`) : acceptée, avertie, refusé
 - 2026-11-24 12:07:57 · `mcp` · upsert · **acceptée** · [[gap analysis]]
 - 2026-11-24 12:08:13 · `mcp` · upsert · **acceptée** · [[elicitation interview]]
 - 2026-11-24 12:08:33 · `cf1765e3` · block · **acceptée (Stop)** · changeset depuis eab27c8
+- 2026-11-26 16:41:44 · `mcp` · upsert · **acceptée** · [[artifact]]
+- 2026-11-26 16:41:50 · `mcp` · upsert · **acceptée** · [[interview guide]]
+- 2026-11-26 16:42:03 · `064cbe0e` · block · **acceptée (Stop)** · changeset depuis 4e12c15
+- 2026-11-26 16:42:06 · `6087c610` · block · **acceptée (Stop)** · changeset depuis 4e12c15
