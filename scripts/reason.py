@@ -872,6 +872,14 @@ COMPETENCY_REPORT = STATS_DIR / "competency_report.md"
 
 MIN_COVERAGE = 5
 
+# competency_questions.yml names schema properties without prefix (broaderGeneric),
+# coverage is keyed by canonical names (broader). Skip local names that are already
+# canonical: skos:broader → "broader" must not shadow the canonical "broader".
+SCHEMA_LOCAL_NAMES = {
+    k.split(":")[-1]: v for k, v in RELATION_MAP.items()
+    if ":" in k and k.split(":")[-1] not in RELATION_MAP.values()
+}
+
 RELATION_QUESTIONS = {
     "broader": [
         "What is the parent domain of {X}?",
@@ -1002,10 +1010,11 @@ def cmd_competency(args):
             requires = q.get("requires", [])
             missing = []
             for req in requires:
-                if req in coverage and coverage[req]["notes"] >= MIN_COVERAGE:
+                key = SCHEMA_LOCAL_NAMES.get(req, req)
+                if key in coverage and coverage[key]["notes"] >= MIN_COVERAGE:
                     continue
-                elif req in coverage:
-                    missing.append(f"{req} (only {coverage[req]['notes']} notes, need {MIN_COVERAGE}+)")
+                elif key in coverage:
+                    missing.append(f"{req} (only {coverage[key]['notes']} notes, need {MIN_COVERAGE}+)")
                 else:
                     missing.append(f"{req} (not found)")
             if missing:

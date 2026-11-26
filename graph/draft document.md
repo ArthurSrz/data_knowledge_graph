@@ -6,6 +6,7 @@ iso-thes:broaderGeneric:
 followed by: "[[graph/clean copy]]"
 skos:scopeNote:
   - "Different from [[Brulion]]."
+  - "Clarifeye: an artifact is in draft when its head version is newer than its published version; agents read the published one."
 skos:exactMatch: "wd:Q560361"
 skos:altLabel:
   - "ébauche"

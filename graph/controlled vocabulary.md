@@ -10,6 +10,8 @@ has part:
   - "[[preferred term]]"
   - "[[non-preferred term]]"
   - "[[subject heading]]"
+skos:scopeNote:
+  - "Linking a BPMN element to the Signavio Dictionary is written as the exact entry title plus its id ({sheet}:{id}), with the local name kept as an alias; the process owner judges uncertain matches. A proposed role waits in the [[sandbox]]."
 ---
 **Controlled vocabulary**: standardized, organized set of words and phrases for retrieving and disambiguating information, which separates preferred from non-preferred terms.
 

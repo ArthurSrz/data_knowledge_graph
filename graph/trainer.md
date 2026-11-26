@@ -197,7 +197,7 @@ The Trainer [[class]] has:
 
 Wolf, T., Debut, L., et al. (2019). HuggingFace's [[Transformers]]: [[State-of-the-art]] [[Natural Language Processing]]. arXiv preprint arXiv:1910.03771.
 
-[[Hugging Face]] [[Documentation]]. (2024). Trainer. Retrieved from https://huggingface.co/docs/transformers/main_classes/trainer
+[[Hugging Face]] [[documentation]]. (2024). Trainer. Retrieved from https://huggingface.co/docs/transformers/main_classes/trainer
 
 ---
 partOf: "[[hugging face]]"

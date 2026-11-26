@@ -212,3 +212,30 @@ Décisions du garde-fou logique (`reason.py gate`) : acceptée, avertie, refusé
 - 2026-11-26 16:41:50 · `mcp` · upsert · **acceptée** · [[interview guide]]
 - 2026-11-26 16:42:03 · `064cbe0e` · block · **acceptée (Stop)** · changeset depuis 4e12c15
 - 2026-11-26 16:42:06 · `6087c610` · block · **acceptée (Stop)** · changeset depuis 4e12c15
+- 2026-11-26 16:49:24 · `6087c610` · block · **acceptée (Stop)** · changeset depuis 4e12c15
+- 2026-11-26 16:49:33 · `064cbe0e` · block · **acceptée (Stop)** · changeset depuis 4e12c15
+- 2026-11-26 16:51:52 · `mcp` · upsert · **acceptée** · [[content curation]]
+- 2026-11-26 16:51:57 · `mcp` · upsert · **acceptée** · [[brief]]
+- 2026-11-26 16:52:03 · `mcp` · upsert · **acceptée** · [[concept map]]
+- 2026-11-26 16:52:08 · `mcp` · upsert · **acceptée** · [[document template]]
+- 2026-11-26 16:52:14 · `mcp` · upsert · **acceptée** · [[process mining]]
+- 2026-11-26 16:52:19 · `mcp` · upsert · **acceptée** · [[benchmarking]]
+- 2026-11-26 16:52:25 · `mcp` · upsert · **acceptée** · [[goal]]
+- 2026-11-26 16:52:30 · `mcp` · upsert · **acceptée** · [[enterprise architecture]]
+- 2026-11-26 16:52:35 · `mcp` · upsert · **acceptée** · [[order to cash]]
+- 2026-11-26 16:52:54 · `mcp` · upsert · **acceptée** · [[cash collection]]
+- 2026-11-26 16:52:58 · `6087c610` · block · **acceptée (Stop)** · changeset depuis 4e12c15
+- 2026-11-26 16:52:59 · `mcp` · upsert · **acceptée** · [[conformance checking]]
+- 2026-11-26 16:53:05 · `mcp` · upsert · **acceptée** · [[sandbox]]
+- 2026-11-26 16:53:10 · `mcp` · upsert · **acceptée** · [[clarifeye]]
+- 2026-11-26 16:53:16 · `mcp` · upsert · **acceptée** · [[feedback]]
+- 2026-11-26 16:53:54 · `mcp` · upsert · **acceptée** · [[knowledge worker]]
+- 2026-11-26 16:54:00 · `mcp` · upsert · **acceptée** · [[member check]]
+- 2026-11-26 16:54:05 · `mcp` · upsert · **acceptée** · [[audit]]
+- 2026-11-26 16:54:11 · `mcp` · upsert · **acceptée** · [[skills]]
+- 2026-11-26 16:54:16 · `mcp` · upsert · **acceptée** · [[controlled vocabulary]]
+- 2026-11-26 16:54:29 · `mcp` · upsert · **acceptée** · [[draft document]]
+- 2026-11-26 16:54:35 · `mcp` · upsert · **acceptée** · [[knowledge base]]
+- 2026-11-26 16:54:46 · `6087c610` · block · **acceptée (Stop)** · changeset depuis 4e12c15
+- 2026-11-26 16:54:47 · `064cbe0e` · block · **acceptée (Stop)** · changeset depuis 4e12c15
+- 2026-11-26 16:57:14 · `6087c610` · block · **acceptée (Stop)** · changeset depuis 4e12c15

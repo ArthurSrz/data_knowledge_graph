@@ -1,9 +1,9 @@
 ---
-skos:exactMatch: "wd:Q4050462"
-skos:definition: "diagram in flowcharts"
+skos:exactMatch: wd:Q4050462
+skos:definition: diagram in flowcharts
 skos:altLabel:
-  - "swimlane"
-  - "lane"
+  - swimlane
+  - lane
 skos:related:
   - "[[Business Process Model and Notation]]"
   - "[[responsibility assignment matrix]]"

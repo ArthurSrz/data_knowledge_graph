@@ -1,4 +1,4 @@
 ---
-iso-thes:broaderGeneric: "[[Documentation]]"
+iso-thes:broaderGeneric: "[[documentation]]"
 skos:broader: "[[Python]]"
 ---

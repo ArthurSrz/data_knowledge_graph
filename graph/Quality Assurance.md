@@ -61,7 +61,7 @@ Shewhart established (1924):
 2. **Implementation**:
    - [[Process]] controls
    - [[Training]] programs
-   - [[Documentation]] systems
+   - [[documentation]] systems
 
 3. **Monitoring**:
    - Performance measurement

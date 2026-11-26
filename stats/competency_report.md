@@ -3,7 +3,7 @@
 ## Questions your graph can answer
 
 
-### `broader` — 262 edges across 195 notes (strong)
+### `broader` — 269 edges across 202 notes (strong)
 
 - What is the parent domain of {X}?
 - What are all subtypes of {X}?
@@ -23,11 +23,11 @@
 
 - What is the opposite of {X}?
 
-### `related` — 152 edges across 68 notes (strong)
+### `related` — 184 edges across 85 notes (strong)
 
 - What concepts are semantically related to {X}?
 
-### `uses` — 30 edges across 20 notes (strong)
+### `uses` — 31 edges across 21 notes (strong)
 
 - What tools or techniques does {X} use?
 - Which concepts use {X}?
@@ -35,24 +35,25 @@
 ### Inferred predicates (via 37 Datalog rules)
 
 
-**`ancestor`** — 459 derived facts
+**`ancestor`** — 482 derived facts
 
 - Is {X} a (transitive) specialization of {Y}?
 - What are all ancestors of {X} up to the root?
 
-**`related_s`** — 288 derived facts
+**`related_s`** — 346 derived facts
 
 - What concepts are related to {X} (including symmetric)?
 
 ## User-defined competency questions
 
 
-**8/21** answerable
+**9/21** answerable
 
 
-### Answerable (8)
+### Answerable (9)
 
 - [hierarchy] What is the parent domain of a given concept?
+- [hierarchy] What are all the subtypes of a given concept?
 - [hierarchy] What is the full ancestor chain from a concept up to a root?
 - [hierarchy] Which concepts are root concepts (no broader parent)?
 - [association] What concepts are semantically related to a given concept?
@@ -61,16 +62,14 @@
 - [cross-cutting] Given an ML technique, what tools does it use and what domain is it part of?
 - [cross-cutting] What concepts share the same parent domain?
 
-### Not answerable (13)
+### Not answerable (12)
 
-- [hierarchy] What are all the subtypes of a given concept?
-  - **Gap**: narrower (not found)
 - [dependency] What are the dependencies of a given concept?
   - **Gap**: depends_on (only 4 notes, need 5+)
 - [dependency] What can a given concept be constructed with?
   - **Gap**: constructed_with (not found)
 - [applicability] Which concepts are applicable in situation S (inherited by sub-situations)?
-  - **Gap**: appliesIn (not found), broaderGeneric (not found), Situation (not found), Pattern (not found)
+  - **Gap**: appliesIn (not found), Situation (not found), Pattern (not found)
 - [applicability] Under which conditions should C be used, and when should it be avoided?
   - **Gap**: hasCondition (not found), hasLimitation (not found)
 - [combination] Which concepts does C combine with, and in which role?
@@ -80,7 +79,7 @@
 - [provenance] What is the evidence, and how much trust does it deserve?
   - **Gap**: wasAttributedTo (not found), wasGeneratedBy (not found)
 - [combination] What can replace C in a role (any kindOf the concept filling it)?
-  - **Gap**: role (not found), broaderGeneric (not found)
+  - **Gap**: role (not found)
 - [success] What is missing to reach goal G (required role left unfilled)?
   - **Gap**: achieves (not found), requiresRole (not found), Goal (not found)
 - [success] Which combinations failed, and why?

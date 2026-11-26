@@ -5,7 +5,7 @@ has part:
   - "[[graph/identity]]"
   - "[[environment]]"
   - "[[graph/discourse topic]]"
-kg:hasUse: "[[Interpretation]]"
+kg:hasUse: "[[interpretation]]"
 iso-thes:broaderGeneric: "[[situation]]"
 dcterms:isReferencedBy:
   - "[[graph/National Encyclopedia of Uzbekistan]]"
