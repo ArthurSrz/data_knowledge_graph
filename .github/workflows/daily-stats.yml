@@ -16,6 +16,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        ssh-key: ${{ secrets.STATS_DEPLOY_KEY }}
         with:
           fetch-depth: 0
 
