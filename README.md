@@ -4,7 +4,7 @@
 
 **A personal ontology of data science, ML and AI, kept as an Obsidian vault and checked by a logic reasoner.**
 
-[![Concepts](https://img.shields.io/badge/concepts-1028-blue?style=flat-square)](#)
+[![Concepts](https://img.shields.io/badge/concepts-1106-blue?style=flat-square)](#)
 [![Typed edges](https://img.shields.io/badge/typed_edges-1%2C500%2B-green?style=flat-square)](#-structure)
 [![Schema](https://img.shields.io/badge/schema-SKOS_·_ISO_25964_·_Dublin_Core_·_PROV--O-orange?style=flat-square)](schema.yml)
 [![Logic gate](https://img.shields.io/badge/logic_gate-blocking-purple?style=flat-square)](#-logic-gate)
